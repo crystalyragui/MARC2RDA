@@ -87,6 +87,7 @@
       <xpath>count(marc:datafield[starts-with(@tag, '26')]) &gt;= 2 and (exists(marc:datafield[starts-with(@tag, '26')][@ind1='2']) or exists(marc:datafield[starts-with(@tag, '26')][@ind1='3']))
         </xpath>
    </pattern>
+    <!-- f300looseleaf -->
    <pattern>
       <sort>9</sort>
       <id>129</id>
@@ -110,6 +111,7 @@
       <type>DW</type>
       <xpath>exists(marc:datafield[@tag='362'])</xpath>
    </pattern>
+    <!-- f500keptuptodateby -->
    <pattern>
       <sort>12</sort>
       <id>132</id>
@@ -129,6 +131,7 @@
       <name>000 Collection aggregate (not Collection  work)</name>
       <xpath>substring(marc:leader, 8, 1) = 'c' and exists(marc:datafield[@tag='533'])</xpath>
    </pattern>
+    <!-- f245festschrift -->
    <pattern>
       <sort>14</sort>
       <id>2</id>
@@ -216,6 +219,7 @@
             )
         </xpath>
    </pattern>
+    <!-- f245report -->
    <pattern>
       <sort>16</sort>
       <id>3</id>
