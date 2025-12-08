@@ -1,15 +1,15 @@
 <items>
-  <item>aggregated</item>
-  <item>aggregator</item>
-  <item>by the editor</item>
-  <item>chosen by</item>
-  <item>collected</item>
-  <item>comp.</item>
-  <item>compilation</item>
-  <item>compiled</item>
-  <item>compiler</item>
-  <item>coordinated</item>
-  <item>ed. of compilation</item>
-  <item>editor of compilation</item>
-  <item>selected</item>
+  <item xml:lang="en">aggregated</item>
+  <item xml:lang="en">aggregator</item>
+  <item xml:lang="en">by the editor</item>
+  <item xml:lang="en">chosen by</item>
+  <item xml:lang="en">collected</item>
+  <item xml:lang="en">comp.</item>
+  <item xml:lang="en">compilation</item>
+  <item xml:lang="en">compiled</item>
+  <item xml:lang="en">compiler</item>
+  <item xml:lang="en">coordinated</item>
+  <item xml:lang="en">ed. of compilation</item>
+  <item xml:lang="en">editor of compilation</item>
+  <item xml:lang="en">selected</item>
 </items>

@@ -1,91 +1,91 @@
 <items>
   <item> ; &amp;,</item>
-  <item> ; and,</item>
-  <item> ; plus,</item>
-  <item> ; with,</item>
-  <item> articles</item>
-  <item> papers</item>
-  <item>a bibliography</item>
-  <item>a catalog</item>
-  <item>a catalogue</item>
-  <item>a collection of</item>
-  <item>a compendium</item>
-  <item>a compilation</item>
-  <item>a concordance</item>
-  <item>a dictionary</item>
-  <item>a directory</item>
-  <item>a discography</item>
-  <item>a filmography</item>
-  <item>a genealogy</item>
-  <item>a language dictionary</item>
-  <item>a miscellany</item>
-  <item>a selection</item>
-  <item>a symposium</item>
-  <item>a treasury of</item>
-  <item>an anthology</item>
-  <item>an index</item>
-  <item>bedtime stories</item>
-  <item>biographical sketches</item>
-  <item>collected</item>
-  <item>complete novels</item>
-  <item>conversations of</item>
-  <item>cookbook</item>
-  <item>correspondence</item>
-  <item>daily devotions</item>
-  <item>dialogues</item>
-  <item>directory</item>
-  <item>dispatches</item>
-  <item>documents</item>
-  <item>essays</item>
-  <item>fables</item>
-  <item>folktales</item>
-  <item>ghost stories</item>
-  <item>hearings</item>
-  <item>hymnal</item>
-  <item>lectures</item>
-  <item>legends</item>
-  <item>letters of</item>
-  <item>letters on</item>
-  <item>manifestos</item>
-  <item>maxims</item>
-  <item>monologues</item>
-  <item>narratives</item>
-  <item>omnibus</item>
-  <item>other stories</item>
-  <item>performances</item>
-  <item>perspectives</item>
-  <item>photographs</item>
-  <item>poems</item>
-  <item>poetry</item>
-  <item>prayer book</item>
-  <item>prayers of</item>
-  <item>proceedings</item>
-  <item>proclamations</item>
-  <item>quotations of</item>
-  <item>quotes</item>
-  <item>readings</item>
-  <item>recipes</item>
-  <item>reflections</item>
-  <item>reminiscences</item>
-  <item>reports</item>
-  <item>resolutions</item>
-  <item>reviews</item>
-  <item>rhymes</item>
-  <item>sayings of</item>
-  <item>selected</item>
-  <item>selections</item>
-  <item>sermons</item>
-  <item>short stories</item>
-  <item>songbook</item>
-  <item>speeches</item>
-  <item>studies in</item>
-  <item>tales of</item>
-  <item>teachings of</item>
-  <item>the catalog of</item>
-  <item>the catalogue of</item>
-  <item>the photographs</item>
-  <item>thoughts of</item>
-  <item>unpublished photographs</item>
-  <item>vignettes</item>
-  <item>writings of</item>
+  <item xml:lang="en"> ; and,</item>
+  <item xml:lang="en"> ; plus,</item>
+  <item xml:lang="en"> ; with,</item>
+  <item xml:lang="en"> articles</item>
+  <item xml:lang="en"> papers</item>
+  <item xml:lang="en">a bibliography</item>
+  <item xml:lang="en">a catalog</item>
+  <item xml:lang="en">a catalogue</item>
+  <item xml:lang="en">a collection of</item>
+  <item xml:lang="en">a compendium</item>
+  <item xml:lang="en">a compilation</item>
+  <item xml:lang="en">a concordance</item>
+  <item xml:lang="en">a dictionary</item>
+  <item xml:lang="en">a directory</item>
+  <item xml:lang="en">a discography</item>
+  <item xml:lang="en">a filmography</item>
+  <item xml:lang="en">a genealogy</item>
+  <item xml:lang="en">a language dictionary</item>
+  <item xml:lang="en">a miscellany</item>
+  <item xml:lang="en">a selection</item>
+  <item xml:lang="en">a symposium</item>
+  <item xml:lang="en">a treasury of</item>
+  <item xml:lang="en">an anthology</item>
+  <item xml:lang="en">an index</item>
+  <item xml:lang="en">bedtime stories</item>
+  <item xml:lang="en">biographical sketches</item>
+  <item xml:lang="en">collected</item>
+  <item xml:lang="en">complete novels</item>
+  <item xml:lang="en">conversations of</item>
+  <item xml:lang="en">cookbook</item>
+  <item xml:lang="en">correspondence</item>
+  <item xml:lang="en">daily devotions</item>
+  <item xml:lang="en">dialogues</item>
+  <item xml:lang="en">directory</item>
+  <item xml:lang="en">dispatches</item>
+  <item xml:lang="en">documents</item>
+  <item xml:lang="en">essays</item>
+  <item xml:lang="en">fables</item>
+  <item xml:lang="en">folktales</item>
+  <item xml:lang="en">ghost stories</item>
+  <item xml:lang="en">hearings</item>
+  <item xml:lang="en">hymnal</item>
+  <item xml:lang="en">lectures</item>
+  <item xml:lang="en">legends</item>
+  <item xml:lang="en">letters of</item>
+  <item xml:lang="en">letters on</item>
+  <item xml:lang="en">manifestos</item>
+  <item xml:lang="en">maxims</item>
+  <item xml:lang="en">monologues</item>
+  <item xml:lang="en">narratives</item>
+  <item xml:lang="en">omnibus</item>
+  <item xml:lang="en">other stories</item>
+  <item xml:lang="en">performances</item>
+  <item xml:lang="en">perspectives</item>
+  <item xml:lang="en">photographs</item>
+  <item xml:lang="en">poems</item>
+  <item xml:lang="en">poetry</item>
+  <item xml:lang="en">prayer book</item>
+  <item xml:lang="en">prayers of</item>
+  <item xml:lang="en">proceedings</item>
+  <item xml:lang="en">proclamations</item>
+  <item xml:lang="en">quotations of</item>
+  <item xml:lang="en">quotes</item>
+  <item xml:lang="en">readings</item>
+  <item xml:lang="en">recipes</item>
+  <item xml:lang="en">reflections</item>
+  <item xml:lang="en">reminiscences</item>
+  <item xml:lang="en">reports</item>
+  <item xml:lang="en">resolutions</item>
+  <item xml:lang="en">reviews</item>
+  <item xml:lang="en">rhymes</item>
+  <item xml:lang="en">sayings of</item>
+  <item xml:lang="en">selected</item>
+  <item xml:lang="en">selections</item>
+  <item xml:lang="en">sermons</item>
+  <item xml:lang="en">short stories</item>
+  <item xml:lang="en">songbook</item>
+  <item xml:lang="en">speeches</item>
+  <item xml:lang="en">studies in</item>
+  <item xml:lang="en">tales of</item>
+  <item xml:lang="en">teachings of</item>
+  <item xml:lang="en">the catalog of</item>
+  <item xml:lang="en">the catalogue of</item>
+  <item xml:lang="en">the photographs</item>
+  <item xml:lang="en">thoughts of</item>
+  <item xml:lang="en">unpublished photographs</item>
+  <item xml:lang="en">vignettes</item>
+  <item xml:lang="en">writings of</item>
 </items>
