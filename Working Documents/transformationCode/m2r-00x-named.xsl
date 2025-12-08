@@ -1055,7 +1055,7 @@
         <xsl:if test="$char04 = 'p'">
             <xsl:choose>
                 <xsl:when test="$char00 = 'd' or $char00 = 'a' or $char00 = 'k'">
-                    <rdamo:P30304 rdf:reosurce="{'http://rdaregistry.info/termList/RDAMaterial/1028'}"/>
+                    <rdamo:P30304 rdf:resource="{'http://rdaregistry.info/termList/RDAMaterial/1028'}"/>
                 </xsl:when>
                 <xsl:when test="$char00 = 'v'">
                     <rdamo:P30104 rdf:resource="{'http://rdaregistry.info/termList/videoFormat/1007'}"/>
@@ -1828,7 +1828,7 @@
         <xsl:variable name="char00" select="substring(., 1, 1)"/>
         <xsl:variable name="char13" select="substring(., 14, 1)"/>
         <xsl:if test="$char00 = 'm' and ($char13 = 'a' or $char13 = 'b' or $char13 = 'c' or $char13 = 'd' or $char13 = 'e' or $char13 = 'f' or $char13 = 'g' or $char13 = 'h' or $char13 = 'i' or $char13 = 'j' or $char13 = 'k' or $char13 = 'l' or $char13 = 'm' or $char13 = 'p' or $char13 = 'q' or $char13 = 'r' or $char13 = 's' or $char13 = 't' or $char13 = 'v' or $char13 = 'z')">
-            <rdamo:P30456 rdf:reosurce="{concat('https://doi.org/10.6069/uwlswd.gdvf-z086#', $char13)}"/>
+            <rdamo:P30456 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.gdvf-z086#', $char13)}"/>
         </xsl:if>
         <xsl:if test="$char00 = 's' and ($char13 = 'a' or $char13 = 'b' or $char13 = 'd' or $char13 = 'e')">
             <rdamo:P30125 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.v4qn-rb56#', $char13)}"/>
@@ -1957,49 +1957,49 @@
             <xsl:matching-substring>
                 <xsl:choose>
                     <xsl:when test=". = 'a'">
-                        <rdam:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1014'}"/>
+                        <rdamo:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1014'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'b'">
-                        <rdam:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1008'}"/>
+                        <rdamo:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1008'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'c'">
-                        <rdam:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1012'}"/>
+                        <rdamo:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1012'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'd'">
-                        <rdam:P30453 rdf:resource="{'https://doi.org/10.6069/uwlswd.gq3z-mv97#d'}"/>
+                        <rdamo:P30453 rdf:resource="{'https://doi.org/10.6069/uwlswd.gq3z-mv97#d'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'e'">
-                        <rdam:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1011'}"/>
+                        <rdamo:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1011'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'f'">
-                        <rdam:P30453 rdf:resource="{'https://doi.org/10.6069/uwlswd.gq3z-mv97#f'}"/>
+                        <rdamo:P30453 rdf:resource="{'https://doi.org/10.6069/uwlswd.gq3z-mv97#f'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'g'">
-                        <rdam:P30453 rdf:resource="{'https://doi.org/10.6069/uwlswd.gq3z-mv97#g'}"/>
+                        <rdamo:P30453 rdf:resource="{'https://doi.org/10.6069/uwlswd.gq3z-mv97#g'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'h'">
-                        <rdam:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1002'}"/>
+                        <rdamo:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1002'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'i'">
-                        <rdam:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1001'}"/>
+                        <rdamo:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1001'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'j'">
-                        <rdam:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1004'}"/>
+                        <rdamo:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1004'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'k'">
-                        <rdam:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1003'}"/>
+                        <rdamo:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1003'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'l'">
-                        <rdam:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1013'}"/>
+                        <rdamo:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1013'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'm'">
-                        <rdam:P30453 rdf:resource="{'https://doi.org/10.6069/uwlswd.gq3z-mv97#m'}"/>
+                        <rdamo:P30453 rdf:resource="{'https://doi.org/10.6069/uwlswd.gq3z-mv97#m'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'o'">
-                        <rdam:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1010'}"/>
+                        <rdamo:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1010'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'p'">
-                        <rdam:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1006'}"/>
+                        <rdamo:P30453 rdf:resource="{'http://rdaregistry.info/termList/IllusContent/1006'}"/>
                     </xsl:when>
                 </xsl:choose>
             </xsl:matching-substring>
@@ -2010,52 +2010,52 @@
         <xsl:param name="char18"/>
         <xsl:choose>
             <xsl:when test="$char18 = 'a'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1013'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1013'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'b'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1007'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1007'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'c'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1005'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1005'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'd'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1001'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1001'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'e'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1003'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1003'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'f'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1012'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1012'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'g'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1014'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1014'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'h'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1015'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1015'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'i'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1002'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1002'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'j'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1006'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1006'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'k'">
-                <rdaw:P10368 rdf:resource="{'https://doi.org/10.6069/uwlswd.ggnh-4s58#k'}"/>
+                <rdawo:P10368 rdf:resource="{'https://doi.org/10.6069/uwlswd.ggnh-4s58#k'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'm'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1008'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1008'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'q'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1010'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1010'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 's'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1009'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1009'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 't'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1011'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1011'}"/>
             </xsl:when>
             <xsl:when test="$char18 = 'w'">
-                <rdaw:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1004'}"/>
+                <rdawo:P10368 rdf:resource="{'http://rdaregistry.info/termList/frequency/1004'}"/>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
@@ -2074,10 +2074,10 @@
                         <xsl:if test=". != ' ' and . != '|' and . != 'z' and .!= '#'">
                             <xsl:choose>
                                 <xsl:when test=". = 'h'">
-                                    <rdae:P20318 rdf:resource="{'https://doi.org/10.6069/uwlswd.1c2x-cj09#hx'}"/>
+                                    <rdaeo:P20318 rdf:resource="{'https://doi.org/10.6069/uwlswd.1c2x-cj09#hx'}"/>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <rdae:P20318 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.1c2x-cj09#', .)}"/>
+                                    <rdaeo:P20318 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.1c2x-cj09#', .)}"/>
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:if>
@@ -2122,7 +2122,7 @@
         <xsl:param name="char18-19"/>
         <xsl:if test="not(contains($char18-19, ' ')) and not(contains($char18-19, '|')) and not(contains($char18-19, '#'))
             and $char18-19 != 'nn' and $char18-19 != 'uu' and $char18-19 != 'zz'">
-            <rdaw:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.8rpj-ek77#', $char18-19)}"/>
+            <rdawo:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.8rpj-ek77#', $char18-19)}"/>
         </xsl:if>
     </xsl:template>
     
@@ -2179,22 +2179,22 @@
         <xsl:if test="$char20 != ' ' and $char20 != '|' and $char20 != '#' and $char20 != 'u' and $char20 != 'z' and $char20 != 'n'">
             <xsl:choose>
                 <xsl:when test="$char20 = 'h'">
-                    <rdae:P20209 rdf:resource="{'http://rdaregistry.info/termList/formatNoteMus/1002'}"/>
+                    <rdaeo:P20209 rdf:resource="{'http://rdaregistry.info/termList/formatNoteMus/1002'}"/>
                 </xsl:when>
                 <xsl:when test="$char20 = 'i'">
-                    <rdae:P20209 rdf:resource="{'http://rdaregistry.info/termList/formatNoteMus/1003'}"/>
+                    <rdaeo:P20209 rdf:resource="{'http://rdaregistry.info/termList/formatNoteMus/1003'}"/>
                 </xsl:when>
                 <xsl:when test="$char20 = 'k'">
-                    <rdae:P20209 rdf:resource="{'http://rdaregistry.info/termList/formatNoteMus/1011'}"/>
+                    <rdaeo:P20209 rdf:resource="{'http://rdaregistry.info/termList/formatNoteMus/1011'}"/>
                 </xsl:when>
                 <xsl:when test="$char20 = 'l'">
-                    <rdae:P20209 rdf:resource="{'http://rdaregistry.info/termList/formatNoteMus/1007'}"/>
+                    <rdaeo:P20209 rdf:resource="{'http://rdaregistry.info/termList/formatNoteMus/1007'}"/>
                 </xsl:when>
                 <xsl:when test="$char20 = 'p'">
-                    <rdae:P20209 rdf:resource="{'http://rdaregistry.info/termList/formatNoteMus/1006'}"/>
+                    <rdaeo:P20209 rdf:resource="{'http://rdaregistry.info/termList/formatNoteMus/1006'}"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <rdae:P20209 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.06xx-6744#', $char20)}"/>
+                    <rdaeo:P20209 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.06xx-6744#', $char20)}"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:if>
@@ -2241,14 +2241,14 @@
     <xsl:template name="F008-c21-CR">
         <xsl:param name="char21"/>
         <xsl:if test="$char21 != ' ' and $char21 != '|' and $char21 !='#'">
-            <rdaw:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.62zz-1534#', $char21)}"/>
+            <rdawo:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.62zz-1534#', $char21)}"/>
         </xsl:if>
     </xsl:template>
     
     <xsl:template name="F008-c21-MU">
         <xsl:param name="char21"/>
         <xsl:if test="$char21 = 'd' or $char21 = 'e' or $char21 = 'f'">
-            <rdae:P20209 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.ywjs-vr46#', $char21)}"/>
+            <rdaeo:P20209 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.ywjs-vr46#', $char21)}"/>
         </xsl:if>    
     </xsl:template>
     
@@ -2265,7 +2265,7 @@
         <xsl:param name="char22"/>
         <xsl:choose>
             <xsl:when test="$char22 != ' ' and $char22 != '|' and $char22 != '#'">
-                <rdae:P20322 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.aec4-nv40#', $char22)}"/>
+                <rdaeo:P20322 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.aec4-nv40#', $char22)}"/>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
@@ -2331,7 +2331,7 @@
     <xsl:template name="F008-c22-23-MP">
         <xsl:param name="char22-23"/>
         <xsl:if test="not(contains($char22-23, ' ')) and not(contains($char22-23, '|')) and not(contains($char22-23, '#')) and $char22-23 != 'zz'">
-            <rdae:P20216 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.4jrs-m847#', $char22-23)}"/>
+            <rdaeo:P20216 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.4jrs-m847#', $char22-23)}"/>
         </xsl:if>
     </xsl:template>
     
@@ -2346,13 +2346,13 @@
         <xsl:param name="char23_29"/>
         <xsl:choose>
             <xsl:when test="$char23_29 = 'd'">
-                <rdam:P30199 rdf:resource="{'http://rdaregistry.info/termList/fontSize/1002'}"/>
+                <rdamo:P30199 rdf:resource="{'http://rdaregistry.info/termList/fontSize/1002'}"/>
             </xsl:when>
             <xsl:when test="$char23_29 = 'q'">
-                <rdam:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#q'}"/>
+                <rdamo:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#q'}"/>
             </xsl:when>
             <xsl:when test="$char23_29 = 's'">
-                <rdam:P30002 rdf:resource="{'http://rdaregistry.info/termList/RDAMediaType/1003'}"/>
+                <rdamo:P30002 rdf:resource="{'http://rdaregistry.info/termList/RDAMediaType/1003'}"/>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
@@ -2361,13 +2361,13 @@
         <xsl:param name="char23_29"/>
         <xsl:choose>
             <xsl:when test="$char23_29 = 'g'">
-                <rdam:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#gx'}"/>
+                <rdamo:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#gx'}"/>
             </xsl:when>
             <xsl:when test="$char23_29 = 'h'">
-                <rdam:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#hx'}"/>
+                <rdamo:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#hx'}"/>
             </xsl:when>
             <xsl:when test="$char23_29 = 'i'">
-                <rdam:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#ix'}"/>
+                <rdamo:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#ix'}"/>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
@@ -2376,19 +2376,19 @@
         <xsl:param name="char23_29"/>
         <xsl:choose>
             <xsl:when test="$char23_29 = 'a'">
-                <rdam:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#a'}"/>
+                <rdamo:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#a'}"/>
             </xsl:when>
             <xsl:when test="$char23_29 = 'b'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1022'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1022'}"/>
             </xsl:when>
             <xsl:when test="$char23_29 = 'c'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1028'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1028'}"/>
             </xsl:when>
             <xsl:when test="$char23_29 = 'o'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1018'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1018'}"/>
             </xsl:when>
             <xsl:when test="$char23_29 = 'r'">
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#r'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#r'}"/>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
@@ -2396,7 +2396,7 @@
     <xsl:template name="F008-c23_29-f-SOME">
         <xsl:param name="char23_29"/>
         <xsl:if test="$char23_29 = 'f'">
-            <rdae:P20061 rdf:resource="{'http://rdaregistry.info/termList/TacNotation/1001'}"/>
+            <rdaeo:P20061 rdf:resource="{'http://rdaregistry.info/termList/TacNotation/1001'}"/>
         </xsl:if>
     </xsl:template>
     
@@ -2412,28 +2412,28 @@
     <xsl:template name="F008-c23-xz-SOME-origMan">
         <xsl:param name="char23"/>
         <xsl:if test="$char23 = 'x' or $char23 = 'z'">
-            <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#zx'}"/>
+            <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#zx'}"/>
         </xsl:if>
     </xsl:template>
     
     <xsl:template name="F008-c23-z-BK-origMan">
         <xsl:param name="char23"/>
         <xsl:if test="$char23 = 'z'">
-            <rdam:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#zx'}"/>
+            <rdamo:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#zx'}"/>
         </xsl:if>
     </xsl:template>
     
     <xsl:template name="F008-c23-CF-origMan">
         <xsl:param name="char23"/>
         <xsl:if test="$char23 = 'q'">
-            <rdam:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.3d5s-zx23#q'}"/>
+            <rdamo:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.3d5s-zx23#q'}"/>
         </xsl:if>
     </xsl:template>
     
     <xsl:template name="F008-c23-CF">
         <xsl:param name="char23"/>
         <xsl:if test="$char23 = 'o'">
-            <rdam:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.3d5s-zx23#o'}"/>
+            <rdamo:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.3d5s-zx23#o'}"/>
         </xsl:if>
     </xsl:template>
     
@@ -2441,13 +2441,13 @@
         <xsl:param name="char23"/>
         <xsl:choose>
             <xsl:when test="$char23 = 'j'">
-                <rdam:P30187 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#jx'}"/>
+                <rdamo:P30187 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#jx'}"/>
             </xsl:when>
             <xsl:when test="$char23 = 'p'">
-                <rdam:P30187 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#px'}"/>
+                <rdamo:P30187 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#px'}"/>
             </xsl:when>
             <xsl:when test="$char23 = 't'">
-                <rdam:P30187 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#tx'}"/>
+                <rdamo:P30187 rdf:resource="{'https://doi.org/10.6069/uwlswd.dh5m-5y16#tx'}"/>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
@@ -2459,13 +2459,13 @@
                 <xsl:choose>
                     <xsl:when test=". = ' ' or . = '#' or . = '|' or . = '2' or . = 'b' or . = 'k' or . = 'q'"/>
                     <xsl:when test=". = 'h'">
-                        <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.633m-h220#hx'}"/>
+                        <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.633m-h220#hx'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'x'">
-                        <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.633m-h220#t'}"/>
+                        <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.633m-h220#t'}"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <rdaw:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.633m-h220#', .)}"/>
+                        <rdawo:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.633m-h220#', .)}"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:matching-substring>
@@ -2478,7 +2478,7 @@
             <xsl:matching-substring>
                 <xsl:choose>
                     <xsl:when test=". = '2'">
-                        <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.633m-h220#2'}"/>
+                        <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.633m-h220#2'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'b'">
                         <rdamd:P30137>
@@ -2503,7 +2503,7 @@
     <xsl:template name="F008-c24-CR">
         <xsl:param name="char24"/>
         <xsl:if test="$char24 != ' ' and $char24 != '|' and $char24 != '#'">
-            <rdaw:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.jfr5-z647#', $char24)}"/>
+            <rdawo:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.jfr5-z647#', $char24)}"/>
         </xsl:if>
     </xsl:template>
     
@@ -2576,10 +2576,10 @@
                 <xsl:if test=". != ' ' and . != '|' and . != 'n' and . != 'z' and . !='#'">
                     <xsl:choose>
                         <xsl:when test=". = 'j'">
-                            <rdam:P30455 rdf:resource="{'https://doi.org/10.6069/uwlswd.nt0v-d633#jx'}"/>
+                            <rdamo:P30455 rdf:resource="{'https://doi.org/10.6069/uwlswd.nt0v-d633#jx'}"/>
                         </xsl:when>
                         <xsl:otherwise>
-                            <rdam:P30455 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.nt0v-d633#', .)}"/>
+                            <rdamo:P30455 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.nt0v-d633#', .)}"/>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:if>
@@ -2594,7 +2594,7 @@
                 <xsl:choose>
                     <xsl:when test=". = ' ' or . = '|' or . = 'b' or . = 'k' or . = 'q' or .= '#'"/>
                     <xsl:otherwise>
-                        <rdaw:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.cr35-yd51#', .)}"/>
+                        <rdawo:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.cr35-yd51#', .)}"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:matching-substring>
@@ -2630,7 +2630,7 @@
         <xsl:param name="char25"/>
         <xsl:if test="$char25 = 'a' or $char25 = 'b' or $char25 = 'd'
             or $char25 = 'e' or $char25 = 'f' or $char25 = 'g'">
-            <rdaw:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.vw5v-gh79#', $char25)}"/>
+            <rdawo:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.vw5v-gh79#', $char25)}"/>
         </xsl:if>
     </xsl:template>
     
@@ -2638,13 +2638,13 @@
         <xsl:param name="char25"/>
         <xsl:choose>
             <xsl:when test="$char25 = 'a'">
-                <rdam:P30003 rdf:resource="{'http://rdaregistry.info/termList/ModeIssue/1001'}"/>
+                <rdamo:P30003 rdf:resource="{'http://rdaregistry.info/termList/ModeIssue/1001'}"/>
             </xsl:when>
             <xsl:when test="$char25 = 'c'">
-                <rdam:P30003 rdf:resource="{'http://rdaregistry.info/termList/ModeIssue/1005'}"/>
+                <rdamo:P30003 rdf:resource="{'http://rdaregistry.info/termList/ModeIssue/1005'}"/>
             </xsl:when>
             <xsl:when test="$char25 = 'd'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
@@ -2652,7 +2652,7 @@
     <xsl:template name="F008-c26-CF">
         <xsl:param name="char26"/>
         <xsl:if test="$char26 != 'u' and $char26 != 'z' and $char26 != ' ' and $char26 != '|' and $char26 != '#'">
-            <rdam:P30018 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.mkjn-bp10#', $char26)}"/>
+            <rdamo:P30018 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.mkjn-bp10#', $char26)}"/>
         </xsl:if>
     </xsl:template>
     
@@ -2661,10 +2661,10 @@
         <xsl:if test="$char28 != ' ' and $char28 != '|' and $char28 != 'u' and $char28 != '#'">
             <xsl:choose>
                 <xsl:when test="$char28 = 'n'">
-                    <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.2eg3-1x53#nx'}"/>
+                    <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.2eg3-1x53#nx'}"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <rdam:P30335 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.2eg3-1x53#', $char28)}"/>
+                    <rdamo:P30335 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.2eg3-1x53#', $char28)}"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:if>
@@ -2673,21 +2673,21 @@
     <xsl:template name="F008-c29-BK">
         <xsl:param name="char29"/>
         <xsl:if test="$char29 = '1'">
-            <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.t1gh-8294#1'}"/>
+            <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.t1gh-8294#1'}"/>
         </xsl:if>
     </xsl:template>
     
     <xsl:template name="F008-c29-CR">
         <xsl:param name="char29"/>
         <xsl:if test="$char29 = '1'">
-            <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.6mz0-ta86#1'}"/>
+            <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.6mz0-ta86#1'}"/>
         </xsl:if>
     </xsl:template>
     
     <xsl:template name="F008-c30-BK">
         <xsl:param name="char30"/>
         <xsl:if test="$char30 = '1'">
-            <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.tq9s-1157#1'}"/>
+            <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.tq9s-1157#1'}"/>
         </xsl:if>
     </xsl:template>
     
@@ -2696,7 +2696,7 @@
         <xsl:analyze-string select="$char30-31" regex=".{{1}}">
             <xsl:matching-substring>
                 <xsl:if test=". != ' ' and . != '|' and . != 'n' and . != 'z' and .!= '#'">
-                    <rdaw:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.23tq-5e25#', .)}"/>
+                    <rdawo:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.23tq-5e25#', .)}"/>
                 </xsl:if>
             </xsl:matching-substring>
         </xsl:analyze-string>
@@ -2705,7 +2705,7 @@
     <xsl:template name="F008-c30-31-__-MU">
         <xsl:param name="char30-31"/>
         <xsl:if test="$char30-31 = '  '">
-            <rdae:P20331 rdf:resource="{'https://doi.org/10.6069/uwlswd.23tq-5e25#pound'}"/>
+            <rdaeo:P20331 rdf:resource="{'https://doi.org/10.6069/uwlswd.23tq-5e25#pound'}"/>
         </xsl:if>
     </xsl:template>
     
@@ -2721,21 +2721,21 @@
     <xsl:template name="F008-c31-BK">
         <xsl:param name="char31"/>
         <xsl:if test="$char31 = '1'">
-            <rdam:P30455 rdf:resource="{'https://doi.org/10.6069/uwlswd.m0xp-h565#1'}"/>
+            <rdamo:P30455 rdf:resource="{'https://doi.org/10.6069/uwlswd.m0xp-h565#1'}"/>
         </xsl:if>
     </xsl:template>
     
     <xsl:template name="F008-c31-MP">
         <xsl:param name="char31"/>
         <xsl:if test="$char31 = '1'">
-            <rdam:P30455 rdf:resource="{'https://doi.org/10.6069/uwlswd.2h4d-g549#1'}"/>
+            <rdamo:P30455 rdf:resource="{'https://doi.org/10.6069/uwlswd.2h4d-g549#1'}"/>
         </xsl:if>
     </xsl:template>
     
     <xsl:template name="F008-c33-BK">
         <xsl:param name="char33"/>
         <xsl:if test="$char33 != 'u' and $char33 != '|' and $char33 != ' ' and $char33 != '#'">
-            <rdaw:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.f447-ax91#', $char33)}"/>
+            <rdawo:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.f447-ax91#', $char33)}"/>
         </xsl:if>
     </xsl:template>
     
@@ -2811,10 +2811,10 @@
             <xsl:matching-substring>
                 <xsl:choose>
                     <xsl:when test=". = 'g'">
-                        <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#gx'}"/>
+                        <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#gx'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'k'">
-                        <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#k'}"/>
+                        <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#k'}"/>
                     </xsl:when>
                 </xsl:choose>
             </xsl:matching-substring>
@@ -2826,10 +2826,10 @@
         <xsl:analyze-string select="$char33-34" regex=".{{1}}">
             <xsl:matching-substring>
                 <xsl:if test=". = 'm'">
-                    <rdae:P20061 rdf:resource="{'http://rdaregistry.info/termList/TacNotation/1001'}"/>
+                    <rdaeo:P20061 rdf:resource="{'http://rdaregistry.info/termList/TacNotation/1001'}"/>
                 </xsl:if>
                 <xsl:if test=". = 'j'">
-                    <rdae:P20001 rdf:resource="{'http://rdaregistry.info/termList/RDAContentType/1002'}"/>
+                    <rdaeo:P20001 rdf:resource="{'http://rdaregistry.info/termList/RDAContentType/1002'}"/>
                 </xsl:if>
             </xsl:matching-substring>
         </xsl:analyze-string>
@@ -2857,47 +2857,47 @@
             <xsl:matching-substring>
                 <xsl:choose>
                     <xsl:when test=". = 'a'">
-                        <rdam:P30187 rdf:resource="{'http://rdaregistry.info/termList/RDAproductionMethod/1001'}"/>
+                        <rdamo:P30187 rdf:resource="{'http://rdaregistry.info/termList/RDAproductionMethod/1001'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'b'">
-                        <rdam:P30187 rdf:resource="{'http://rdaregistry.info/termList/RDAproductionMethod/1008'}"/>
+                        <rdamo:P30187 rdf:resource="{'http://rdaregistry.info/termList/RDAproductionMethod/1008'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'c'">
-                        <rdam:P30187 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#cx'}"/>
+                        <rdamo:P30187 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#cx'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'd'">
-                        <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#dx'}"/>
+                        <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#dx'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'e'">
-                        <rdam:P30187 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#e'}"/>
+                        <rdamo:P30187 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#e'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'f'">
-                        <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#fx'}"/>
+                        <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#fx'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'g'">
-                        <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
+                        <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'j'">
-                        <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1045'}"/>
-                        <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#j'}"/>
+                        <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1045'}"/>
+                        <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#j'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'l'">
-                        <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#l'}"/>
+                        <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#l'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'n'">
-                        <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#n'}"/>
+                        <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#n'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'o'">
-                        <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#o'}"/>
+                        <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#o'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'p'">
-                        <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#p'}"/>
+                        <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#p'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'q'">
-                        <rdam:P30199 rdf:resource="{'http://rdaregistry.info/termList/fontSize/1002'}"/>
+                        <rdamo:P30199 rdf:resource="{'http://rdaregistry.info/termList/fontSize/1002'}"/>
                     </xsl:when>
                     <xsl:when test=". = 'r'">
-                        <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#r'}"/>
+                        <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.rw25-p125#r'}"/>
                     </xsl:when>
                 </xsl:choose>
             </xsl:matching-substring>
@@ -2907,7 +2907,7 @@
     <xsl:template name="F008-c33-MU">
         <xsl:param name="char33"/>
         <xsl:if test="$char33 != ' ' and $char33 != '|' and $char33 != '#' and $char33 != 'n' and $char33 != 'u' and $char33 != 'z'">
-            <rdae:P20331 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.axz0-z371#', $char33)}"/>
+            <rdaeo:P20331 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.axz0-z371#', $char33)}"/>
         </xsl:if>
     </xsl:template>
     
@@ -2924,28 +2924,28 @@
         <xsl:param name="char33"/>
         <xsl:choose>
             <xsl:when test="$char33 = 'd'">
-                <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#d'}"/>
+                <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#d'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'g'">
-                <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#g'}"/>
+                <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#g'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'i'">
-                <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#i'}"/>
+                <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#i'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'k'">
-                <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#k'}"/>
+                <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#k'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'l'">
-                <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#l'}"/>
+                <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#l'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'm'">
-                <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#m'}"/>
+                <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#m'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'n'">
-                <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#n'}"/>
+                <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#n'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'o'">
-                <rdaw:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#o'}"/>
+                <rdawo:P10004 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#o'}"/>
             </xsl:when>        
         </xsl:choose>
     </xsl:template>
@@ -2954,57 +2954,57 @@
         <xsl:param name="char33"/>
         <xsl:choose>
             <xsl:when test="$char33 = 'a'">
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#a'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#a'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'b'">
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#b'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#b'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'c'">
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#c'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#c'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'd'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'f'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1036'}"/>
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#f'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1036'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#f'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'm'">
-                <rdam:P30002 rdf:resource="{'http://rdaregistry.info/termList/RDAMediaType/1005'}"/>
+                <rdamo:P30002 rdf:resource="{'http://rdaregistry.info/termList/RDAMediaType/1005'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'n'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1048'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1048'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'o'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1045'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1045'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'p'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1030'}"/>
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#p'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1030'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#p'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'q'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#q'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#q'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'r'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#r'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#r'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 's'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1040'}"/>
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#s'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1040'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#s'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 't'">
-                <rdam:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#t'}"/>
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#t'}"/>
+                <rdamo:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#t'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#t'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'v'">
-                <rdam:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#v'}"/>
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#v'}"/>
+                <rdamo:P30001 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#v'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#v'}"/>
             </xsl:when>
             <xsl:when test="$char33 = 'w'">
-                <rdam:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
-                <rdam:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#w'}"/>
+                <rdamo:P30001 rdf:resource="{'http://rdaregistry.info/termList/RDACarrierType/1059'}"/>
+                <rdamo:P30335 rdf:resource="{'https://doi.org/10.6069/uwlswd.qgc0-9r48#w'}"/>
             </xsl:when>
         </xsl:choose>
     </xsl:template>
@@ -3012,7 +3012,7 @@
     <xsl:template name="F008-c34-abc-BK">
         <xsl:param name="char34"/>
         <xsl:if test="$char34 = 'a' or $char34 = 'b' or $char34 = 'c'">
-            <rdaw:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.x4ce-sd21#', $char34)}"/>
+            <rdawo:P10004 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.x4ce-sd21#', $char34)}"/>
         </xsl:if>
     </xsl:template>
     
@@ -3029,7 +3029,7 @@
         <xsl:param name="char34"/>
         <xsl:choose>
             <xsl:when test="$char34 = 'a' or $char34 = 'c' or $char34 = 'l'">
-                <rdaw:P10222 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.eje7-jq11#', $char34)}"/>
+                <rdawo:P10222 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.eje7-jq11#', $char34)}"/>
             </xsl:when>
         </xsl:choose>
     </xsl:template>

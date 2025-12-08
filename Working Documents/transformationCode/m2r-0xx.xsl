@@ -41,7 +41,7 @@
             <xsl:param name="baseID"/>
             <!--<xsl:call-template name="getmarc"/>-->
         <xsl:for-each select="marc:subfield[@code = 'a']| marc:subfield[@code = 'b']| marc:subfield[@code = 'z']">
-                <rdam:P30004 rdf:resource="{m2r:nomenIRI($baseID, ., '', '', 'nomen')}"/>
+                <rdamo:P30004 rdf:resource="{m2r:nomenIRI($baseID, ., '', '', 'nomen')}"/>
             </xsl:for-each>
         </xsl:template>
     
@@ -81,9 +81,9 @@
     
     <xsl:template match="marc:datafield[@tag = '013'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '013']" 
         mode="wor">
-        <rdaw:P10330>
+        <rdawd:P10330>
             <xsl:call-template name="F013-xx-abcdef"/>
-        </rdaw:P10330>
+        </rdawd:P10330>
     </xsl:template>
     
     <!-- 015 National Bibliography Number -->
@@ -3618,7 +3618,7 @@
         mode="wor" expand-text="yes">
         <!--<xsl:call-template name="getmarc"/>-->
         <xsl:for-each select="marc:subfield[@code = 'a']">
-            <rdaw:P10256 rdf:resource="{m2r:conceptIRI('lcc', .)}"/>
+            <rdawo:P10256 rdf:resource="{m2r:conceptIRI('lcc', .)}"/>
         </xsl:for-each>
     </xsl:template>
     
@@ -3636,7 +3636,7 @@
         mode="wor" expand-text="yes">
         <!--<xsl:call-template name="getmarc"/>-->
         <xsl:for-each select="marc:subfield[@code = 'a']">
-            <rdaw:P10256 rdf:resource="{m2r:conceptIRI('lcc', .)}"/>
+            <rdawo:P10256 rdf:resource="{m2r:conceptIRI('lcc', .)}"/>
         </xsl:for-each>
     </xsl:template>
     
@@ -3820,7 +3820,7 @@
                 <xsl:choose>
                     <xsl:when test="marc:subfield[@code = '2']">
                         <xsl:for-each select="marc:subfield[@code = 'a']">
-                            <rdaw:P10256 rdf:resource="{m2r:conceptIRI(../marc:subfield[@code = '2'][1], .)}"/>
+                            <rdawo:P10256 rdf:resource="{m2r:conceptIRI(../marc:subfield[@code = '2'][1], .)}"/>
                         </xsl:for-each>
                     </xsl:when>
                     <xsl:otherwise/>
@@ -3828,7 +3828,7 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:for-each select="marc:subfield[@code = 'a']">
-                    <rdaw:P10256 rdf:resource="{m2r:conceptIRI('lcc', .)}"/>
+                    <rdawo:P10256 rdf:resource="{m2r:conceptIRI('lcc', .)}"/>
                 </xsl:for-each>
             </xsl:otherwise>
         </xsl:choose>
@@ -3863,10 +3863,10 @@
         <xsl:for-each select="marc:subfield[@code = 'a']">
             <xsl:choose>
                 <xsl:when test="matches(., '(^Q[S-Z])|(^W)')">
-                    <rdaw:P10256 rdf:resource="{m2r:conceptIRI('nlm', .)}"/>
+                    <rdawo:P10256 rdf:resource="{m2r:conceptIRI('nlm', .)}"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <rdaw:P10256 rdf:resource="{m2r:conceptIRI('lcc', .)}"/>
+                    <rdawo:P10256 rdf:resource="{m2r:conceptIRI('lcc', .)}"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:for-each>

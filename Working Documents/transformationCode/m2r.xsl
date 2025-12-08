@@ -354,9 +354,7 @@
                                         <!-- category for aggregates -->
                                         <xsl:if
                                             test="$isAggregate = 'cam' or $isAggregate = 'pam' or $isAggregate = 'aam' or $isAggregate = 'aamnotaw'">
-                                            <rdamd:P30335>
-                                                <xsl:text>Aggregate manifestation</xsl:text>
-                                            </rdamd:P30335>
+                                            <rdamd:P30335>aggregate manifestation</rdamd:P30335>
                                         </xsl:if>
                                         <!-- This code can be uncommented to add a manifestation access point to the manifestation description.
                          m2r:mainManifestationAccessPoint() is located in m2r-aps.xsl -->
@@ -593,7 +591,7 @@
         <rdf:Description rdf:about="{$marcManIRI}">
             <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
             <rdamo:P30135 rdf:resource="{$marcWorkIRI}"/>
-            <rdamd:P30335>Metadata manifestation</rdamd:P30335>
+            <rdamd:P30335>metadata manifestation</rdamd:P30335>
             <rdamd:P30004>
                 <xsl:value-of
                     select="'man#marc' || encode-for-uri(lower-case(translate(marc:controlfield[@tag = '003'][1], ' ', ''))) || encode-for-uri(translate(marc:controlfield[@tag = '001'][1], ' ', '_'))"

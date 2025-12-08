@@ -196,13 +196,13 @@
                     </xsl:when>
                     <!-- $0 or $1 present, use that value -->
                     <xsl:otherwise>
-                        <rdaw:P10256 rdf:resource="{m2r:subjectIRI(., $scheme, $prefLabel)}"/>
+                        <rdawo:P10256 rdf:resource="{m2r:subjectIRI(., $scheme, $prefLabel)}"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
             <!-- else there is a source - we mint an IRI baed on the source (scheme) and label-->
             <xsl:otherwise>
-                <rdaw:P10256 rdf:resource="{m2r:subjectIRI(., $scheme, $prefLabel)}"/>
+                <rdawo:P10256 rdf:resource="{m2r:subjectIRI(., $scheme, $prefLabel)}"/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -219,7 +219,7 @@
             </xsl:when>
             <!-- otherwise, mint a concept for the category of work in $v -->
             <xsl:otherwise>
-                <rdaw:P10004 rdf:resource="{m2r:conceptIRI(m2r:getSubjectSchemeCode(..), .)}"/>
+                <rdawo:P10004 rdf:resource="{m2r:conceptIRI(m2r:getSubjectSchemeCode(..), .)}"/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>

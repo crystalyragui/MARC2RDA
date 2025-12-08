@@ -70,14 +70,14 @@
                                 <!-- only output the property if the function returns a value -->
                                 <!-- we don't want a triple with no object -->
                                 <xsl:if test="$rdaIRI">
-                                    <rdam:P30003 rdf:resource="{$rdaIRI}"/>
+                                    <rdamo:P30003 rdf:resource="{$rdaIRI}"/>
                                 </xsl:if>
                             </xsl:for-each>
                             <!-- for $b's it's rdaCodeLookup (both in m2r-functions) -->
                             <xsl:for-each select="marc:subfield[@code = 'b']">
                                 <xsl:variable name="rdaIRI" select="m2r:rdaCodeLookup($sub2, .)"/>
                                 <xsl:if test="$rdaIRI">
-                                    <rdam:P30003 rdf:resource="{$rdaIRI}"/>
+                                    <rdamo:P30003 rdf:resource="{$rdaIRI}"/>
                                 </xsl:if>
                             </xsl:for-each>
                         </xsl:when>
@@ -91,7 +91,7 @@
                                     <xsl:if
                                         test="@tag = '334' or substring(marc:subfield[@code = '6'], 1, 6) = '334-00'">
                                         <xsl:for-each select="marc:subfield[@code = 'a']">
-                                            <rdam:P30003 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
+                                            <rdamo:P30003 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
                                         </xsl:for-each>
                                     </xsl:if>
                                 </xsl:when>
@@ -100,7 +100,7 @@
                                     <xsl:if
                                         test="@tag = '334' or substring(marc:subfield[@code = '6'], 1, 6) = '334-00'">
                                         <xsl:for-each select="marc:subfield[@code = 'b']">
-                                            <rdam:P30003 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
+                                            <rdamo:P30003 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
                                         </xsl:for-each>
                                     </xsl:if>
                                 </xsl:when>
@@ -109,7 +109,7 @@
                                     <xsl:if
                                         test="@tag = '334' or substring(marc:subfield[@code = '6'], 1, 6) = '334-00'">
                                         <xsl:for-each select="marc:subfield[@code = 'a']">
-                                            <rdam:P30003 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
+                                            <rdamo:P30003 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
                                         </xsl:for-each>
                                     </xsl:if>
                                 </xsl:when>
@@ -118,7 +118,7 @@
                                     <xsl:if
                                         test="@tag = '334' or substring(marc:subfield[@code = '6'], 1, 6) = '334-00'">
                                         <xsl:for-each select="marc:subfield[@code = 'a']">
-                                            <rdam:P30003 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
+                                            <rdamo:P30003 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
                                         </xsl:for-each>
                                     </xsl:if>
                                 </xsl:otherwise>
@@ -248,7 +248,7 @@
     <xsl:template name="F334-iri" expand-text="yes">
         <!-- If $1 value (or multiple), use those -->
         <xsl:for-each select="marc:subfield[@code = '1']">
-            <rdam:P30003 rdf:resource="{.}"/>
+            <rdamo:P30003 rdf:resource="{.}"/>
         </xsl:for-each>
         <!-- If there's no $1 but there are $0s that begin with http(s), use these -->
         <xsl:if test="not(marc:subfield[@code = '1'])">
@@ -266,7 +266,7 @@
                         </xsl:choose>
                     </xsl:variable>
                     <xsl:if test="$iri0">
-                        <rdam:P30003 rdf:resource="{$iri0}"/>
+                        <rdamo:P30003 rdf:resource="{$iri0}"/>
                     </xsl:if>
                 </xsl:if>
             </xsl:for-each>
@@ -311,7 +311,7 @@
                                 <!-- only output the property if the function returns a value -->
                                 <!-- we don't want a triple with no object -->
                                 <xsl:if test="$rdaIRI">
-                                    <rdaw:P10365 rdf:resource="{$rdaIRI}"/>
+                                    <rdawo:P10365 rdf:resource="{$rdaIRI}"/>
                                     <xsl:if test="../marc:subfield[@code = '3']">
                                         <rdawd:P10330>
                                             <xsl:text>Extension plan {$rdaIRI} applies to the work's {../marc:subfield[@code = '3']}</xsl:text>
@@ -323,7 +323,7 @@
                             <xsl:for-each select="marc:subfield[@code = 'b']">
                                 <xsl:variable name="rdaIRI" select="m2r:rdaCodeLookup($sub2, .)"/>
                                 <xsl:if test="$rdaIRI">
-                                    <rdaw:P10365 rdf:resource="{$rdaIRI}"/>
+                                    <rdawo:P10365 rdf:resource="{$rdaIRI}"/>
                                     <xsl:if test="../marc:subfield[@code = '3']">
                                         <rdawd:P10330>
                                             <xsl:text>Extension plan {$rdaIRI} applies to the work's {../marc:subfield[@code = '3']}</xsl:text>
@@ -342,7 +342,7 @@
                                     <xsl:if
                                         test="@tag = '335' or substring(marc:subfield[@code = '6'], 1, 6) = '335-00'">
                                         <xsl:for-each select="marc:subfield[@code = 'a']">
-                                            <rdaw:P10365 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
+                                            <rdawo:P10365 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
                                             <xsl:if test="../marc:subfield[@code = '3']">
                                                 <rdawd:P10330>
                                                   <xsl:text>Extension plan {m2r:conceptIRI($sub2, .)} applies to the work's {../marc:subfield[@code = '3']}</xsl:text>
@@ -356,7 +356,7 @@
                                     <xsl:if
                                         test="@tag = '335' or substring(marc:subfield[@code = '6'], 1, 6) = '335-00'">
                                         <xsl:for-each select="marc:subfield[@code = 'b']">
-                                            <rdaw:P10365 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
+                                            <rdawo:P10365 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
                                             <xsl:if test="../marc:subfield[@code = '3']">
                                                 <rdawd:P10330>
                                                   <xsl:text>Extension plan {m2r:conceptIRI($sub2, .)} applies to the work's {../marc:subfield[@code = '3']}</xsl:text>
@@ -370,7 +370,7 @@
                                     <xsl:if
                                         test="@tag = '335' or substring(marc:subfield[@code = '6'], 1, 6) = '335-00'">
                                         <xsl:for-each select="marc:subfield[@code = 'a']">
-                                            <rdaw:P10365 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
+                                            <rdawo:P10365 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
                                             <xsl:if test="../marc:subfield[@code = '3']">
                                                 <rdawd:P10330>
                                                   <xsl:text>Extension plan {m2r:conceptIRI($sub2, .)} applies to the work's {../marc:subfield[@code = '3']}</xsl:text>
@@ -384,7 +384,7 @@
                                     <xsl:if
                                         test="@tag = '335' or substring(marc:subfield[@code = '6'], 1, 6) = '335-00'">
                                         <xsl:for-each select="marc:subfield[@code = 'a']">
-                                            <rdaw:P10365 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
+                                            <rdawo:P10365 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
                                             <xsl:if test="../marc:subfield[@code = '3']">
                                                 <rdawd:P10330>
                                                   <xsl:text>Extension plan {m2r:conceptIRI($sub2, .)} applies to the work's {../marc:subfield[@code = '3']}</xsl:text>
@@ -529,7 +529,7 @@
     <xsl:template name="F335-iri" expand-text="yes">
         <!-- If $1 value (or multiple), use those -->
         <xsl:for-each select="marc:subfield[@code = '1']">
-            <rdaw:P10365 rdf:resource="{.}"/>
+            <rdawo:P10365 rdf:resource="{.}"/>
             <xsl:if test="../marc:subfield[@code = '3']">
                 <rdawd:P10330>
                     <xsl:text>Extension plan {.} applies to the work's {../marc:subfield[@code ='3']}</xsl:text>
@@ -552,7 +552,7 @@
                         </xsl:choose>
                     </xsl:variable>
                     <xsl:if test="$iri0">
-                        <rdaw:P10365 rdf:resource="{$iri0}"/>
+                        <rdawo:P10365 rdf:resource="{$iri0}"/>
                         <xsl:if test="../marc:subfield[@code = '3']">
                             <rdawd:P10330>
                                 <xsl:text>Extension plan {$iri0} applies to the work's {../marc:subfield[@code = '3']}</xsl:text>
@@ -2179,7 +2179,7 @@
                                 <!-- only output the property if the function returns a value -->
                                 <!-- we don't want a triple with no object -->
                                 <xsl:if test="$rdaIRI">
-                                    <rdam:P30104 rdf:resource="{$rdaIRI}"/>
+                                    <rdamo:P30104 rdf:resource="{$rdaIRI}"/>
                                     <xsl:if test="../marc:subfield[@code = '3']">
                                         <rdamd:P30137>
                                             <xsl:text>Video format {$rdaIRI} applies to the manifestation's {../marc:subfield[@code = '3']}</xsl:text>
@@ -2192,7 +2192,7 @@
                                 <!-- only output the property if the function returns a value -->
                                 <!-- we don't want a triple with no object -->
                                 <xsl:if test="$rdaIRI">
-                                    <rdam:P30123 rdf:resource="{$rdaIRI}"/>
+                                    <rdamo:P30123 rdf:resource="{$rdaIRI}"/>
                                     <xsl:if test="../marc:subfield[@code = '3']">
                                         <rdamd:P30137>
                                             <xsl:text>Broadcast standard {$rdaIRI} applies to the manifestation's {../marc:subfield[@code = '3']}</xsl:text>
@@ -2206,7 +2206,7 @@
                             <xsl:if
                                 test="@tag = '346' or substring(marc:subfield[@code = '6'], 1, 6) = '346-00'">
                                 <xsl:for-each select="marc:subfield[@code = 'a']">
-                                    <rdam:P30104 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
+                                    <rdamo:P30104 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
                                     <xsl:if test="../marc:subfield[@code = '3']">
                                         <rdamd:P30137>
                                             <xsl:text>Video format {m2r:conceptIRI($sub2, .)} applies to the manifestation's {../marc:subfield[@code = '3']}</xsl:text>
@@ -2214,7 +2214,7 @@
                                     </xsl:if>
                                 </xsl:for-each>
                                 <xsl:for-each select="marc:subfield[@code = 'b']">
-                                    <rdam:P30123 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
+                                    <rdamo:P30123 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
                                     <xsl:if test="../marc:subfield[@code = '3']">
                                         <rdamd:P30137>
                                             <xsl:text>Broadcast standard {m2r:conceptIRI($sub2, .)} applies to the manifestation's {../marc:subfield[@code = '3']}</xsl:text>
@@ -2289,7 +2289,7 @@
         <xsl:if test="marc:subfield[@code = 'a'] and not(marc:subfield[@code = 'b'])">
             <!-- for each 1, use 1 -->
             <xsl:for-each select="marc:subfield[@code = '1']">
-                <rdam:P30104 rdf:resource="{.}"/>
+                <rdamo:P30104 rdf:resource="{.}"/>
             </xsl:for-each>
             <!-- if no 1, check 0 -->
             <xsl:if test="not(marc:subfield[@code = '1'])">
@@ -2298,7 +2298,7 @@
                     <xsl:variable name="iri0" select="m2r:process0(marc:subfield[@code = '0'])"/>
                     <!-- if getting iri was successful (started with 'http' or '('), use 0s-->
                     <xsl:if test="$iri0">
-                        <rdam:P30104 rdf:resource="{$iri0}"/>
+                        <rdamo:P30104 rdf:resource="{$iri0}"/>
                         <rdamd:P30137>
                             <xsl:text>Video format {$iri0} applies to the manifestation's {../marc:subfield[@code = '3']}</xsl:text>
                         </rdamd:P30137>
@@ -2310,7 +2310,7 @@
         <xsl:if test="marc:subfield[@code = 'b'] and not(marc:subfield[@code = 'a'])">
             <!-- for each 1, use 1 -->
             <xsl:for-each select="marc:subfield[@code = '1']">
-                <rdam:P30123 rdf:resource="{.}"/>
+                <rdamo:P30123 rdf:resource="{.}"/>
             </xsl:for-each>
             <!-- if no 1, check 0 -->
             <xsl:if test="not(marc:subfield[@code = '1'])">
@@ -2320,7 +2320,7 @@
                     <!-- if getting iri was successful (started with 'http' or '(') 
                                  use 0s-->
                     <xsl:if test="$iri0">
-                        <rdam:P30123 rdf:resource="{$iri0}"/>
+                        <rdamo:P30123 rdf:resource="{$iri0}"/>
                         <rdamd:P30137>
                             <xsl:text>Broadcast standard {$iri0} applies to the manifestation's {../marc:subfield[@code = '3']}</xsl:text>
                         </rdamd:P30137>
@@ -2392,7 +2392,7 @@
                     ../marc:subfield[@code = '1'] and count(../*[not(@code = '0' or @code = '1' or @code = '2' or @code = '3'
                     or @code = '6' or @code = '8')]) = 1">
                 <xsl:for-each select="../marc:subfield[@code = '1']">
-                    <xsl:element name="rdam:{$propertyNum}">
+                    <xsl:element name="rdamo:{$propertyNum}">
                         <xsl:attribute name="rdf:resource" select="."/>
                     </xsl:element>
                     <xsl:if test="../marc:subfield[@code = '3']">
@@ -2412,7 +2412,7 @@
                         <xsl:for-each select="../marc:subfield[@code = '0']">
                             <xsl:variable name="iri0" select="m2r:process0(.)"/>
                             <xsl:if test="$iri0">
-                                <xsl:element name="rdam:{$propertyNum}">
+                                <xsl:element name="rdamo:{$propertyNum}">
                                     <xsl:attribute name="rdf:resource" select="$iri0"/>
                                 </xsl:element>
                                 <xsl:if test="../marc:subfield[@code = '3']">
@@ -2436,7 +2436,7 @@
                                         <xsl:variable name="rdaIRI"
                                             select="m2r:rdaTermLookup($sub2, $subfield)"/>
                                         <xsl:if test="$rdaIRI">
-                                            <xsl:element name="rdam:{$propertyNum}">
+                                            <xsl:element name="rdamo:{$propertyNum}">
                                                 <xsl:attribute name="rdf:resource" select="$rdaIRI"
                                                 />
                                             </xsl:element>
@@ -2455,7 +2455,7 @@
                                     <xsl:otherwise>
                                         <xsl:if
                                             test="../@tag = '347' or substring(../marc:subfield[@code = '6'], 1, 6) = '340-00'">
-                                            <xsl:element name="rdam:{$propertyNum}">
+                                            <xsl:element name="rdamo:{$propertyNum}">
                                                 <xsl:attribute name="rdf:resource"
                                                   select="m2r:conceptIRI($sub2, $subfield)"/>
                                             </xsl:element>
@@ -2480,7 +2480,7 @@
                                             select="m2r:lcTermLookup('Encoding Format', $subfield)"/>
                                         <xsl:choose>
                                             <xsl:when test="$lcIRI">
-                                                <xsl:element name="rdam:{$propertyNum}">
+                                                <xsl:element name="rdamo:{$propertyNum}">
                                                   <xsl:attribute name="rdf:resource" select="$lcIRI"
                                                   />
                                                 </xsl:element>
@@ -2684,7 +2684,7 @@
     <xsl:template name="F380-iri" expand-text="yes">
         <!-- If $1 value (or multiple), use those -->
         <xsl:for-each select="marc:subfield[@code = '1']">
-            <rdaw:P10004 rdf:resource="{.}"/>
+            <rdawo:P10004 rdf:resource="{.}"/>
             <xsl:if test="../marc:subfield[@code = '3']">
                 <rdawd:P10330>
                     <xsl:text>Category of work {.} applies to the work's {../marc:subfield[@code = '3']}</xsl:text>
@@ -2707,7 +2707,7 @@
                         </xsl:choose>
                     </xsl:variable>
                     <xsl:if test="$iri0">
-                        <rdaw:P10004 rdf:resource="{$iri0}"/>
+                        <rdawo:P10004 rdf:resource="{$iri0}"/>
                     </xsl:if>
                     <xsl:if test="../marc:subfield[@code = '3']">
                         <rdawd:P10330>
@@ -2728,7 +2728,7 @@
                     <xsl:if
                         test="@tag = '380' or substring(marc:subfield[@code = '6'], 1, 6) = '380-00'">
                         <xsl:for-each select="marc:subfield[@code = 'a']">
-                            <rdaw:P10004
+                            <rdawo:P10004
                                 rdf:resource="{m2r:conceptIRI(../marc:subfield[@code = '2'][1], .)}"/>
                             <xsl:if test="../marc:subfield[@code = '3']">
                                 <rdawd:P10330>
@@ -2793,7 +2793,7 @@
                     test="@tag = '382' or (@tag = '880' and starts-with(marc:subfield[@code = '6'], '382-00'))">
                     <xsl:for-each
                         select="marc:subfield[@code = 'a'] | marc:subfield[@code = 'b'] | marc:subfield[@code = 'd'] | marc:subfield[@code = 'p']">
-                        <rdae:P20215
+                        <rdaeo:P20215
                             rdf:resource="{m2r:conceptIRI(../marc:subfield[@code = '2'][1], .)}"/>
                     </xsl:for-each>
                 </xsl:if>
@@ -2856,7 +2856,7 @@
                     test="@tag = '382' or (@tag = '880' and starts-with(marc:subfield[@code = '6'], '382-00'))">
                     <xsl:for-each
                         select="marc:subfield[@code = 'a'] | marc:subfield[@code = 'b'] | marc:subfield[@code = 'd'] | marc:subfield[@code = 'p']">
-                        <rdaw:P10220
+                        <rdawo:P10220
                             rdf:resource="{m2r:conceptIRI(../marc:subfield[@code = '2'], .)}"/>
                     </xsl:for-each>
                 </xsl:if>
@@ -2951,14 +2951,14 @@
         <!-- Case 1: $1 present (RWO IRI) -->
         <xsl:for-each select="marc:subfield[@code='1']">
             <xsl:if test="not(contains(., ' '))">
-                <rdae:P20322 rdf:resource="{.}"/>
+                <rdaeo:P20322 rdf:resource="{.}"/>
             </xsl:if>
         </xsl:for-each>
         
         <!-- Case 2: $0 contains http IRI and $1 absent -->
         <xsl:if test="not(marc:subfield[@code='1'])">
             <xsl:for-each select="marc:subfield[@code='0'][contains(., 'http')][not(contains(., ' '))]">
-                <rdae:P20322 rdf:resource="{.}"/>
+                <rdaeo:P20322 rdf:resource="{.}"/>
             </xsl:for-each>
         </xsl:if>
         
@@ -2968,7 +2968,7 @@
                 <xsl:for-each select="marc:subfield[@code='a'] | (marc:subfield[@code='b'][not(../marc:subfield[@code='a'])])">
                     <xsl:variable name="conceptIRI" select="m2r:conceptIRI($code2, .)"/>
                     <!-- 1. Link expression to concept -->
-                    <rdae:P20322 rdf:resource="{$conceptIRI}"/>
+                    <rdaeo:P20322 rdf:resource="{$conceptIRI}"/>
                 </xsl:for-each>
             </xsl:if>
         </xsl:if>
@@ -2986,7 +2986,7 @@
         <xsl:variable name="code2" select="marc:subfield[@code='2'][1]"/>
         <!-- Case 1: $1 present -->
         <xsl:for-each select="marc:subfield[@code='1'][not(contains(., ' '))]">
-            <rdam:P30305 rdf:resource="{.}"/>
+            <rdamo:P30305 rdf:resource="{.}"/>
             <xsl:if test="../marc:subfield[@code = '3']">
                 <rdamd:P30276>
                     <xsl:text>Intended audience </xsl:text>
@@ -3000,7 +3000,7 @@
         <!-- Case 2: $0 with http and $1 not present -->
         <xsl:if test="not(marc:subfield[@code='1'])">
             <xsl:for-each select="marc:subfield[@code='0'][contains(., 'http')][not(contains(., ' '))]">
-                <rdam:P30305 rdf:resource="{.}"/>
+                <rdamo:P30305 rdf:resource="{.}"/>
                 <xsl:if test="../marc:subfield[@code = '3']">
                     <rdamd:P30276>
                         <xsl:text>Intended audience </xsl:text>
@@ -3018,7 +3018,7 @@
                 <xsl:for-each select="marc:subfield[@code='a'] | (marc:subfield[@code='b'][not(../marc:subfield[@code='a'])])">
                     <xsl:variable name="conceptIRI" select="m2r:conceptIRI($code2, .)"/>
                     <!-- 1. Link expression to concept -->
-                    <rdam:P30305 rdf:resource="{$conceptIRI}"/>
+                    <rdamo:P30305 rdf:resource="{$conceptIRI}"/>
                     <xsl:if test="../marc:subfield[@code = '3']">
                         <rdamd:P30276>
                             <xsl:text>Intended audience </xsl:text>

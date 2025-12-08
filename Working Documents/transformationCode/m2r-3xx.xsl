@@ -489,12 +489,12 @@
         match="marc:datafield[@tag = '342'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '342']"
         mode="wor" expand-text="yes">
         <xsl:if test="marc:subfield[@code = 'q'] and marc:subfield[@code = 'r']">
-            <rdaw:P10330>
+            <rdawd:P10330>
                 <xsl:text>Ellipsoid name: </xsl:text>
                 <xsl:value-of select="marc:subfield[@code = 'q']"/>
                 <xsl:text>. Semi-major axis: </xsl:text>
                 <xsl:value-of select="marc:subfield[@code = 'r']"/>
-            </rdaw:P10330>
+            </rdawd:P10330>
         </xsl:if>
     </xsl:template>
 
@@ -771,7 +771,7 @@
     <xsl:template
         match="marc:datafield[@tag = '351'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 6) = '351']"
         mode="wor" expand-text="yes">
-        <rdaw:P10084>
+        <rdawd:P10084>
             <xsl:for-each
                 select="marc:subfield[@code = 'c'] | marc:subfield[@code = 'a'] | marc:subfield[@code = 'b'] | marc:subfield[@code = '3']">
                 <xsl:if test="@code = 'c'">
@@ -790,7 +790,7 @@
                     <xsl:text>; </xsl:text>
                 </xsl:if>
             </xsl:for-each>
-        </rdaw:P10084>
+        </rdawd:P10084>
     </xsl:template>
 
     <!-- 352 Digital Graphic Representation-->
@@ -920,7 +920,7 @@
             <xsl:variable name="sub0" select="."/>
             <xsl:choose>
                 <xsl:when test="contains(., 'http') and not(contains(., ' '))">
-                    <rdam:P30455 rdf:resource="{.}"/>
+                    <rdamo:P30455 rdf:resource="{.}"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <rdamd:P30455>
@@ -938,7 +938,7 @@
         <xsl:for-each select="marc:subfield[@code = '1']">
             <xsl:variable name="sub1" select="."/>
             <xsl:if test="not(contains(., ' '))">
-                <rdam:P30455 rdf:resource="{.}"/>
+                <rdamo:P30455 rdf:resource="{.}"/>
                 <xsl:for-each select="../marc:subfield[@code = '3']">
                     <rdamd:P30137>
                         <xsl:text>{$sub1} applies to: {.}</xsl:text>
@@ -1190,7 +1190,7 @@
             select="marc:subfield[@code = '1']">
             <xsl:if test="not(contains(., ' '))">
                 <xsl:variable name="sub1" select="."/>
-                <rdae:P20326 rdf:resource="{.}"/>
+                <rdaeo:P20326 rdf:resource="{.}"/>
                 <xsl:for-each select="../marc:subfield[@code = '3']">
                     <rdaed:P20071>
                         <xsl:text>{$sub1} applies to: {.}</xsl:text>
@@ -1232,7 +1232,7 @@
             select="marc:subfield[@code = '1']">
             <xsl:if test="not(contains(., ' '))">
                 <xsl:variable name="sub1" select="."/>
-                <rdaw:P10221 rdf:resource="{.}"/>
+                <rdawo:P10221 rdf:resource="{.}"/>
                 <xsl:for-each select="../marc:subfield[@code = '3']">
                     <rdaed:P20071>
                         <xsl:text>{$sub1} applies to: {.}</xsl:text>

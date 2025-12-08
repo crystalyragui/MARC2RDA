@@ -12,7 +12,7 @@
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc6XXduplicates-test">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc6XXduplicates-test"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc6XXduplicates-test</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -77,31 +77,31 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/ageNom#2025-09-28t1419426803816-0400d31e5">
+   <rdf:Description rdf:about="http://marc2rda.info/testing/ageNom#2025-11-26t1549080645128zd31e5">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
       <rdand:P80068>Personal name (NR)</rdand:P80068><!--rdand:P80068 = has nomen string-->
       <!--IRI could not be found for Source of heading or term (NR) -->
       <rdand:P80069>Source of heading or term (NR) </rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/ageNom#2025-09-28t1419426803816-0400d31e14">
+   <rdf:Description rdf:about="http://marc2rda.info/testing/ageNom#2025-11-26t1549080645128zd31e14">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
       <rdand:P80068>Corporate name or jurisdiction name as entry element (NR)</rdand:P80068><!--rdand:P80068 = has nomen string-->
       <!--IRI could not be found for Source of heading or term (NR) -->
       <rdand:P80069>Source of heading or term (NR) </rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/ageNom#2025-09-28t1419426803816-0400d31e23">
+   <rdf:Description rdf:about="http://marc2rda.info/testing/ageNom#2025-11-26t1549080645128zd31e23">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
       <rdand:P80068>Meeting name or jurisdiction name as entry element (NR)</rdand:P80068><!--rdand:P80068 = has nomen string-->
       <!--IRI could not be found for Source of heading or term (NR) -->
       <rdand:P80069>Source of heading or term (NR) </rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/worNom#2025-09-28t1419426803816-0400d31e32">
+   <rdf:Description rdf:about="http://marc2rda.info/testing/worNom#2025-11-26t1549080645128zd31e32">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
       <rdand:P80068>Uniform title (NR)</rdand:P80068><!--rdand:P80068 = has nomen string-->
       <!--IRI could not be found for Source of heading or term (NR) -->
       <rdand:P80069>Source of heading or term (NR) </rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/timNom#2025-09-28t1419426803816-0400d31e102">
+   <rdf:Description rdf:about="http://marc2rda.info/testing/timNom#2025-11-26t1549080645128zd31e102">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
       <rdand:P80068>Chronological term (NR)</rdand:P80068><!--rdand:P80068 = has nomen string-->
       <rdan:P80069 rdf:resource="https://id.loc.gov/vocabulary/subjectSchemes/lcsh"/><!--rdan:P80069 = has scheme of nomen-->
@@ -111,31 +111,31 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdand:P80068>Geographic name (NR) Geographic name (NR) (Miscellaneous information (R) Miscellaneous information (R) )</rdand:P80068><!--rdand:P80068 = has nomen string-->
       <rdan:P80069 rdf:resource="https://id.loc.gov/vocabulary/subjectSchemes/lcsh"/><!--rdan:P80069 = has scheme of nomen-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/plaNom#2025-09-28t1419426803816-0400d31e534">
-      <rdf:type rdf:resource="httsp://rdaregistry.info/Elements/c/C10012"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/plaNom#2025-11-26t1549080645128zd31e534">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
       <rdand:P80068>Country or larger entity (R) --Country or larger entity (R) --First-order political jurisdiction (NR) --First-order political jurisdiction (NR) --Intermediate political jurisdiction (R) --Intermediate political jurisdiction (R) --City (NR) --City (NR) --City subsection (R) --City subsection (R) --Other nonjurisdictional geographic region and feature (R) --Other nonjurisdictional geographic region and feature (R) --Extraterrestrial area (R) --Extraterrestrial area (R)</rdand:P80068><!--rdand:P80068 = has nomen string-->
       <!--IRI could not be found for Source of heading or term (NR) -->
       <rdand:P80069>Source of heading or term (NR) </rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/sourceofheadingorterm%28nr%29/age#personalnamenr">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10004"/>
-      <rdaao:P50377 rdf:resource="http://marc2rda.info/testing/ageNom#2025-09-28t1419426803816-0400d31e5"/><!--rdaao:P50377 = has access point for person-->
+      <rdaao:P50377 rdf:resource="http://marc2rda.info/testing/ageNom#2025-11-26t1549080645128zd31e5"/><!--rdaao:P50377 = has access point for person-->
       <rdaad:P50111>Personal name (NR)</rdaad:P50111><!--rdaad:P50111 = has name of person-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/sourceofheadingorterm%28nr%29/age#corporatenameorjurisdictionnameasentryelementnr">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10005"/>
-      <rdaao:P50375 rdf:resource="http://marc2rda.info/testing/ageNom#2025-09-28t1419426803816-0400d31e14"/><!--rdaao:P50375 = has access point for corporate body-->
+      <rdaao:P50375 rdf:resource="http://marc2rda.info/testing/ageNom#2025-11-26t1549080645128zd31e14"/><!--rdaao:P50375 = has access point for corporate body-->
       <rdaad:P50032>Corporate name or jurisdiction name as entry element (NR)</rdaad:P50032><!--rdaad:P50032 = has name of corporate body-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/sourceofheadingorterm%28nr%29/age#meetingnameorjurisdictionnameasentryelementnr">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10005"/>
-      <rdaao:P50375 rdf:resource="http://marc2rda.info/testing/ageNom#2025-09-28t1419426803816-0400d31e23"/><!--rdaao:P50375 = has access point for corporate body-->
+      <rdaao:P50375 rdf:resource="http://marc2rda.info/testing/ageNom#2025-11-26t1549080645128zd31e23"/><!--rdaao:P50375 = has access point for corporate body-->
       <rdaad:P50237>Meeting</rdaad:P50237><!--rdaad:P50237 = has category of corporate body-->
       <rdaad:P50032>Meeting name or jurisdiction name as entry element (NR)</rdaad:P50032><!--rdaad:P50032 = has name of corporate body-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/sourceofheadingorterm%28nr%29/wor#uniformtitlenr">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
-      <rdawo:P10328 rdf:resource="http://marc2rda.info/testing/worNom#2025-09-28t1419426803816-0400d31e32"/><!--rdawo:P10328 = has access point for work-->
+      <rdawo:P10328 rdf:resource="http://marc2rda.info/testing/worNom#2025-11-26t1549080645128zd31e32"/><!--rdawo:P10328 = has access point for work-->
       <rdawd:P10088>Uniform title (NR)</rdawd:P10088><!--rdawd:P10088 = has title of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/lcsh/pla#geographicnamenrgeographicnamenrmiscellaneousinformationrmiscellaneousinformationr">
@@ -144,10 +144,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/sourceofheadingorterm%28nr%29/pla#countryorlargerentityr--countryorlargerentityr--first-orderpoliticaljurisdictionnr--first-orderpoliticaljurisdictionnr--intermediatepoliticaljurisdictionr--intermediatepoliticaljurisdictionr--citynr--citynr--citysubsectionr--citysubsectionr--othernonjurisdictionalgeographicregionandfeaturer--othernonjurisdictionalgeographicregionandfeaturer--extraterrestrialarear--extraterrestrialarear">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10009"/>
-      <rdapo:P70018 rdf:resource="http://marc2rda.info/testing/plaNom#2025-09-28t1419426803816-0400d31e534"/><!--rdapo:P70018 = has access point for place-->
+      <rdapo:P70018 rdf:resource="http://marc2rda.info/testing/plaNom#2025-11-26t1549080645128zd31e534"/><!--rdapo:P70018 = has access point for place-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/lcsh/tim#chronologicaltermnr">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
-      <rdato:P70015 rdf:resource="http://marc2rda.info/testing/timNom#2025-09-28t1419426803816-0400d31e102"/><!--rdato:P70015 = has access point for timespan-->
+      <rdato:P70015 rdf:resource="http://marc2rda.info/testing/timNom#2025-11-26t1549080645128zd31e102"/><!--rdato:P70015 = has access point for timespan-->
    </rdf:Description>
 </rdf:RDF>

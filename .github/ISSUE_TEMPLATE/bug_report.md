@@ -2,9 +2,9 @@
 name: Bug report
 about: Create a report to help us improve
 title: "[BUG]"
-type: Bug
 labels: BUG
 assignees: CECSpecialistI, cspayne
+
 ---
 
 **Describe the bug**

@@ -392,7 +392,7 @@
             <xsl:for-each select="$context/marc:subfield[@code='d']">
                 <!-- IRI uses m2r:nomenIRI with type 'nomen' -->
                 <xsl:variable name="nomenIRI" select="m2r:nomenIRI($baseID, ., ., $scheme, 'nomen')"/>
-                <rdai:P40079 rdf:resource="{$nomenIRI}"/>
+                <rdaio:P40079 rdf:resource="{$nomenIRI}"/>
             </xsl:for-each>
         </rdf:Description>
     </xsl:template>

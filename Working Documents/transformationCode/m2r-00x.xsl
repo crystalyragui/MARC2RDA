@@ -192,7 +192,7 @@
         <!--<xsl:call-template name="getmarc"/>-->
         <xsl:variable name="char0" select="substring(., 1, 1)"/>
         <xsl:if test="$char0 != ' '">
-            <rdam:P30335 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.25z4-e963#', $char0)}"/>
+            <rdamo:P30335 rdf:resource="{concat('https://doi.org/10.6069/uwlswd.25z4-e963#', $char0)}"/>
         </xsl:if>
         
         <xsl:choose>
@@ -595,7 +595,7 @@
         
         <xsl:variable name="char35-37" select="substring(., 36, 3)"/>
         <xsl:if test="not(contains($char35-37, ' ') or contains($char35-37, '|') or contains($char35-37, '#') or contains($char35-37, '-'))">
-            <rdae:P20006 rdf:resource="{normalize-space(concat('http://id.loc.gov/vocabulary/languages/', $char35-37))}"/>
+            <rdaeo:P20006 rdf:resource="{normalize-space(concat('http://id.loc.gov/vocabulary/languages/', $char35-37))}"/>
         </xsl:if>
         
         <xsl:choose>

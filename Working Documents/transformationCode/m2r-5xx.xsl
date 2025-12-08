@@ -299,7 +299,7 @@
                 </xsl:if>
                 <xsl:if test="marc:subfield[@code = '2']">
                     <xsl:for-each select="marc:subfield[@code = 'f']">
-                        <rdam:P30145 rdf:resource="{m2r:conceptIRI(../marc:subfield[@code = '2'][1], .)}"/>
+                        <rdamo:P30145 rdf:resource="{m2r:conceptIRI(../marc:subfield[@code = '2'][1], .)}"/>
                         <xsl:if test="../marc:subfield[@code = '3']">
                             <rdamd:P30137>
                                 <xsl:text>Restriction on access {m2r:conceptIRI(../marc:subfield[@code = '2'][1], .)} applies to {../marc:subfield[@code = '3']}</xsl:text>
@@ -358,7 +358,7 @@
                 </xsl:if>
                 <xsl:if test="marc:subfield[@code = '2']">
                     <xsl:for-each select="marc:subfield[@code = 'f']">
-                        <rdai:P40047 rdf:resource="{m2r:conceptIRI(../marc:subfield[@code = '2'][1], .)}"/>
+                        <rdaio:P40047 rdf:resource="{m2r:conceptIRI(../marc:subfield[@code = '2'][1], .)}"/>
                         <xsl:if test="../marc:subfield[@code = '3']">
                             <rdaid:P40028>
                                 <xsl:text>Restriction on access {m2r:conceptIRI(../marc:subfield[@code = '2'][1], .)} applies to {./marc:subfield[@code = '3']}</xsl:text>
@@ -520,14 +520,14 @@
         mode="wor" expand-text="yes">
         <!--<xsl:call-template name="getmarc"/>-->
         <xsl:if test="marc:subfield[@code = 'a']">
-            <rdaw:P10330>
+            <rdawd:P10330>
                 <xsl:text>Type of report: {marc:subfield[@code = 'a']}</xsl:text>
-            </rdaw:P10330>
+            </rdawd:P10330>
         </xsl:if>
         <xsl:if test="marc:subfield[@code = 'b']">
-            <rdaw:P10216>
+            <rdawd:P10216>
                 <xsl:text>Period covered: {marc:subfield[@code='b']}</xsl:text>
-            </rdaw:P10216>       
+            </rdawd:P10216>       
         </xsl:if>
     </xsl:template>
     
@@ -647,12 +647,12 @@
     <xsl:template match="marc:datafield[@tag = '525'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '525']"
         mode="wor" expand-text="yes">
         <xsl:if test="marc:subfield[@code = 'a']">
-            <rdaw:P10330>
+            <rdawd:P10330>
                 <xsl:text>Supplement note: </xsl:text>
                 <xsl:for-each select="marc:subfield[@code = 'a']">
                     <xsl:value-of select="."/>
                 </xsl:for-each>
-            </rdaw:P10330>
+            </rdawd:P10330>
         </xsl:if>
     </xsl:template>
     
@@ -708,7 +708,7 @@
         mode="man" expand-text="yes">
         <xsl:param name="baseID"/>
         
-        <rdam:P30026>
+        <rdamd:P30026>
             <xsl:choose>
                 <xsl:when test="marc:subfield[@code = '3']">
                     <xsl:value-of select="marc:subfield[@code = '3']"/>
@@ -724,7 +724,7 @@
                     <xsl:text> </xsl:text>
                 </xsl:if>
             </xsl:for-each>
-        </rdam:P30026>
+        </rdamd:P30026>
     </xsl:template>
     
     
@@ -868,7 +868,7 @@
         <!--<xsl:call-template name="getmarc"/>-->
         <xsl:for-each select="marc:subfield[@code = 'a']">
             <rdamd:P30335>
-                <xsl:value-of select="replace(., '\.$', '') => normalize-space()"/>
+                <xsl:value-of select="lower-case(normalize-space(m2r:stripOuterBracketsAndParentheses(m2r:stripEndPunctuation(.))))"/>
             </rdamd:P30335>
         </xsl:for-each>
         <xsl:for-each select="marc:subfield[@code = 'b']">

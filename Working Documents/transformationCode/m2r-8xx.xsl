@@ -459,7 +459,7 @@
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:for-each select="marc:subfield[@code = 'u'][not(contains(., ' '))]">
-                        <rdam:P30154 rdf:resource="{normalize-space(.)}"/>
+                        <rdamo:P30154 rdf:resource="{normalize-space(.)}"/>
                     </xsl:for-each>
                 </xsl:otherwise>
             </xsl:choose>

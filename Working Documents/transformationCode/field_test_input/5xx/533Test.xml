@@ -257,4 +257,10 @@
             <marc:subfield code="b">OCACL</marc:subfield>
         </marc:datafield>
     </marc:record>
+    <marc:record>
+        <marc:leader>00000nam a2200000 i 4500</marc:leader>
+        <marc:datafield tag="533" ind1=" " ind2=" ">
+            <marc:subfield code="a">[ Filmstrip ] :</marc:subfield>
+        </marc:datafield>
+    </marc:record>
 </marc:collection>
