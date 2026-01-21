@@ -1,19 +1,19 @@
 <items>
-  <item xml:lang="en">Assembly</item> 
-  <item xml:lang="en">Conference</item> 
-  <item xml:lang="en">Congress</item> 
-  <item xml:lang="en">Convention</item> 
-  <item xml:lang="en">Exhibition</item> 
-  <item xml:lang="en">Exposition</item> 
-  <item xml:lang="en">Forum</item> 
-  <item xml:lang="en">General assembly</item> 
-  <item xml:lang="en">General council</item> 
-  <item xml:lang="en">Meeting</item> 
-  <item xml:lang="en">Round Table</item> 
-  <item xml:lang="en">Seminar</item> 
-  <item xml:lang="en">Show</item> 
-  <item xml:lang="en">Symposium</item> 
-  <item xml:lang="en">Synod</item> 
-  <item xml:lang="en">Workshop</item> 
-  <item xml:lang="en">proceedings</item> 
+  <item id="f110b245a_assembly" xml:lang="en">Assembly</item> 
+  <item id="f110b245a_conference" xml:lang="en">Conference</item> 
+  <item id="f110b245a_congress" xml:lang="en">Congress</item> 
+  <item id="f110b245a_convention" xml:lang="en">Convention</item> 
+  <item id="f110b245a_exhibition" xml:lang="en">Exhibition</item> 
+  <item id="f110b245a_exposition" xml:lang="en">Exposition</item> 
+  <item id="f110b245a_forum" xml:lang="en">Forum</item> 
+  <item id="f110b245a_general_assembly" xml:lang="en">General assembly</item> 
+  <item id="f110b245a_general_council" xml:lang="en">General council</item> 
+  <item id="f110b245a_meeting" xml:lang="en">Meeting</item> 
+  <item id="f110b245a_round_table" xml:lang="en">Round Table</item> 
+  <item id="f110b245a_seminar" xml:lang="en">Seminar</item> 
+  <item id="f110b245a_show" xml:lang="en">Show</item> 
+  <item id="f110b245a_symposium" xml:lang="en">Symposium</item> 
+  <item id="f110b245a_synod" xml:lang="en">Synod</item> 
+  <item id="f110b245a_workshop" xml:lang="en">Workshop</item> 
+  <item id="f110b245a_proceedings" xml:lang="en">proceedings</item> 
 </items>
