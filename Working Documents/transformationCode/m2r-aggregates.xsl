@@ -6,34 +6,34 @@
     exclude-result-prefixes="marc xs" 
     version="3.0">
     
-    <xsl:variable name="listTextsCCT" select="document('lookup/ListTextsCCT.xml')/items/item"/>
-    <xsl:variable name="listAgentE" select="document('lookup/ListAgent$eAggregators.xml')/items/item"/>
-    <xsl:variable name="listAgent4" select="document('lookup/ListAgent$4Aggregators.xml')/items/item"/>
-    <xsl:variable name="listMusicCCT_MLA_Type_Plural" select="document('lookup/ListMusicCCT-MLA_Type_Plural.xml')/items/item"/>
-    <xsl:variable name="listMusicCCT_MLA_Medium" select="document('lookup/ListMusicCCT-MLA_Medium.xml')/items/item"/>
-    <xsl:variable name="patterns" select="document('lookup/aggregatePatterns.xml')/patterns/pattern" />
-    <xsl:variable name="List245aCollectionTerms" select="document('lookup/List245aCollectionTerms.xml')/items/item"/>
-    <xsl:variable name="List245bCollectionTerms" select="document('lookup/List245bCollectionTerms.xml')/items/item"/>
-    <xsl:variable name="List245cCollectionTerms" select="document('lookup/List245cCollectionTerms.xml')/items/item"/>
-    <xsl:variable name="List520aCollectionTerms" select="document('lookup/List520aCollectionTerms.xml')/items/item"/>
-    <xsl:variable name="ListVAgentEAggregators" select="document('lookup/ListVAgentEAggregators.xml')/items/item"/>
-    <xsl:variable name="ListVAgent4Aggregators" select="document('lookup/ListVAgent4Aggregators.xml')/items/item"/>
-    <xsl:variable name="ListVTextsCCT" select="document('lookup/ListVTextsCCT.xml')/items/item"/>
-    <xsl:variable name="List245cAggregators" select="document('lookup/List245cAggregators.xml')/items/item"/>
-    <xsl:variable name="ListV650a_655aCollectionTerms" select="document('lookup/ListV650a_655aCollectionTerms.xml')/items/item"/>
-    <xsl:variable name="ListV650a_655aCollectionTermsUsually" select="document('lookup/ListV650a_655aCollectionTermsUsually.xml')/items/item"/>
-    <xsl:variable name="ListV650v655vCollectionTermsUsually" select="document('lookup/ListV650v655vCollectionTermsUsually.xml')/items/item"/>
-    <xsl:variable name="ListV650v655vCollectionTerms" select="document('lookup/ListV650v655vCollectionTerms.xml')/items/item"/>
-    <xsl:variable name="List245cIntroductionTerms" select="document('lookup/List245cIntroductionTerms.xml')/items/item"/>
-    <xsl:variable name="List300aSuppCont" select="document('lookup/List300aSuppCont.xml')/items/item"/>
-    <xsl:variable name="List300bSuppCont" select="document('lookup/List300bSuppCont.xml')/items/item"/>
-    <xsl:variable name="ListInvertedEtcTerms" select="document('lookup/ListInvertedEtcTerms.xml')/items/item"/>
-    <xsl:variable name="List546aNotParallelTerms" select="document('lookup/List546aNotParallelTerms.xml')/items/item"/>
-    <xsl:variable name="List500_520ParallelOnlyTerms_CaseNo" select="document('lookup/List500_520ParallelOnlyTerms_CaseNo.xml')/items/item"/>
-    <xsl:variable name="List500_520_546aParallelPlusTerms_CaseNo" select="document('lookup/List500_520_546aParallelPlusTerms_CaseNo.xml')/items/item"/>
-    <xsl:variable name="List110b245aConferenceTerms" select="document('lookup/List110b245aConferenceTerms.xml')/items/item"/>
-    <xsl:variable name="ListVMusicCCT_MLA_Type_Plural" select="document('lookup/ListVMusicCCT_MLA_Type_Plural.xml')/items/item"/>
-    <xsl:variable name="ListVMusicCCT_MLA_Medium" select="document('lookup/ListVMusicCCT_MLA_Medium.xml')/items/item"/>
+    <xsl:variable name="listTextsCCT" select="document('lookup/aggregateLookups/ListTextsCCT.xml')/items/item"/>
+    <xsl:variable name="listAgentE" select="document('lookup/aggregateLookups/ListAgent$eAggregators.xml')/items/item"/>
+    <xsl:variable name="listAgent4" select="document('lookup/aggregateLookups/ListAgent$4Aggregators.xml')/items/item"/>
+    <xsl:variable name="listMusicCCT_MLA_Type_Plural" select="document('lookup/aggregateLookups/ListMusicCCT-MLA_Type_Plural.xml')/items/item"/>
+    <xsl:variable name="listMusicCCT_MLA_Medium" select="document('lookup/aggregateLookups/ListMusicCCT-MLA_Medium.xml')/items/item"/>
+    <xsl:variable name="patterns" select="document('lookup/aggregateLookups/aggregatePatterns.xml')/patterns/pattern" />
+    <xsl:variable name="List245aCollectionTerms" select="document('lookup/aggregateLookups/List245aCollectionTerms.xml')/items/item"/>
+    <xsl:variable name="List245bCollectionTerms" select="document('lookup/aggregateLookups/List245bCollectionTerms.xml')/items/item"/>
+    <xsl:variable name="List245cCollectionTerms" select="document('lookup/aggregateLookups/List245cCollectionTerms.xml')/items/item"/>
+    <xsl:variable name="List520aCollectionTerms" select="document('lookup/aggregateLookups/List520aCollectionTerms.xml')/items/item"/>
+    <xsl:variable name="ListVAgentEAggregators" select="document('lookup/aggregateLookups/ListVAgentEAggregators.xml')/items/item"/>
+    <xsl:variable name="ListVAgent4Aggregators" select="document('lookup/aggregateLookups/ListVAgent4Aggregators.xml')/items/item"/>
+    <xsl:variable name="ListVTextsCCT" select="document('lookup/aggregateLookups/ListVTextsCCT.xml')/items/item"/>
+    <xsl:variable name="List245cAggregators" select="document('lookup/aggregateLookups/List245cAggregators.xml')/items/item"/>
+    <xsl:variable name="ListV650a_655aCollectionTerms" select="document('lookup/aggregateLookups/ListV650a_655aCollectionTerms.xml')/items/item"/>
+    <xsl:variable name="ListV650a_655aCollectionTermsUsually" select="document('lookup/aggregateLookups/ListV650a_655aCollectionTermsUsually.xml')/items/item"/>
+    <xsl:variable name="ListV650v655vCollectionTermsUsually" select="document('lookup/aggregateLookups/ListV650v655vCollectionTermsUsually.xml')/items/item"/>
+    <xsl:variable name="ListV650v655vCollectionTerms" select="document('lookup/aggregateLookups/ListV650v655vCollectionTerms.xml')/items/item"/>
+    <xsl:variable name="List245cIntroductionTerms" select="document('lookup/aggregateLookups/List245cIntroductionTerms.xml')/items/item"/>
+    <xsl:variable name="List300aSuppCont" select="document('lookup/aggregateLookups/List300aSuppCont.xml')/items/item"/>
+    <xsl:variable name="List300bSuppCont" select="document('lookup/aggregateLookups/List300bSuppCont.xml')/items/item"/>
+    <xsl:variable name="ListInvertedEtcTerms" select="document('lookup/aggregateLookups/ListInvertedEtcTerms.xml')/items/item"/>
+    <xsl:variable name="List546aNotParallelTerms" select="document('lookup/aggregateLookups/List546aNotParallelTerms.xml')/items/item"/>
+    <xsl:variable name="List500_520ParallelOnlyTerms_CaseNo" select="document('lookup/aggregateLookups/List500_520ParallelOnlyTerms_CaseNo.xml')/items/item"/>
+    <xsl:variable name="List500_520_546aParallelPlusTerms_CaseNo" select="document('lookup/aggregateLookups/List500_520_546aParallelPlusTerms_CaseNo.xml')/items/item"/>
+    <xsl:variable name="List110b245aConferenceTerms" select="document('lookup/aggregateLookups/List110b245aConferenceTerms.xml')/items/item"/>
+    <xsl:variable name="ListVMusicCCT_MLA_Type_Plural" select="document('lookup/aggregateLookups/ListVMusicCCT_MLA_Type_Plural.xml')/items/item"/>
+    <xsl:variable name="ListVMusicCCT_MLA_Medium" select="document('lookup/aggregateLookups/ListVMusicCCT_MLA_Medium.xml')/items/item"/>
 
     <xsl:template name="append-aggregates" expand-text="yes">
         <xsl:param name="wemi"/>
