@@ -1,0 +1,10 @@
+<items regex="y" case="n">
+  <item xml:lang="en">short stories</item>
+  <item xml:lang="en">poems</item>
+  <item xml:lang="en">lectures</item>
+  <item xml:lang="en">collection of</item>
+  <item xml:lang="en">essays</item>
+  <item xml:lang="en">contains also</item>
+  <item xml:lang="en">contains works</item>
+  <item xml:lang="en">^with: </item>
+</items>

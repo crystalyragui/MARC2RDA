@@ -1,0 +1,4 @@
+<items regex="y" case="y">
+  <item xml:lang="en">A.* reader </item>
+  <item xml:lang="en">The.* reader </item>
+</items>

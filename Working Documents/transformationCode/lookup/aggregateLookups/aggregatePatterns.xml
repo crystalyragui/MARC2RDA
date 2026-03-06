@@ -279,6 +279,7 @@
             )
         </xpath>
    </pattern>
+    <!-- List300aAtlasTerms -->
    <pattern>
       <sort>18</sort>
       <id>5</id>
@@ -286,6 +287,7 @@
       <type>CAM</type>
       <xpath>exists(marc:datafield[@tag='300']/marc:subfield[@code='a'][contains(lower-case(.), ' atlas')])</xpath>
    </pattern>
+    <!-- List6XXaAtlasesTerms -->
    <pattern>
       <sort>19</sort>
       <id>6</id>
@@ -293,6 +295,7 @@
       <type>CAM</type>
       <xpath>exists(marc:datafield[starts-with(@tag, '6')]/marc:subfield[@code='a'][contains(lower-case(.), 'atlases')])</xpath>
    </pattern>
+    <!-- List6XXx_6XXvAtlasesTerms -->
    <pattern>
       <sort>20</sort>
       <id>7</id>
@@ -657,6 +660,7 @@
             
         </xpath>
     </pattern>
+    <!-- List240kSelectionsTerms -->
     <pattern>
       <sort>44</sort>
       <id>26</id>
@@ -683,6 +687,7 @@
             
         </xpath>
     </pattern>
+    <!-- List240kSelectionsTerms -->
     <pattern>
       <sort>45</sort>
       <id>28</id>
@@ -709,6 +714,8 @@
             
         </xpath>
     </pattern>
+    <!-- List245cArrangedTerms -->
+    <!-- List245cNotMusicTerms -->
     <pattern>
       <sort>46</sort>
       <id>39</id>
@@ -732,6 +739,7 @@
             )
         </xpath>
    </pattern>
+    <!-- List300a1MapTerms -->
    <pattern>
       <sort>47</sort>
       <id>41</id>
@@ -745,6 +753,8 @@
             )
         </xpath>
    </pattern>
+    <!-- List245aReaderTerms -->
+    <!-- List245cEditedTerms -->
    <pattern>
       <sort>48</sort>
       <id>43</id>

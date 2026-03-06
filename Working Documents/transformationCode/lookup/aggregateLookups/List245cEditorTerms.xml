@@ -1,0 +1,4 @@
+<items regex="y" case="n">
+  <item xml:lang="en">^edited</item>
+  <item xml:lang="en">^editor</item>
+</items>
