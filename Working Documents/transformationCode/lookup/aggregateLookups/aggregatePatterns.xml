@@ -774,6 +774,7 @@
             ) 
         </xpath>
    </pattern>
+    <!-- List245cEditTerms -->
    <pattern>
       <sort>49</sort>
       <id>49</id>
@@ -789,6 +790,7 @@
             exists(marc:datafield[@tag='130'])
         </xpath>
    </pattern>
+    <!-- List245cEditorTerms -->
    <pattern>
       <sort>50</sort>
       <id>50</id>
@@ -808,6 +810,7 @@
             not(exists(marc:datafield[@tag='111']))
         </xpath>
    </pattern>
+    <!-- List245cEditedByTerms -->
    <pattern>
       <sort>51</sort>
       <id>40</id>
@@ -823,6 +826,7 @@
             not(exists(marc:datafield[@tag='100']))
         </xpath>
    </pattern>
+    <!-- List7XXiAggregatesTerms -->
    <pattern>
       <sort>52</sort>
       <id>42</id>
@@ -1011,6 +1015,8 @@
             )
         </xpath>
    </pattern>
+    <!-- List500aNotCollectionTerms -->
+    <!-- List500aCollectionTerms -->
    <pattern>
       <sort>62</sort>
       <id>92</id>
