@@ -1,0 +1,11 @@
+<items regex="y" case="y">
+    <item xml:lang="en">^The [a-z][a-z]+ work</item>
+    <item xml:lang="en">^In [A-Z][a-z]+ only</item>
+    <item xml:lang="en">^In [A-Z][a-z]+ with</item>
+    <item xml:lang="en">^In [A-Z][a-z]+, with</item>
+    <item xml:lang="en">^In [A-Z][a-z]+;</item>
+    <item xml:lang="en">in [A-Z][a-z]+ only</item>
+    <item xml:lang="en">in [A-Z][a-z]+, with</item>
+    <item xml:lang="en">in [A-Z][a-z]+;</item>
+    <item xml:lang="en">in [A-Z][a-z]+ with</item>
+</items>

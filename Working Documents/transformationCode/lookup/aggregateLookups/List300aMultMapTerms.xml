@@ -1,0 +1,9 @@
+<items regex="n" case="n">
+  <item xml:lang="en">pages</item>
+  <item xml:lang="en">p.</item>
+  <item xml:lang="en">leaves</item>
+  <item xml:lang="en">volume</item>
+  <item xml:lang="en">vol.</item>
+  <item xml:lang="en">v.</item>
+  <item xml:lang="en">maps</item>
+</items>

@@ -1,0 +1,5 @@
+<items regex="n" case="n">
+    <item xml:lang="en"> and </item>
+    <item xml:lang="en">&amp;</item>
+    <item xml:lang="en">polyglot</item>
+</items>

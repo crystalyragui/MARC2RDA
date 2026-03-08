@@ -1,0 +1,4 @@
+<items regex="y" case="y">
+    <item xml:lang="en">^In [A-Z][a-z]+ and [A-Z][a-z]+</item>
+    <item xml:lang="en">^In [A-Z][a-z]+, [A-Z][a-z]+</item>
+</items>

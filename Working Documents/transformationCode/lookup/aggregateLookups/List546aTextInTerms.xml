@@ -1,0 +1,6 @@
+<items regex="y" case="y">
+    <item xml:lang="en">^Text in</item>
+    <item xml:lang="en">^Texts in</item>
+    <item xml:lang="en">^Songs in</item>
+    <item xml:lang="en">^Sung in</item>
+</items>

@@ -1,0 +1,6 @@
+<items regex="y" case="y">
+    <item xml:lang="en">[A-Z][a-z]+ and translation in [A-Z][a-z]+</item>
+    <item xml:lang="en">[A-Z][a-z]+ and [A-Z][a-z]+ translation</item>
+    <item xml:lang="en">[A-Z][a-z]+ text with [A-Z][a-z]+ translation</item>
+    <item xml:lang="en">[A-Z][a-z]+ texts with [A-Z][a-z]+ translation</item>
+</items>
