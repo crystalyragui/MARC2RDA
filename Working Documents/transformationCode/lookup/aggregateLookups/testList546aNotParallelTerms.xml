@@ -1,0 +1,146 @@
+<items regex="N" case="Y">
+  <item id="13" xml:lang="en">1st work</item>
+  <item id="13" xml:lang="es">fake</item>
+  <item id="87" xml:lang="en">abstract</item>
+  <item id="87" xml:lang="es">fake</item>
+  <item id="90" xml:lang="en">accompan</item>
+  <item id="90" xml:lang="es">fake</item>
+  <item id="96" xml:lang="en">added material</item>
+  <item id="96" xml:lang="es">fake</item>
+  <item id="99" xml:lang="en">advertisement</item>
+  <item id="99" xml:lang="es">fake</item>
+  <item id="148" xml:lang="en">annotations</item>
+  <item id="148" xml:lang="es">fake</item>
+  <item id="155" xml:lang="en">appendices</item>
+  <item id="155" xml:lang="es">fake</item>
+  <item id="156" xml:lang="en">appendix</item>
+  <item id="156" xml:lang="es">fake</item>
+  <item id="170" xml:lang="en">article</item>
+  <item id="170" xml:lang="es">fake</item>
+  <item id="219" xml:lang="en">bibliog</item>
+  <item id="219" xml:lang="es">fake</item>
+  <item id="278" xml:lang="en">captions</item>
+  <item id="278" xml:lang="es">fake</item>
+  <item id="301" xml:lang="en">chapter</item>
+  <item id="301" xml:lang="es">fake</item>
+  <item id="305" xml:lang="en">chiefly</item>
+  <item id="305" xml:lang="es">fake</item>
+  <item id="329" xml:lang="en">citations</item>
+  <item id="329" xml:lang="es">fake</item>
+  <item id="347" xml:lang="en">collection material</item>
+  <item id="347" xml:lang="es">fake</item>
+  <item id="354" xml:lang="en">commentar</item>
+  <item id="354" xml:lang="es">fake</item>
+  <item id="391" xml:lang="en">conclusion</item>
+  <item id="391" xml:lang="es">fake</item>
+  <item id="400" xml:lang="en">contains</item>
+  <item id="400" xml:lang="es">fake</item>
+  <item id="404" xml:lang="en">contribution</item>
+  <item id="404" xml:lang="es">fake</item>
+  <item id="435" xml:lang="en">cover</item>
+  <item id="435" xml:lang="es">fake</item>
+  <item id="571" xml:lang="en">essay</item>
+  <item id="571" xml:lang="es">fake</item>
+  <item id="588" xml:lang="en">excerpts</item>
+  <item id="588" xml:lang="es">fake</item>
+  <item id="593" xml:lang="en">extracts</item>
+  <item id="593" xml:lang="es">fake</item>
+  <item id="631" xml:lang="en">first work</item>
+  <item id="631" xml:lang="es">fake</item>
+  <item id="642" xml:lang="en">footnotes</item>
+  <item id="642" xml:lang="es">fake</item>
+  <item id="643" xml:lang="en">foreword</item>
+  <item id="643" xml:lang="es">fake</item>
+  <item id="689" xml:lang="en">glossary</item>
+  <item id="689" xml:lang="es">fake</item>
+  <item id="747" xml:lang="en">include</item>
+  <item id="747" xml:lang="es">fake</item>
+  <item id="748" xml:lang="en">index</item>
+  <item id="748" xml:lang="es">fake</item>
+  <item id="751" xml:lang="en">information in</item>
+  <item id="751" xml:lang="es">fake</item>
+  <item id="755" xml:lang="en">instruction</item>
+  <item id="755" xml:lang="es">fake</item>
+  <item id="763" xml:lang="en">interview</item>
+  <item id="763" xml:lang="es">fake</item>
+  <item id="767" xml:lang="en">intro</item>
+  <item id="767" xml:lang="es">fake</item>
+  <item id="780" xml:lang="en">issue</item>
+  <item id="780" xml:lang="es">fake</item>
+  <item id="841" xml:lang="en">legend</item>
+  <item id="841" xml:lang="es">fake</item>
+  <item id="876" xml:lang="en">main</item>
+  <item id="876" xml:lang="es">fake</item>
+  <item id="877" xml:lang="en">mainly in</item>
+  <item id="877" xml:lang="es">fake</item>
+  <item id="928" xml:lang="en">most</item>
+  <item id="928" xml:lang="es">fake</item>
+  <item id="929" xml:lang="en">mostly in</item>
+  <item id="929" xml:lang="es">fake</item>
+  <item id="960" xml:lang="en">narration</item>
+  <item id="960" xml:lang="es">fake</item>
+  <item id="974" xml:lang="en">note on verso</item>
+  <item id="974" xml:lang="es">fake</item>
+  <item id="976" xml:lang="en">notes</item>
+  <item id="976" xml:lang="es">fake</item>
+  <item id="990" xml:lang="en">occasional</item>
+  <item id="990" xml:lang="es">fake</item>
+  <item id="1005" xml:lang="en">only</item>
+  <item id="1005" xml:lang="es">fake</item>
+  <item id="1026" xml:lang="en">panel title</item>
+  <item id="1026" xml:lang="es">fake</item>
+  <item id="1033" xml:lang="en">papers</item>
+  <item id="1033" xml:lang="es">fake</item>
+  <item id="1035" xml:lang="en">parallel title</item>
+  <item id="1035" xml:lang="es">fake</item>
+  <item id="1041" xml:lang="en">part</item>
+  <item id="1041" xml:lang="es">fake</item>
+  <item id="1055" xml:lang="en">passages</item>
+  <item id="1055" xml:lang="es">fake</item>
+  <item id="1122" xml:lang="en">place names</item>
+  <item id="1122" xml:lang="es">fake</item>
+  <item id="1152" xml:lang="en">portion</item>
+  <item id="1152" xml:lang="es">fake</item>
+  <item id="1175" xml:lang="en">predominantly</item>
+  <item id="1175" xml:lang="es">fake</item>
+  <item id="1176" xml:lang="en">pref</item>
+  <item id="1176" xml:lang="es">fake</item>
+  <item id="1177" xml:lang="en">preliminary</item>
+  <item id="1177" xml:lang="es">fake</item>
+  <item id="1183" xml:lang="en">primarily</item>
+  <item id="1183" xml:lang="es">fake</item>
+  <item id="1184" xml:lang="en">principally</item>
+  <item id="1184" xml:lang="es">fake</item>
+  <item id="1250" xml:lang="en">reference</item>
+  <item id="1250" xml:lang="es">fake</item>
+  <item id="1340" xml:lang="en">searchable in</item>
+  <item id="1340" xml:lang="es">fake</item>
+  <item id="1342" xml:lang="en">section</item>
+  <item id="1342" xml:lang="es">fake</item>
+  <item id="1377" xml:lang="en">several</item>
+  <item id="1377" xml:lang="es">fake</item>
+  <item id="1410" xml:lang="en">some </item>
+  <item id="1410" xml:lang="es">fake</item>
+  <item id="1462" xml:lang="en">summaries</item>
+  <item id="1462" xml:lang="es">fake</item>
+  <item id="1464" xml:lang="en">summary</item>
+  <item id="1464" xml:lang="es">fake</item>
+  <item id="1475" xml:lang="en">table of content</item>
+  <item id="1475" xml:lang="es">fake</item>
+  <item id="1478" xml:lang="en">tables of content</item>
+  <item id="1478" xml:lang="es">fake</item>
+  <item id="1547" xml:lang="en">title in</item>
+  <item id="1547" xml:lang="es">fake</item>
+  <item id="1548" xml:lang="en">title page</item>
+  <item id="1548" xml:lang="es">fake</item>
+  <item id="1549" xml:lang="en">Title</item>
+  <item id="1549" xml:lang="es">fake</item>
+  <item id="1562" xml:lang="en">Track</item>
+  <item id="1562" xml:lang="es">fake</item>
+  <item id="1568" xml:lang="en">Translat</item>
+  <item id="1568" xml:lang="es">fake</item>
+  <item id="1627" xml:lang="en">vocal selections</item>
+  <item id="1627" xml:lang="es">fake</item>
+  <item id="1650" xml:lang="en">works</item>
+  <item id="1650" xml:lang="es">fake</item>
+</items>

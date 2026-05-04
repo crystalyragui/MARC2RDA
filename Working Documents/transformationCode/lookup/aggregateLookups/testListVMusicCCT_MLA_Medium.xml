@@ -1,0 +1,78 @@
+<items regex="N" case="Y">
+  <item id="91" xml:lang="en">Accordion music</item>
+  <item id="91" xml:lang="es">fake</item>
+  <item id="202" xml:lang="en">Band music</item>
+  <item id="202" xml:lang="es">fake</item>
+  <item id="203" xml:lang="en">Banjo music</item>
+  <item id="203" xml:lang="es">fake</item>
+  <item id="294" xml:lang="en">Cello piano music</item>
+  <item id="294" xml:lang="es">fake</item>
+  <item id="298" xml:lang="en">Chamber music</item>
+  <item id="298" xml:lang="es">fake</item>
+  <item id="308" xml:lang="en">Choral music</item>
+  <item id="308" xml:lang="es">fake</item>
+  <item id="328" xml:lang="en">Cimbalom music</item>
+  <item id="328" xml:lang="es">fake</item>
+  <item id="384" xml:lang="en">Computer music</item>
+  <item id="384" xml:lang="es">fake</item>
+  <item id="497" xml:lang="en">Divine songs</item>
+  <item id="497" xml:lang="es">fake</item>
+  <item id="521" xml:lang="en">Double bass music</item>
+  <item id="521" xml:lang="es">fake</item>
+  <item id="552" xml:lang="en">Electronic music</item>
+  <item id="552" xml:lang="es">fake</item>
+  <item id="702" xml:lang="en">Guitar music</item>
+  <item id="702" xml:lang="es">fake</item>
+  <item id="707" xml:lang="en">Harp music</item>
+  <item id="707" xml:lang="es">fake</item>
+  <item id="708" xml:lang="en">Harpsichord music</item>
+  <item id="708" xml:lang="es">fake</item>
+  <item id="746" xml:lang="en">Incidental music</item>
+  <item id="746" xml:lang="es">fake</item>
+  <item id="756" xml:lang="en">Instrumental music</item>
+  <item id="756" xml:lang="es">fake</item>
+  <item id="809" xml:lang="en">Keyboard instrument music</item>
+  <item id="809" xml:lang="es">fake</item>
+  <item id="810" xml:lang="en">Keyboard music</item>
+  <item id="810" xml:lang="es">fake</item>
+  <item id="867" xml:lang="en">Lute music</item>
+  <item id="867" xml:lang="es">fake</item>
+  <item id="936" xml:lang="en">Motion picture music</item>
+  <item id="936" xml:lang="es">fake</item>
+  <item id="950" xml:lang="en">Musical clock music</item>
+  <item id="950" xml:lang="es">fake</item>
+  <item id="952" xml:lang="en">Musical works</item>
+  <item id="952" xml:lang="es">fake</item>
+  <item id="955" xml:lang="en">Musicals</item>
+  <item id="955" xml:lang="es">fake</item>
+  <item id="985" xml:lang="en">Nursery songs</item>
+  <item id="985" xml:lang="es">fake</item>
+  <item id="1006" xml:lang="en">Operas</item>
+  <item id="1006" xml:lang="es">fake</item>
+  <item id="1010" xml:lang="en">Oratorios</item>
+  <item id="1010" xml:lang="es">fake</item>
+  <item id="1011" xml:lang="en">Orchestra music (Sketches)</item>
+  <item id="1011" xml:lang="es">fake</item>
+  <item id="1012" xml:lang="en">Organ music</item>
+  <item id="1012" xml:lang="es">fake</item>
+  <item id="1112" xml:lang="en">Piano music</item>
+  <item id="1112" xml:lang="es">fake</item>
+  <item id="1197" xml:lang="en">Professional voice</item>
+  <item id="1197" xml:lang="es">fake</item>
+  <item id="1356" xml:lang="en">Selections</item>
+  <item id="1356" xml:lang="es">fake</item>
+  <item id="1450" xml:lang="en">String quartet music</item>
+  <item id="1450" xml:lang="es">fake</item>
+  <item id="1619" xml:lang="en">Viola da gamba music</item>
+  <item id="1619" xml:lang="es">fake</item>
+  <item id="1620" xml:lang="en">Violin music</item>
+  <item id="1620" xml:lang="es">fake</item>
+  <item id="1621" xml:lang="en">Violin orchestra music</item>
+  <item id="1621" xml:lang="es">fake</item>
+  <item id="1622" xml:lang="en">Violin piano music</item>
+  <item id="1622" xml:lang="es">fake</item>
+  <item id="1626" xml:lang="en">Vocal music</item>
+  <item id="1626" xml:lang="es">fake</item>
+  <item id="1639" xml:lang="en">Water music</item>
+  <item id="1639" xml:lang="es">fake</item>
+</items>

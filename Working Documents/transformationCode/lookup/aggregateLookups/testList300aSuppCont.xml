@@ -1,0 +1,74 @@
+<items regex="Y" case="N">
+  <item id="97" xml:lang="en">adv.</item>
+  <item id="97" xml:lang="es">fake</item>
+  <item id="100" xml:lang="en">advertisements</item>
+  <item id="100" xml:lang="es">fake</item>
+  <item id="126" xml:lang="en">ambrotype</item>
+  <item id="126" xml:lang="es">fake</item>
+  <item id="302" xml:lang="en">chart</item>
+  <item id="302" xml:lang="es">fake</item>
+  <item id="330" xml:lang="en">coat of arms</item>
+  <item id="330" xml:lang="es">fake</item>
+  <item id="332" xml:lang="en">coat-of-arms</item>
+  <item id="332" xml:lang="es">fake</item>
+  <item id="334" xml:lang="en">coats of arms</item>
+  <item id="334" xml:lang="es">fake</item>
+  <item id="336" xml:lang="en">coats-of-arms</item>
+  <item id="336" xml:lang="es">fake</item>
+  <item id="447" xml:lang="en">daguerreotype</item>
+  <item id="447" xml:lang="es">fake</item>
+  <item id="466" xml:lang="en">diagr</item>
+  <item id="466" xml:lang="es">fake</item>
+  <item id="468" xml:lang="en">diagrs</item>
+  <item id="468" xml:lang="es">fake</item>
+  <item id="599" xml:lang="en">facsim </item>
+  <item id="599" xml:lang="es">fake</item>
+  <item id="632" xml:lang="en">floor plans</item>
+  <item id="632" xml:lang="es">fake</item>
+  <item id="645" xml:lang="en">form </item>
+  <item id="645" xml:lang="es">fake</item>
+  <item id="650" xml:lang="en">front</item>
+  <item id="650" xml:lang="es">fake</item>
+  <item id="675" xml:lang="en">geneal</item>
+  <item id="675" xml:lang="es">fake</item>
+  <item id="691" xml:lang="en">graph </item>
+  <item id="691" xml:lang="es">fake</item>
+  <item id="694" xml:lang="en">graphite</item>
+  <item id="694" xml:lang="es">fake</item>
+  <item id="696" xml:lang="en">graphs</item>
+  <item id="696" xml:lang="es">fake</item>
+  <item id="736" xml:lang="en">ill</item>
+  <item id="736" xml:lang="es">fake</item>
+  <item id="885" xml:lang="en">map</item>
+  <item id="885" xml:lang="es">fake</item>
+  <item id="948" xml:lang="en">music</item>
+  <item id="948" xml:lang="es">fake</item>
+  <item id="1097" xml:lang="en">phot.</item>
+  <item id="1097" xml:lang="es">fake</item>
+  <item id="1099" xml:lang="en">photo </item>
+  <item id="1099" xml:lang="es">fake</item>
+  <item id="1103" xml:lang="en">photograph</item>
+  <item id="1103" xml:lang="es">fake</item>
+  <item id="1110" xml:lang="en">photos</item>
+  <item id="1110" xml:lang="es">fake</item>
+  <item id="1120" xml:lang="en">pl.</item>
+  <item id="1120" xml:lang="es">fake</item>
+  <item id="1123" xml:lang="en">plan</item>
+  <item id="1123" xml:lang="es">fake</item>
+  <item id="1125" xml:lang="en">plate</item>
+  <item id="1125" xml:lang="es">fake</item>
+  <item id="1149" xml:lang="en">port.</item>
+  <item id="1149" xml:lang="es">fake</item>
+  <item id="1150" xml:lang="en">port</item>
+  <item id="1150" xml:lang="es">fake</item>
+  <item id="1153" xml:lang="en">portrait</item>
+  <item id="1153" xml:lang="es">fake</item>
+  <item id="1155" xml:lang="en">ports</item>
+  <item id="1155" xml:lang="es">fake</item>
+  <item id="1313" xml:lang="en">sample</item>
+  <item id="1313" xml:lang="es">fake</item>
+  <item id="1335" xml:lang="en">score</item>
+  <item id="1335" xml:lang="es">fake</item>
+  <item id="1544" xml:lang="en">tintype</item>
+  <item id="1544" xml:lang="es">fake</item>
+</items>

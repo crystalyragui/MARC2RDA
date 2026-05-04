@@ -1,0 +1,182 @@
+<items regex="N" case="Y">
+  <item id="112" xml:lang="en">Albums (Books)</item>
+  <item id="112" xml:lang="es">fake</item>
+  <item id="120" xml:lang="en">Almanacs</item>
+  <item id="120" xml:lang="es">fake</item>
+  <item id="138" xml:lang="en">Anatomical atlases</item>
+  <item id="138" xml:lang="es">fake</item>
+  <item id="150" xml:lang="en">Anthology films</item>
+  <item id="150" xml:lang="es">fake</item>
+  <item id="152" xml:lang="en">Anthology television programs</item>
+  <item id="152" xml:lang="es">fake</item>
+  <item id="176" xml:lang="en">Artist files</item>
+  <item id="176" xml:lang="es">fake</item>
+  <item id="178" xml:lang="en">Atlases</item>
+  <item id="178" xml:lang="es">fake</item>
+  <item id="220" xml:lang="en">Bibliographies</item>
+  <item id="220" xml:lang="es">fake</item>
+  <item id="248" xml:lang="en">Calendars</item>
+  <item id="248" xml:lang="es">fake</item>
+  <item id="286" xml:lang="en">Catalogs</item>
+  <item id="286" xml:lang="es">fake</item>
+  <item id="288" xml:lang="en">Catalogues raisonne´s</item>
+  <item id="288" xml:lang="es">fake</item>
+  <item id="306" xml:lang="en">Children's atlases</item>
+  <item id="306" xml:lang="es">fake</item>
+  <item id="338" xml:lang="en">Collages</item>
+  <item id="338" xml:lang="es">fake</item>
+  <item id="348" xml:lang="en">Collections</item>
+  <item id="348" xml:lang="es">fake</item>
+  <item id="360" xml:lang="en">Compilation films</item>
+  <item id="360" xml:lang="es">fake</item>
+  <item id="362" xml:lang="en">Compilation radio programs</item>
+  <item id="362" xml:lang="es">fake</item>
+  <item id="364" xml:lang="en">Compilation television programs</item>
+  <item id="364" xml:lang="es">fake</item>
+  <item id="392" xml:lang="en">Concordances</item>
+  <item id="392" xml:lang="es">fake</item>
+  <item id="394" xml:lang="en">Conference materials</item>
+  <item id="394" xml:lang="es">fake</item>
+  <item id="396" xml:lang="en">Conference papers and proceedings</item>
+  <item id="396" xml:lang="es">fake</item>
+  <item id="405" xml:lang="en">Controlled vocabularies</item>
+  <item id="405" xml:lang="es">fake</item>
+  <item id="417" xml:lang="en">Cookbooks</item>
+  <item id="417" xml:lang="es">fake</item>
+  <item id="440" xml:lang="en">Cruise books</item>
+  <item id="440" xml:lang="es">fake</item>
+  <item id="459" xml:lang="en">Databases</item>
+  <item id="459" xml:lang="es">fake</item>
+  <item id="461" xml:lang="en">Death registers</item>
+  <item id="461" xml:lang="es">fake</item>
+  <item id="476" xml:lang="en">Dictionaries</item>
+  <item id="476" xml:lang="es">fake</item>
+  <item id="480" xml:lang="en">Digests</item>
+  <item id="480" xml:lang="es">fake</item>
+  <item id="482" xml:lang="en">Directories</item>
+  <item id="482" xml:lang="es">fake</item>
+  <item id="488" xml:lang="en">Discographies</item>
+  <item id="488" xml:lang="es">fake</item>
+  <item id="557" xml:lang="en">Encyclopedias</item>
+  <item id="557" xml:lang="es">fake</item>
+  <item id="584" xml:lang="en">Etymological dictionaries</item>
+  <item id="584" xml:lang="es">fake</item>
+  <item id="591" xml:lang="en">Exhibition catalogs</item>
+  <item id="591" xml:lang="es">fake</item>
+  <item id="617" xml:lang="en">FAQs</item>
+  <item id="617" xml:lang="es">fake</item>
+  <item id="619" xml:lang="en">Festschriften</item>
+  <item id="619" xml:lang="es">fake</item>
+  <item id="621" xml:lang="en">Fiction</item>
+  <item id="621" xml:lang="es">fake</item>
+  <item id="625" xml:lang="en">Filmographies</item>
+  <item id="625" xml:lang="es">fake</item>
+  <item id="629" xml:lang="en">Finding aids</item>
+  <item id="629" xml:lang="es">fake</item>
+  <item id="670" xml:lang="en">Gazetteers</item>
+  <item id="670" xml:lang="es">fake</item>
+  <item id="672" xml:lang="en">Gazettes</item>
+  <item id="672" xml:lang="es">fake</item>
+  <item id="677" xml:lang="en">Genealogy</item>
+  <item id="677" xml:lang="es">fake</item>
+  <item id="687" xml:lang="en">Glossaries, vocabularies, etc.</item>
+  <item id="687" xml:lang="es">fake</item>
+  <item id="700" xml:lang="en">Guidebooks</item>
+  <item id="700" xml:lang="es">fake</item>
+  <item id="732" xml:lang="en">Hymnals</item>
+  <item id="732" xml:lang="es">fake</item>
+  <item id="749" xml:lang="en">Indexes</item>
+  <item id="749" xml:lang="es">fake</item>
+  <item id="811" xml:lang="en">Kits</item>
+  <item id="811" xml:lang="es">fake</item>
+  <item id="825" xml:lang="en">Law commentaries</item>
+  <item id="825" xml:lang="es">fake</item>
+  <item id="827" xml:lang="en">Law digests</item>
+  <item id="827" xml:lang="es">fake</item>
+  <item id="839" xml:lang="en">Legal maxims</item>
+  <item id="839" xml:lang="es">fake</item>
+  <item id="846" xml:lang="en">Legislative histories</item>
+  <item id="846" xml:lang="es">fake</item>
+  <item id="861" xml:lang="en">Literary collections</item>
+  <item id="861" xml:lang="es">fake</item>
+  <item id="871" xml:lang="en">Magazine format radio programs</item>
+  <item id="871" xml:lang="es">fake</item>
+  <item id="873" xml:lang="en">Magazine format television programs</item>
+  <item id="873" xml:lang="es">fake</item>
+  <item id="891" xml:lang="en">Martyrologies</item>
+  <item id="891" xml:lang="es">fake</item>
+  <item id="893" xml:lang="en">Mashups (Music)</item>
+  <item id="893" xml:lang="es">fake</item>
+  <item id="906" xml:lang="en">Medleys (Music)</item>
+  <item id="906" xml:lang="es">fake</item>
+  <item id="934" xml:lang="en">Motion picture music</item>
+  <item id="934" xml:lang="es">fake</item>
+  <item id="943" xml:lang="en">Multilingual dictionaries</item>
+  <item id="943" xml:lang="es">fake</item>
+  <item id="953" xml:lang="en">Musicals</item>
+  <item id="953" xml:lang="es">fake</item>
+  <item id="970" xml:lang="en">Nomenclatures</item>
+  <item id="970" xml:lang="es">fake</item>
+  <item id="1027" xml:lang="en">Pantomimes with music</item>
+  <item id="1027" xml:lang="es">fake</item>
+  <item id="1095" xml:lang="en">Pharmacopoeias</item>
+  <item id="1095" xml:lang="es">fake</item>
+  <item id="1101" xml:lang="en">Photobooks</item>
+  <item id="1101" xml:lang="es">fake</item>
+  <item id="1113" xml:lang="en">Picture dictionaries</item>
+  <item id="1113" xml:lang="es">fake</item>
+  <item id="1190" xml:lang="en">Proceedings</item>
+  <item id="1190" xml:lang="es">fake</item>
+  <item id="1230" xml:lang="en">Radio anthologies</item>
+  <item id="1230" xml:lang="es">fake</item>
+  <item id="1253" xml:lang="en">Religious inventories</item>
+  <item id="1253" xml:lang="es">fake</item>
+  <item id="1269" xml:lang="en">Reverse dictionaries</item>
+  <item id="1269" xml:lang="es">fake</item>
+  <item id="1315" xml:lang="en">Sampler albums (Sound recordings)</item>
+  <item id="1315" xml:lang="es">fake</item>
+  <item id="1332" xml:lang="en">School yearbooks</item>
+  <item id="1332" xml:lang="es">fake</item>
+  <item id="1425" xml:lang="en">Songbooks</item>
+  <item id="1425" xml:lang="es">fake</item>
+  <item id="1494" xml:lang="en">Telephone directories</item>
+  <item id="1494" xml:lang="es">fake</item>
+  <item id="1499" xml:lang="en">Terminology</item>
+  <item id="1499" xml:lang="es">fake</item>
+  <item id="1501" xml:lang="en">Terms and phrases</item>
+  <item id="1501" xml:lang="es">fake</item>
+  <item id="1533" xml:lang="en">Thematic catalogs (Music)</item>
+  <item id="1533" xml:lang="es">fake</item>
+  <item id="1537" xml:lang="en">Thesauri (Dictionaries)</item>
+  <item id="1537" xml:lang="es">fake</item>
+  <item id="1563" xml:lang="en">Trade catalogs</item>
+  <item id="1563" xml:lang="es">fake</item>
+  <item id="1565" xml:lang="en">Trademark lists</item>
+  <item id="1565" xml:lang="es">fake</item>
+  <item id="1583" xml:lang="en">Underground newspapers</item>
+  <item id="1583" xml:lang="es">fake</item>
+  <item id="1585" xml:lang="en">Underground periodicals</item>
+  <item id="1585" xml:lang="es">fake</item>
+  <item id="1587" xml:lang="en">Union catalogs</item>
+  <item id="1587" xml:lang="es">fake</item>
+  <item id="1589" xml:lang="en">Union lists</item>
+  <item id="1589" xml:lang="es">fake</item>
+  <item id="1600" xml:lang="en">Variety show</item>
+  <item id="1600" xml:lang="es">fake</item>
+  <item id="1610" xml:lang="en">Video catalogs</item>
+  <item id="1610" xml:lang="es">fake</item>
+  <item id="1635" xml:lang="en">Vox pop radio programs</item>
+  <item id="1635" xml:lang="es">fake</item>
+  <item id="1642" xml:lang="en">Wine lists</item>
+  <item id="1642" xml:lang="es">fake</item>
+  <item id="1652" xml:lang="en">World atlases</item>
+  <item id="1652" xml:lang="es">fake</item>
+  <item id="1658" xml:lang="en">Yearbooks</item>
+  <item id="1658" xml:lang="es">fake</item>
+  <item id="1660" xml:lang="en">Yellow pages</item>
+  <item id="1660" xml:lang="es">fake</item>
+  <item id="1666" xml:lang="en">Zeitschrift</item>
+  <item id="1666" xml:lang="es">fake</item>
+  <item id="1668" xml:lang="en">Zines</item>
+  <item id="1668" xml:lang="es">fake</item>
+</items>

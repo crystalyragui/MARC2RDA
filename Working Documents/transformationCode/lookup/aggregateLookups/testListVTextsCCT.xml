@@ -1,0 +1,128 @@
+<items regex="N" case="Y">
+  <item id="146" xml:lang="en">Anecdotes</item>
+  <item id="146" xml:lang="es">fake</item>
+  <item id="154" xml:lang="en">Aphorisms</item>
+  <item id="154" xml:lang="es">fake</item>
+  <item id="175" xml:lang="en">Articles</item>
+  <item id="175" xml:lang="es">fake</item>
+  <item id="281" xml:lang="en">Cartoons</item>
+  <item id="281" xml:lang="es">fake</item>
+  <item id="350" xml:lang="en">Colloquia</item>
+  <item id="350" xml:lang="es">fake</item>
+  <item id="351" xml:lang="en">Comic books</item>
+  <item id="351" xml:lang="es">fake</item>
+  <item id="352" xml:lang="en">Comic strips</item>
+  <item id="352" xml:lang="es">fake</item>
+  <item id="353" xml:lang="en">Comics</item>
+  <item id="353" xml:lang="es">fake</item>
+  <item id="355" xml:lang="en">Commentaries</item>
+  <item id="355" xml:lang="es">fake</item>
+  <item id="432" xml:lang="en">Correspondence</item>
+  <item id="432" xml:lang="es">fake</item>
+  <item id="474" xml:lang="en">Dialogues</item>
+  <item id="474" xml:lang="es">fake</item>
+  <item id="475" xml:lang="en">Diaries</item>
+  <item id="475" xml:lang="es">fake</item>
+  <item id="526" xml:lang="en">Drawings</item>
+  <item id="526" xml:lang="es">fake</item>
+  <item id="562" xml:lang="en">Epigrammata</item>
+  <item id="562" xml:lang="es">fake</item>
+  <item id="570" xml:lang="en">Essais</item>
+  <item id="570" xml:lang="es">fake</item>
+  <item id="578" xml:lang="en">Essays</item>
+  <item id="578" xml:lang="es">fake</item>
+  <item id="596" xml:lang="en">Fables</item>
+  <item id="596" xml:lang="es">fake</item>
+  <item id="693" xml:lang="en">Graphic novels</item>
+  <item id="693" xml:lang="es">fake</item>
+  <item id="723" xml:lang="en">Homilies</item>
+  <item id="723" xml:lang="es">fake</item>
+  <item id="738" xml:lang="en">Illustrations</item>
+  <item id="738" xml:lang="es">fake</item>
+  <item id="792" xml:lang="en">Journalism</item>
+  <item id="792" xml:lang="es">fake</item>
+  <item id="798" xml:lang="en">Judicial opinions</item>
+  <item id="798" xml:lang="es">fake</item>
+  <item id="838" xml:lang="en">Lectures</item>
+  <item id="838" xml:lang="es">fake</item>
+  <item id="859" xml:lang="en">Librettos</item>
+  <item id="859" xml:lang="es">fake</item>
+  <item id="863" xml:lang="en">Literary works</item>
+  <item id="863" xml:lang="es">fake</item>
+  <item id="868" xml:lang="en">Lyrics</item>
+  <item id="868" xml:lang="es">fake</item>
+  <item id="905" xml:lang="en">Meditations</item>
+  <item id="905" xml:lang="es">fake</item>
+  <item id="920" xml:lang="en">Missal</item>
+  <item id="920" xml:lang="es">fake</item>
+  <item id="965" xml:lang="en">Newspaper columns</item>
+  <item id="965" xml:lang="es">fake</item>
+  <item id="975" xml:lang="en">Notebooks</item>
+  <item id="975" xml:lang="es">fake</item>
+  <item id="979" xml:lang="en">Novellas</item>
+  <item id="979" xml:lang="es">fake</item>
+  <item id="983" xml:lang="en">Novels</item>
+  <item id="983" xml:lang="es">fake</item>
+  <item id="984" xml:lang="en">Nursery rhymes</item>
+  <item id="984" xml:lang="es">fake</item>
+  <item id="996" xml:lang="en">Odes</item>
+  <item id="996" xml:lang="es">fake</item>
+  <item id="1009" xml:lang="en">Orations</item>
+  <item id="1009" xml:lang="es">fake</item>
+  <item id="1024" xml:lang="en">Paintings</item>
+  <item id="1024" xml:lang="es">fake</item>
+  <item id="1034" xml:lang="en">Papers</item>
+  <item id="1034" xml:lang="es">fake</item>
+  <item id="1066" xml:lang="en">Pastoral letters</item>
+  <item id="1066" xml:lang="es">fake</item>
+  <item id="1109" xml:lang="en">Photographs</item>
+  <item id="1109" xml:lang="es">fake</item>
+  <item id="1127" xml:lang="en">Plays</item>
+  <item id="1127" xml:lang="es">fake</item>
+  <item id="1136" xml:lang="en">Poems</item>
+  <item id="1136" xml:lang="es">fake</item>
+  <item id="1140" xml:lang="en">Poetry</item>
+  <item id="1140" xml:lang="es">fake</item>
+  <item id="1154" xml:lang="en">Portraits</item>
+  <item id="1154" xml:lang="es">fake</item>
+  <item id="1157" xml:lang="en">Postcards</item>
+  <item id="1157" xml:lang="es">fake</item>
+  <item id="1158" xml:lang="en">Posters</item>
+  <item id="1158" xml:lang="es">fake</item>
+  <item id="1173" xml:lang="en">Prayers</item>
+  <item id="1173" xml:lang="es">fake</item>
+  <item id="1185" xml:lang="en">Prints</item>
+  <item id="1185" xml:lang="es">fake</item>
+  <item id="1198" xml:lang="en">Prose poems</item>
+  <item id="1198" xml:lang="es">fake</item>
+  <item id="1199" xml:lang="en">Prose works</item>
+  <item id="1199" xml:lang="es">fake</item>
+  <item id="1224" xml:lang="en">Quotations</item>
+  <item id="1224" xml:lang="es">fake</item>
+  <item id="1338" xml:lang="en">Screenplays</item>
+  <item id="1338" xml:lang="es">fake</item>
+  <item id="1339" xml:lang="en">Sculptures</item>
+  <item id="1339" xml:lang="es">fake</item>
+  <item id="1344" xml:lang="en">Selected stories</item>
+  <item id="1344" xml:lang="es">fake</item>
+  <item id="1371" xml:lang="en">Sermons</item>
+  <item id="1371" xml:lang="es">fake</item>
+  <item id="1387" xml:lang="en">Short stories</item>
+  <item id="1387" xml:lang="es">fake</item>
+  <item id="1428" xml:lang="en">Songs</item>
+  <item id="1428" xml:lang="es">fake</item>
+  <item id="1431" xml:lang="en">Sonnets</item>
+  <item id="1431" xml:lang="es">fake</item>
+  <item id="1437" xml:lang="en">Speeches</item>
+  <item id="1437" xml:lang="es">fake</item>
+  <item id="1447" xml:lang="en">Stories</item>
+  <item id="1447" xml:lang="es">fake</item>
+  <item id="1482" xml:lang="en">Tales</item>
+  <item id="1482" xml:lang="es">fake</item>
+  <item id="1567" xml:lang="en">Tragedies</item>
+  <item id="1567" xml:lang="es">fake</item>
+  <item id="1640" xml:lang="en">Watercolor paintings</item>
+  <item id="1640" xml:lang="es">fake</item>
+  <item id="1651" xml:lang="en">Works</item>
+  <item id="1651" xml:lang="es">fake</item>
+</items>

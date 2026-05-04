@@ -1,0 +1,32 @@
+<items regex="N" case="Y">
+  <item id="109" xml:lang="en">aggregator</item>
+  <item id="109" xml:lang="es">fake</item>
+  <item id="359" xml:lang="en">comp.</item>
+  <item id="359" xml:lang="es">fake</item>
+  <item id="375" xml:lang="en">compiler</item>
+  <item id="375" xml:lang="es">fake</item>
+  <item id="544" xml:lang="en">ed. of compilation</item>
+  <item id="544" xml:lang="es">fake</item>
+  <item id="548" xml:lang="en">editor of compilation</item>
+  <item id="548" xml:lang="es">fake</item>
+  <item id="786" xml:lang="en">joint aggregator</item>
+  <item id="786" xml:lang="es">fake</item>
+  <item id="787" xml:lang="en">joint comp.</item>
+  <item id="787" xml:lang="es">fake</item>
+  <item id="788" xml:lang="en">joint compiler</item>
+  <item id="788" xml:lang="es">fake</item>
+  <item id="789" xml:lang="en">joint ed. of compilation</item>
+  <item id="789" xml:lang="es">fake</item>
+  <item id="790" xml:lang="en">joint editor of compilation</item>
+  <item id="790" xml:lang="es">fake</item>
+  <item id="793" xml:lang="en">jt. aggregator</item>
+  <item id="793" xml:lang="es">fake</item>
+  <item id="794" xml:lang="en">jt. comp.</item>
+  <item id="794" xml:lang="es">fake</item>
+  <item id="795" xml:lang="en">jt. compiler</item>
+  <item id="795" xml:lang="es">fake</item>
+  <item id="796" xml:lang="en">jt. ed. of compilation</item>
+  <item id="796" xml:lang="es">fake</item>
+  <item id="797" xml:lang="en">jt. editor of compilation</item>
+  <item id="797" xml:lang="es">fake</item>
+</items>

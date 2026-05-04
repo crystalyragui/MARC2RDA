@@ -1,0 +1,2612 @@
+id,lookup_file,type,MARC_field,Term:en,Term:es
+1,List245aCollectionTerms.xml,CAM,245$a,"; and, @en",fake@es
+2,List245bCollectionTerms.xml,CAM,245$b,"; and, @en",fake@es
+3,List245cCollectionTerms.xml,CAM,245$c,"; and, @en",fake@es
+4,List520aCollectionTerms.xml,CAM,520$a,"; and, @en",fake@es
+5,List245aCollectionTerms.xml,CAM,245$a,"; plus, @en",fake@es
+6,List245bCollectionTerms.xml,CAM,245$b,"; plus, @en",fake@es
+7,List245cCollectionTerms.xml,CAM,245$c,"; plus, @en",fake@es
+8,List520aCollectionTerms.xml,CAM,520$a,"; plus, @en",fake@es
+9,List245aCollectionTerms.xml,CAM,245$a,"; with, @en",fake@es
+10,List245bCollectionTerms.xml,CAM,245$b,"; with, @en",fake@es
+11,List245cCollectionTerms.xml,CAM,245$c,"; with, @en",fake@es
+12,List520aCollectionTerms.xml,CAM,520$a,"; with, @en",fake@es
+13,List546aNotParallelTerms.xml,PAM,546$a,1st work@en,fake@es
+14,List245cCollectionTerms.xml,CAM,245$c,a bibliography by@en,fake@es
+15,List245aCollectionTerms.xml,CAM,245$a,a bibliography@en,fake@es
+16,List245bCollectionTerms.xml,CAM,245$b,a bibliography@en,fake@es
+17,List520aCollectionTerms.xml,CAM,520$a,a bibliography@en,fake@es
+18,List245bCollectionTerms.xml,CAM,245$b,a book of@en,fake@es
+19,List245cCollectionTerms.xml,CAM,245$c,a book of@en,fake@es
+20,List245aCollectionTerms.xml,CAM,245$a,a catalog@en,fake@es
+21,List245bCollectionTerms.xml,CAM,245$b,a catalog@en,fake@es
+22,List245cCollectionTerms.xml,CAM,245$c,a catalog@en,fake@es
+23,List520aCollectionTerms.xml,CAM,520$a,a catalog@en,fake@es
+24,List245aCollectionTerms.xml,CAM,245$a,a catalogue@en,fake@es
+25,List245bCollectionTerms.xml,CAM,245$b,a catalogue@en,fake@es
+26,List245cCollectionTerms.xml,CAM,245$c,a catalogue@en,fake@es
+27,List520aCollectionTerms.xml,CAM,520$a,a catalogue@en,fake@es
+28,List245aCollectionTerms.xml,CAM,245$a,a collection of@en,fake@es
+29,List245bCollectionTerms.xml,CAM,245$b,a collection of@en,fake@es
+30,List245cCollectionTerms.xml,CAM,245$c,a collection of@en,fake@es
+31,List520aCollectionTerms.xml,CAM,520$a,a collection of@en,fake@es
+32,List245aCollectionTerms.xml,CAM,245$a,a compendium@en,fake@es
+33,List245bCollectionTerms.xml,CAM,245$b,a compendium@en,fake@es
+34,List245cCollectionTerms.xml,CAM,245$c,a compendium@en,fake@es
+35,List520aCollectionTerms.xml,CAM,520$a,a compendium@en,fake@es
+36,List245aCollectionTerms.xml,CAM,245$a,a compilation@en,fake@es
+37,List245bCollectionTerms.xml,CAM,245$b,a compilation@en,fake@es
+38,List245cCollectionTerms.xml,CAM,245$c,a compilation@en,fake@es
+39,List520aCollectionTerms.xml,CAM,520$a,a compilation@en,fake@es
+40,List245aCollectionTerms.xml,CAM,245$a,a concordance@en,fake@es
+41,List245bCollectionTerms.xml,CAM,245$b,a concordance@en,fake@es
+42,List245cCollectionTerms.xml,CAM,245$c,a concordance@en,fake@es
+43,List520aCollectionTerms.xml,CAM,520$a,a concordance@en,fake@es
+44,List245aCollectionTerms.xml,CAM,245$a,a dictionary@en,fake@es
+45,List245bCollectionTerms.xml,CAM,245$b,a dictionary@en,fake@es
+46,List245cCollectionTerms.xml,CAM,245$c,a dictionary@en,fake@es
+47,List520aCollectionTerms.xml,CAM,520$a,a dictionary@en,fake@es
+48,List245aCollectionTerms.xml,CAM,245$a,a directory@en,fake@es
+49,List245bCollectionTerms.xml,CAM,245$b,a directory@en,fake@es
+50,List245cCollectionTerms.xml,CAM,245$c,a directory@en,fake@es
+51,List520aCollectionTerms.xml,CAM,520$a,a directory@en,fake@es
+52,List245aCollectionTerms.xml,CAM,245$a,a discography@en,fake@es
+53,List245bCollectionTerms.xml,CAM,245$b,a discography@en,fake@es
+54,List245cCollectionTerms.xml,CAM,245$c,a discography@en,fake@es
+55,List520aCollectionTerms.xml,CAM,520$a,a discography@en,fake@es
+56,List245aCollectionTerms.xml,CAM,245$a,a filmography@en,fake@es
+57,List245bCollectionTerms.xml,CAM,245$b,a filmography@en,fake@es
+58,List245cCollectionTerms.xml,CAM,245$c,a filmography@en,fake@es
+59,List520aCollectionTerms.xml,CAM,520$a,a filmography@en,fake@es
+60,List245aCollectionTerms.xml,CAM,245$a,a genealogy@en,fake@es
+61,List245bCollectionTerms.xml,CAM,245$b,a genealogy@en,fake@es
+62,List245cCollectionTerms.xml,CAM,245$c,a genealogy@en,fake@es
+63,List520aCollectionTerms.xml,CAM,520$a,a genealogy@en,fake@es
+64,List245aCollectionTerms.xml,CAM,245$a,a language dictionary@en,fake@es
+65,List245bCollectionTerms.xml,CAM,245$b,a language dictionary@en,fake@es
+66,List245cCollectionTerms.xml,CAM,245$c,a language dictionary@en,fake@es
+67,List520aCollectionTerms.xml,CAM,520$a,a language dictionary@en,fake@es
+68,List245aCollectionTerms.xml,CAM,245$a,a miscellany@en,fake@es
+69,List245bCollectionTerms.xml,CAM,245$b,a miscellany@en,fake@es
+70,List245cCollectionTerms.xml,CAM,245$c,a miscellany@en,fake@es
+71,List520aCollectionTerms.xml,CAM,520$a,a miscellany@en,fake@es
+72,List245aCollectionTerms.xml,CAM,245$a,a selection@en,fake@es
+73,List245bCollectionTerms.xml,CAM,245$b,a selection@en,fake@es
+74,List245cCollectionTerms.xml,CAM,245$c,a selection@en,fake@es
+75,List520aCollectionTerms.xml,CAM,520$a,a selection@en,fake@es
+76,List245aCollectionTerms.xml,CAM,245$a,a symposium@en,fake@es
+77,List245bCollectionTerms.xml,CAM,245$b,a symposium@en,fake@es
+78,List245cCollectionTerms.xml,CAM,245$c,a symposium@en,fake@es
+79,List520aCollectionTerms.xml,CAM,520$a,a symposium@en,fake@es
+80,List245aCollectionTerms.xml,CAM,245$a,a treasury of@en,fake@es
+81,List245bCollectionTerms.xml,CAM,245$b,a treasury of@en,fake@es
+82,List245cCollectionTerms.xml,CAM,245$c,a treasury of@en,fake@es
+83,List520aCollectionTerms.xml,CAM,520$a,a treasury of@en,fake@es
+84,List245bCollectionTerms.xml,CAM,245$b,a tribute to@en,fake@es
+85,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Abanere@en,fake@es
+86,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Aberturas@en,fake@es
+87,List546aNotParallelTerms.xml,PAM,546$a,abstract@en,fake@es
+88,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Abstracts@en,fake@es
+89,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Abstracts@en,fake@es
+90,List546aNotParallelTerms.xml,PAM,546$a,accompan@en,fake@es
+91,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Accordion music@en,fake@es
+92,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Acrostics (Puzzles)@en,fake@es
+93,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Acrostics (Puzzles)@en,fake@es
+94,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Adagiettos@en,fake@es
+95,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Adagios@en,fake@es
+96,List546aNotParallelTerms.xml,PAM,546$a,added material@en,fake@es
+97,List300aSuppCont.xml,AAM,300$a,adv.@en,fake@es
+98,List300bSuppCont.xml,AAM,300$b,adv.@en,fake@es
+99,List546aNotParallelTerms.xml,PAM,546$a,advertisement@en,fake@es
+100,List300aSuppCont.xml,AAM,300$a,advertisements@en,fake@es
+101,List300bSuppCont.xml,AAM,300$b,advertisements@en,fake@es
+102,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Aequale@en,fake@es
+103,List245cAggregators.xml,CAM,245$c,aggregated@en,fake@es
+104,List245cAggregators.xml,CAM,245$c,aggregated@en,fake@es
+105,List245cAggregators.xml,CAM,245$c,aggregated@en,fake@es
+106,List245cAggregators.xml,CAM,245$c,aggregator@en,fake@es
+107,List245cAggregators.xml,CAM,245$c,aggregator@en,fake@es
+108,List245cAggregators.xml,CAM,245$c,aggregator@en,fake@es
+109,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",aggregator@en,fake@es
+110,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Aires@en,fake@es
+111,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Airs@en,fake@es
+112,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Albums (Books)@en,fake@es
+113,ListV650v655vCollectionTerms.xml,CAM,650$v,Albums (Books)@en,fake@es
+114,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Allegrettos@en,fake@es
+115,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Allegros@en,fake@es
+116,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Allemandas@en,fake@es
+117,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Allemandes@en,fake@es
+118,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Almaines@en,fake@es
+119,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Almains@en,fake@es
+120,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Almanacs@en,fake@es
+121,ListV650v655vCollectionTerms.xml,CAM,650$v,Almanacs@en,fake@es
+122,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Almands@en,fake@es
+123,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Almans@en,fake@es
+124,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Almaygnes@en,fake@es
+125,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Almaynes@en,fake@es
+126,List300aSuppCont.xml,AAM,300$a,ambrotype@en,fake@es
+127,List300bSuppCont.xml,AAM,300$b,ambrotype@en,fake@es
+128,List245aCollectionTerms.xml,CAM,245$a,an anthology@en,fake@es
+129,List245bCollectionTerms.xml,CAM,245$b,an anthology@en,fake@es
+130,List245cCollectionTerms.xml,CAM,245$c,an anthology@en,fake@es
+131,List520aCollectionTerms.xml,CAM,520$a,an anthology@en,fake@es
+132,List245bCollectionTerms.xml,CAM,245$b,an index of@en,fake@es
+133,List245cCollectionTerms.xml,CAM,245$c,an index of@en,fake@es
+134,List245aCollectionTerms.xml,CAM,245$a,an index@en,fake@es
+135,List520aCollectionTerms.xml,CAM,520$a,an index@en,fake@es
+136,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Anagrams@en,fake@es
+137,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Anagrams@en,fake@es
+138,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Anatomical atlases@en,fake@es
+139,ListV650v655vCollectionTerms.xml,CAM,650$v,Anatomical atlases@en,fake@es
+140,List245bCollectionTerms.xml,CAM,245$b,and other@en,fake@es
+141,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Andantes@en,fake@es
+142,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Andantinos@en,fake@es
+143,List245bCollectionTerms.xml,CAM,245$b,anecdotes@en,fake@es
+144,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Anecdotes@en,fake@es
+145,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Anecdotes@en,fake@es
+146,ListVTextsCCT.xml,CAM,240$a,Anecdotes@en,fake@es
+147,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Anglaises@en,fake@es
+148,List546aNotParallelTerms.xml,PAM,546$a,annotations@en,fake@es
+149,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Anthems@en,fake@es
+150,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Anthology films@en,fake@es
+151,ListV650v655vCollectionTerms.xml,CAM,650$v,Anthology films@en,fake@es
+152,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Anthology television programs@en,fake@es
+153,ListV650v655vCollectionTerms.xml,CAM,650$v,Anthology television programs@en,fake@es
+154,ListVTextsCCT.xml,CAM,240$a,Aphorisms@en,fake@es
+155,List546aNotParallelTerms.xml,PAM,546$a,appendices@en,fake@es
+156,List546aNotParallelTerms.xml,PAM,546$a,appendix@en,fake@es
+157,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Arabescas@en,fake@es
+158,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Arabesche@en,fake@es
+159,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Arabescos@en,fake@es
+160,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Arabesken@en,fake@es
+161,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Arabesques@en,fake@es
+162,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Arias@en,fake@es
+163,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Arien@en,fake@es
+164,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Arietas@en,fake@es
+165,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ariettas@en,fake@es
+166,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Arietten@en,fake@es
+167,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ariettes@en,fake@es
+168,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ariettinas@en,fake@es
+169,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ariosos@en,fake@es
+170,List546aNotParallelTerms.xml,PAM,546$a,article@en,fake@es
+171,List245aCollectionTerms.xml,CAM,245$a,articles@en,fake@es
+172,List245bCollectionTerms.xml,CAM,245$b,articles@en,fake@es
+173,List245cCollectionTerms.xml,CAM,245$c,articles@en,fake@es
+174,List520aCollectionTerms.xml,CAM,520$a,articles@en,fake@es
+175,ListVTextsCCT.xml,CAM,240$a,Articles@en,fake@es
+176,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Artist files@en,fake@es
+177,ListV650v655vCollectionTerms.xml,CAM,650$v,Artist files@en,fake@es
+178,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Atlases@en,fake@es
+179,ListV650v655vCollectionTerms.xml,CAM,650$v,Atlases@en,fake@es
+180,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Aubades@en,fake@es
+181,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ayres@en,fake@es
+182,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",back to back@en,fake@es
+183,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",back to back@en,fake@es
+184,ListInvertedEtcTerms.xml,PAM,500$a,back to back@en,fake@es
+185,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",back-to-back@en,fake@es
+186,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",back-to-back@en,fake@es
+187,ListInvertedEtcTerms.xml,PAM,500$a,back-to-back@en,fake@es
+188,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Bagatelas@en,fake@es
+189,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Bagatelle@en,fake@es
+190,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Bagatelles@en,fake@es
+191,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Bagattelle@en,fake@es
+192,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Baladas@en,fake@es
+193,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Baladi@en,fake@es
+194,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ballades@en,fake@es
+195,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ballads@en,fake@es
+196,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ballady@en,fake@es
+197,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ballatas@en,fake@es
+198,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ballate@en,fake@es
+199,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Balletti@en,fake@es
+200,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Balletts@en,fake@es
+201,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Bambucos@en,fake@es
+202,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Band music@en,fake@es
+203,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Banjo music@en,fake@es
+204,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Barcarolas@en,fake@es
+205,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Barcarolen@en,fake@es
+206,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Barcaroles@en,fake@es
+207,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Barcarolles@en,fake@es
+208,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Barcarollettes@en,fake@es
+209,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Barcaruole@en,fake@es
+210,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Basse danze@en,fake@es
+211,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Bassedanze@en,fake@es
+212,List245aCollectionTerms.xml,CAM,245$a,bedtime stories@en,fake@es
+213,List245bCollectionTerms.xml,CAM,245$b,bedtime stories@en,fake@es
+214,List245cCollectionTerms.xml,CAM,245$c,bedtime stories@en,fake@es
+215,List520aCollectionTerms.xml,CAM,520$a,bedtime stories@en,fake@es
+216,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Beguines@en,fake@es
+217,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Berceuses@en,fake@es
+218,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Bewegingen@en,fake@es
+219,List546aNotParallelTerms.xml,PAM,546$a,bibliog@en,fake@es
+220,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Bibliographies@en,fake@es
+221,ListV650v655vCollectionTerms.xml,CAM,650$v,Bibliographies@en,fake@es
+222,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Bicinia@en,fake@es
+223,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Bigins@en,fake@es
+224,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Biguines@en,fake@es
+225,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",bilingual@en,fake@es
+226,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",bilingual@en,fake@es
+227,List245aCollectionTerms.xml,CAM,245$a,biographical sketches@en,fake@es
+228,List245bCollectionTerms.xml,CAM,245$b,biographical sketches@en,fake@es
+229,List245cCollectionTerms.xml,CAM,245$c,biographical sketches@en,fake@es
+230,List520aCollectionTerms.xml,CAM,520$a,biographical sketches@en,fake@es
+231,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Boleros@en,fake@es
+232,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Book reviews@en,fake@es
+233,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Book reviews@en,fake@es
+234,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Borees@en,fake@es
+235,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",bound together@en,fake@es
+236,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",bound together@en,fake@es
+237,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Burlas@en,fake@es
+238,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Burlescas@en,fake@es
+239,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Burlesche@en,fake@es
+240,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Burlesken@en,fake@es
+241,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Burlesques@en,fake@es
+242,List245cAggregators.xml,CAM,245$c,by the editor@en,fake@es
+243,List245cAggregators.xml,CAM,245$c,by the editor@en,fake@es
+244,List245cAggregators.xml,CAM,245$c,by the editor@en,fake@es
+245,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cadences@en,fake@es
+246,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cadencias@en,fake@es
+247,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cadenzas@en,fake@es
+248,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Calendars@en,fake@es
+249,ListV650v655vCollectionTerms.xml,CAM,650$v,Calendars@en,fake@es
+250,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canari@en,fake@es
+251,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canaries@en,fake@es
+252,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canarios@en,fake@es
+253,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canoni@en,fake@es
+254,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canons@en,fake@es
+255,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cantabiles@en,fake@es
+256,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cantatas@en,fake@es
+257,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cantates@en,fake@es
+258,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canti@en,fake@es
+259,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cantica@en,fake@es
+260,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canticles@en,fake@es
+261,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cantigas@en,fake@es
+262,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cantiques@en,fake@es
+263,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cantos@en,fake@es
+264,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canzonas@en,fake@es
+265,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canzonetas@en,fake@es
+266,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canzonets@en,fake@es
+267,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canzonettas@en,fake@es
+268,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canzonetten@en,fake@es
+269,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canzonettes@en,fake@es
+270,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Canzoni@en,fake@es
+271,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Capriccetti@en,fake@es
+272,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Capriccietti@en,fake@es
+273,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Capriccios@en,fake@es
+274,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Caprices@en,fake@es
+275,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Capricetten@en,fake@es
+276,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Caprichos@en,fake@es
+277,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Capricios@en,fake@es
+278,List546aNotParallelTerms.xml,PAM,546$a,captions@en,fake@es
+279,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Carmina@en,fake@es
+280,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Carols@en,fake@es
+281,ListVTextsCCT.xml,CAM,240$a,Cartoons@en,fake@es
+282,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Casaciones@en,fake@es
+283,List245bCollectionTerms.xml,CAM,245$b,case studies@en,fake@es
+284,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cassations@en,fake@es
+285,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cassazioni@en,fake@es
+286,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Catalogs@en,fake@es
+287,ListV650v655vCollectionTerms.xml,CAM,650$v,Catalogs@en,fake@es
+288,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Catalogues raisonne´s@en,fake@es
+289,ListV650v655vCollectionTerms.xml,CAM,650$v,Catalogues raisonne´s@en,fake@es
+290,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Catches@en,fake@es
+291,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cavatinas@en,fake@es
+292,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cavatines@en,fake@es
+293,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cebells@en,fake@es
+294,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Cello piano music@en,fake@es
+295,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Chacareras@en,fake@es
+296,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Chaconas@en,fake@es
+297,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Chaconnes@en,fake@es
+298,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Chamber music@en,fake@es
+299,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Chansons@en,fake@es
+300,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Chants@en,fake@es
+301,List546aNotParallelTerms.xml,PAM,546$a,chapter@en,fake@es
+302,List300aSuppCont.xml,AAM,300$a,chart@en,fake@es
+303,List300bSuppCont.xml,AAM,300$b,chart@en,fake@es
+304,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Chasti@en,fake@es
+305,List546aNotParallelTerms.xml,PAM,546$a,chiefly@en,fake@es
+306,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Children's atlases@en,fake@es
+307,ListV650v655vCollectionTerms.xml,CAM,650$v,Children's atlases@en,fake@es
+308,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Choral music@en,fake@es
+309,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Choral preludes@en,fake@es
+310,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Choral-Vorspiel@en,fake@es
+311,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Choral-Vorspiele@en,fake@es
+312,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Choralbearbeitungen@en,fake@es
+313,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Chorale preludes@en,fake@es
+314,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Chorales@en,fake@es
+315,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Chorals@en,fake@es
+316,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Choralvorspiele@en,fake@es
+317,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Chorinhos@en,fake@es
+318,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Choros@en,fake@es
+319,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Choruses@en,fake@es
+320,List245cAggregators.xml,CAM,245$c,chosen by@en,fake@es
+321,List245cAggregators.xml,CAM,245$c,chosen by@en,fake@es
+322,List245cAggregators.xml,CAM,245$c,chosen by@en,fake@es
+323,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Church sonatas@en,fake@es
+324,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ciaccone@en,fake@es
+325,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ciacone@en,fake@es
+326,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cibells@en,fake@es
+327,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ciciliani@en,fake@es
+328,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Cimbalom music@en,fake@es
+329,List546aNotParallelTerms.xml,PAM,546$a,citations@en,fake@es
+330,List300aSuppCont.xml,AAM,300$a,coat of arms@en,fake@es
+331,List300bSuppCont.xml,AAM,300$b,coat of arms@en,fake@es
+332,List300aSuppCont.xml,AAM,300$a,coat-of-arms@en,fake@es
+333,List300bSuppCont.xml,AAM,300$b,coat-of-arms@en,fake@es
+334,List300aSuppCont.xml,AAM,300$a,coats of arms@en,fake@es
+335,List300bSuppCont.xml,AAM,300$b,coats of arms@en,fake@es
+336,List300aSuppCont.xml,AAM,300$a,coats-of-arms@en,fake@es
+337,List300bSuppCont.xml,AAM,300$b,coats-of-arms@en,fake@es
+338,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Collages@en,fake@es
+339,ListV650v655vCollectionTerms.xml,CAM,650$v,Collages@en,fake@es
+340,List245aCollectionTerms.xml,CAM,245$a,collected@en,fake@es
+341,List245bCollectionTerms.xml,CAM,245$b,collected@en,fake@es
+342,List245cCollectionTerms.xml,CAM,245$c,collected@en,fake@es
+343,List520aCollectionTerms.xml,CAM,520$a,collected@en,fake@es
+344,List245cAggregators.xml,CAM,245$c,collected@en,fake@es
+345,List245cAggregators.xml,CAM,245$c,collected@en,fake@es
+346,List245cAggregators.xml,CAM,245$c,collected@en,fake@es
+347,List546aNotParallelTerms.xml,PAM,546$a,collection material@en,fake@es
+348,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Collections@en,fake@es
+349,ListV650v655vCollectionTerms.xml,CAM,650$v,Collections@en,fake@es
+350,ListVTextsCCT.xml,CAM,240$a,Colloquia@en,fake@es
+351,ListVTextsCCT.xml,CAM,240$a,Comic books@en,fake@es
+352,ListVTextsCCT.xml,CAM,240$a,Comic strips@en,fake@es
+353,ListVTextsCCT.xml,CAM,240$a,Comics@en,fake@es
+354,List546aNotParallelTerms.xml,PAM,546$a,commentar@en,fake@es
+355,ListVTextsCCT.xml,CAM,240$a,Commentaries@en,fake@es
+356,List245cAggregators.xml,CAM,245$c,comp.@en,fake@es
+357,List245cAggregators.xml,CAM,245$c,comp.@en,fake@es
+358,List245cAggregators.xml,CAM,245$c,comp.@en,fake@es
+359,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",comp.@en,fake@es
+360,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Compilation films@en,fake@es
+361,ListV650v655vCollectionTerms.xml,CAM,650$v,Compilation films@en,fake@es
+362,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Compilation radio programs@en,fake@es
+363,ListV650v655vCollectionTerms.xml,CAM,650$v,Compilation radio programs@en,fake@es
+364,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Compilation television programs@en,fake@es
+365,ListV650v655vCollectionTerms.xml,CAM,650$v,Compilation television programs@en,fake@es
+366,List245cAggregators.xml,CAM,245$c,compilation@en,fake@es
+367,List245cAggregators.xml,CAM,245$c,compilation@en,fake@es
+368,List245cAggregators.xml,CAM,245$c,compilation@en,fake@es
+369,List245cAggregators.xml,CAM,245$c,compiled@en,fake@es
+370,List245cAggregators.xml,CAM,245$c,compiled@en,fake@es
+371,List245cAggregators.xml,CAM,245$c,compiled@en,fake@es
+372,List245cAggregators.xml,CAM,245$c,compiler@en,fake@es
+373,List245cAggregators.xml,CAM,245$c,compiler@en,fake@es
+374,List245cAggregators.xml,CAM,245$c,compiler@en,fake@es
+375,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",compiler@en,fake@es
+376,List245aCollectionTerms.xml,CAM,245$a,complete novels@en,fake@es
+377,List245bCollectionTerms.xml,CAM,245$b,complete novels@en,fake@es
+378,List245cCollectionTerms.xml,CAM,245$c,complete novels@en,fake@es
+379,List520aCollectionTerms.xml,CAM,520$a,complete novels@en,fake@es
+380,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Composiciones@en,fake@es
+381,ListV650v655vCollectionTerms.xml,CAM,650$v,Composite atlases@en,fake@es
+382,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Compositions@en,fake@es
+383,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Composizioni@en,fake@es
+384,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Computer music@en,fake@es
+385,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Concertantes@en,fake@es
+386,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Concerti grossi@en,fake@es
+387,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Concertinos@en,fake@es
+388,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Concertoni@en,fake@es
+389,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Concertos@en,fake@es
+390,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Conciertos@en,fake@es
+391,List546aNotParallelTerms.xml,PAM,546$a,conclusion@en,fake@es
+392,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Concordances@en,fake@es
+393,ListV650v655vCollectionTerms.xml,CAM,650$v,Concordances@en,fake@es
+394,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Conference materials@en,fake@es
+395,ListV650v655vCollectionTerms.xml,CAM,650$v,Conference materials@en,fake@es
+396,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Conference papers and proceedings@en,fake@es
+397,ListV650v655vCollectionTerms.xml,CAM,650$v,Conference papers and proceedings@en,fake@es
+398,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Congas@en,fake@es
+399,List245bCollectionTerms.xml,CAM,245$b,containing@en,fake@es
+400,List546aNotParallelTerms.xml,PAM,546$a,contains@en,fake@es
+401,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Contradanzas@en,fake@es
+402,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Contradanze@en,fake@es
+403,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Contredanses@en,fake@es
+404,List546aNotParallelTerms.xml,PAM,546$a,contribution@en,fake@es
+405,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Controlled vocabularies@en,fake@es
+406,ListV650v655vCollectionTerms.xml,CAM,650$v,Controlled vocabularies@en,fake@es
+407,List245aCollectionTerms.xml,CAM,245$a,conversations of@en,fake@es
+408,List245bCollectionTerms.xml,CAM,245$b,conversations of@en,fake@es
+409,List245cCollectionTerms.xml,CAM,245$c,conversations of@en,fake@es
+410,List520aCollectionTerms.xml,CAM,520$a,conversations of@en,fake@es
+411,List520aCollectionTerms.xml,CAM,520$a,cook book@en,fake@es
+412,List520aCollectionTerms.xml,CAM,520$a,cook-book@en,fake@es
+413,List245aCollectionTerms.xml,CAM,245$a,cookbook@en,fake@es
+414,List245bCollectionTerms.xml,CAM,245$b,cookbook@en,fake@es
+415,List245cCollectionTerms.xml,CAM,245$c,cookbook@en,fake@es
+416,List520aCollectionTerms.xml,CAM,520$a,cookbook@en,fake@es
+417,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Cookbooks@en,fake@es
+418,ListV650v655vCollectionTerms.xml,CAM,650$v,Cookbooks@en,fake@es
+419,List245cAggregators.xml,CAM,245$c,coordinated@en,fake@es
+420,List245cAggregators.xml,CAM,245$c,coordinated@en,fake@es
+421,List245cAggregators.xml,CAM,245$c,coordinated@en,fake@es
+422,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Corales@en,fake@es
+423,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Corali@en,fake@es
+424,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Corantos@en,fake@es
+425,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Corants@en,fake@es
+426,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Coros@en,fake@es
+427,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Correnti@en,fake@es
+428,List245aCollectionTerms.xml,CAM,245$a,correspondence@en,fake@es
+429,List245bCollectionTerms.xml,CAM,245$b,correspondence@en,fake@es
+430,List245cCollectionTerms.xml,CAM,245$c,correspondence@en,fake@es
+431,List520aCollectionTerms.xml,CAM,520$a,correspondence@en,fake@es
+432,ListVTextsCCT.xml,CAM,240$a,Correspondence@en,fake@es
+433,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Country dances@en,fake@es
+434,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Courantes@en,fake@es
+435,List546aNotParallelTerms.xml,PAM,546$a,cover@en,fake@es
+436,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cracovianas@en,fake@es
+437,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cracoviennes@en,fake@es
+438,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Crossword puzzles@en,fake@es
+439,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Crossword puzzles@en,fake@es
+440,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Cruise books@en,fake@es
+441,ListV650v655vCollectionTerms.xml,CAM,650$v,Cruise books@en,fake@es
+442,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Cryptograms@en,fake@es
+443,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Cryptograms@en,fake@es
+444,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cuadrillas@en,fake@es
+445,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Cuartetos@en,fake@es
+446,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Czardas@en,fake@es
+447,List300aSuppCont.xml,AAM,300$a,daguerreotype@en,fake@es
+448,List300bSuppCont.xml,AAM,300$b,daguerreotype@en,fake@es
+449,List245bCollectionTerms.xml,CAM,245$b,daily devotions of@en,fake@es
+450,List245cCollectionTerms.xml,CAM,245$c,daily devotions of@en,fake@es
+451,List245aCollectionTerms.xml,CAM,245$a,daily devotions@en,fake@es
+452,List520aCollectionTerms.xml,CAM,520$a,daily devotions@en,fake@es
+453,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Dalok@en,fake@es
+454,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Dances@en,fake@es
+455,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Danses@en,fake@es
+456,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Danzas@en,fake@es
+457,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Danze@en,fake@es
+458,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Darabok@en,fake@es
+459,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Databases@en,fake@es
+460,ListV650v655vCollectionTerms.xml,CAM,650$v,Databases@en,fake@es
+461,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Death registers@en,fake@es
+462,ListV650v655vCollectionTerms.xml,CAM,650$v,Death registers@en,fake@es
+463,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Decets@en,fake@es
+464,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Decimini@en,fake@es
+465,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Dectets@en,fake@es
+466,List300aSuppCont.xml,AAM,300$a,diagr@en,fake@es
+467,List300bSuppCont.xml,AAM,300$b,diagr@en,fake@es
+468,List300aSuppCont.xml,AAM,300$a,diagrs@en,fake@es
+469,List300bSuppCont.xml,AAM,300$b,diagrs@en,fake@es
+470,List245cCollectionTerms.xml,CAM,245$c,dialogues of@en,fake@es
+471,List245aCollectionTerms.xml,CAM,245$a,dialogues@en,fake@es
+472,List245bCollectionTerms.xml,CAM,245$b,dialogues@en,fake@es
+473,List520aCollectionTerms.xml,CAM,520$a,dialogues@en,fake@es
+474,ListVTextsCCT.xml,CAM,240$a,Dialogues@en,fake@es
+475,ListVTextsCCT.xml,CAM,240$a,Diaries@en,fake@es
+476,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Dictionaries@en,fake@es
+477,ListV650v655vCollectionTerms.xml,CAM,650$v,Dictionaries@en,fake@es
+478,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Diferencias@en,fake@es
+479,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Differencias@en,fake@es
+480,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Digests@en,fake@es
+481,ListV650v655vCollectionTerms.xml,CAM,650$v,Digests@en,fake@es
+482,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Directories@en,fake@es
+483,ListV650v655vCollectionTerms.xml,CAM,650$v,Directories@en,fake@es
+484,List245aCollectionTerms.xml,CAM,245$a,directory@en,fake@es
+485,List245bCollectionTerms.xml,CAM,245$b,directory@en,fake@es
+486,List245cCollectionTerms.xml,CAM,245$c,directory@en,fake@es
+487,List520aCollectionTerms.xml,CAM,520$a,directory@en,fake@es
+488,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Discographies@en,fake@es
+489,ListV650v655vCollectionTerms.xml,CAM,650$v,Discographies@en,fake@es
+490,List245bCollectionTerms.xml,CAM,245$b,dispatches of@en,fake@es
+491,List245cCollectionTerms.xml,CAM,245$c,dispatches of@en,fake@es
+492,List245aCollectionTerms.xml,CAM,245$a,dispatches@en,fake@es
+493,List520aCollectionTerms.xml,CAM,520$a,dispatches@en,fake@es
+494,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Divertimenti@en,fake@es
+495,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Divertimentinos@en,fake@es
+496,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Divertissements@en,fake@es
+497,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Divine songs@en,fake@es
+498,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Divisions@en,fake@es
+499,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Dixtuors@en,fake@es
+500,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Dobles fugas@en,fake@es
+501,List245aCollectionTerms.xml,CAM,245$a,documents@en,fake@es
+502,List245bCollectionTerms.xml,CAM,245$b,documents@en,fake@es
+503,List245cCollectionTerms.xml,CAM,245$c,documents@en,fake@es
+504,List520aCollectionTerms.xml,CAM,520$a,documents@en,fake@es
+505,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Domps@en,fake@es
+506,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Doppelfugen@en,fake@es
+507,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Doppelkanonen@en,fake@es
+508,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Doppi canoni@en,fake@es
+509,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dos a dos@en,fake@es
+510,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dos a dos@en,fake@es
+511,ListInvertedEtcTerms.xml,PAM,500$a,dos a dos@en,fake@es
+512,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dos à dos@en,fake@es
+513,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dos à dos@en,fake@es
+514,ListInvertedEtcTerms.xml,PAM,500$a,dos à dos@en,fake@es
+515,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dos-a-dos@en,fake@es
+516,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dos-a-dos@en,fake@es
+517,ListInvertedEtcTerms.xml,PAM,500$a,dos-a-dos@en,fake@es
+518,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dos-à-dos@en,fake@es
+519,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dos-à-dos@en,fake@es
+520,ListInvertedEtcTerms.xml,PAM,500$a,dos-à-dos@en,fake@es
+521,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Double bass music@en,fake@es
+522,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Double canons@en,fake@es
+523,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Double fugues@en,fake@es
+524,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Double quartets@en,fake@es
+525,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Doumkas@en,fake@es
+526,ListVTextsCCT.xml,CAM,240$a,Drawings@en,fake@es
+527,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dual language@en,fake@es
+528,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dual language@en,fake@es
+529,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dual-language@en,fake@es
+530,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",dual-language@en,fake@es
+531,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Duetos@en,fake@es
+532,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Duets@en,fake@es
+533,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Duette@en,fake@es
+534,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Duetti@en,fake@es
+535,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Duettinos@en,fake@es
+536,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Dumkas@en,fake@es
+537,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Dumpes@en,fake@es
+538,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Dumps@en,fake@es
+539,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Duodecets@en,fake@es
+540,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ecossaises@en,fake@es
+541,List245cAggregators.xml,CAM,245$c,ed. of compilation@en,fake@es
+542,List245cAggregators.xml,CAM,245$c,ed. of compilation@en,fake@es
+543,List245cAggregators.xml,CAM,245$c,ed. of compilation@en,fake@es
+544,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",ed. of compilation@en,fake@es
+545,List245cAggregators.xml,CAM,245$c,editor of compilation@en,fake@es
+546,List245cAggregators.xml,CAM,245$c,editor of compilation@en,fake@es
+547,List245cAggregators.xml,CAM,245$c,editor of compilation@en,fake@es
+548,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",editor of compilation@en,fake@es
+549,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Editorials@en,fake@es
+550,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Editorials@en,fake@es
+551,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ejercicios@en,fake@es
+552,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Electronic music@en,fake@es
+553,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Elegie@en,fake@es
+554,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Elegien@en,fake@es
+555,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Elegies@en,fake@es
+556,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Elegiettas@en,fake@es
+557,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Encyclopedias@en,fake@es
+558,ListV650v655vCollectionTerms.xml,CAM,650$v,Encyclopedias@en,fake@es
+559,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Entr'actes@en,fake@es
+560,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Entradas@en,fake@es
+561,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Entrate@en,fake@es
+562,ListVTextsCCT.xml,CAM,240$a,Epigrammata@en,fake@es
+563,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Epigrams@en,fake@es
+564,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Epigrams@en,fake@es
+565,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Epistle sonatas@en,fake@es
+566,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Equale@en,fake@es
+567,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Equali@en,fake@es
+568,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Escocesas@en,fake@es
+569,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Esercizi@en,fake@es
+570,ListVTextsCCT.xml,CAM,240$a,Essais@en,fake@es
+571,List546aNotParallelTerms.xml,PAM,546$a,essay@en,fake@es
+572,List245aCollectionTerms.xml,CAM,245$a,essays@en,fake@es
+573,List245bCollectionTerms.xml,CAM,245$b,essays@en,fake@es
+574,List245cCollectionTerms.xml,CAM,245$c,essays@en,fake@es
+575,List520aCollectionTerms.xml,CAM,520$a,essays@en,fake@es
+576,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Essays@en,fake@es
+577,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Essays@en,fake@es
+578,ListVTextsCCT.xml,CAM,240$a,Essays@en,fake@es
+579,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Estampidas@en,fake@es
+580,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Estampies@en,fake@es
+581,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Estrofas@en,fake@es
+582,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Estudios@en,fake@es
+583,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Etudes@en,fake@es
+584,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Etymological dictionaries@en,fake@es
+585,ListV650v655vCollectionTerms.xml,CAM,650$v,Etymological dictionaries@en,fake@es
+586,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Eulogies@en,fake@es
+587,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Eulogies@en,fake@es
+588,List546aNotParallelTerms.xml,PAM,546$a,excerpts@en,fake@es
+589,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Exercices@en,fake@es
+590,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Exercises@en,fake@es
+591,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Exhibition catalogs@en,fake@es
+592,ListV650v655vCollectionTerms.xml,CAM,650$v,Exhibition catalogs@en,fake@es
+593,List546aNotParallelTerms.xml,PAM,546$a,extracts@en,fake@es
+594,List245aCollectionTerms.xml,CAM,245$a,fables@en,fake@es
+595,List245bCollectionTerms.xml,CAM,245$b,fables@en,fake@es
+596,ListVTextsCCT.xml,CAM,240$a,Fables@en,fake@es
+597,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",facing pages@en,fake@es
+598,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",facing pages@en,fake@es
+599,List300aSuppCont.xml,AAM,300$a,facsim @en,fake@es
+600,List300bSuppCont.xml,AAM,300$b,facsim @en,fake@es
+601,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fancies@en,fake@es
+602,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fandangos@en,fake@es
+603,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fandanguillos@en,fake@es
+604,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fanfare@en,fake@es
+605,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fanfares@en,fake@es
+606,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fanfarras@en,fake@es
+607,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fanfarrias@en,fake@es
+608,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fansyes@en,fake@es
+609,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fantaisies@en,fake@es
+610,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fantasia-suites@en,fake@es
+611,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fantasias@en,fake@es
+612,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fantasie@en,fake@es
+613,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fantasien@en,fake@es
+614,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fantasier@en,fake@es
+615,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fantasies@en,fake@es
+616,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fantasiettas@en,fake@es
+617,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",FAQs@en,fake@es
+618,ListV650v655vCollectionTerms.xml,CAM,650$v,FAQs@en,fake@es
+619,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Festschriften@en,fake@es
+620,ListV650v655vCollectionTerms.xml,CAM,650$v,Festschriften@en,fake@es
+621,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Fiction@en,fake@es
+622,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Fiction@en,fake@es
+623,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Film criticism@en,fake@es
+624,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Film criticism@en,fake@es
+625,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Filmographies@en,fake@es
+626,ListV650v655vCollectionTerms.xml,CAM,650$v,Filmographies@en,fake@es
+627,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Finales@en,fake@es
+628,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Finals@en,fake@es
+629,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Finding aids@en,fake@es
+630,ListV650v655vCollectionTerms.xml,CAM,650$v,Finding aids@en,fake@es
+631,List546aNotParallelTerms.xml,PAM,546$a,first work@en,fake@es
+632,List300aSuppCont.xml,AAM,300$a,floor plans@en,fake@es
+633,List300bSuppCont.xml,AAM,300$b,floor plans@en,fake@es
+634,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Florishes@en,fake@es
+635,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Flourishes@en,fake@es
+636,List520aCollectionTerms.xml,CAM,520$a,folk tales@en,fake@es
+637,List520aCollectionTerms.xml,CAM,520$a,folk-tales@en,fake@es
+638,List245aCollectionTerms.xml,CAM,245$a,folktales@en,fake@es
+639,List245bCollectionTerms.xml,CAM,245$b,folktales@en,fake@es
+640,List245cCollectionTerms.xml,CAM,245$c,folktales@en,fake@es
+641,List520aCollectionTerms.xml,CAM,520$a,folktales@en,fake@es
+642,List546aNotParallelTerms.xml,PAM,546$a,footnotes@en,fake@es
+643,List546aNotParallelTerms.xml,PAM,546$a,foreword@en,fake@es
+644,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Forlanas@en,fake@es
+645,List300aSuppCont.xml,AAM,300$a,form @en,fake@es
+646,List300bSuppCont.xml,AAM,300$b,form @en,fake@es
+647,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fox trots@en,fake@es
+648,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fox-trots@en,fake@es
+649,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Foxtrots@en,fake@es
+650,List300aSuppCont.xml,AAM,300$a,front@en,fake@es
+651,List300bSuppCont.xml,AAM,300$b,front@en,fake@es
+652,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Frottolas@en,fake@es
+653,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fugados@en,fake@es
+654,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fugatos@en,fake@es
+655,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fugen@en,fake@es
+656,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fughe@en,fake@es
+657,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fughettas@en,fake@es
+658,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Fugues@en,fake@es
+659,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Furiants@en,fake@es
+660,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Furlanas@en,fake@es
+661,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Gagliarde@en,fake@es
+662,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Gaillardes@en,fake@es
+663,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Gallardas@en,fake@es
+664,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Galliards@en,fake@es
+665,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Gallope@en,fake@es
+666,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Galops@en,fake@es
+667,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Gavotas@en,fake@es
+668,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Gavotte@en,fake@es
+669,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Gavottes@en,fake@es
+670,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Gazetteers@en,fake@es
+671,ListV650v655vCollectionTerms.xml,CAM,650$v,Gazetteers@en,fake@es
+672,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Gazettes@en,fake@es
+673,ListV650v655vCollectionTerms.xml,CAM,650$v,Gazettes@en,fake@es
+674,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Gedichten@en,fake@es
+675,List300aSuppCont.xml,AAM,300$a,geneal@en,fake@es
+676,List300bSuppCont.xml,AAM,300$b,geneal@en,fake@es
+677,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Genealogy@en,fake@es
+678,ListV650v655vCollectionTerms.xml,CAM,650$v,Genealogy@en,fake@es
+679,List245aCollectionTerms.xml,CAM,245$a,ghost stories@en,fake@es
+680,List245bCollectionTerms.xml,CAM,245$b,ghost stories@en,fake@es
+681,List245cCollectionTerms.xml,CAM,245$c,ghost stories@en,fake@es
+682,List520aCollectionTerms.xml,CAM,520$a,ghost stories@en,fake@es
+683,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Gigas@en,fake@es
+684,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Gigues@en,fake@es
+685,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Glees@en,fake@es
+686,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Glettur@en,fake@es
+687,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a","Glossaries, vocabularies, etc.@en",fake@es
+688,ListV650v655vCollectionTerms.xml,CAM,650$v,"Glossaries, vocabularies, etc.@en",fake@es
+689,List546aNotParallelTerms.xml,PAM,546$a,glossary@en,fake@es
+690,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Graduals@en,fake@es
+691,List300aSuppCont.xml,AAM,300$a,graph @en,fake@es
+692,List300bSuppCont.xml,AAM,300$b,graph @en,fake@es
+693,ListVTextsCCT.xml,CAM,240$a,Graphic novels@en,fake@es
+694,List300aSuppCont.xml,AAM,300$a,graphite@en,fake@es
+695,List300bSuppCont.xml,AAM,300$b,graphite@en,fake@es
+696,List300aSuppCont.xml,AAM,300$a,graphs@en,fake@es
+697,List300bSuppCont.xml,AAM,300$b,graphs@en,fake@es
+698,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Grounds@en,fake@es
+699,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Guajiras@en,fake@es
+700,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Guidebooks@en,fake@es
+701,ListV650v655vCollectionTerms.xml,CAM,650$v,Guidebooks@en,fake@es
+702,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Guitar music@en,fake@es
+703,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Gyakorlatok@en,fake@es
+704,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Habaneras@en,fake@es
+705,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Harmonien@en,fake@es
+706,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Harmonies@en,fake@es
+707,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Harp music@en,fake@es
+708,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Harpsichord music@en,fake@es
+709,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Havanaises@en,fake@es
+710,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",head to toe@en,fake@es
+711,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",head to toe@en,fake@es
+712,ListInvertedEtcTerms.xml,PAM,500$a,head to toe@en,fake@es
+713,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",head-to-toe@en,fake@es
+714,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",head-to-toe@en,fake@es
+715,ListInvertedEtcTerms.xml,PAM,500$a,head-to-toe@en,fake@es
+716,List245aCollectionTerms.xml,CAM,245$a,hearings@en,fake@es
+717,List245bCollectionTerms.xml,CAM,245$b,hearings@en,fake@es
+718,List245cCollectionTerms.xml,CAM,245$c,hearings@en,fake@es
+719,List520aCollectionTerms.xml,CAM,520$a,hearings@en,fake@es
+720,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Hearings@en,fake@es
+721,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Hearings@en,fake@es
+722,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Himnos@en,fake@es
+723,ListVTextsCCT.xml,CAM,240$a,Homilies@en,fake@es
+724,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Hornpipes@en,fake@es
+725,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Humoresken@en,fake@es
+726,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Humoresque@en,fake@es
+727,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Humoresques@en,fake@es
+728,List245aCollectionTerms.xml,CAM,245$a,hymnal@en,fake@es
+729,List245bCollectionTerms.xml,CAM,245$b,hymnal@en,fake@es
+730,List245cCollectionTerms.xml,CAM,245$c,hymnal@en,fake@es
+731,List520aCollectionTerms.xml,CAM,520$a,hymnal@en,fake@es
+732,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Hymnals@en,fake@es
+733,ListV650v655vCollectionTerms.xml,CAM,650$v,Hymnals@en,fake@es
+734,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Hymnen@en,fake@es
+735,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Hymns@en,fake@es
+736,List300aSuppCont.xml,AAM,300$a,ill@en,fake@es
+737,List300bSuppCont.xml,AAM,300$b,ill@en,fake@es
+738,ListVTextsCCT.xml,CAM,240$a,Illustrations@en,fake@es
+739,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Impromptus@en,fake@es
+740,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Improvisaciones@en,fake@es
+741,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Improvisations@en,fake@es
+742,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Improvvisazioni@en,fake@es
+743,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Improwizacje@en,fake@es
+744,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,In nomines@en,fake@es
+745,List245bCollectionTerms.xml,CAM,245$b,in verse@en,fake@es
+746,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Incidental music@en,fake@es
+747,List546aNotParallelTerms.xml,PAM,546$a,include@en,fake@es
+748,List546aNotParallelTerms.xml,PAM,546$a,index@en,fake@es
+749,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Indexes@en,fake@es
+750,ListV650v655vCollectionTerms.xml,CAM,650$v,Indexes@en,fake@es
+751,List546aNotParallelTerms.xml,PAM,546$a,information in@en,fake@es
+752,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ingleses@en,fake@es
+753,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,inglesi@en,fake@es
+754,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Inni@en,fake@es
+755,List546aNotParallelTerms.xml,PAM,546$a,instruction@en,fake@es
+756,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Instrumental music@en,fake@es
+757,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Interludes@en,fake@es
+758,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Interludien@en,fake@es
+759,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Interludios@en,fake@es
+760,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Intermedi@en,fake@es
+761,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Intermedia@en,fake@es
+762,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Intermezzi@en,fake@es
+763,List546aNotParallelTerms.xml,PAM,546$a,interview@en,fake@es
+764,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Intonations@en,fake@es
+765,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Intonazioni@en,fake@es
+766,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Intradas@en,fake@es
+767,List546aNotParallelTerms.xml,PAM,546$a,intro@en,fake@es
+768,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Introducciones@en,fake@es
+769,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Introductions@en,fake@es
+770,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Introduktionen@en,fake@es
+771,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Introduzioni@en,fake@es
+772,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Introits@en,fake@es
+773,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Invenciones@en,fake@es
+774,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Inventions@en,fake@es
+775,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Inventos@en,fake@es
+776,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Invenzioni@en,fake@es
+777,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",inverted pages@en,fake@es
+778,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",inverted pages@en,fake@es
+779,ListInvertedEtcTerms.xml,PAM,500$a,inverted pages@en,fake@es
+780,List546aNotParallelTerms.xml,PAM,546$a,issue@en,fake@es
+781,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Istampite@en,fake@es
+782,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Istanpitti@en,fake@es
+783,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Jigas@en,fake@es
+784,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Jigges@en,fake@es
+785,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Jigs@en,fake@es
+786,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",joint aggregator@en,fake@es
+787,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",joint comp.@en,fake@es
+788,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",joint compiler@en,fake@es
+789,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",joint ed. of compilation@en,fake@es
+790,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",joint editor of compilation@en,fake@es
+791,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Jotas@en,fake@es
+792,ListVTextsCCT.xml,CAM,240$a,Journalism@en,fake@es
+793,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",jt. aggregator@en,fake@es
+794,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",jt. comp.@en,fake@es
+795,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",jt. compiler@en,fake@es
+796,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",jt. ed. of compilation@en,fake@es
+797,ListVAgent4Aggregators.xml,CAM,"1XX$e, 7XX$e",jt. editor of compilation@en,fake@es
+798,ListVTextsCCT.xml,CAM,240$a,Judicial opinions@en,fake@es
+799,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kammermusiken@en,fake@es
+800,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kanons@en,fake@es
+801,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kantaten@en,fake@es
+802,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kanzonetten@en,fake@es
+803,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kappaletta@en,fake@es
+804,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kapricen@en,fake@es
+805,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kaprizen@en,fake@es
+806,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kassationen@en,fake@es
+807,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kavatinen@en,fake@es
+808,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kehtolaulut@en,fake@es
+809,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Keyboard instrument music@en,fake@es
+810,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Keyboard music@en,fake@es
+811,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Kits@en,fake@es
+812,ListV650v655vCollectionTerms.xml,CAM,650$v,Kits@en,fake@es
+813,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kompositionen@en,fake@es
+814,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Konzerte@en,fake@es
+815,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Konzerten@en,fake@es
+816,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Konzertonen@en,fake@es
+817,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Krakowiaks@en,fake@es
+818,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kujaviaks@en,fake@es
+819,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Kujawiaks@en,fake@es
+820,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Laendlers@en,fake@es
+821,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Larghettos@en,fake@es
+822,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Largos@en,fake@es
+823,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Laulut@en,fake@es
+824,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Lavoltas@en,fake@es
+825,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Law commentaries@en,fake@es
+826,ListV650v655vCollectionTerms.xml,CAM,650$v,Law commentaries@en,fake@es
+827,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Law digests@en,fake@es
+828,ListV650v655vCollectionTerms.xml,CAM,650$v,Law digests@en,fake@es
+829,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a","Law reports, digests, etc.@en",fake@es
+830,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,"Law reports, digests, etc.@en",fake@es
+831,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Lecciones@en,fake@es
+832,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Lecturas@en,fake@es
+833,List245aCollectionTerms.xml,CAM,245$a,lectures@en,fake@es
+834,List245bCollectionTerms.xml,CAM,245$b,lectures@en,fake@es
+835,List245cCollectionTerms.xml,CAM,245$c,lectures@en,fake@es
+836,List520aCollectionTerms.xml,CAM,520$a,lectures@en,fake@es
+837,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Lectures@en,fake@es
+838,ListVTextsCCT.xml,CAM,240$a,Lectures@en,fake@es
+839,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Legal maxims@en,fake@es
+840,ListV650v655vCollectionTerms.xml,CAM,650$v,Legal maxims@en,fake@es
+841,List546aNotParallelTerms.xml,PAM,546$a,legend@en,fake@es
+842,List245aCollectionTerms.xml,CAM,245$a,legends@en,fake@es
+843,List245cCollectionTerms.xml,CAM,245$c,legends@en,fake@es
+844,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Legislative hearings@en,fake@es
+845,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Legislative hearings@en,fake@es
+846,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Legislative histories@en,fake@es
+847,ListV650v655vCollectionTerms.xml,CAM,650$v,Legislative histories@en,fake@es
+848,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Lektionen@en,fake@es
+849,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Lessons@en,fake@es
+850,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Lesungen@en,fake@es
+851,List245aCollectionTerms.xml,CAM,245$a,letters of@en,fake@es
+852,List520aCollectionTerms.xml,CAM,520$a,letters of@en,fake@es
+853,List245aCollectionTerms.xml,CAM,245$a,letters on@en,fake@es
+854,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Letters to the editor@en,fake@es
+855,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Letters to the editor@en,fake@es
+856,List245bCollectionTerms.xml,CAM,245$b,letters@en,fake@es
+857,List245cCollectionTerms.xml,CAM,245$c,letters@en,fake@es
+858,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Lezioni@en,fake@es
+859,ListVTextsCCT.xml,CAM,240$a,Librettos@en,fake@es
+860,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Lieder@en,fake@es
+861,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Literary collections@en,fake@es
+862,ListV650v655vCollectionTerms.xml,CAM,650$v,Literary collections@en,fake@es
+863,ListVTextsCCT.xml,CAM,240$a,Literary works@en,fake@es
+864,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Logic puzzles@en,fake@es
+865,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Logic puzzles@en,fake@es
+866,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Lullabies@en,fake@es
+867,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Lute music@en,fake@es
+868,ListVTextsCCT.xml,CAM,240$a,Lyrics@en,fake@es
+869,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Madrigali@en,fake@es
+870,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Madrigals@en,fake@es
+871,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Magazine format radio programs@en,fake@es
+872,ListV650v655vCollectionTerms.xml,CAM,650$v,Magazine format radio programs@en,fake@es
+873,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Magazine format television programs@en,fake@es
+874,ListV650v655vCollectionTerms.xml,CAM,650$v,Magazine format television programs@en,fake@es
+875,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Magnificats@en,fake@es
+876,List546aNotParallelTerms.xml,PAM,546$a,main@en,fake@es
+877,List546aNotParallelTerms.xml,PAM,546$a,mainly in@en,fake@es
+878,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Malapropisms@en,fake@es
+879,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Malapropisms@en,fake@es
+880,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Mambos@en,fake@es
+881,List245aCollectionTerms.xml,CAM,245$a,manifestos@en,fake@es
+882,List245bCollectionTerms.xml,CAM,245$b,manifestos@en,fake@es
+883,List245cCollectionTerms.xml,CAM,245$c,manifestos@en,fake@es
+884,List520aCollectionTerms.xml,CAM,520$a,manifestos@en,fake@es
+885,List300aSuppCont.xml,AAM,300$a,map@en,fake@es
+886,List300bSuppCont.xml,AAM,300$b,map@en,fake@es
+887,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Marchas@en,fake@es
+888,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Marches@en,fake@es
+889,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Marcie@en,fake@es
+890,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Marciettas@en,fake@es
+891,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Martyrologies@en,fake@es
+892,ListV650v655vCollectionTerms.xml,CAM,650$v,Martyrologies@en,fake@es
+893,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Mashups (Music)@en,fake@es
+894,ListV650v655vCollectionTerms.xml,CAM,650$v,Mashups (Music)@en,fake@es
+895,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Masses@en,fake@es
+896,List245aCollectionTerms.xml,CAM,245$a,maxims@en,fake@es
+897,List245bCollectionTerms.xml,CAM,245$b,maxims@en,fake@es
+898,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Maze puzzles@en,fake@es
+899,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Maze puzzles@en,fake@es
+900,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Mazurcas@en,fake@es
+901,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Mazurche@en,fake@es
+902,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Mazurkas@en,fake@es
+903,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Meditations@en,fake@es
+904,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Meditations@en,fake@es
+905,ListVTextsCCT.xml,CAM,240$a,Meditations@en,fake@es
+906,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Medleys (Music)@en,fake@es
+907,ListV650v655vCollectionTerms.xml,CAM,650$v,Medleys (Music)@en,fake@es
+908,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Melodias@en,fake@es
+909,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Melodies@en,fake@es
+910,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Menuette@en,fake@es
+911,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Menuetti@en,fake@es
+912,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Messen@en,fake@es
+913,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Messes@en,fake@es
+914,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Milongas@en,fake@es
+915,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Miniatury@en,fake@es
+916,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Minuetes@en,fake@es
+917,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Minuets@en,fake@es
+918,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Minuetti@en,fake@es
+919,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Misas@en,fake@es
+920,ListVTextsCCT.xml,CAM,240$a,Missal@en,fake@es
+921,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Moderatos@en,fake@es
+922,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Modinhas@en,fake@es
+923,List245aCollectionTerms.xml,CAM,245$a,monologues@en,fake@es
+924,List245bCollectionTerms.xml,CAM,245$b,monologues@en,fake@es
+925,List245cCollectionTerms.xml,CAM,245$c,monologues@en,fake@es
+926,List520aCollectionTerms.xml,CAM,520$a,monologues@en,fake@es
+927,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Morceaux@en,fake@es
+928,List546aNotParallelTerms.xml,PAM,546$a,most@en,fake@es
+929,List546aNotParallelTerms.xml,PAM,546$a,mostly in@en,fake@es
+930,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Motetes@en,fake@es
+931,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Motets@en,fake@es
+932,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Motetten@en,fake@es
+933,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Motetti@en,fake@es
+934,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Motion picture music@en,fake@es
+935,ListV650v655vCollectionTerms.xml,CAM,650$v,Motion picture music@en,fake@es
+936,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Motion picture music@en,fake@es
+937,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Motteti@en,fake@es
+938,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Mottetti@en,fake@es
+939,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Mouvements@en,fake@es
+940,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Movements@en,fake@es
+941,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Movimenti@en,fake@es
+942,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Movimientos@en,fake@es
+943,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Multilingual dictionaries@en,fake@es
+944,ListV650v655vCollectionTerms.xml,CAM,650$v,Multilingual dictionaries@en,fake@es
+945,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",multilingual@en,fake@es
+946,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",multilingual@en,fake@es
+947,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Musettes@en,fake@es
+948,List300aSuppCont.xml,AAM,300$a,music@en,fake@es
+949,List300bSuppCont.xml,AAM,300$b,music@en,fake@es
+950,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Musical clock music@en,fake@es
+951,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Musical comedies@en,fake@es
+952,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Musical works@en,fake@es
+953,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Musicals@en,fake@es
+954,ListV650v655vCollectionTerms.xml,CAM,650$v,Musicals@en,fake@es
+955,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Musicals@en,fake@es
+956,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Musiche da camera@en,fake@es
+957,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Musiche@en,fake@es
+958,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Musiques@en,fake@es
+959,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Nachspiele@en,fake@es
+960,List546aNotParallelTerms.xml,PAM,546$a,narration@en,fake@es
+961,List245aCollectionTerms.xml,CAM,245$a,narratives@en,fake@es
+962,List245bCollectionTerms.xml,CAM,245$b,narratives@en,fake@es
+963,List245cCollectionTerms.xml,CAM,245$c,narratives@en,fake@es
+964,List520aCollectionTerms.xml,CAM,520$a,narratives@en,fake@es
+965,ListVTextsCCT.xml,CAM,240$a,Newspaper columns@en,fake@es
+966,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Nightpiece@en,fake@es
+967,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Nocturnes@en,fake@es
+968,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Nocturnos@en,fake@es
+969,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Nocturns@en,fake@es
+970,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Nomenclatures@en,fake@es
+971,ListV650v655vCollectionTerms.xml,CAM,650$v,Nomenclatures@en,fake@es
+972,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Nonetos@en,fake@es
+973,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Nonets@en,fake@es
+974,List546aNotParallelTerms.xml,PAM,546$a,note on verso@en,fake@es
+975,ListVTextsCCT.xml,CAM,240$a,Notebooks@en,fake@es
+976,List546aNotParallelTerms.xml,PAM,546$a,notes@en,fake@es
+977,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Notturni@en,fake@es
+978,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Notturnos@en,fake@es
+979,ListVTextsCCT.xml,CAM,240$a,Novellas@en,fake@es
+980,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Novelleten@en,fake@es
+981,List245bCollectionTerms.xml,CAM,245$b,novels of@en,fake@es
+982,List245cCollectionTerms.xml,CAM,245$c,novels of@en,fake@es
+983,ListVTextsCCT.xml,CAM,240$a,Novels@en,fake@es
+984,ListVTextsCCT.xml,CAM,240$a,Nursery rhymes@en,fake@es
+985,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Nursery songs@en,fake@es
+986,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Oberki@en,fake@es
+987,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Oberturas@en,fake@es
+988,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Obituaries@en,fake@es
+989,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Obituaries@en,fake@es
+990,List546aNotParallelTerms.xml,PAM,546$a,occasional@en,fake@es
+991,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Octetos@en,fake@es
+992,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Octets@en,fake@es
+993,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Octuors@en,fake@es
+994,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Odas@en,fake@es
+995,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Odes@en,fake@es
+996,ListVTextsCCT.xml,CAM,240$a,Odes@en,fake@es
+997,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ofertorios@en,fake@es
+998,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Offertoires@en,fake@es
+999,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Offertories@en,fake@es
+1000,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Oktette@en,fake@es
+1001,List245aCollectionTerms.xml,CAM,245$a,omnibus@en,fake@es
+1002,List245bCollectionTerms.xml,CAM,245$b,omnibus@en,fake@es
+1003,List245cCollectionTerms.xml,CAM,245$c,omnibus@en,fake@es
+1004,List520aCollectionTerms.xml,CAM,520$a,omnibus@en,fake@es
+1005,List546aNotParallelTerms.xml,PAM,546$a,only@en,fake@es
+1006,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Operas@en,fake@es
+1007,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",opposite pages@en,fake@es
+1008,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",opposite pages@en,fake@es
+1009,ListVTextsCCT.xml,CAM,240$a,Orations@en,fake@es
+1010,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Oratorios@en,fake@es
+1011,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Orchestra music (Sketches)@en,fake@es
+1012,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Organ music@en,fake@es
+1013,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ostinatos@en,fake@es
+1014,List245aCollectionTerms.xml,CAM,245$a,other stories@en,fake@es
+1015,List245bCollectionTerms.xml,CAM,245$b,other stories@en,fake@es
+1016,List245cCollectionTerms.xml,CAM,245$c,other stories@en,fake@es
+1017,List520aCollectionTerms.xml,CAM,520$a,other stories@en,fake@es
+1018,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ottetti@en,fake@es
+1019,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ouvertures@en,fake@es
+1020,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Overtures@en,fake@es
+1021,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,P'iesy@en,fake@es
+1022,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Padovane@en,fake@es
+1023,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Paduanen@en,fake@es
+1024,ListVTextsCCT.xml,CAM,240$a,Paintings@en,fake@es
+1025,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Palad@en,fake@es
+1026,List546aNotParallelTerms.xml,PAM,546$a,panel title@en,fake@es
+1027,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Pantomimes with music@en,fake@es
+1028,ListV650v655vCollectionTerms.xml,CAM,650$v,Pantomimes with music@en,fake@es
+1029,List245aCollectionTerms.xml,CAM,245$a,papers@en,fake@es
+1030,List245bCollectionTerms.xml,CAM,245$b,papers@en,fake@es
+1031,List245cCollectionTerms.xml,CAM,245$c,papers@en,fake@es
+1032,List520aCollectionTerms.xml,CAM,520$a,papers@en,fake@es
+1033,List546aNotParallelTerms.xml,PAM,546$a,papers@en,fake@es
+1034,ListVTextsCCT.xml,CAM,240$a,Papers@en,fake@es
+1035,List546aNotParallelTerms.xml,PAM,546$a,parallel title@en,fake@es
+1036,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",parallel@en,fake@es
+1037,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",parallel@en,fake@es
+1038,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Part songs@en,fake@es
+1039,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Part-song@en,fake@es
+1040,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Part-songs@en,fake@es
+1041,List546aNotParallelTerms.xml,PAM,546$a,part@en,fake@es
+1042,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Parthien@en,fake@es
+1043,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Parti@en,fake@es
+1044,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Partitas@en,fake@es
+1045,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Partiten@en,fake@es
+1046,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Partsong@en,fake@es
+1047,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Partsongs@en,fake@es
+1048,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pasacalles@en,fake@es
+1049,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Paseos@en,fake@es
+1050,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pasodobles@en,fake@es
+1051,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pasos@en,fake@es
+1052,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Passacaglias@en,fake@es
+1053,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Passacailles@en,fake@es
+1054,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Passacalles@en,fake@es
+1055,List546aNotParallelTerms.xml,PAM,546$a,passages@en,fake@es
+1056,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Passamezzos@en,fake@es
+1057,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Passe mezi@en,fake@es
+1058,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Passe-pieds@en,fake@es
+1059,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Passecailles@en,fake@es
+1060,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Passeos@en,fake@es
+1061,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Passepieds@en,fake@es
+1062,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Passi e mezi@en,fake@es
+1063,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Passomezi@en,fake@es
+1064,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Pastoral letters and charges@en,fake@es
+1065,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Pastoral letters and charges@en,fake@es
+1066,ListVTextsCCT.xml,CAM,240$a,Pastoral letters@en,fake@es
+1067,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pastorale@en,fake@es
+1068,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pastorales@en,fake@es
+1069,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pastorals @en,fake@es
+1070,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pastorellas@en,fake@es
+1071,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pastorelles@en,fake@es
+1072,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Patterns@en,fake@es
+1073,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Patterns@en,fake@es
+1074,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pavanas@en,fake@es
+1075,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pavanes@en,fake@es
+1076,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pavanillas@en,fake@es
+1077,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pavans@en,fake@es
+1078,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pavins@en,fake@es
+1079,List245aCollectionTerms.xml,CAM,245$a,performances@en,fake@es
+1080,List245bCollectionTerms.xml,CAM,245$b,performances@en,fake@es
+1081,List245cCollectionTerms.xml,CAM,245$c,performances@en,fake@es
+1082,List520aCollectionTerms.xml,CAM,520$a,performances@en,fake@es
+1083,List245aCollectionTerms.xml,CAM,245$a,perspectives@en,fake@es
+1084,List245bCollectionTerms.xml,CAM,245$b,perspectives@en,fake@es
+1085,List245cCollectionTerms.xml,CAM,245$c,perspectives@en,fake@es
+1086,List520aCollectionTerms.xml,CAM,520$a,perspectives@en,fake@es
+1087,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pesmi@en,fake@es
+1088,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pesni@en,fake@es
+1089,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pezzi@en,fake@es
+1090,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Phancies@en,fake@es
+1091,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Phansies@en,fake@es
+1092,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Phantasias@en,fake@es
+1093,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Phantasien@en,fake@es
+1094,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Phantasies@en,fake@es
+1095,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Pharmacopoeias@en,fake@es
+1096,ListV650v655vCollectionTerms.xml,CAM,650$v,Pharmacopoeias@en,fake@es
+1097,List300aSuppCont.xml,AAM,300$a,phot.@en,fake@es
+1098,List300bSuppCont.xml,AAM,300$b,phot.@en,fake@es
+1099,List300aSuppCont.xml,AAM,300$a,photo @en,fake@es
+1100,List300bSuppCont.xml,AAM,300$b,photo @en,fake@es
+1101,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Photobooks@en,fake@es
+1102,ListV650v655vCollectionTerms.xml,CAM,650$v,Photobooks@en,fake@es
+1103,List300aSuppCont.xml,AAM,300$a,photograph@en,fake@es
+1104,List300bSuppCont.xml,AAM,300$b,photograph@en,fake@es
+1105,List245aCollectionTerms.xml,CAM,245$a,photographs@en,fake@es
+1106,List245bCollectionTerms.xml,CAM,245$b,photographs@en,fake@es
+1107,List245cCollectionTerms.xml,CAM,245$c,photographs@en,fake@es
+1108,List300bSuppCont.xml,AAM,300$b,photographs@en,fake@es
+1109,ListVTextsCCT.xml,CAM,240$a,Photographs@en,fake@es
+1110,List300aSuppCont.xml,AAM,300$a,photos@en,fake@es
+1111,List300bSuppCont.xml,AAM,300$b,photos@en,fake@es
+1112,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Piano music@en,fake@es
+1113,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Picture dictionaries@en,fake@es
+1114,ListV650v655vCollectionTerms.xml,CAM,650$v,Picture dictionaries@en,fake@es
+1115,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pieces@en,fake@es
+1116,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Piezas@en,fake@es
+1117,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pisne@en,fake@es
+1118,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pive@en,fake@es
+1119,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pjesme@en,fake@es
+1120,List300aSuppCont.xml,AAM,300$a,pl.@en,fake@es
+1121,List300bSuppCont.xml,AAM,300$b,pl.@en,fake@es
+1122,List546aNotParallelTerms.xml,PAM,546$a,place names@en,fake@es
+1123,List300aSuppCont.xml,AAM,300$a,plan@en,fake@es
+1124,List300bSuppCont.xml,AAM,300$b,plan@en,fake@es
+1125,List300aSuppCont.xml,AAM,300$a,plate@en,fake@es
+1126,List300bSuppCont.xml,AAM,300$b,plate@en,fake@es
+1127,ListVTextsCCT.xml,CAM,240$a,Plays@en,fake@es
+1128,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pliaski@en,fake@es
+1129,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Plot summaries@en,fake@es
+1130,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Plot summaries@en,fake@es
+1131,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Poema sinfonici@en,fake@es
+1132,List245cCollectionTerms.xml,CAM,245$c,poems of@en,fake@es
+1133,List245aCollectionTerms.xml,CAM,245$a,poems@en,fake@es
+1134,List245bCollectionTerms.xml,CAM,245$b,poems@en,fake@es
+1135,List520aCollectionTerms.xml,CAM,520$a,poems@en,fake@es
+1136,ListVTextsCCT.xml,CAM,240$a,Poems@en,fake@es
+1137,List245cCollectionTerms.xml,CAM,245$c,poetry of@en,fake@es
+1138,List245aCollectionTerms.xml,CAM,245$a,poetry@en,fake@es
+1139,List245bCollectionTerms.xml,CAM,245$b,poetry@en,fake@es
+1140,ListVTextsCCT.xml,CAM,240$a,Poetry@en,fake@es
+1141,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Polaccas@en,fake@es
+1142,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Polcas@en,fake@es
+1143,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Polkas@en,fake@es
+1144,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Polonaises@en,fake@es
+1145,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Polonesas@en,fake@es
+1146,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Polonesi@en,fake@es
+1147,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",polyglot@en,fake@es
+1148,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",polyglot@en,fake@es
+1149,List300aSuppCont.xml,AAM,300$a,port.@en,fake@es
+1150,List300aSuppCont.xml,AAM,300$a,port@en,fake@es
+1151,List300bSuppCont.xml,AAM,300$b,port@en,fake@es
+1152,List546aNotParallelTerms.xml,PAM,546$a,portion@en,fake@es
+1153,List300aSuppCont.xml,AAM,300$a,portrait@en,fake@es
+1154,ListVTextsCCT.xml,CAM,240$a,Portraits@en,fake@es
+1155,List300aSuppCont.xml,AAM,300$a,ports@en,fake@es
+1156,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Posludi@en,fake@es
+1157,ListVTextsCCT.xml,CAM,240$a,Postcards@en,fake@es
+1158,ListVTextsCCT.xml,CAM,240$a,Posters@en,fake@es
+1159,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Postludes@en,fake@es
+1160,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Postludi@en,fake@es
+1161,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Postludien@en,fake@es
+1162,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Postludios@en,fake@es
+1163,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Pot-pourris@en,fake@es
+1164,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Potpourris@en,fake@es
+1165,List245aCollectionTerms.xml,CAM,245$a,prayer book@en,fake@es
+1166,List245bCollectionTerms.xml,CAM,245$b,prayer book@en,fake@es
+1167,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Prayers and devotions@en,fake@es
+1168,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Prayers and devotions@en,fake@es
+1169,List245aCollectionTerms.xml,CAM,245$a,prayers of@en,fake@es
+1170,List245bCollectionTerms.xml,CAM,245$b,prayers of@en,fake@es
+1171,List245cCollectionTerms.xml,CAM,245$c,prayers of@en,fake@es
+1172,List520aCollectionTerms.xml,CAM,520$a,prayers of@en,fake@es
+1173,ListVTextsCCT.xml,CAM,240$a,Prayers@en,fake@es
+1174,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Preambles@en,fake@es
+1175,List546aNotParallelTerms.xml,PAM,546$a,predominantly@en,fake@es
+1176,List546aNotParallelTerms.xml,PAM,546$a,pref@en,fake@es
+1177,List546aNotParallelTerms.xml,PAM,546$a,preliminary@en,fake@es
+1178,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Preludes@en,fake@es
+1179,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Preludi@en,fake@es
+1180,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Preludios@en,fake@es
+1181,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Prestissimos@en,fake@es
+1182,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Prestos@en,fake@es
+1183,List546aNotParallelTerms.xml,PAM,546$a,primarily@en,fake@es
+1184,List546aNotParallelTerms.xml,PAM,546$a,principally@en,fake@es
+1185,ListVTextsCCT.xml,CAM,240$a,Prints@en,fake@es
+1186,List245aCollectionTerms.xml,CAM,245$a,proceedings@en,fake@es
+1187,List245bCollectionTerms.xml,CAM,245$b,proceedings@en,fake@es
+1188,List245cCollectionTerms.xml,CAM,245$c,proceedings@en,fake@es
+1189,List520aCollectionTerms.xml,CAM,520$a,proceedings@en,fake@es
+1190,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Proceedings@en,fake@es
+1191,ListV650v655vCollectionTerms.xml,CAM,650$v,Proceedings@en,fake@es
+1192,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Processionals@en,fake@es
+1193,List245aCollectionTerms.xml,CAM,245$a,proclamations@en,fake@es
+1194,List245bCollectionTerms.xml,CAM,245$b,proclamations@en,fake@es
+1195,List245cCollectionTerms.xml,CAM,245$c,proclamations@en,fake@es
+1196,List520aCollectionTerms.xml,CAM,520$a,proclamations@en,fake@es
+1197,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Professional voice@en,fake@es
+1198,ListVTextsCCT.xml,CAM,240$a,Prose poems@en,fake@es
+1199,ListVTextsCCT.xml,CAM,240$a,Prose works@en,fake@es
+1200,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Psalmi@en,fake@es
+1201,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Psalmos@en,fake@es
+1202,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Psalms@en,fake@es
+1203,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Psaumes@en,fake@es
+1204,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quadriglie@en,fake@es
+1205,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quadrilles@en,fake@es
+1206,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quartets@en,fake@es
+1207,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quartette@en,fake@es
+1208,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quartetti@en,fake@es
+1209,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quartettinos@en,fake@es
+1210,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quatuors@en,fake@es
+1211,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quintetos@en,fake@es
+1212,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quintets@en,fake@es
+1213,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quintette@en,fake@es
+1214,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quintettes@en,fake@es
+1215,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quintetti@en,fake@es
+1216,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quintettinos@en,fake@es
+1217,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quodlibets@en,fake@es
+1218,List245aCollectionTerms.xml,CAM,245$a,quotations of@en,fake@es
+1219,List245bCollectionTerms.xml,CAM,245$b,quotations of@en,fake@es
+1220,List245cCollectionTerms.xml,CAM,245$c,quotations of@en,fake@es
+1221,List520aCollectionTerms.xml,CAM,520$a,quotations of@en,fake@es
+1222,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Quotations@en,fake@es
+1223,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Quotations@en,fake@es
+1224,ListVTextsCCT.xml,CAM,240$a,Quotations@en,fake@es
+1225,List245aCollectionTerms.xml,CAM,245$a,quotes@en,fake@es
+1226,List245bCollectionTerms.xml,CAM,245$b,quotes@en,fake@es
+1227,List245cCollectionTerms.xml,CAM,245$c,quotes@en,fake@es
+1228,List520aCollectionTerms.xml,CAM,520$a,quotes@en,fake@es
+1229,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Quotlibets@en,fake@es
+1230,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Radio anthologies@en,fake@es
+1231,ListV650v655vCollectionTerms.xml,CAM,650$v,Radio anthologies@en,fake@es
+1232,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rags@en,fake@es
+1233,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rapsodias@en,fake@es
+1234,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rapsodie@en,fake@es
+1235,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rapsodies@en,fake@es
+1236,List245aCollectionTerms.xml,CAM,245$a,readings@en,fake@es
+1237,List245bCollectionTerms.xml,CAM,245$b,readings@en,fake@es
+1238,List245cCollectionTerms.xml,CAM,245$c,readings@en,fake@es
+1239,List520aCollectionTerms.xml,CAM,520$a,readings@en,fake@es
+1240,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Recercadas@en,fake@es
+1241,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Recessionals@en,fake@es
+1242,List245aCollectionTerms.xml,CAM,245$a,recipes@en,fake@es
+1243,List245bCollectionTerms.xml,CAM,245$b,recipes@en,fake@es
+1244,List245cCollectionTerms.xml,CAM,245$c,recipes@en,fake@es
+1245,List520aCollectionTerms.xml,CAM,520$a,recipes@en,fake@es
+1246,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Recitatives@en,fake@es
+1247,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Recitativi@en,fake@es
+1248,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Records (Documents)@en,fake@es
+1249,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Records (Documents)@en,fake@es
+1250,List546aNotParallelTerms.xml,PAM,546$a,reference@en,fake@es
+1251,List245aCollectionTerms.xml,CAM,245$a,reflections@en,fake@es
+1252,List245bCollectionTerms.xml,CAM,245$b,reflections@en,fake@es
+1253,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Religious inventories@en,fake@es
+1254,ListV650v655vCollectionTerms.xml,CAM,650$v,Religious inventories@en,fake@es
+1255,List245aCollectionTerms.xml,CAM,245$a,reminiscences@en,fake@es
+1256,List245bCollectionTerms.xml,CAM,245$b,reminiscences@en,fake@es
+1257,List245cCollectionTerms.xml,CAM,245$c,reminiscences@en,fake@es
+1258,List520aCollectionTerms.xml,CAM,520$a,reminiscences@en,fake@es
+1259,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Remixes@en,fake@es
+1260,List245aCollectionTerms.xml,CAM,245$a,reports@en,fake@es
+1261,List245bCollectionTerms.xml,CAM,245$b,reports@en,fake@es
+1262,List245cCollectionTerms.xml,CAM,245$c,reports@en,fake@es
+1263,List520aCollectionTerms.xml,CAM,520$a,reports@en,fake@es
+1264,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Requiems@en,fake@es
+1265,List245aCollectionTerms.xml,CAM,245$a,resolutions@en,fake@es
+1266,List245bCollectionTerms.xml,CAM,245$b,resolutions@en,fake@es
+1267,List245cCollectionTerms.xml,CAM,245$c,resolutions@en,fake@es
+1268,List520aCollectionTerms.xml,CAM,520$a,resolutions@en,fake@es
+1269,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Reverse dictionaries@en,fake@es
+1270,ListV650v655vCollectionTerms.xml,CAM,650$v,Reverse dictionaries@en,fake@es
+1271,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Review literature@en,fake@es
+1272,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Review literature@en,fake@es
+1273,List245aCollectionTerms.xml,CAM,245$a,reviews@en,fake@es
+1274,List245bCollectionTerms.xml,CAM,245$b,reviews@en,fake@es
+1275,List245cCollectionTerms.xml,CAM,245$c,reviews@en,fake@es
+1276,List520aCollectionTerms.xml,CAM,520$a,reviews@en,fake@es
+1277,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Reviews@en,fake@es
+1278,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Reviews@en,fake@es
+1279,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rezitative@en,fake@es
+1280,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rhapsodien@en,fake@es
+1281,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rhapsodies@en,fake@es
+1282,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rhumbas@en,fake@es
+1283,List245aCollectionTerms.xml,CAM,245$a,rhymes@en,fake@es
+1284,List245bCollectionTerms.xml,CAM,245$b,rhymes@en,fake@es
+1285,List245cCollectionTerms.xml,CAM,245$c,rhymes@en,fake@es
+1286,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ricercari@en,fake@es
+1287,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ricercars@en,fake@es
+1288,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Riddles@en,fake@es
+1289,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Riddles@en,fake@es
+1290,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rigadoons@en,fake@es
+1291,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rigaudons@en,fake@es
+1292,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rigodones@en,fake@es
+1293,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ritornelli@en,fake@es
+1294,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Ritournelles@en,fake@es
+1295,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Romances@en,fake@es
+1296,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Romansy@en,fake@es
+1297,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Romanzas@en,fake@es
+1298,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Romanze@en,fake@es
+1299,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Romanzen@en,fake@es
+1300,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Romanzettas@en,fake@es
+1301,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rondeaux@en,fake@es
+1302,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rondinos@en,fake@es
+1303,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rondolettos@en,fake@es
+1304,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rondos@en,fake@es
+1305,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rounds@en,fake@es
+1306,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Rumbas@en,fake@es
+1307,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Salmi@en,fake@es
+1308,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Saltarelles@en,fake@es
+1309,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Saltarellos@en,fake@es
+1310,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Saltarelos@en,fake@es
+1311,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sambas@en,fake@es
+1312,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Samospevi@en,fake@es
+1313,List300aSuppCont.xml,AAM,300$a,sample@en,fake@es
+1314,List300bSuppCont.xml,AAM,300$b,sample@en,fake@es
+1315,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Sampler albums (Sound recordings)@en,fake@es
+1316,ListV650v655vCollectionTerms.xml,CAM,650$v,Sampler albums (Sound recordings)@en,fake@es
+1317,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sarabanden@en,fake@es
+1318,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sarabandes@en,fake@es
+1319,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sarabands@en,fake@es
+1320,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sardanas@en,fake@es
+1321,List245aCollectionTerms.xml,CAM,245$a,sayings of@en,fake@es
+1322,List245bCollectionTerms.xml,CAM,245$b,sayings of@en,fake@es
+1323,List245cCollectionTerms.xml,CAM,245$c,sayings of@en,fake@es
+1324,List520aCollectionTerms.xml,CAM,520$a,sayings of@en,fake@es
+1325,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sbory@en,fake@es
+1326,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Scherzandos@en,fake@es
+1327,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Scherzetti@en,fake@es
+1328,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Scherzettinos@en,fake@es
+1329,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Scherzi@en,fake@es
+1330,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Scherzinos@en,fake@es
+1331,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Scherzos@en,fake@es
+1332,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",School yearbooks@en,fake@es
+1333,ListV650v655vCollectionTerms.xml,CAM,650$v,School yearbooks@en,fake@es
+1334,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Schottischen@en,fake@es
+1335,List300aSuppCont.xml,AAM,300$a,score@en,fake@es
+1336,List300bSuppCont.xml,AAM,300$b,score@en,fake@es
+1337,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Scozzesi@en,fake@es
+1338,ListVTextsCCT.xml,CAM,240$a,Screenplays@en,fake@es
+1339,ListVTextsCCT.xml,CAM,240$a,Sculptures@en,fake@es
+1340,List546aNotParallelTerms.xml,PAM,546$a,searchable in@en,fake@es
+1341,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sebells@en,fake@es
+1342,List546aNotParallelTerms.xml,PAM,546$a,section@en,fake@es
+1343,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Seguidillas@en,fake@es
+1344,ListVTextsCCT.xml,CAM,240$a,Selected stories@en,fake@es
+1345,List245aCollectionTerms.xml,CAM,245$a,selected@en,fake@es
+1346,List245bCollectionTerms.xml,CAM,245$b,selected@en,fake@es
+1347,List245cCollectionTerms.xml,CAM,245$c,selected@en,fake@es
+1348,List520aCollectionTerms.xml,CAM,520$a,selected@en,fake@es
+1349,List245cAggregators.xml,CAM,245$c,selected@en,fake@es
+1350,List245cAggregators.xml,CAM,245$c,selected@en,fake@es
+1351,List245cAggregators.xml,CAM,245$c,selected@en,fake@es
+1352,List245aCollectionTerms.xml,CAM,245$a,selections@en,fake@es
+1353,List245bCollectionTerms.xml,CAM,245$b,selections@en,fake@es
+1354,List245cCollectionTerms.xml,CAM,245$c,selections@en,fake@es
+1355,List520aCollectionTerms.xml,CAM,520$a,selections@en,fake@es
+1356,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Selections@en,fake@es
+1357,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Selections@en,fake@es
+1358,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Septetos@en,fake@es
+1359,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Septets@en,fake@es
+1360,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Septette@en,fake@es
+1361,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Septiminos@en,fake@es
+1362,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Septuors@en,fake@es
+1363,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Serenades@en,fake@es
+1364,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Serestas@en,fake@es
+1365,List245aCollectionTerms.xml,CAM,245$a,sermons@en,fake@es
+1366,List245bCollectionTerms.xml,CAM,245$b,sermons@en,fake@es
+1367,List245cCollectionTerms.xml,CAM,245$c,sermons@en,fake@es
+1368,List520aCollectionTerms.xml,CAM,520$a,sermons@en,fake@es
+1369,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Sermons@en,fake@es
+1370,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Sermons@en,fake@es
+1371,ListVTextsCCT.xml,CAM,240$a,Sermons@en,fake@es
+1372,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Services@en,fake@es
+1373,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sestetti@en,fake@es
+1374,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sets@en,fake@es
+1375,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Settimini@en,fake@es
+1376,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Setts@en,fake@es
+1377,List546aNotParallelTerms.xml,PAM,546$a,several@en,fake@es
+1378,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sevillanas@en,fake@es
+1379,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sextetos@en,fake@es
+1380,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sextets@en,fake@es
+1381,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sextette@en,fake@es
+1382,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sextuors@en,fake@es
+1383,List245bCollectionTerms.xml,CAM,245$b,short stories of@en,fake@es
+1384,List245cCollectionTerms.xml,CAM,245$c,short stories of@en,fake@es
+1385,List245aCollectionTerms.xml,CAM,245$a,short stories@en,fake@es
+1386,List520aCollectionTerms.xml,CAM,520$a,short stories@en,fake@es
+1387,ListVTextsCCT.xml,CAM,240$a,Short stories@en,fake@es
+1388,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sicilianas@en,fake@es
+1389,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sicilienes@en,fake@es
+1390,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Siciliennes@en,fake@es
+1391,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Siciliens@en,fake@es
+1392,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",side by side@en,fake@es
+1393,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",side by side@en,fake@es
+1394,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",side-by-side@en,fake@es
+1395,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",side-by-side@en,fake@es
+1396,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Simphonies concertantes@en,fake@es
+1397,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Simphonies@en,fake@es
+1398,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sinfonie concertanti@en,fake@es
+1399,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sinfonie@en,fake@es
+1400,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sinfonies concertantes@en,fake@es
+1401,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sinfoniettas@en,fake@es
+1402,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sinfoniette concertanti@en,fake@es
+1403,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sinfonische Dichtungen@en,fake@es
+1404,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sinfonische Gedichte@en,fake@es
+1405,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sizilianos@en,fake@es
+1406,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Skladby@en,fake@es
+1407,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Solfeggietti@en,fake@es
+1408,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Solfeggios@en,fake@es
+1409,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Solos@en,fake@es
+1410,List546aNotParallelTerms.xml,PAM,546$a,some @en,fake@es
+1411,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sonata movements@en,fake@es
+1412,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sonatas en trio@en,fake@es
+1413,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sonatas@en,fake@es
+1414,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sonaten@en,fake@es
+1415,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sonates en trio@en,fake@es
+1416,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sonatilles@en,fake@es
+1417,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sonatinas@en,fake@es
+1418,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sonatinen@en,fake@es
+1419,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sonatines@en,fake@es
+1420,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sonatinettas@en,fake@es
+1421,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sones@en,fake@es
+1422,List245aCollectionTerms.xml,CAM,245$a,songbook@en,fake@es
+1423,List245bCollectionTerms.xml,CAM,245$b,songbook@en,fake@es
+1424,List520aCollectionTerms.xml,CAM,520$a,songbook@en,fake@es
+1425,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Songbooks@en,fake@es
+1426,ListV650v655vCollectionTerms.xml,CAM,650$v,Songbooks@en,fake@es
+1427,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Songs@en,fake@es
+1428,ListVTextsCCT.xml,CAM,240$a,Songs@en,fake@es
+1429,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Sonnets@en,fake@es
+1430,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Sonnets@en,fake@es
+1431,ListVTextsCCT.xml,CAM,240$a,Sonnets@en,fake@es
+1432,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Sousedsky@en,fake@es
+1433,List245aCollectionTerms.xml,CAM,245$a,speeches@en,fake@es
+1434,List245bCollectionTerms.xml,CAM,245$b,speeches@en,fake@es
+1435,List245cCollectionTerms.xml,CAM,245$c,speeches@en,fake@es
+1436,List520aCollectionTerms.xml,CAM,520$a,speeches@en,fake@es
+1437,ListVTextsCCT.xml,CAM,240$a,Speeches@en,fake@es
+1438,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Spirituals@en,fake@es
+1439,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Standards (Reference works)@en,fake@es
+1440,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Standards (Reference works)@en,fake@es
+1441,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Statistics@en,fake@es
+1442,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Statistics@en,fake@es
+1443,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Statutes and codes@en,fake@es
+1444,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Statutes and codes@en,fake@es
+1445,List245bCollectionTerms.xml,CAM,245$b,stories@en,fake@es
+1446,List245cCollectionTerms.xml,CAM,245$c,stories@en,fake@es
+1447,ListVTextsCCT.xml,CAM,240$a,Stories@en,fake@es
+1448,List245cCollectionTerms.xml,CAM,245$c,story book@en,fake@es
+1449,List245cCollectionTerms.xml,CAM,245$c,storybook@en,fake@es
+1450,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,String quartet music@en,fake@es
+1451,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Strofe@en,fake@es
+1452,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Strophen@en,fake@es
+1453,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Studi@en,fake@es
+1454,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Studien@en,fake@es
+1455,List245aCollectionTerms.xml,CAM,245$a,studies in@en,fake@es
+1456,List520aCollectionTerms.xml,CAM,520$a,studies in@en,fake@es
+1457,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Studies@en,fake@es
+1458,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Stukken@en,fake@es
+1459,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Sudoku puzzles@en,fake@es
+1460,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Sudoku puzzles@en,fake@es
+1461,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Suites@en,fake@es
+1462,List546aNotParallelTerms.xml,PAM,546$a,summaries@en,fake@es
+1463,List245bCollectionTerms.xml,CAM,245$b,summary@en,fake@es
+1464,List546aNotParallelTerms.xml,PAM,546$a,summary@en,fake@es
+1465,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Surveys of literature@en,fake@es
+1466,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Surveys of literature@en,fake@es
+1467,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Symphonettes@en,fake@es
+1468,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Symphonic poems@en,fake@es
+1469,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Symphonien@en,fake@es
+1470,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Symphonies concertantes@en,fake@es
+1471,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Symphonies@en,fake@es
+1472,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Symphoniettas@en,fake@es
+1473,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Symphoniettes@en,fake@es
+1474,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Symphonische Dichtungen@en,fake@es
+1475,List546aNotParallelTerms.xml,PAM,546$a,table of content@en,fake@es
+1476,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Tables (Data)@en,fake@es
+1477,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Tables (Data)@en,fake@es
+1478,List546aNotParallelTerms.xml,PAM,546$a,tables of content@en,fake@es
+1479,List245aCollectionTerms.xml,CAM,245$a,tales of@en,fake@es
+1480,List520aCollectionTerms.xml,CAM,520$a,tales of@en,fake@es
+1481,List245bCollectionTerms.xml,CAM,245$b,tales@en,fake@es
+1482,ListVTextsCCT.xml,CAM,240$a,Tales@en,fake@es
+1483,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Tall tales@en,fake@es
+1484,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Tall tales@en,fake@es
+1485,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tambourins@en,fake@es
+1486,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tangos@en,fake@es
+1487,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tarantelas@en,fake@es
+1488,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tarantellas@en,fake@es
+1489,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tarentelles@en,fake@es
+1490,List245aCollectionTerms.xml,CAM,245$a,teachings of@en,fake@es
+1491,List245bCollectionTerms.xml,CAM,245$b,teachings of@en,fake@es
+1492,List245cCollectionTerms.xml,CAM,245$c,teachings of@en,fake@es
+1493,List520aCollectionTerms.xml,CAM,520$a,teachings of@en,fake@es
+1494,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Telephone directories@en,fake@es
+1495,ListV650v655vCollectionTerms.xml,CAM,650$v,Telephone directories@en,fake@es
+1496,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Temas@en,fake@es
+1497,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Temi@en,fake@es
+1498,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tentets@en,fake@es
+1499,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Terminology@en,fake@es
+1500,ListV650v655vCollectionTerms.xml,CAM,650$v,Terminology@en,fake@es
+1501,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Terms and phrases@en,fake@es
+1502,ListV650v655vCollectionTerms.xml,CAM,650$v,Terms and phrases@en,fake@es
+1503,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Terzette@en,fake@es
+1504,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Terzetti@en,fake@es
+1505,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Terzettinos@en,fake@es
+1506,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",tete beche@en,fake@es
+1507,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",tete beche@en,fake@es
+1508,ListInvertedEtcTerms.xml,PAM,500$a,tete beche@en,fake@es
+1509,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",tête bêche@en,fake@es
+1510,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",tête bêche@en,fake@es
+1511,ListInvertedEtcTerms.xml,PAM,500$a,tête bêche@en,fake@es
+1512,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",tete-beche@en,fake@es
+1513,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",tete-beche@en,fake@es
+1514,ListInvertedEtcTerms.xml,PAM,500$a,tete-beche@en,fake@es
+1515,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",tête-bêche@en,fake@es
+1516,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",tête-bêche@en,fake@es
+1517,ListInvertedEtcTerms.xml,PAM,500$a,tête-bêche@en,fake@es
+1518,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",text in both @en,fake@es
+1519,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",text in both @en,fake@es
+1520,List245aCollectionTerms.xml,CAM,245$a,the catalog of@en,fake@es
+1521,List245bCollectionTerms.xml,CAM,245$b,the catalog of@en,fake@es
+1522,List245cCollectionTerms.xml,CAM,245$c,the catalog of@en,fake@es
+1523,List520aCollectionTerms.xml,CAM,520$a,the catalog of@en,fake@es
+1524,List245aCollectionTerms.xml,CAM,245$a,the catalogue of@en,fake@es
+1525,List245bCollectionTerms.xml,CAM,245$b,the catalogue of@en,fake@es
+1526,List245cCollectionTerms.xml,CAM,245$c,the catalogue of@en,fake@es
+1527,List520aCollectionTerms.xml,CAM,520$a,the catalogue of@en,fake@es
+1528,List245aCollectionTerms.xml,CAM,245$a,the photographs@en,fake@es
+1529,List245bCollectionTerms.xml,CAM,245$b,the photographs@en,fake@es
+1530,List245cCollectionTerms.xml,CAM,245$c,the photographs@en,fake@es
+1531,List520aCollectionTerms.xml,CAM,520$a,the photographs@en,fake@es
+1532,List245bCollectionTerms.xml,CAM,245$b,the poetry of@en,fake@es
+1533,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Thematic catalogs (Music)@en,fake@es
+1534,ListV650v655vCollectionTerms.xml,CAM,650$v,Thematic catalogs (Music)@en,fake@es
+1535,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Themen@en,fake@es
+1536,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Themes@en,fake@es
+1537,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Thesauri (Dictionaries)@en,fake@es
+1538,ListV650v655vCollectionTerms.xml,CAM,650$v,Thesauri (Dictionaries)@en,fake@es
+1539,List245aCollectionTerms.xml,CAM,245$a,thoughts of@en,fake@es
+1540,List245bCollectionTerms.xml,CAM,245$b,thoughts of@en,fake@es
+1541,List245cCollectionTerms.xml,CAM,245$c,thoughts of@en,fake@es
+1542,List520aCollectionTerms.xml,CAM,520$a,thoughts of@en,fake@es
+1543,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tientos@en,fake@es
+1544,List300aSuppCont.xml,AAM,300$a,tintype@en,fake@es
+1545,List300bSuppCont.xml,AAM,300$b,tintype@en,fake@es
+1546,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tiranas@en,fake@es
+1547,List546aNotParallelTerms.xml,PAM,546$a,title in@en,fake@es
+1548,List546aNotParallelTerms.xml,PAM,546$a,title page@en,fake@es
+1549,List546aNotParallelTerms.xml,PAM,546$a,Title@en,fake@es
+1550,List245cCollectionTerms.xml,CAM,245$c,to which is added@en,fake@es
+1551,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Toasts@en,fake@es
+1552,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Toasts@en,fake@es
+1553,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tocatas@en,fake@es
+1554,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Toccatas@en,fake@es
+1555,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Toccatellas@en,fake@es
+1556,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Toccatinas@en,fake@es
+1557,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tonadillas@en,fake@es
+1558,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tondichtungen@en,fake@es
+1559,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tone poems@en,fake@es
+1560,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Toyes@en,fake@es
+1561,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Toys@en,fake@es
+1562,List546aNotParallelTerms.xml,PAM,546$a,Track@en,fake@es
+1563,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Trade catalogs@en,fake@es
+1564,ListV650v655vCollectionTerms.xml,CAM,650$v,Trade catalogs@en,fake@es
+1565,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Trademark lists@en,fake@es
+1566,ListV650v655vCollectionTerms.xml,CAM,650$v,Trademark lists@en,fake@es
+1567,ListVTextsCCT.xml,CAM,240$a,Tragedies@en,fake@es
+1568,List546aNotParallelTerms.xml,PAM,546$a,Translat@en,fake@es
+1569,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tricinia@en,fake@es
+1570,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",trilingual@en,fake@es
+1571,List500_520_546aParallelPlusTerms_CaseNo.xml,PAM,"500$a, 520$a, 546$a",trilingual@en,fake@es
+1572,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Trio sonatas@en,fake@es
+1573,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Triolettos@en,fake@es
+1574,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Trios@en,fake@es
+1575,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Triosonaten@en,fake@es
+1576,ListV650a_655aCollectionTermsUsually.xml,CAM,"650$a, 655$a",Trivia and miscellanea@en,fake@es
+1577,ListV650v655vCollectionTermsUsually.xml,CAM,650$v,Trivia and miscellanea@en,fake@es
+1578,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Trumpet tunes@en,fake@es
+1579,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tunes@en,fake@es
+1580,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Tuutulaulut@en,fake@es
+1581,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Umoresche@en,fake@es
+1582,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Undecets@en,fake@es
+1583,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Underground newspapers@en,fake@es
+1584,ListV650v655vCollectionTerms.xml,CAM,650$v,Underground newspapers@en,fake@es
+1585,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Underground periodicals@en,fake@es
+1586,ListV650v655vCollectionTerms.xml,CAM,650$v,Underground periodicals@en,fake@es
+1587,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Union catalogs@en,fake@es
+1588,ListV650v655vCollectionTerms.xml,CAM,650$v,Union catalogs@en,fake@es
+1589,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Union lists@en,fake@es
+1590,ListV650v655vCollectionTerms.xml,CAM,650$v,Union lists@en,fake@es
+1591,List245aCollectionTerms.xml,CAM,245$a,unpublished photographs@en,fake@es
+1592,List245bCollectionTerms.xml,CAM,245$b,unpublished photographs@en,fake@es
+1593,List245cCollectionTerms.xml,CAM,245$c,unpublished photographs@en,fake@es
+1594,List520aCollectionTerms.xml,CAM,520$a,unpublished photographs@en,fake@es
+1595,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Utwory@en,fake@es
+1596,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Valses@en,fake@es
+1597,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Variaciones@en,fake@es
+1598,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Variations@en,fake@es
+1599,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Variazioni@en,fake@es
+1600,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Variety show@en,fake@es
+1601,ListV650v655vCollectionTerms.xml,CAM,650$v,Variety show@en,fake@es
+1602,List245bCollectionTerms.xml,CAM,245$b,verses@en,fake@es
+1603,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Verses@en,fake@es
+1604,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Versets@en,fake@es
+1605,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Versetten@en,fake@es
+1606,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Versetti@en,fake@es
+1607,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Versos@en,fake@es
+1608,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Vespers@en,fake@es
+1609,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Vespri@en,fake@es
+1610,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Video catalogs@en,fake@es
+1611,ListV650v655vCollectionTerms.xml,CAM,650$v,Video catalogs@en,fake@es
+1612,List245aCollectionTerms.xml,CAM,245$a,vignettes@en,fake@es
+1613,List245bCollectionTerms.xml,CAM,245$b,vignettes@en,fake@es
+1614,List245cCollectionTerms.xml,CAM,245$c,vignettes@en,fake@es
+1615,List520aCollectionTerms.xml,CAM,520$a,vignettes@en,fake@es
+1616,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Villancicos@en,fake@es
+1617,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Villanelle@en,fake@es
+1618,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Villanelles@en,fake@es
+1619,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Viola da gamba music@en,fake@es
+1620,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Violin music@en,fake@es
+1621,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Violin orchestra music@en,fake@es
+1622,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Violin piano music@en,fake@es
+1623,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Virelais@en,fake@es
+1624,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Vivaces@en,fake@es
+1625,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Vivos@en,fake@es
+1626,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Vocal music@en,fake@es
+1627,List546aNotParallelTerms.xml,PAM,546$a,vocal selections@en,fake@es
+1628,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Vocalises@en,fake@es
+1629,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Vocalizaciones@en,fake@es
+1630,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Vocalizzi@en,fake@es
+1631,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Vokalisen@en,fake@es
+1632,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Volte@en,fake@es
+1633,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Voluntaries@en,fake@es
+1634,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Vorspiele@en,fake@es
+1635,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Vox pop radio programs@en,fake@es
+1636,ListV650v655vCollectionTerms.xml,CAM,650$v,Vox pop radio programs@en,fake@es
+1637,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Vuggeviser@en,fake@es
+1638,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Waltzes@en,fake@es
+1639,ListVMusicCCT_MLA_Medium.xml,CAM,240$a,Water music@en,fake@es
+1640,ListVTextsCCT.xml,CAM,240$a,Watercolor paintings@en,fake@es
+1641,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Wiegenlieder@en,fake@es
+1642,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Wine lists@en,fake@es
+1643,ListV650v655vCollectionTerms.xml,CAM,650$v,Wine lists@en,fake@es
+1644,List245bCollectionTerms.xml,CAM,245$b,with a @en,fake@es
+1645,List245bCollectionTerms.xml,CAM,245$b,with an @en,fake@es
+1646,List245bCollectionTerms.xml,CAM,245$b,with remarks@en,fake@es
+1647,List245bCollectionTerms.xml,CAM,245$b,words of@en,fake@es
+1648,List245cCollectionTerms.xml,CAM,245$c,words of@en,fake@es
+1649,List245bCollectionTerms.xml,CAM,245$b,works@en,fake@es
+1650,List546aNotParallelTerms.xml,PAM,546$a,works@en,fake@es
+1651,ListVTextsCCT.xml,CAM,240$a,Works@en,fake@es
+1652,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",World atlases@en,fake@es
+1653,ListV650v655vCollectionTerms.xml,CAM,650$v,World atlases@en,fake@es
+1654,List245aCollectionTerms.xml,CAM,245$a,writings of@en,fake@es
+1655,List245bCollectionTerms.xml,CAM,245$b,writings of@en,fake@es
+1656,List245cCollectionTerms.xml,CAM,245$c,writings of@en,fake@es
+1657,List520aCollectionTerms.xml,CAM,520$a,writings of@en,fake@es
+1658,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Yearbooks@en,fake@es
+1659,ListV650v655vCollectionTerms.xml,CAM,650$v,Yearbooks@en,fake@es
+1660,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Yellow pages@en,fake@es
+1661,ListV650v655vCollectionTerms.xml,CAM,650$v,Yellow pages@en,fake@es
+1662,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Zambas@en,fake@es
+1663,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Zapateados@en,fake@es
+1664,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Zapateaos@en,fake@es
+1665,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Zarabandas@en,fake@es
+1666,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Zeitschrift@en,fake@es
+1667,ListV650v655vCollectionTerms.xml,CAM,650$v,Zeitschrift@en,fake@es
+1668,ListV650a_655aCollectionTerms.xml,CAM,"650$v, 655$a",Zines@en,fake@es
+1669,ListV650v655vCollectionTerms.xml,CAM,650$v,Zines@en,fake@es
+1670,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Zorcicos@en,fake@es
+1671,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Zortzicos@en,fake@es
+1672,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Zwiefache@en,fake@es
+1673,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Zwischenakten@en,fake@es
+1674,ListVMusicCCT_MLA_Type_Plural.xml,CAM,240$a,Zwischenspiele@en,fake@es
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

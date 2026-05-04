@@ -1,0 +1,84 @@
+<items regex="N" case="Y">
+  <item id="89" xml:lang="en">Abstracts</item>
+  <item id="89" xml:lang="es">fake</item>
+  <item id="93" xml:lang="en">Acrostics (Puzzles)</item>
+  <item id="93" xml:lang="es">fake</item>
+  <item id="137" xml:lang="en">Anagrams</item>
+  <item id="137" xml:lang="es">fake</item>
+  <item id="145" xml:lang="en">Anecdotes</item>
+  <item id="145" xml:lang="es">fake</item>
+  <item id="233" xml:lang="en">Book reviews</item>
+  <item id="233" xml:lang="es">fake</item>
+  <item id="439" xml:lang="en">Crossword puzzles</item>
+  <item id="439" xml:lang="es">fake</item>
+  <item id="443" xml:lang="en">Cryptograms</item>
+  <item id="443" xml:lang="es">fake</item>
+  <item id="550" xml:lang="en">Editorials</item>
+  <item id="550" xml:lang="es">fake</item>
+  <item id="564" xml:lang="en">Epigrams</item>
+  <item id="564" xml:lang="es">fake</item>
+  <item id="577" xml:lang="en">Essays</item>
+  <item id="577" xml:lang="es">fake</item>
+  <item id="587" xml:lang="en">Eulogies</item>
+  <item id="587" xml:lang="es">fake</item>
+  <item id="624" xml:lang="en">Film criticism</item>
+  <item id="624" xml:lang="es">fake</item>
+  <item id="721" xml:lang="en">Hearings</item>
+  <item id="721" xml:lang="es">fake</item>
+  <item id="830" xml:lang="en">Law reports, digests, etc.</item>
+  <item id="830" xml:lang="es">fake</item>
+  <item id="845" xml:lang="en">Legislative hearings</item>
+  <item id="845" xml:lang="es">fake</item>
+  <item id="855" xml:lang="en">Letters to the editor</item>
+  <item id="855" xml:lang="es">fake</item>
+  <item id="865" xml:lang="en">Logic puzzles</item>
+  <item id="865" xml:lang="es">fake</item>
+  <item id="879" xml:lang="en">Malapropisms</item>
+  <item id="879" xml:lang="es">fake</item>
+  <item id="899" xml:lang="en">Maze puzzles</item>
+  <item id="899" xml:lang="es">fake</item>
+  <item id="904" xml:lang="en">Meditations</item>
+  <item id="904" xml:lang="es">fake</item>
+  <item id="989" xml:lang="en">Obituaries</item>
+  <item id="989" xml:lang="es">fake</item>
+  <item id="1065" xml:lang="en">Pastoral letters and charges</item>
+  <item id="1065" xml:lang="es">fake</item>
+  <item id="1073" xml:lang="en">Patterns</item>
+  <item id="1073" xml:lang="es">fake</item>
+  <item id="1130" xml:lang="en">Plot summaries</item>
+  <item id="1130" xml:lang="es">fake</item>
+  <item id="1168" xml:lang="en">Prayers and devotions</item>
+  <item id="1168" xml:lang="es">fake</item>
+  <item id="1223" xml:lang="en">Quotations</item>
+  <item id="1223" xml:lang="es">fake</item>
+  <item id="1249" xml:lang="en">Records (Documents)</item>
+  <item id="1249" xml:lang="es">fake</item>
+  <item id="1272" xml:lang="en">Review literature</item>
+  <item id="1272" xml:lang="es">fake</item>
+  <item id="1278" xml:lang="en">Reviews</item>
+  <item id="1278" xml:lang="es">fake</item>
+  <item id="1289" xml:lang="en">Riddles</item>
+  <item id="1289" xml:lang="es">fake</item>
+  <item id="1370" xml:lang="en">Sermons</item>
+  <item id="1370" xml:lang="es">fake</item>
+  <item id="1430" xml:lang="en">Sonnets</item>
+  <item id="1430" xml:lang="es">fake</item>
+  <item id="1440" xml:lang="en">Standards (Reference works)</item>
+  <item id="1440" xml:lang="es">fake</item>
+  <item id="1442" xml:lang="en">Statistics</item>
+  <item id="1442" xml:lang="es">fake</item>
+  <item id="1444" xml:lang="en">Statutes and codes</item>
+  <item id="1444" xml:lang="es">fake</item>
+  <item id="1460" xml:lang="en">Sudoku puzzles</item>
+  <item id="1460" xml:lang="es">fake</item>
+  <item id="1466" xml:lang="en">Surveys of literature</item>
+  <item id="1466" xml:lang="es">fake</item>
+  <item id="1477" xml:lang="en">Tables (Data)</item>
+  <item id="1477" xml:lang="es">fake</item>
+  <item id="1484" xml:lang="en">Tall tales</item>
+  <item id="1484" xml:lang="es">fake</item>
+  <item id="1552" xml:lang="en">Toasts</item>
+  <item id="1552" xml:lang="es">fake</item>
+  <item id="1577" xml:lang="en">Trivia and miscellanea</item>
+  <item id="1577" xml:lang="es">fake</item>
+</items>

@@ -1,0 +1,28 @@
+<items regex="N" case="Y">
+  <item id="184" xml:lang="en">back to back</item>
+  <item id="184" xml:lang="es">fake</item>
+  <item id="187" xml:lang="en">back-to-back</item>
+  <item id="187" xml:lang="es">fake</item>
+  <item id="511" xml:lang="en">dos a dos</item>
+  <item id="511" xml:lang="es">fake</item>
+  <item id="514" xml:lang="en">dos à dos</item>
+  <item id="514" xml:lang="es">fake</item>
+  <item id="517" xml:lang="en">dos-a-dos</item>
+  <item id="517" xml:lang="es">fake</item>
+  <item id="520" xml:lang="en">dos-à-dos</item>
+  <item id="520" xml:lang="es">fake</item>
+  <item id="712" xml:lang="en">head to toe</item>
+  <item id="712" xml:lang="es">fake</item>
+  <item id="715" xml:lang="en">head-to-toe</item>
+  <item id="715" xml:lang="es">fake</item>
+  <item id="779" xml:lang="en">inverted pages</item>
+  <item id="779" xml:lang="es">fake</item>
+  <item id="1508" xml:lang="en">tete beche</item>
+  <item id="1508" xml:lang="es">fake</item>
+  <item id="1511" xml:lang="en">tête bêche</item>
+  <item id="1511" xml:lang="es">fake</item>
+  <item id="1514" xml:lang="en">tete-beche</item>
+  <item id="1514" xml:lang="es">fake</item>
+  <item id="1517" xml:lang="en">tête-bêche</item>
+  <item id="1517" xml:lang="es">fake</item>
+</items>
