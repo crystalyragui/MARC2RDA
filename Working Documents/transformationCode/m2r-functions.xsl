@@ -810,6 +810,119 @@
         <xsl:value-of select="$nameFile//madsrdf:authoritativeLabel[@xml:lang='en'][parent::madsrdf:Language/@rdf:about=$langIRI]"/>
     </xsl:function>
     
+    
+<!-- FMV FUNCTIONS -->
+    
+    <xsl:key name="fmvRdaCode" match="skos:Concept" use="@rdf:about"/>
+    <xsl:key name="fmvRdaTerm" match="skos:Concept" use="skos:prefLabel|skos:altLabel"/>
+    <xsl:key name="fmvLcIRI" match="row" use="lcIRI"/>
+    <xsl:key name="fmvLcTermOrCode" match="row" use="lcTerm|lcCode"/>
+    <xsl:key name="eq" match="row" use="./eq"/>
+    
+    <xsl:function name="m2r:fmvRdaFromLcIRI">
+        <xsl:param name="iri"/>
+        <xsl:param name="fmv_doc"/>
+        <xsl:param name="rda_entity"/>
+        <xsl:param name="p_num"/>
+        
+        <xsl:variable name="fmv_doc_path" select="concat('lookup/fmv/',$fmv_doc)"/>
+        <!-- Each $0 and $1 subfield from lc should be passed into this function using the iri variable -->
+       
+        <xsl:for-each select="$iri">
+            <xsl:choose>
+                <!-- use associated rdaIRI if present -->
+                <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmvLcIRI', .)/rdaIRI)">
+                    <xsl:element name="{$rda_entity||'o:'||$p_num}">
+                        <xsl:attribute name="rdf:resource" select="document($fmv_doc)/rdf:RDF/skos:Concept/key('fmvLcIRI', .)/rdaIRI"/>
+                    </xsl:element>
+                </xsl:when>
+                <!-- else if in the table but no rdaIRI, use lcIRI -->
+                <!-- if not in table but lc, it won't be processed -->
+                <xsl:when test="exists(document($fmv_doc)/lookup/row/key('fmvLcIRI', .))">
+                    <xsl:element name="{$rda_entity||'o:'||$p_num}">
+                        <xsl:attribute name="rdf:resource" select="."/>
+                    </xsl:element>
+                </xsl:when>
+                <xsl:otherwise/>
+            </xsl:choose>
+        </xsl:for-each>
+    </xsl:function>
+    
+    <xsl:function name="m2r:fmvRdaFromTermOrCode">
+        <xsl:param name="termOrCode"/>
+        <xsl:param name="rda_doc"/>
+        <xsl:param name="fmv_doc"/>
+        <xsl:param name="sub2"/>
+        <xsl:param name="source_code"/>
+        <xsl:param name="rda_entity"/>
+        <xsl:param name="p_num"/>
+        
+        <xsl:variable name="rda_doc_path" select="concat('lookup/rda/', $rda_doc)"/>
+        <xsl:variable name="fmv_doc_path" select="concat('lookup/fmv/', $fmv_doc)"/>
+        
+        <xsl:for-each select="$termOrCode">
+            <xsl:variable name="norm_text" select="normalize-space(lower-case(.))"/>
+            <xsl:choose>
+                <!-- subfield $2 begins with rda -->
+                <xsl:when test="starts-with($sub2, 'rda')">
+                    <xsl:choose>
+                        <!-- rda code -->
+                        <!-- use IRI if match -->
+                        <xsl:when test="matches(., '\d\d\d\d')">
+                            <xsl:variable name="code_iri" select="document($rda_doc_path)/rdf:RDF/skos:ConceptScheme/@rdf:about||'/'||."/>
+                            <xsl:if test="document($rda_doc_path)/rdf:RDF/skos:Concept/key('fmvRdaCode', $code_iri)">
+                                <xsl:element name="{$rda_entity||'o:'||$p_num}">
+                                    <xsl:attribute name="rdf:resource" select="document($rda_doc_path)/rdf:RDF/skos:Concept/key('fmvRdaCode', $code_iri)/@rdf:about"/>
+                                </xsl:element>
+                            </xsl:if>   
+                        </xsl:when>
+                        <!-- lookup normalized text in rda vocabulary -->
+                        <!-- use IRI if a match -->
+                        <xsl:when test="document($rda_doc_path)/rdf:RDF/skos:Concept/key('fmvRdaTerm', $norm_text)">
+                            <xsl:element name="{$rda_entity||'o:'||$p_num}">
+                                <xsl:attribute name="rdf:resource" select="document($rda_doc_path)/rdf:RDF/skos:Concept/key('fmvRdaTerm', $norm_text)/@rdf:about"/>
+                            </xsl:element>
+                        </xsl:when>
+                        <!-- otherwise use text value as string -->
+                        <xsl:otherwise>
+                            <xsl:element name="{$rda_entity||'d:'||$p_num}">
+                                <xsl:value-of select="."/>
+                            </xsl:element>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <!-- subfield $2 has lc code -->
+                <xsl:when test="$sub2 = $source_code">
+                    <!-- lookup in lookup xml file -->
+                    <xsl:choose>
+                        <!-- use associated rdaIRI if present -->
+                        <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmLCTermOrCode', .)/rdaIRI)">
+                            <xsl:element name="{$rda_entity||'o:'||$p_num}">
+                                <xsl:attribute name="rdf:resource" select="document($fmv_doc_path)/lookup/row/key('fmLCTermOrCode', .)/rdaIRI"/>
+                            </xsl:element>
+                        </xsl:when>
+                        <!-- else if in the table but no rdaIRI, use lcIRI -->
+                        <!-- if not in table but lc source code, it won't be processed -->
+                        <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmLCTerm', .)/lcIRI)">
+                            <xsl:element name="{$rda_entity||'o:'||$p_num}">
+                                <xsl:attribute name="rdf:resource" select="document($fmv_doc_path)/lookup/row/key('fmLCTermOrCode', .)/lcIRI"/>
+                            </xsl:element>
+                        </xsl:when>
+                    </xsl:choose>
+                </xsl:when>
+                <!-- else if sub2 but not rda or lc, mint concept -->
+                <xsl:otherwise>
+                    <xsl:if test="not(matches($termOrCode, 'other|unspecified'))">
+                        <xsl:element name="{$rda_entity||'o:'||$p_num}">
+                            <xsl:attribute name="rdf:resource" select="m2r:conceptIRI($sub2, .)"/>
+                        </xsl:element>
+                    </xsl:if>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
+    </xsl:function>
+    
+    
     <!-- POSSIBLE BREAK POINT !!!!  If we query LC too much we may get denied -->
     <xsl:function name="m2r:lcNamesToGeographicAreas" expand-text="yes">
         <xsl:param name="nameIRI"/>

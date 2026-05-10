@@ -862,7 +862,46 @@
             </rdamd:P30162>
         </xsl:for-each>
     </xsl:template>
-
+    
+    <xsl:template name="F340-xx-n" expand-text="yes">
+        <!-- if $0 or $1 is from lc or rda font size IRIs, use -->
+        <xsl:for-each select="marc:subfield[@code='0']|marc:subfield[@code='1']">
+            <xsl:choose>
+                <!-- if rda font size IRI, use -->
+                <xsl:when test="contains(., 'rdaregistry.info/termList/fontSize/')">
+                    <rdamo:P30199 rdf:resource="{.}"/>
+                </xsl:when>
+                <!-- if lc font size IRI, look up in font size fmv table -->
+                <xsl:when test="contains(., '/id.loc.gov/vocabulary/mfont')">
+                    <xsl:copy-of select="m2r:fmvRdaFromLcIRI(., 'font_size.xml', 'rdam', 'P30199')"/>
+                </xsl:when>
+                <!-- specific to 340 - check that the $0 or $1 could only refer to font size ($n present, no other subfields with vocabs present -->
+                <!-- if non lc or rda IRI, map value -->
+                <xsl:when test="../marc:subfield[@code = 'n'] and count(../marc:subfield[not(@code = '0' or @code = '1' or @code = '2' or @code = '3'
+                    or @code = '6' or @code = '8' or @code = 'b' or @code = 'f' or @code = 'h' or @code = 'i')]) = 1">
+                    <xsl:if test="contains(., 'http')">
+                        <rdamo:P30199 rdf:resource="{.}"/>
+                    </xsl:if>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:for-each>
+        
+        <xsl:for-each select="marc:subfield[@code='n']">
+            <xsl:choose>
+                <xsl:when test="../marc:subfield[@code = '2']">
+                    <xsl:variable name="sub2" select="../marc:subfield[@code = '2']"/>
+                    <xsl:copy-of select="m2r:fmvRdaFromTermOrCode(., 'fontSize.xml', 'font_size.xml', $sub2, 'mfont', 'rdam', 'P30199')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:if test="not(matches(., 'other|unspecified'))">
+                        <rdamd:P30199>{.}</rdamd:P30199>
+                    </xsl:if>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
+        
+    </xsl:template>
+    
     <!-- mints concepts for 340 subfields as needed -->
     <xsl:template name="F340-concept" expand-text="yes">
         <!-- if there is a $0 that begins with 'http' or there is a $1 value 
@@ -899,7 +938,7 @@
                             marc:subfield[@code = 'a'] | marc:subfield[@code = 'c'] | marc:subfield[@code = 'd']
                             | marc:subfield[@code = 'e'] | marc:subfield[@code = 'g'] | marc:subfield[@code = 'j']
                             | marc:subfield[@code = 'k'] | marc:subfield[@code = 'l'] | marc:subfield[@code = 'm']
-                            | marc:subfield[@code = 'n'] | marc:subfield[@code = 'o'] | marc:subfield[@code = 'p']
+                            | marc:subfield[@code = 'o'] | marc:subfield[@code = 'p']
                             | marc:subfield[@code = 'q']">
                         <!-- save the code value in a variable for if there's a linked 880, 
                             we need to find the associated subfield in that field using it -->
@@ -923,7 +962,7 @@
     </xsl:template>
 
     <!-- handles 340 subfields that map to concepts -->
-    <xsl:template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1" expand-text="yes">
+    <xsl:template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1" expand-text="yes">
         <!-- propertyNum is the appropriate rda property passed from the 340 match template
              these are all manifestation properties, so only the P##### number is needed-->
         <xsl:param name="propertyNum"/>

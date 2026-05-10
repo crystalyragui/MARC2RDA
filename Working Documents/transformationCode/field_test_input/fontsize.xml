@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:record>
+        <marc:leader>04004cam a2200673 i 4500</marc:leader>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Branum, Amy M.,</marc:subfield>
+            <marc:subfield code="e">author.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Trends in long-acting reversible contraception use among U.S. women aged 15-44 /</marc:subfield>
+            <marc:subfield code="c">Amy M. Branum and Jo Jones.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="340" ind1=" " ind2=" ">
+            <marc:subfield code="n">large print</marc:subfield>
+            <marc:subfield code="2">rdafs</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="340" ind1=" " ind2=" ">
+            <marc:subfield code="n">super large print</marc:subfield>
+            <marc:subfield code="2">rda</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="340" ind1=" " ind2=" ">
+            <marc:subfield code="n">1003</marc:subfield>
+            <marc:subfield code="2">rda</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+</marc:collection>

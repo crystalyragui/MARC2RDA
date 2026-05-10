@@ -372,79 +372,74 @@
                 marc:subfield[@code = 'a'] | marc:subfield[@code = 'c'] | marc:subfield[@code = 'd']
                 | marc:subfield[@code = 'e'] | marc:subfield[@code = 'g'] | marc:subfield[@code = 'j']
                 | marc:subfield[@code = 'k'] | marc:subfield[@code = 'l'] | marc:subfield[@code = 'm']
-                | marc:subfield[@code = 'n'] | marc:subfield[@code = 'o'] | marc:subfield[@code = 'p']
+                | marc:subfield[@code = 'o'] | marc:subfield[@code = 'p']
                 | marc:subfield[@code = 'q']">
             <xsl:choose>
                 <!-- different subfields require different properties, 
                     the templates are set up to accommodate this with the param $propertyNum-->
                 <xsl:when test="@code = 'd'">
-                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
+                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1">
                         <xsl:with-param name="propertyNum">P30187</xsl:with-param>
                         <xsl:with-param name="entity">m</xsl:with-param>
                     </xsl:call-template>
                 </xsl:when>
                 <xsl:when test="@code = 'g'">
-                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
+                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1">
                         <xsl:with-param name="propertyNum">P30456</xsl:with-param>
                         <xsl:with-param name="entity">m</xsl:with-param>
                     </xsl:call-template>
                 </xsl:when>
                 <xsl:when test="@code = 'j'">
-                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
+                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1">
                         <xsl:with-param name="propertyNum">P30191</xsl:with-param>
                         <xsl:with-param name="entity">m</xsl:with-param>
                     </xsl:call-template>
                 </xsl:when>
                 <xsl:when test="@code = 'k'">
-                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
+                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1">
                         <xsl:with-param name="propertyNum">P30155</xsl:with-param>
                         <xsl:with-param name="entity">m</xsl:with-param>
                     </xsl:call-template>
                 </xsl:when>
                 <xsl:when test="@code = 'l'">
-                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
+                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1">
                         <xsl:with-param name="propertyNum">P30309</xsl:with-param>
                         <xsl:with-param name="entity">m</xsl:with-param>
                     </xsl:call-template>
                 </xsl:when>
                 <xsl:when test="@code = 'm'">
-                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
+                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1">
                         <xsl:with-param name="propertyNum">P30197</xsl:with-param>
                         <xsl:with-param name="entity">m</xsl:with-param>
                     </xsl:call-template>
                 </xsl:when>
-                <xsl:when test="@code = 'n'">
-                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
-                        <xsl:with-param name="propertyNum">P30199</xsl:with-param>
-                        <xsl:with-param name="entity">m</xsl:with-param>
-                    </xsl:call-template>
-                </xsl:when>
                 <xsl:when test="@code = 'o'">
-                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
+                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1">
                         <xsl:with-param name="propertyNum">P30196</xsl:with-param>
                         <xsl:with-param name="entity">m</xsl:with-param>
                     </xsl:call-template>
                 </xsl:when>
                 <xsl:when test="@code = 'p'">
-                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
+                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1">
                         <xsl:with-param name="propertyNum">P30453</xsl:with-param>
                         <xsl:with-param name="entity">m</xsl:with-param>
                     </xsl:call-template>
                 </xsl:when>
                 <xsl:when test="@code = 'q'">
-                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
+                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1">
                         <xsl:with-param name="propertyNum">P30263</xsl:with-param>
                         <xsl:with-param name="entity">m</xsl:with-param>
                     </xsl:call-template>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
+                    <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1">
                         <xsl:with-param name="propertyNum">P30304</xsl:with-param>
                         <xsl:with-param name="entity">m</xsl:with-param>
                     </xsl:call-template>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:for-each>
+        <xsl:call-template name="F340-xx-n"/>
     </xsl:template>
 
     <xsl:template
@@ -457,7 +452,7 @@
         match="marc:datafield[@tag = '340'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '340']"
         mode="aggWor">
         <xsl:for-each select="marc:subfield[@code = 'g']">
-            <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1">
+            <xsl:call-template name="F340-xx-a_c_d_e_g_j_k_l_m_o_p_q_0_1">
                 <xsl:with-param name="propertyNum">P10348</xsl:with-param>
                 <xsl:with-param name="entity">w</xsl:with-param>
             </xsl:call-template>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lookup>
+    <row>
+        <rdaTerm>giant print</rdaTerm>
+        <rdaIRI>http://rdaregistry.info/termList/fontSize/1001</rdaIRI>
+        <lcTerm>giant print</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/mfont/gp</lcIRI>
+        <eq source="marcstring" xml:lang="en">giant print</eq>
+    </row>
+    <row>
+        <rdaTerm>jumbo braille</rdaTerm>
+        <rdaIRI>http://rdaregistry.info/termList/fontSize/1003</rdaIRI>
+        <lcTerm>jumbo braille</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/mfont/jb</lcIRI>
+        <eq source="marc007fc9">b</eq>
+        <eq source="marc007tc1">b</eq>
+        <eq source="marcstring" xml:lang="en">jumbo braille</eq>
+    </row>
+    <row>
+        <rdaTerm>large print</rdaTerm>
+        <rdaIRI>http://rdaregistry.info/termList/fontSize/1002</rdaIRI>
+        <lcTerm>large print</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/mfont/lp</lcIRI>
+        <eq source="marcBK008c23">d</eq>
+        <eq source="marcCR008c23">d</eq>
+        <eq source="marcBK006c6">d</eq>
+        <eq source="marcCR006c6">d</eq>
+        <eq source="marcstring" xml:lang="en">large print</eq>
+        <eq source="marcstring" xml:lang="en">lg. print</eq>
+        <eq source="marcstring" xml:lang="en">lrg. print</eq>
+    </row>
+</lookup>
