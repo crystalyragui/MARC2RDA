@@ -2,6 +2,8 @@
 <lookup>
     <row>
         <rdaTerm>giant print</rdaTerm>
+        <rdaTerm type="alt">super large print</rdaTerm>
+        <rdaTerm type="alt">extra large print</rdaTerm>
         <rdaIRI>http://rdaregistry.info/termList/fontSize/1001</rdaIRI>
         <lcTerm>giant print</lcTerm>
         <lcIRI>http://id.loc.gov/vocabulary/mfont/gp</lcIRI>
@@ -20,6 +22,7 @@
         <rdaTerm>large print</rdaTerm>
         <rdaIRI>http://rdaregistry.info/termList/fontSize/1002</rdaIRI>
         <lcTerm>large print</lcTerm>
+        <lcTerm type="alt">large type</lcTerm>
         <lcIRI>http://id.loc.gov/vocabulary/mfont/lp</lcIRI>
         <eq source="marcBK008c23">d</eq>
         <eq source="marcCR008c23">d</eq>

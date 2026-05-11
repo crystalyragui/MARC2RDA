@@ -892,20 +892,20 @@
                     </xsl:choose>
                 </xsl:when>
                 <!-- subfield $2 has lc code -->
-                <xsl:when test="$sub2 = $source_code">
+                <xsl:when test="matches($sub2, $source_code)">
                     <!-- lookup in lookup xml file -->
                     <xsl:choose>
                         <!-- use associated rdaIRI if present -->
-                        <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmLCTermOrCode', .)/rdaIRI)">
+                        <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/rdaIRI)">
                             <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                                <xsl:attribute name="rdf:resource" select="document($fmv_doc_path)/lookup/row/key('fmLCTermOrCode', .)/rdaIRI"/>
+                                <xsl:attribute name="rdf:resource" select="document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/rdaIRI"/>
                             </xsl:element>
                         </xsl:when>
                         <!-- else if in the table but no rdaIRI, use lcIRI -->
                         <!-- if not in table but lc source code, it won't be processed -->
-                        <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmLCTerm', .)/lcIRI)">
+                        <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/lcIRI)">
                             <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                                <xsl:attribute name="rdf:resource" select="document($fmv_doc_path)/lookup/row/key('fmLCTermOrCode', .)/lcIRI"/>
+                                <xsl:attribute name="rdf:resource" select="document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/lcIRI"/>
                             </xsl:element>
                         </xsl:when>
                     </xsl:choose>
@@ -914,7 +914,7 @@
                 <xsl:otherwise>
                     <xsl:if test="not(matches($termOrCode, 'other|unspecified'))">
                         <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                            <xsl:attribute name="rdf:resource" select="m2r:conceptIRI($sub2, .)"/>
+                            <xsl:attribute name="rdf:resource" select="m2r:conceptIRI($sub2, $norm_text)"/>
                         </xsl:element>
                     </xsl:if>
                 </xsl:otherwise>
