@@ -1,0 +1,11 @@
+<items regex="n" case="n">
+    <item xml:lang="en">index</item>
+    <item xml:lang="en">bibliog</item>
+    <item xml:lang="en">filmog</item>
+    <item xml:lang="en">discographies</item>
+    <item xml:lang="en">discography</item>
+    <item xml:lang="en">notes</item>
+    <item xml:lang="en">annotations</item>
+    <item xml:lang="en">commentar</item>
+    <item xml:lang="en">bonus</item>
+</items>

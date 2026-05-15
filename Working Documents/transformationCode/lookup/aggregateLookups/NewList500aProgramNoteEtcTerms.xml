@@ -1,0 +1,18 @@
+<items regex="n" case="n">
+    <item xml:lang="en">program note</item>
+    <item xml:lang="en">preface</item>
+    <item xml:lang="en">commentar</item>
+    <item xml:lang="en">manual</item>
+    <item xml:lang="en">codebook</item>
+    <item xml:lang="en">user instructions</item>
+    <item xml:lang="en">printed script</item>
+    <item xml:lang="en">sound</item>
+    <item xml:lang="en">thematic index</item>
+    <item xml:lang="en">libretto</item>
+    <item xml:lang="en">biography</item>
+    <item xml:lang="en">technical information</item>
+    <item xml:lang="en">historical information</item>
+    <item xml:lang="en">ethnological information</item>
+    <item xml:lang="en">instructional material</item>
+    <item xml:lang="en">music</item>
+</items>

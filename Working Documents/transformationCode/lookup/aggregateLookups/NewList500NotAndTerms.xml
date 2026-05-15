@@ -1,0 +1,3 @@
+<items regex="y" case="n">
+    <item xml:lang="en">[A-Z][a-z]+ and [A-Z][a-z]</item>
+</items>

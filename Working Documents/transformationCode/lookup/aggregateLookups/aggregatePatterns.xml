@@ -1751,6 +1751,7 @@
             )
         </xpath>
    </pattern>
+    <!-- NewList500NotAndTerms-->
    <pattern>
       <sort>89</sort>
       <id>52</id>
@@ -1891,6 +1892,8 @@
             )
         </xpath>
     </pattern>
+    <!-- NewList500aNotCatalogedFromTerms -->
+    <!-- NewList500aIndexEtcTerms -->
     <pattern>
         <sort>97</sort>
         <id>197</id>
@@ -1926,6 +1929,7 @@
             or exists(marc:datafield[@tag='730']))
         </xpath>
     </pattern>
+    <!-- NewList500aIndexEtcTerms -->
     <pattern>
       <sort>98</sort>
       <id>103</id>
@@ -1953,6 +1957,8 @@
             )
         </xpath>
     </pattern>
+    <!-- NewList500aIncludesTerms -->
+    <!-- NewList500aProgramNoteEtcTerms -->
     <pattern>
         <sort>99</sort>
         <id>198</id>
@@ -1995,6 +2001,8 @@
             or exists(marc:datafield[@tag='730']))
         </xpath>
     </pattern>
+    <!-- NewList500aIncludesTerms -->
+    <!-- NewList500aProgramNoteEtcTerms -->
     <pattern>
       <sort>100</sort>
       <id>110</id>
@@ -2029,6 +2037,8 @@
             )
         </xpath>
     </pattern>
+    <!-- NewList500aAccompaniedByTerms -->
+    <!-- NewList500aProgramNoteEtcTerms -->
     <pattern>
         <sort>101</sort>
         <id>199</id>
@@ -2071,6 +2081,8 @@
             or exists(marc:datafield[@tag='730']))
         </xpath>
     </pattern>
+    <!-- NewList500aAccompaniedByTerms -->
+    <!-- NewList500aProgramNoteEtcTerms -->
     <pattern>
       <sort>102</sort>
       <id>111</id>
@@ -2105,6 +2117,8 @@
             )
         </xpath>
     </pattern>
+    <!-- NewList500aWithTerms -->
+    <!-- NewList500aProgramNoteEtcTerms -->
     <pattern>
         <sort>103</sort>
         <id>200</id>
@@ -2147,6 +2161,8 @@
             or exists(marc:datafield[@tag='730']))
         </xpath>
     </pattern>
+    <!-- NewList500aWithTerms -->
+    <!-- NewList500aProgramNoteEtcTerms -->
     <pattern>
       <sort>104</sort>
       <id>194</id>
@@ -2259,6 +2275,7 @@
             some $item in $List245cIntroductionTerms satisfies marc:datafield[@tag='245']/marc:subfield[@code='c'][contains(lower-case(.), $item)] 
         </xpath>
     </pattern>
+    <!-- NewList65XaSoundBooksEtcTerms -->
     <pattern>
         <sort>111</sort>
         <id>204</id>
@@ -2290,6 +2307,7 @@
             or exists(marc:datafield[@tag='730']))
         </xpath>
     </pattern>
+    <!-- NewList65XaSoundBooksEtcTerms -->
     <pattern>
       <sort>112</sort>
       <id>114</id>
@@ -2313,6 +2331,7 @@
             )
         </xpath>
     </pattern>
+    <!-- NewList65XaMonologuesMusicTerms -->
     <pattern>
         <sort>113</sort>
         <id>205</id>
@@ -2335,7 +2354,8 @@
             marc:subfield[@code='e' or @code='4' or @code='0' or @code='1' or @code='t'])
             or exists(marc:datafield[@tag='730']))
         </xpath>
-    </pattern>
+    </pattern
+    <!-- NewList65XaMonologuesMusicTerms -->>
     <pattern>
       <sort>114</sort>
       <id>115</id>
