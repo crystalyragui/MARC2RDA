@@ -696,9 +696,15 @@
                     <xsl:choose>
                         <xsl:when test="$name1XX != ''">
                             <xsl:value-of select="normalize-space(m2r:stripEndPunctuation($name1XX))"/>
+                            <xsl:if test="$contentType != '' or $lang != '' or $version != '' or $manifName != ''">
+                                <xsl:value-of select="' : '"/>
+                            </xsl:if>
                         </xsl:when>
                         <xsl:when test="$name7XX != ''">
                             <xsl:value-of select="normalize-space(m2r:stripEndPunctuation($name7XX))"/>
+                            <xsl:if test="$contentType != '' or $lang != '' or $version != '' or $manifName != ''">
+                                <xsl:value-of select="' : '"/>
+                            </xsl:if>
                         </xsl:when>
                     </xsl:choose>
                     <xsl:if test="$contentType != ''">
