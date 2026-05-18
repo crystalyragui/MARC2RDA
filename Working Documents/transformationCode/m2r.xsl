@@ -162,8 +162,8 @@
                  <xsl:text>record {marc:controlfield[@tag = '001']} is {$isAggregate}</xsl:text>
              </xsl:message>-->
                             <xsl:choose>
-                                <!-- if single work expression or augmentation aggregate, proceed with transform -->
-                                <xsl:when test="$isAggregate = 'sem' or $isAggregate = 'aamnotaw'">
+                                <!-- if single work expression or augmentation aggregate (now testing cam), proceed with transform -->
+                                <xsl:when test="$isAggregate = 'sem' or $isAggregate = 'aamnotaw' or $isAggregate = 'cam'">
                                     <!-- variable for generating unique IRIs - currently date  -->
                                     <xsl:variable name="baseID"
                                         select="current-dateTime() => string() => m2r:stripAllPunctuation() => encode-for-uri()"/>
@@ -186,7 +186,7 @@
                                     </xsl:variable>
                                     <!-- aggregating work IRI - blank if not augmentation aggregate -->
                                     <xsl:variable name="aggWorkIRI">
-                                        <xsl:if test="$isAggregate = 'aam'">
+                                        <xsl:if test="$isAggregate = 'aam' or $isAggregate = 'cam'">
                                             <xsl:value-of select="m2r:aggWorkIRI(.)"/>
                                         </xsl:if>
                                     </xsl:variable>
@@ -195,6 +195,7 @@
                                         select="$BASE || 'wor#marc' || encode-for-uri(lower-case(translate(marc:controlfield[@tag = '003'][1], ' ', ''))) || encode-for-uri(translate(marc:controlfield[@tag = '001'][1], ' ', '_'))"/>
                                     <!-- call metadata work template (template at bottom of this file) -->
                                     <xsl:call-template name="marcMetadataWork">
+                                        <xsl:with-param name="aggType" select="$isAggregate"/>
                                         <xsl:with-param name="inputRecord" select="."/>
                                         <xsl:with-param name="marcWorkIRI"
                                             select="$marcMetadataWorkIRI"/>
@@ -272,7 +273,7 @@
                                                 <rdf:type
                                                   rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
                                                 <rdawo:P10623 rdf:resource="{$marcMetadataWorkIRI}"/>
-                                                <rdawd:P10004>Aggregating work</rdawd:P10004>
+                                                <rdawd:P10004>aggregating work</rdawd:P10004>
                                                 <!-- relationship to manifestation -->
                                                 <rdawo:P10072 rdf:resource="{$mainManifestationIRI}"/>
                                                 <xsl:if test="$isReproduction != ''">
@@ -340,15 +341,53 @@
                                                 </xsl:apply-templates>
                                             </rdf:Description>
                                         </xsl:when>
+                                        <!-- CAM -->
+                                        <xsl:when test="$isAggregate = 'cam'">
+                                            <!-- *****WORKS***** -->
+                                            <!-- aggregating work and main augmented work -->
+                                            <rdf:Description rdf:about="{$aggWorkIRI}">
+                                                <rdf:type
+                                                    rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
+                                                <rdawo:P10623 rdf:resource="{$marcMetadataWorkIRI}"/>
+                                                <rdawd:P10004>aggregating work</rdawd:P10004>
+                                                <!-- relationship to manifestation -->
+                                                <rdawo:P10072 rdf:resource="{$mainManifestationIRI}"/>
+                                                <xsl:if test="$isReproduction != ''">
+                                                    <rdawo:P10072
+                                                        rdf:resource="{$origManifestationIRI}"/>
+                                                </xsl:if>
+                                                <!-- This code can be uncommented to add a work access point to the work description.
+                         m2r:mainWorkAccessPoint() is located in m2r-aps.xsl -->
+                                                <xsl:variable name="aggWorkAP"
+                                                    select="m2r:aggWorkAccessPoint(.)"/>
+                                                <xsl:if test="$aggWorkAP">
+                                                    <rdawd:P10328>
+                                                        <xsl:value-of select="$aggWorkAP"/>
+                                                    </rdawd:P10328>
+                                                </xsl:if>
+                                                <xsl:apply-templates select="*" mode="wor">
+                                                    <xsl:with-param name="baseID" select="$baseID"/>
+                                                    <xsl:with-param name="type" select="'agg'"/>
+                                                </xsl:apply-templates>
+                                                <xsl:apply-templates select="*" mode="aggWor">
+                                                    <xsl:with-param name="baseID" select="$baseID"/>
+                                                </xsl:apply-templates>
+                                            </rdf:Description>
+                                        </xsl:when>
                                     </xsl:choose>
+                                    
                                     <!-- *****MANIFESTATIONS***** -->
                                     <rdf:Description rdf:about="{$mainManifestationIRI}">
                                         <rdf:type
                                             rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
                                         <rdamo:P30462 rdf:resource="{$marcMetadataWorkIRI}"/>
-                                        <rdamo:P30139 rdf:resource="{$mainExpressionIRI}"/>
+                                        
+                                        <xsl:if test="$isAggregate = 'sem' or $isAggregate = 'aamnotaw'">
+                                            <rdamo:P30139 rdf:resource="{$mainExpressionIRI}"/>
+                                        </xsl:if>
+                                        
                                         <!-- relationship to aggregating work -->
-                                        <xsl:if test="$isAggregate = 'aam'">
+                                        <xsl:if test="$isAggregate = 'aam' or $isAggregate = 'cam'">
                                             <rdamo:P30135 rdf:resource="{$aggWorkIRI}"/>
                                         </xsl:if>
                                         <!-- category for aggregates -->
@@ -356,8 +395,7 @@
                                             test="$isAggregate = 'cam' or $isAggregate = 'pam' or $isAggregate = 'aam' or $isAggregate = 'aamnotaw'">
                                             <rdamd:P30335>aggregate manifestation</rdamd:P30335>
                                         </xsl:if>
-                                        <!-- This code can be uncommented to add a manifestation access point to the manifestation description.
-                         m2r:mainManifestationAccessPoint() is located in m2r-aps.xsl -->
+                                        
                                         <xsl:variable name="manifestationAP"
                                             select="m2r:mainManifestationAccessPoint(., $isElectronic, $isMicroform)"/>
                                         <xsl:if test="$manifestationAP">
@@ -393,7 +431,7 @@
                                                   </xsl:otherwise>
                                                 </xsl:choose>
                                                 <xsl:choose>
-                                                  <xsl:when test="$isAggregate = 'aam'">
+                                                  <xsl:when test="$isAggregate = 'aam' or $isAggregate = 'cam'">
                                                   <xsl:apply-templates select="*" mode="man">
                                                   <xsl:with-param name="baseID" select="$baseID"/>
                                                   <xsl:with-param name="type"
@@ -420,7 +458,7 @@
                                             </xsl:when>
                                             <xsl:otherwise>
                                                 <xsl:choose>
-                                                  <xsl:when test="$isAggregate = 'aam'">
+                                                  <xsl:when test="$isAggregate = 'aam' or $isAggregate = 'cam'">
                                                   <xsl:apply-templates select="*" mode="man">
                                                   <xsl:with-param name="baseID" select="$baseID"/>
                                                   <xsl:with-param name="agg" select="'agg'"/>
@@ -448,21 +486,22 @@
                                         <rdf:Description rdf:about="{$origManifestationIRI}">
                                             <rdf:type
                                                 rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
+                                            
                                             <rdamo:P30462 rdf:resource="{$marcMetadataWorkIRI}"/>
-                                            <rdamo:P30139 rdf:resource="{$mainExpressionIRI}"/>
+                                            
+                                            <xsl:if test="$isAggregate = 'sem' or $isAggregate = 'aamnotaw'">
+                                                <rdamo:P30139 rdf:resource="{$mainExpressionIRI}"/>
+                                            </xsl:if>
                                             <!-- relationship to aggregating work -->
-                                            <xsl:if test="$isAggregate = 'aam'">
+                                            <xsl:if test="$isAggregate = 'aam' or $isAggregate = 'cam'">
                                                 <rdamo:P30135 rdf:resource="{$aggWorkIRI}"/>
                                             </xsl:if>
                                             <!-- category for aggregates -->
                                             <xsl:if
                                                 test="$isAggregate = 'cam' or $isAggregate = 'pam' or $isAggregate = 'aam' or $isAggregate = 'aamnotaw'">
-                                                <rdamd:P30335>
-                                                  <xsl:text>Aggregate manifestation</xsl:text>
-                                                </rdamd:P30335>
+                                                <rdamd:P30335>aggregate manifestation</rdamd:P30335>
                                             </xsl:if>
-                                            <!-- This code can be uncommented to add a manifestation access point to the manifestation description.
-                         m2r:mainManifestationAccessPoint() is located in m2r-aps.xsl -->
+                                            
                                             <xsl:variable name="manifestationAP"
                                                 select="m2r:mainManifestationAccessPoint(., $isElectronic, $isMicroform)"/>
                                             <xsl:if test="$manifestationAP">
@@ -543,6 +582,7 @@
     
     <!-- METADATA WORK TEMPLATE -->
     <xsl:template name="marcMetadataWork" expand-text="yes">
+        <xsl:param name="aggType"/>
         <xsl:param name="inputRecord"/>
         <xsl:param name="marcWorkIRI"/>
         <xsl:param name="mainWorkIRI"/>
@@ -577,16 +617,23 @@
                     select="'wor#marc' || encode-for-uri(lower-case(translate(marc:controlfield[@tag = '003'][1], ' ', ''))) || encode-for-uri(translate(marc:controlfield[@tag = '001'][1], ' ', '_'))"
                 />
             </rdawd:P10002>
+            
             <rdawo:P10072 rdf:resource="{$marcManIRI}"/>
-            <rdawo:P10621 rdf:resource="{$mainWorkIRI}"/>
-            <rdawo:P10615 rdf:resource="{$mainExpressionIRI}"/>
+            <xsl:choose>
+                <xsl:when test="$aggType = 'cam'">
+                    <rdawo:P10621 rdf:resource="{$aggWorkIRI}"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <rdawo:P10621 rdf:resource="{$mainWorkIRI}"/>
+                    <rdawo:P10615 rdf:resource="{$mainExpressionIRI}"/>
+                </xsl:otherwise>
+            </xsl:choose>
+           
             <rdawo:P10617 rdf:resource="{$mainManifestationIRI}"/>
             <xsl:if test="$origManifestationIRI != ''">
                 <rdawo:P10617 rdf:resource="{$origManifestationIRI}"/>
             </xsl:if>
-            <xsl:if test="$aggWorkIRI != ''">
-                <rdawo:P10621 rdf:resource="{$aggWorkIRI}"/>
-            </xsl:if>
+            
         </rdf:Description>
         <rdf:Description rdf:about="{$marcManIRI}">
             <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
