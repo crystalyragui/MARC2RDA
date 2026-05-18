@@ -2354,8 +2354,8 @@
             marc:subfield[@code='e' or @code='4' or @code='0' or @code='1' or @code='t'])
             or exists(marc:datafield[@tag='730']))
         </xpath>
-    </pattern
-    <!-- NewList65XaMonologuesMusicTerms -->>
+    </pattern>
+    <!-- NewList65XaMonologuesMusicTerms -->
     <pattern>
       <sort>114</sort>
       <id>115</id>

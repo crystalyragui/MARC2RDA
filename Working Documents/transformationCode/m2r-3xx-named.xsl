@@ -872,7 +872,7 @@
                     <rdamo:P30199 rdf:resource="{.}"/>
                 </xsl:when>
                 <!-- if lc font size IRI, look up in font size fmv table -->
-                <xsl:when test="contains(., '/id.loc.gov/vocabulary/mfont')">
+                <xsl:when test="contains(., 'id.loc.gov/vocabulary/mfont')">
                     <xsl:copy-of select="m2r:fmvRdaFromLcIRI(., 'font_size.xml', 'rdam', 'P30199')"/>
                 </xsl:when>
                 <!-- specific to 340 - check that the $0 or $1 could only refer to font size ($n present, no other subfields with vocabs present -->
