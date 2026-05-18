@@ -24,7 +24,7 @@ Phase I of the MARC2RDA Project set out to map and convert MARC21 Bibliographic 
 
 ### Transformed MARC21 Bibliographic Records Output as LRM/RDA/RDF, including:
 * Subsets of records from the Library of Congress, University of Washington Libraries, and National Library of New Zealand
-    * The full set of transformed records is available as a [triplestore](http://marc2rda.info:7200/)
+    * The full set of transformed records is available as a [triplestore]([http://marc2rda.info:7200/](https://marc2rda.info/repository/)
         * [About the MARC2RDA Triplestore](https://marc2rda.info/wiki/doku.php?id=about-the-marc2rda-triplestore)
 * A [web-based transformation tool](https://marc2rda.info/x/m2r-online.html) for use with small sets of test records, which does not require users to download or run the full XSLT transform on their own
     * [About the MARC2RDA Transformation Online](https://marc2rda.info/wiki/doku.php?id=about-the-marc2rda-transformation-online)

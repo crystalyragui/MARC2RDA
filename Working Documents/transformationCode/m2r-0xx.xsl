@@ -2724,11 +2724,11 @@
         </xsl:for-each>
         <xsl:for-each select="marc:subfield[@code = 'b']">
             <xsl:if test="following-sibling::marc:subfield[@code = '2'][1]">
-                <rdawd:P10321 rdf:resource="{m2r:placeIRI($baseID, ., ., following-sibling::marc:subfield[@code = '2'][1])}"/>
+                <rdawo:P10321 rdf:resource="{m2r:placeIRI($baseID, ., ., following-sibling::marc:subfield[@code = '2'][1])}"/>
             </xsl:if>
         </xsl:for-each>
         <xsl:for-each select="marc:subfield[@code = 'c']">
-            <rdawd:P10321 rdf:resource="{m2r:placeIRI($baseID, ., ., 'ISO3166')}"/>
+            <rdawo:P10321 rdf:resource="{m2r:placeIRI($baseID, ., ., 'ISO3166')}"/>
         </xsl:for-each>
         <xsl:for-each select="marc:subfield[@code = '0']">
             <xsl:choose>
@@ -2861,7 +2861,7 @@
         <!-- One Nomen per $a (Time period code) -->
         <xsl:for-each select="marc:subfield[@code = 'a']">
             <rdf:Description rdf:about="{m2r:nomenIRI($baseID, ., ., 'MARC 045 Time Period Code', 'timespan')}">
-                <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10014"/> <!-- Nomen -->
+                <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/> <!-- Nomen -->
                 <rdand:P80026><xsl:value-of select="normalize-space(.)"/></rdand:P80026> <!-- String value -->
                 <rdand:P80069>MARC 045 Time Period Code</rdand:P80069>
             </rdf:Description>

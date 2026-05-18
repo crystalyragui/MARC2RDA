@@ -237,7 +237,7 @@
         <xsl:param name="baseID"/>
         <xsl:for-each select="marc:subfield[@code = 'a']">
             <rdf:Description rdf:about="{m2r:timespanIRI($baseID, ., .)}">
-                <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+                <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
                 <rdato:P70015 rdf:resource="{m2r:nomenIRI($baseID, ., ., 'MARC 045 Time Period Code', 'timespan')}"/>
             </rdf:Description>
         </xsl:for-each>
@@ -245,7 +245,7 @@
             <xsl:when test="@ind1 = '0' or @ind1='1'">
                 <xsl:for-each select="marc:subfield[@code='b']|marc:subfield[@code='c']">
                     <rdf:Description rdf:about="{m2r:timespanIRI($baseID, ., .)}">
-                        <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+                        <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
                         <rdatd:P70015>
                             <xsl:value-of select="."/>
                         </rdatd:P70015>
@@ -256,7 +256,7 @@
                 <xsl:if test="count(marc:subfield[@code='b' or @code='c']) = 2 and not(marc:subfield[@code='a'])">
                     <xsl:variable name="timespan" select="marc:subfield[@code='b' or @code='c'][1]||'/'||marc:subfield[@code='b' or @code='c'][2]"/>
                     <rdf:Description rdf:about="{m2r:timespanIRI($baseID, ., $timespan)}">
-                        <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+                        <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
                         <rdatd:P70015>
                             <xsl:value-of select="$timespan"/>
                         </rdatd:P70015>
@@ -273,7 +273,7 @@
         <xsl:param name="note"/>
          
         <rdf:Description rdf:about="{m2r:timespanIRI($baseID, ., $suffix)}">
-            <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+            <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
 
             <!-- Consolidated date handling for all cases (rows 12, 14, 29, 30) -->
             <xsl:if test="marc:subfield[@code = 'b'] or marc:subfield[@code = 'c'] or marc:subfield[@code = 'd'] or marc:subfield[@code = 'e']">

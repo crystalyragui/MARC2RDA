@@ -12,7 +12,7 @@
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc043-test1">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc043-test1"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc043-test1</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -27,15 +27,15 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc043-test1"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
       <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-usm"/><!--rdawo:P10321 = has subject place-->
-      <rdawd:P10321 rdf:resource="http://marc2rda.info/testing/cagraq/pla#s-bl-ba"/><!--rdawd:P10321 = has subject place-->
-      <rdawd:P10321 rdf:resource="http://marc2rda.info/testing/marcgac/pla#e-fr---"/><!--rdawd:P10321 = has subject place-->
-      <rdawd:P10321 rdf:resource="http://marc2rda.info/testing/iso3166/pla#us"/><!--rdawd:P10321 = has subject place-->
-      <rdawd:P10321 rdf:resource="http://marc2rda.info/testing/iso3166/pla#can"/><!--rdawd:P10321 = has subject place-->
+      <rdawo:P10321 rdf:resource="http://marc2rda.info/testing/cagraq/pla#s-bl-ba"/><!--rdawo:P10321 = has subject place-->
+      <rdawo:P10321 rdf:resource="http://marc2rda.info/testing/marcgac/pla#e-fr---"/><!--rdawo:P10321 = has subject place-->
+      <rdawo:P10321 rdf:resource="http://marc2rda.info/testing/iso3166/pla#us"/><!--rdawo:P10321 = has subject place-->
+      <rdawo:P10321 rdf:resource="http://marc2rda.info/testing/iso3166/pla#can"/><!--rdawo:P10321 = has subject place-->
       <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-usm"/><!--rdawo:P10321 = has subject place-->
       <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us--- n------ n-us"/><!--rdawo:P10321 = has subject place-->
       <!--Unable to parse 043 $0 value of test-->
       <rdawo:P10321 rdf:resource="http://www.wikidata.org/wiki/Q30"/><!--rdawo:P10321 = has subject place-->
-      <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/e-gx--- e------ ew----- e------ e-gx--- e-ge--- e-gx--- e-gw--- e-gw--- e-ge--- e-gx--- e-gw--- e"/><!--rdawo:P10321 = has subject place-->
+      <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/e-gx--- e------ ew----- e-gx--- e-au--- e-lh--- e-lu--- e-sz--- e------ e-gx--- e-ge--- e-gx--- e-gw--- e-gw--- e-ge--- e-gx--- e-gw--- e"/><!--rdawo:P10321 = has subject place-->
       <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/e-uk"/><!--rdawo:P10321 = has subject place-->
       <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/u-at"/><!--rdawo:P10321 = has subject place-->
    </rdf:Description>

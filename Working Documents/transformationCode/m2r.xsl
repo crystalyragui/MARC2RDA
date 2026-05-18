@@ -142,9 +142,12 @@
              </xsl:message>-->
                             <!-- VARIABLES -->
                             <!-- check whether record being processed is an aggregate-->
+                            <xsl:variable name="aggregateData">
+                                <xsl:copy-of select="m2r:checkAggregates(.)"/>
+                            </xsl:variable>
                             <xsl:variable name="isAggregate">
                                 <!-- WHEN READY TO IMPLEMENT AGGREGATE MARKERS, uncomment next line and comment the xsl:choose below -->
-                                <xsl:value-of select="lower-case(m2r:checkAggregates(.))"/>
+                                <xsl:value-of select="lower-case($aggregateData//marc:subfield[@code='a'])"/>
                                 <!--<xsl:choose>
                                     <xsl:when
                                         test="marc:datafield[@tag = '979']/marc:subfield[@code = 'a']">
@@ -559,7 +562,7 @@
                                 <!-- output records that were identified as aggregates in message -->
                                 <xsl:otherwise>
                                     <xsl:message>
-                                        <xsl:text>Record {translate(marc:controlfield[@tag='001'], ' ', '')} identified as {$isAggregate} aggregate and was not processed.</xsl:text>
+                                        <xsl:text>Record {translate(marc:controlfield[@tag='001'], ' ', '')} identified as {$isAggregate} aggregate by pattern {$aggregateData//marc:subfield[@code='b']}, and was not processed.</xsl:text>
                                     </xsl:message>
                                 </xsl:otherwise>
                             </xsl:choose>

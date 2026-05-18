@@ -3,7 +3,7 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:marc="http://www.loc.gov/MARC21/slim" 
     xmlns:m2r="http://marc2rda.info/functions#" 
-    exclude-result-prefixes="marc xs" 
+    exclude-result-prefixes="marc xs m2r" 
     version="3.0">
     
     <xsl:variable name="listTextsCCT" select="document('lookup/aggregateLookups/ListTextsCCT.xml')/items/item"/>
@@ -161,7 +161,9 @@
         <xsl:param name="record"/>
         <xsl:iterate select="$patterns">
             <xsl:on-completion>
-                <xsl:value-of select="'SEM'"/>
+                <marc:datafield tag="979" ind1=" " ind2=" ">
+                    <marc:subfield code="a">SEM</marc:subfield>
+                </marc:datafield>
             </xsl:on-completion>
             <xsl:variable name="isMatched" as="xs:boolean">
                 <xsl:evaluate xpath="./xpath" context-item="$record">
@@ -195,7 +197,10 @@
                 </xsl:evaluate>
             </xsl:variable>
             <xsl:if test="$isMatched">
-                <xsl:value-of select="./type"/>
+                <marc:datafield tag="979" ind1=" " ind2=" ">
+                    <marc:subfield code="a">{./type}</marc:subfield>
+                    <marc:subfield code="b">{./name}</marc:subfield>
+                </marc:datafield>
                 <xsl:break/>
             </xsl:if>
         </xsl:iterate>

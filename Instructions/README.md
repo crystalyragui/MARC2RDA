@@ -1,4 +1,114 @@
-# Spreadsheet Instructions
+# Phase II Mapping Instructions for Mapping Expression Categories Table
+_Last updated: January 15, 2026_
+
+## Table of Contents
+* [Table Description](https://github.com/crystalyragui/MARC2RDA/blob/main/Instructions/README.md#table-description)
+    * [Tabs](https://github.com/crystalyragui/MARC2RDA/blob/main/Instructions/README.md#tabs)
+    * [Columns for Working Tabs](https://github.com/crystalyragui/MARC2RDA/tree/main/Instructions#columns-for-working-tabs)
+    * [Abbreviations and Acronyms Glossary](https://github.com/crystalyragui/MARC2RDA/blob/main/Instructions/README.md#abbreviations-and-acronyms-glossary)
+ * [Expression Table Workflow (In Stages)](https://github.com/crystalyragui/MARC2RDA/blob/main/Instructions/README.md#expression-table-workflow-in-stages)
+    * [Stage 1: Table design review and workflow development](https://github.com/crystalyragui/MARC2RDA/blob/main/Instructions/README.md#stage-1-table-design-review-and-workflow-development-december-2025)
+    * [Stage 2: Columns A-E](https://github.com/crystalyragui/MARC2RDA/blob/main/Instructions/README.md#stage-2-columns-a-e-up-to-marc-field-january-2025)
+    * [Stage 3: Fill out M2R Mapping column](https://github.com/crystalyragui/MARC2RDA/blob/main/Instructions/README.md#stage-3-fill-out-m2r-mapping-column-january-february-2025)   
+
+## Table Description
+* [Mapping expression categories.20251121 table](https://docs.google.com/spreadsheets/d/1KACL_nBqdzq60k-kJIDi5DzYhHHAo6Mw/edit?usp=sharing&ouid=106066247188335830400&rtpof=true&sd=true)
+* This table represents a workflow for beginning Phase II mapping work for the M2R project. Major tabs reflect a comprehensive list of all RDA Expression elements followed by tabs for several element categories, including attributes, appellations, expression-place relationships, expression-timespan relationships, expression-agent relationships, expression-expression relationships, primary (WEMI stack) relationships, special relationships, and high-level relationships. By methodically filling out the element category tabs in this spreadsheet, a coordinated mapping to revise Phase I mappings with the full scope of complexity added by aggregate and diachronic works will be possible. Once expression elements have been completed, coded, tested, and revised, a similar approach may be taken with properties for other RDA entities present in MARC21 records for aggregates and diachronic works. 
+### Tabs
+* **Element Assignment:** The purpose of this tab is to coordinate and avoid duplication of work on the rest of the spreadsheet. All RDA Expression elements are listed by their RDA curies (column D) and Toolkit labels (column E). Elements are self-assigned by mappers using a drop-down list of names in column C. Column B is a "Status" column with drop-down options to indicate which elements have not been started, which are in progress, which are held up by questions, and which elements are done. Element definitions from the RDA Toolkit are in column F. Column A indicates the specific tab location for an element and is used to point mappers to an element's corresponding working tab and to usefully group elements. Groups of elements not ready for self-assignment are hidden.  
+* **Notes:** Includes lists of actions to be taken, a brief explanation of what is included in the overall spreadsheet, and definitions for expression category acronyms used throughout the document. Also includes quotes and notes from the RDA Toolkit and other authoritative sources regarading the rest of the spreadsheet.
+* **RDA vocabs:** RDA vocabulary terms to be used in creating F&M tables.
+* **RDA vocabs (deprecated):** RDA vocabulary terms which are deprecated. Consult during construction of F&M tables.
+* **Expr Attributes:** All attribute properties with domain of expression. An attribute property has no range in the RDA Registry, and is a description of the entity in the subject position of a triple rather than a relationship between two RDA entities. Columns include "RDA Element"/label (columns A&B) with RDA Toolkit links to elements, RDA curie (column C) with links to the RDA Registry, Datatype/object (Column D), Source:MRC Field (column E), TK R2M (column F), Source: NLNZ R2M (column G), Source: M2R mapping (column H), M2R Coding Status (column I), RDA Vocab (column J), F&M table (column K), Example input files (column L), MARC Record Format (column M), SEM (column N), AMLM (column O), MPW (column P), AUGM only (column Q), AUGM + AW (column R), PARM only (column S), PARM + AW (column T), COLM only (column U), COLM + AW (column V), AMAW/RDA Label (column W), RDA curie for RepEx (column X), Datatype/Object for RepEx (column Y), CW (column Z), DW (column AA), Mapping Approach, GitHub Issue Links (column AB), Notes (column AC)
+* **Expr-Nomen (apellations):** Expression properties with the range of Nomen used as appellation of expression. Columns mirror those in the Expr Attributes tab (column letters may vary but titles are consistent).
+* **Expr-Timespan:** Expression properties with range of RDA Timespan. Columns mirror those in the Expr Attributes tab (column letters may vary but titles are consistent).
+*  **Expr-Agent:** Expression properties with range of RDA Agent. Columns mirror those in the Expr Attributes tab (column letters may vary but titles are consistent).
+*  **Expr-Expr:** Expression properties with range of RDA:Expression. Columns mirror those in the Expr Attributes tab (column letters may vary but titles are consistent).
+*  **Primary relationships:** Includes expression elements linking entities from a WEMI stack together. Columns mirror those in the Expr Attributes tab (column letters may vary but titles are consistent).
+*  **Special relationships:** Relationships linking to related works, aside from primary relationships. Columns mirror those in the Expr Attributes tab (column letters may vary but titles are consistent).
+*  **Expr-High Level Relationships:** Related ___ of expression relationships. Columns mirror those in the Expr Attributes tab (column letters may vary but titles are consistent).
+*  **All expr. elements:** A list of all elements in the RDA registry with a domain of rda:Expression. Columns include status, label, curie, datatype, object, domain, range, definition, full URI, RDA Toolkit ID
+
+### Columns for Working Tabs
+* Working tabs include [Expr Attributes](https://docs.google.com/spreadsheets/d/1KACL_nBqdzq60k-kJIDi5DzYhHHAo6Mw/edit?pli=1&gid=1282199378#gid=1282199378&range=1:87), [Expr-Nomen (appellations)](https://docs.google.com/spreadsheets/d/1KACL_nBqdzq60k-kJIDi5DzYhHHAo6Mw/edit?pli=1&gid=705421002#gid=705421002&range=1:9), [Expr-Place](https://docs.google.com/spreadsheets/d/1KACL_nBqdzq60k-kJIDi5DzYhHHAo6Mw/edit?pli=1&gid=1553122974#gid=1553122974&range=1:11), [Expr-Timespan](https://docs.google.com/spreadsheets/d/1KACL_nBqdzq60k-kJIDi5DzYhHHAo6Mw/edit?pli=1&gid=1640322178#gid=1640322178&range=1:7), [Expr-Agent](https://docs.google.com/spreadsheets/d/1KACL_nBqdzq60k-kJIDi5DzYhHHAo6Mw/edit?pli=1&gid=1327699838#gid=1327699838&range=1:302), [Expr-Expr](https://docs.google.com/spreadsheets/d/1KACL_nBqdzq60k-kJIDi5DzYhHHAo6Mw/edit?pli=1&gid=442919093#gid=442919093&range=1:144), [Primary relationships](https://docs.google.com/spreadsheets/d/1KACL_nBqdzq60k-kJIDi5DzYhHHAo6Mw/edit?pli=1&gid=2039077452#gid=2039077452&range=1:4), [Special relationships](https://docs.google.com/spreadsheets/d/1KACL_nBqdzq60k-kJIDi5DzYhHHAo6Mw/edit?pli=1&gid=337837558#gid=337837558&range=1:12), and [Expr-High Level Relationships](https://docs.google.com/spreadsheets/d/1KACL_nBqdzq60k-kJIDi5DzYhHHAo6Mw/edit?pli=1&gid=1632754536#gid=1632754536&range=1:6).
+* **RDA Element:** RDA Element tabs are nested to mirror semantic hierarchies within the RDA Registry. Element Toolkit labels are listed and linked to corresponding element pages in the Official RDA Toolkit.
+* **RDA curie:** RDA curies, which are appended to create canonical RDA URIs in the RDA Registry, are listed alongside their corresponding RDA Elements. Curies are linked to corresponding elements in the RDA Registry.
+* **Datatype/Object:** In this field, mappers determine whether a datatype or object property is used by the M2R transformation. If both are used depending on conditions, record D/O. Datatype = D. Object = O. Datatype properties are used when expected values are typed as strings. Object properties are used when expected values are "things", e.g. IRIs, RDA entities. If you're not sure, leave this column blank.
+* **Source: MRC Field:** The MARC21 tag for the field, indicators and values, character position(s) and values, and subfields and values a mapping is relevant for. Use only as many character positions/indicators/subfields/values as needed to narrow down relevant conditions. Source:MRC Field values are hyperlinked to the MARC21 Bibliographic Standard page for the corresponding MARC field.
+* **TK R2M:** Toolkit RDA to MARC mappings were considered in the M2R mapping during Phase I. Ignore and hide this column for now.
+* **Source: NLNZ R2M:** Relevant RDA to MARC mappings from the National Library of New Zealand. MARC21 fields, indicators, character positions, subfields, and values are included where relevant for conditions. Hyperlinks lead to relevant sections of the NLNZ MARC bibliographic encoding corresponding to a particular Official RDA element. To be used as a reference. Ebe is in charge of filling out this column.
+* **Source: M2R Mapping:** MARC21 fields, indicators, character positions, subfields, and values relevant for narrowing conditions for a M2R mapping to a particular element. Distinct mappings are listed in separate rows. Values are hyperlinked to corresponding M2R mapping spreadsheets for fields, or subsets of rows within those spreadsheets if they are longer. MARC2RDA mapping team is collectively responsible for filling out this row. 
+* **M2R Coding Status:** Indicates whether the mapping in the Source: M2R Mapping column has been coded by the transformation team.
+* **RDA Vocab:** If the element is associated with an RDA value vocabulary, this column lists the name of the vocabulary and a link to it in the RDA Registry.
+* **F&M table (needed, not needed, link to table):** This column provides links to "Finding & Mapping" tables where applicable. F&M tables are used when an element has a related RDA vocabulary or when values for an element can be found in multiple MARC fields and subfields. Where tables exist, they are named and linked in this column. Where columns are needed/not needed, that is indicated in this column.
+* **Example input files:** Links to example input files for this element are included here. Locations for input file storage have not yet been identified. Ignore and hide this column for now.
+* **MARC Record Format:** If a MARC2RDA mapping in a given row is only relevant for a particular MARC21 record format or list of formats, include abbreviations for those formats here. This duplicates information found in conditions listed in the Source:M2R Mapping column, which is OK. Record formats include Books (BKS), Computer Files (COMP), Continuing Resources (CR), Maps (MAP), Mixed Materials (COLL), Scores (SCO), Sound Recordings (MUS), and Visual Materials (VM)
+* **SEM:** Record "X" if mapping applies to single-expression manifestations
+* **AMLM:** Record "X" if mapping applies to amalgamation expressions
+* **MPW:** Record "X" if mapping applies to Whole work, i.e., a work that has parts that can be described separately, but are integral to the completeness of the whole
+* **AUGM only:** Record "X" if only the augmented (primary) work and expression are mapped
+* **AUGM + AW:** Record "X" if both the augmented (primary) work and expression and the aggregating work are mapped
+* **PARM only:** Record "X" if only the parallel work and expressions are mapped
+* **PARM + AW:** Record "X" if both the parallel work and expressions and the aggregating work are mapped
+* **COLM only:** Record "X" if only the collected work(s) and  expressions are mapped
+* **COLM + AW:** Record "X" if both the collected work(s) and expression(s) and the aggregating work are mapped
+* **AMAW/RDA Label:** Record the label for the RDA property used for the mapping when an aggregating work embodied in an augmentation aggregate manifestation is the entity being described in a given mapping when applicable.
+* **RDA curie for RepEx:** When mapping to an aggregating work embodied in an aggregate manifestation, list the RDA curie for the property used and link to the RDA Registry entry for that element.
+* **Datatype/Object for RepEx:** Relates to the element in the preceding "RDA curie for RepEx" column. Is a datatype or object property used, or both? Leave blank if unsure.
+* **CW:** Record "X" if mapping applies to collection works (collections of items, not collections of expressions)
+* **DW:** Record "X" if mapping applies to diachronic works.
+* **GitHub Issue or Discussion Links:** List useful titles, discussion or issue numbers, and hyperlink to relevant GitHub issues and discussions. Separate multiple values by entering on separate lines (Ctrl+Enter in Google Sheets)
+* **Notes:** Leave notes for your friends! Separate multiple values with " ; " and always leave your initials and a date in EDTF format at the end. Keep these brief and relevant. Longer-form questions and conversations belong in GitHub.
+
+### Abbreviations and Acronyms Glossary
+*  SEM: Single Expression Manifestation
+*  AMLM: Amalgamation expression. A [single work is realized as an amalgamation](https://access.rdatoolkit.org/en-US_ala-4d4d3f5b-8d94-3ee5-89d8-241a98366db4/div_sql_2zm_2fb)
+*  MPW: Whole work, i.e., a work that has parts that can be described separately, but are integral to the completeness of the whole
+*  AUGM only: Only the Augmented (primary) work and expression are mapped
+*  AUGM + AW: Both the augmented (primary) work and expression and the Aggregating work are mapped
+*  PARM only: Only the parallel work and expressions are mapped
+*  PARM + AW: Both the parallel work and expressions and the aggregating work are mapped
+*  COLM only: Only the collected work(s) and expressions are mapped
+*  COLM + AW: Both the collected work(s) and expressions(s) and the aggregating work are mapped
+*  AMAW/RDA Label: The aggregating work is mapped, and the RDA label is for the property used with the aggregating work (not the expression property at the beginning of the row). 
+*  DW: Diachronic work
+*  CW: Collection work
+
+## Expression Table Workflow (In Stages)
+### Stage 1: Table design review and workflow development: December 2025
+* Review structure, purpose, and contents of table in a group meeting, reviewing the table's purpose and functionality
+* Make adjustments based on group feedback
+* Develop work plan and procedures for completing mapping work. Review in a group meeting and implement feedback from mapping team
+* Practice one element from each tab as a group before splitting into chunks and working individually (new mapping team members will have 1-3 sessions with Crystal to begin)
+### Stage 2: Column Up to MARC Field: January 2025
+* Ensure completeness of columns up to MARC Field of each tab (are all relevant elements accounted for? Check against tab 1 to make sure all excluded elements are intentional)
+#### Stage 3: Fill out M2R Mapping column: January-February 2025
+* Copy RDA Curie "P number". Example: rdae:P20005 = P20005
+* Navigate to the [M2R Google Drive](https://drive.google.com/drive/folders/0AADaSAA_Nl-vUk9PVA)
+    * Paste the P number into the search box
+    * Limit search results to Type:Spreadsheets
+    * Click on any result that gives a MARC field tag (e.g., "586")
+    * Use <Ctrl+F> to find all instances of the P number in the spreadsheet. Ignore instances in the "deleted" or "not mapped" tabs.
+    * Highlight row or range of consecutive rows for the subfield or range of subfields corresponding to the RDA element you are searching for
+    * Right-click >> View more row actions >> Get link to this range
+    * Enter the field, indicators, character positions, subfields, and values as needed to make conditions of a mapping clear into the MARC field tag column, and hyperlink with link to range from mapping spreadsheets
+        * If a spreadsheet is provided:
+            * but not 'done', add "(not done)" after linked fields/subfield/position
+            * but not mapped to entity in focus (e.g., Expr or Work), add "(not mapped)" after linked field/subfield/position
+            * and has a Condition, add it after linked field/subfield/position; or say "(see Note)" and add it as a note   
+    * When an element is present in more than one M2R mapping, create a new row for each M2R mapping link
+    * As relevant, also complete GitHub Issue or Discussion Links and Notes columns as progress is made.
+        * GitHub Issue or Discussion Links: This is intended for issues or discussions related only to the RDA element or MARC field in a row. A link is also included for the general spreadsheet workflow Q&A for ease of access.
+* Sometimes you will run into spreadsheets which need to be amended for reasons outside the expansion into aggregates and diachronic works. When that happens, create an issue about it in GitHub (one issue per MARC tag). If you can fix it yourself you may self-assign and fix. Other members of the mapping team may also fix such issues. If a field has already been coded, it is necessary to add the "code re-check" label once a spreadsheet has been changed. Then, coders will make any needed adjustments to the transformation code. Do not close the issue until changes have been coded and tested.
+ #### Stage 4: Complete up to "SEM": February-March 2025
+ * Transformation team to fill out the "M2R Coding Status" column. Work coordinated by Cypress.
+ * Small task committee led by Deborah to fill out "F&M table (needed; not needed; link to table) column.
+     * Decide if F&M tables are needed for each element, locating tables already in existence and adding them to the spreadsheet
+     * Create F&M tables
+ #### Stage 5: Phase II Columns (SEM-DW)
+ * [Instructions TBD]
+
+# Field-Specific Mapping Spreadsheet Instructions
 _Last updated 27 November 2024_
 
 ## Table of Contents

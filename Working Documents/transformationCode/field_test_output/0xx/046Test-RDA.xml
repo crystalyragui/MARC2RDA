@@ -12,7 +12,7 @@
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-12a">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-12a"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-12a</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -38,10 +38,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-12a"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d31e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd30e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d31e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd30e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>250 B.C.E. - 100</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>250 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>100</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -60,7 +60,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-12b-44">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-12b-44"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-12b-44</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -73,7 +73,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-12b-44"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d68e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd97e5"/><!--rdawo:P10317 = has related timespan of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -87,10 +87,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-12b-44"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d68e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd97e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d68e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd97e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>250 B.C.E. - 100 B.C.E.</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>250 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>100 B.C.E.</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -109,7 +109,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-12c-41">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-12c-41"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-12c-41</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -128,7 +128,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdaeo:P20576 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-12c-41"/><!--rdaeo:P20576 = is expression described with metadata by-->
       <rdaeo:P20059 rdf:resource="http://marc2rda.info/testing/man#"/><!--rdaeo:P20059 = has manifestation of expression-->
       <rdaeo:P20231 rdf:resource="http://marc2rda.info/testing/wor#"/><!--rdaeo:P20231 = has work expressed-->
-      <rdaeo:P20307 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d100e5"/><!--rdaeo:P20307 = has related timespan of expression-->
+      <rdaeo:P20307 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd131e5"/><!--rdaeo:P20307 = has related timespan of expression-->
       <rdaeo:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/><!--rdaeo:P20001 = has content type-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#">
@@ -136,10 +136,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-12c-41"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d100e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd131e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d100e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd131e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>250 - 500</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>250</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>500</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -158,7 +158,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-12d-42">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-12d-42"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-12d-42</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -184,10 +184,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-12d-42"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d132e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd165e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d132e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd165e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>250 - 500</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>250</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>500</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -206,7 +206,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-14a">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-14a"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-14a</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -232,10 +232,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-14a"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d164e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd199e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d164e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd199e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>100 B.C.E. - 250</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>100 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>250</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -254,7 +254,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-14b-44">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-14b-44"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-14b-44</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -267,7 +267,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-14b-44"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d196e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd233e5"/><!--rdawo:P10317 = has related timespan of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -281,10 +281,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-14b-44"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d196e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd233e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d196e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd233e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>100 B.C.E. - 250</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>100 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>250</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -303,7 +303,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-14c-41">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-14c-41"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-14c-41</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -322,7 +322,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdaeo:P20576 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-14c-41"/><!--rdaeo:P20576 = is expression described with metadata by-->
       <rdaeo:P20059 rdf:resource="http://marc2rda.info/testing/man#"/><!--rdaeo:P20059 = has manifestation of expression-->
       <rdaeo:P20231 rdf:resource="http://marc2rda.info/testing/wor#"/><!--rdaeo:P20231 = has work expressed-->
-      <rdaeo:P20307 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d228e5"/><!--rdaeo:P20307 = has related timespan of expression-->
+      <rdaeo:P20307 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd267e5"/><!--rdaeo:P20307 = has related timespan of expression-->
       <rdaeo:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/><!--rdaeo:P20001 = has content type-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#">
@@ -330,10 +330,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-14c-41"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d228e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd267e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d228e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd267e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>100 B.C.E. - 250</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>100 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>250</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -352,7 +352,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-14d-42">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-14d-42"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-14d-42</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -378,10 +378,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-14d-42"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d260e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd301e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d260e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd301e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>100 B.C.E. - 250</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>100 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>250</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -400,7 +400,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-29a">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-29a"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-29a</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -426,10 +426,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-29a"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d292e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd335e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d292e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd335e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>1000 B.C.E. - 500 B.C.E.</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>1000 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>500 B.C.E.</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -448,7 +448,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-29b-44">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-29b-44"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-29b-44</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -461,7 +461,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-29b-44"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d324e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd369e5"/><!--rdawo:P10317 = has related timespan of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -475,10 +475,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-29b-44"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d324e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd369e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d324e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd369e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>1000 B.C.E. - 500 B.C.E.</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>1000 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>500 B.C.E.</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -497,7 +497,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-29c-41">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-29c-41"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-29c-41</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -516,7 +516,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdaeo:P20576 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-29c-41"/><!--rdaeo:P20576 = is expression described with metadata by-->
       <rdaeo:P20059 rdf:resource="http://marc2rda.info/testing/man#"/><!--rdaeo:P20059 = has manifestation of expression-->
       <rdaeo:P20231 rdf:resource="http://marc2rda.info/testing/wor#"/><!--rdaeo:P20231 = has work expressed-->
-      <rdaeo:P20307 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d356e5"/><!--rdaeo:P20307 = has related timespan of expression-->
+      <rdaeo:P20307 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd403e5"/><!--rdaeo:P20307 = has related timespan of expression-->
       <rdaeo:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/><!--rdaeo:P20001 = has content type-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#">
@@ -524,10 +524,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-29c-41"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d356e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd403e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d356e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd403e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>1000 B.C.E. - 500 B.C.E.</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>1000 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>500 B.C.E.</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -546,7 +546,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-29d-42">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-29d-42"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-29d-42</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -572,10 +572,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-29d-42"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d388e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd437e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d388e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd437e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>1000 B.C.E. - 500 B.C.E.</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>1000 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>500 B.C.E.</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -594,7 +594,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-30a">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-30a"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-30a</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -620,10 +620,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-30a"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d420e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd471e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d420e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd471e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>1000 B.C.E. - 500 B.C.E.</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>1000 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>500 B.C.E.</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -642,7 +642,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-30b-44">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-30b-44"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-30b-44</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -655,7 +655,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-30b-44"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d452e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd505e5"/><!--rdawo:P10317 = has related timespan of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -669,10 +669,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-30b-44"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d452e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd505e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d452e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd505e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>1000 B.C.E. - 500 B.C.E.</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>1000 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>500 B.C.E.</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -691,7 +691,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-30c-41">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-30c-41"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-30c-41</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -710,7 +710,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdaeo:P20576 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-30c-41"/><!--rdaeo:P20576 = is expression described with metadata by-->
       <rdaeo:P20059 rdf:resource="http://marc2rda.info/testing/man#"/><!--rdaeo:P20059 = has manifestation of expression-->
       <rdaeo:P20231 rdf:resource="http://marc2rda.info/testing/wor#"/><!--rdaeo:P20231 = has work expressed-->
-      <rdaeo:P20307 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d484e5"/><!--rdaeo:P20307 = has related timespan of expression-->
+      <rdaeo:P20307 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd539e5"/><!--rdaeo:P20307 = has related timespan of expression-->
       <rdaeo:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/><!--rdaeo:P20001 = has content type-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#">
@@ -718,10 +718,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-30c-41"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d484e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd539e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d484e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd539e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>1000 B.C.E. - 500 B.C.E.</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>1000 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>500 B.C.E.</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -740,7 +740,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-30d-42-45-68-72">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-30d-42-45-68-72"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-30d-42-45-68-72</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -766,10 +766,10 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-30d-42-45-68-72"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d516e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd573e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d516e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd573e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>1000 B.C.E. - 500 B.C.E.</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>1000 B.C.E.</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>500 B.C.E.</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -790,7 +790,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-31a">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-31a"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-31a</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -824,7 +824,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdand:P80069>W3CDTF</rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/w3cdtf/tim#2001-07-12">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdato:P70016 rdf:resource="http://marc2rda.info/testing/w3cdtf/timNom#2001-07-12"/><!--rdato:P70016 = has appellation of timespan-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/wor#marc046-test-31b">
@@ -840,7 +840,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-31b">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-31b"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-31b</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -866,15 +866,15 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-31b"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30278 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d580e5"/><!--rdamo:P30278 = has date of manifestation-->
+      <rdamo:P30278 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd641e5"/><!--rdamo:P30278 = has date of manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/timNom#2025-09-30t2001324406259-0400d580e5">
+   <rdf:Description rdf:about="http://marc2rda.info/testing/timNom#2026-03-11t1623009511451zd641e5">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
       <rdand:P80068>2001-07-12</rdand:P80068><!--rdand:P80068 = has nomen string-->
       <rdand:P80069>Representations of Dates and Times (ISO 8601)</rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d580e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd641e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdato:P70016 rdf:resource="http://marc2rda.info/testing/representationsofdatesandtimes%28iso8601%29/timNom#2001-07-12"/><!--rdato:P70016 = has appellation of timespan-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/wor#marc046-test-32">
@@ -890,7 +890,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-32">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-32"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-32</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -924,7 +924,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdand:P80069>W3CDTF</rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/w3cdtf/tim#2001-07-12">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdato:P70016 rdf:resource="http://marc2rda.info/testing/w3cdtf/timNom#2001-07-12"/><!--rdato:P70016 = has appellation of timespan-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/wor#marc046-test-33">
@@ -940,7 +940,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-33">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-33"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-33</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -974,7 +974,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdand:P80069>W3CDTF</rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/w3cdtf/tim#2001-07-12">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdato:P70016 rdf:resource="http://marc2rda.info/testing/w3cdtf/timNom#2001-07-12"/><!--rdato:P70016 = has appellation of timespan-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/wor#marc046-test-34">
@@ -990,7 +990,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-34">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-34"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-34</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1024,7 +1024,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdand:P80069>W3CDTF</rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/w3cdtf/tim#2001-07-12">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdato:P70016 rdf:resource="http://marc2rda.info/testing/w3cdtf/timNom#2001-07-12"/><!--rdato:P70016 = has appellation of timespan-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/wor#marc046-test-35-56-57">
@@ -1040,7 +1040,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-35-56-57">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-35-56-57"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-35-56-57</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1071,7 +1071,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/edtf/tim#1874-1890">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>1874 - 1890</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>1874</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>1890</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -1090,7 +1090,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-36-58-62-77">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-36-58-62-77"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-36-58-62-77</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1116,12 +1116,12 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-36-58-62-77"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d740e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd811e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
       <rdamd:P30137>Beginning of date valid: 20011008 (Applies to: Fear in the night)</rdamd:P30137><!--rdamd:P30137 = has note on manifestation-->
       <rdamd:P30137>End of date valid: 20011027 (Applies to: Fear in the night)</rdamd:P30137><!--rdamd:P30137 = has note on manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d740e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd811e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>20011008 - 20011027</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>20011008</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>20011027</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -1140,7 +1140,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-37-59-63-78">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-37-59-63-78"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-37-59-63-78</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1153,7 +1153,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-37-59-63-78"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d772e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd845e5"/><!--rdawo:P10317 = has related timespan of work-->
       <rdawd:P10330>Beginning of date valid: 20011008</rdawd:P10330><!--rdawd:P10330 = has note on work-->
       <rdawd:P10330>End of date valid: 20011027</rdawd:P10330><!--rdawd:P10330 = has note on work-->
       <rdawd:P10403>Applies to: </rdawd:P10403><!--rdawd:P10403 = has scope of validity-->
@@ -1171,8 +1171,8 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d772e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd845e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>20011008 - 20011027</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>20011008</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>20011027</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -1191,7 +1191,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-38-60-64-79">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-38-60-64-79"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-38-60-64-79</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1210,7 +1210,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdaeo:P20576 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-38-60-64-79"/><!--rdaeo:P20576 = is expression described with metadata by-->
       <rdaeo:P20059 rdf:resource="http://marc2rda.info/testing/man#"/><!--rdaeo:P20059 = has manifestation of expression-->
       <rdaeo:P20231 rdf:resource="http://marc2rda.info/testing/wor#"/><!--rdaeo:P20231 = has work expressed-->
-      <rdaeo:P20307 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d804e5"/><!--rdaeo:P20307 = has related timespan of expression-->
+      <rdaeo:P20307 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd879e5"/><!--rdaeo:P20307 = has related timespan of expression-->
       <rdaed:P20071>Beginning of date valid: 20011008</rdaed:P20071><!--rdaed:P20071 = has note on expression-->
       <rdaed:P20071>End of date valid: 20011027</rdaed:P20071><!--rdaed:P20071 = has note on expression-->
       <rdaeo:P20001 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/><!--rdaeo:P20001 = has content type-->
@@ -1221,8 +1221,8 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d804e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd879e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>20011008 - 20011027</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>20011008</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>20011027</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -1242,7 +1242,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-39-61-65-80">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-39-61-65-80"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-39-61-65-80</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1268,12 +1268,12 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamo:P30462 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-39-61-65-80"/><!--rdamo:P30462 = is manifestation described with metadata by-->
       <rdamo:P30139 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdamo:P30139 = has expression manifested-->
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
-      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d836e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
+      <rdamo:P30273 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd913e5"/><!--rdamo:P30273 = has related timespan of manifestation-->
       <rdamd:P30137>Beginning of date valid: 20011008 (Applies to: Fear in the night)</rdamd:P30137><!--rdamd:P30137 = has note on manifestation-->
       <rdamd:P30137>End of date valid: 20011027 (Applies to: Fear in the night)</rdamd:P30137><!--rdamd:P30137 = has note on manifestation-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d836e5">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd913e5">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>20011008 - 20011027</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>20011008</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>20011027</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -1292,7 +1292,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-40-66-67">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-40-66-67"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-40-66-67</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1324,7 +1324,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/edtf/tim#1995-2006">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70016>1995 - 2006</rdatd:P70016><!--rdatd:P70016 = has appellation of timespan-->
       <rdatd:P70039>1995</rdatd:P70039><!--rdatd:P70039 = has beginning-->
       <rdatd:P70040>2006</rdatd:P70040><!--rdatd:P70040 = has ending-->
@@ -1343,7 +1343,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-43">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-43"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-43</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1385,7 +1385,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-45-68-72">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-45-68-72"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-45-68-72</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1425,7 +1425,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-45-69-73">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-45-69-73"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-45-69-73</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1465,7 +1465,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-45-70-74">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-45-70-74"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-45-70-74</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1505,7 +1505,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-45-71-75">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-45-71-75"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-45-71-75</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1545,7 +1545,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-47-48a">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-47-48a"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-47-48a</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1558,7 +1558,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-47-48a"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d1060e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd1151e5"/><!--rdawo:P10317 = has related timespan of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -1588,7 +1588,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-47-48b">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-47-48b"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-47-48b</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1601,7 +1601,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-47-48b"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d1092e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd1185e5"/><!--rdawo:P10317 = has related timespan of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -1631,7 +1631,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-49">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-49"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-49</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1644,7 +1644,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-49"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d1124e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd1219e5"/><!--rdawo:P10317 = has related timespan of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -1673,7 +1673,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-50-51">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-50-51"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-50-51</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1686,7 +1686,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-50-51"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d1156e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd1253e5"/><!--rdawo:P10317 = has related timespan of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -1716,7 +1716,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-52">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-52"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-52</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1729,7 +1729,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-52"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d1188e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd1287e5"/><!--rdawo:P10317 = has related timespan of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -1759,7 +1759,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-53-54">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-53-54"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-53-54</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1772,7 +1772,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-53-54"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d1220e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd1321e5"/><!--rdawo:P10317 = has related timespan of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -1802,7 +1802,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc046-test-55">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-55"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc046-test-55</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 11111nam a2200553ui 4500
@@ -1815,7 +1815,7 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc046-test-55"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001324406259-0400d1252e5"/><!--rdawo:P10317 = has related timespan of work-->
+      <rdawo:P10317 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1623009511451zd1355e5"/><!--rdawo:P10317 = has related timespan of work-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>

@@ -12,7 +12,7 @@
    <rdf:Description rdf:about="http://marc2rda.info/testing/man#marc">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
       <rdamo:P30135 rdf:resource="http://marc2rda.info/testing/wor#marc"/><!--rdamo:P30135 = has work manifested-->
-      <rdamd:P30335>Metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
+      <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
       <rdamd:P30137>F 01234cam a2200301 i 4500
@@ -28,13 +28,13 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
       <rdawo:P10623 rdf:resource="http://marc2rda.info/testing/wor#marc"/><!--rdawo:P10623 = is work described with metadata by-->
       <rdawo:P10078 rdf:resource="http://marc2rda.info/testing/exp#"/><!--rdawo:P10078 = has expression of work-->
-      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e4"/><!--rdawo:P10216 = has coverage of content-->
-      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e6"/><!--rdawo:P10216 = has coverage of content-->
-      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e9"/><!--rdawo:P10216 = has coverage of content-->
-      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e11"/><!--rdawo:P10216 = has coverage of content-->
-      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e17"/><!--rdawo:P10216 = has coverage of content-->
-      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e19"/><!--rdawo:P10216 = has coverage of content-->
-      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e21"/><!--rdawo:P10216 = has coverage of content-->
+      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e4"/><!--rdawo:P10216 = has coverage of content-->
+      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e6"/><!--rdawo:P10216 = has coverage of content-->
+      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e9"/><!--rdawo:P10216 = has coverage of content-->
+      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e11"/><!--rdawo:P10216 = has coverage of content-->
+      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e17"/><!--rdawo:P10216 = has coverage of content-->
+      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e19"/><!--rdawo:P10216 = has coverage of content-->
+      <rdawo:P10216 rdf:resource="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e21"/><!--rdawo:P10216 = has coverage of content-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -50,41 +50,41 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdamd:P30276/><!--rdamd:P30276 = has access point for manifestation-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/marc045timeperiodcode/timNom#t-t-">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10014"/>
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
       <rdand:P80026>t-t-</rdand:P80026><!--rdand:P80026 = is access point for timespan of-->
       <rdand:P80069>MARC 045 Time Period Code</rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/marc045timeperiodcode/timNom#testa">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10014"/>
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10012"/>
       <rdand:P80026>TestA</rdand:P80026><!--rdand:P80026 = is access point for timespan of-->
       <rdand:P80069>MARC 045 Time Period Code</rdand:P80069><!--rdand:P80069 = has scheme of nomen-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e4">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e4">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdato:P70015 rdf:resource="http://marc2rda.info/testing/marc045timeperiodcode/timNom#t-t-"/><!--rdato:P70015 = has access point for timespan-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e6">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e6">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdato:P70015 rdf:resource="http://marc2rda.info/testing/marc045timeperiodcode/timNom#testa"/><!--rdato:P70015 = has access point for timespan-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e9">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e9">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70015>d17910304</rdatd:P70015><!--rdatd:P70015 = has access point for timespan-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e11">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e11">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70015>225000000/70000000</rdatd:P70015><!--rdatd:P70015 = has access point for timespan-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e17">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e17">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70015>d1972</rdatd:P70015><!--rdatd:P70015 = has access point for timespan-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e19">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e19">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70015>d20001210</rdatd:P70015><!--rdatd:P70015 = has access point for timespan-->
    </rdf:Description>
-   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2025-09-30t2001024079284-0400d31e21">
-      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10011"/>
+   <rdf:Description rdf:about="http://marc2rda.info/testing/tim#2026-03-11t1622384987191zd30e21">
+      <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10010"/>
       <rdatd:P70015>d1984/100000000</rdatd:P70015><!--rdatd:P70015 = has access point for timespan-->
    </rdf:Description>
 </rdf:RDF>

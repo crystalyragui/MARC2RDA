@@ -27,11 +27,9 @@
  
     <xsl:template match="marc:record" expand-text="yes">
         <xsl:variable name="aggType" select="uwf:checkAggregates(.)"/>
-             <xsl:copy select=".">
-                 <xsl:copy-of select="./*"/>
-                 <marc:datafield tag="979" ind1=" " ind2=" ">
-                     <marc:subfield code="a">{$aggType}</marc:subfield>
-                 </marc:datafield>
-             </xsl:copy>
+        <xsl:copy select=".">
+            <xsl:copy-of select="./*"/>
+            <xsl:copy-of select="$aggType"/>
+        </xsl:copy>
     </xsl:template>
 </xsl:stylesheet>
