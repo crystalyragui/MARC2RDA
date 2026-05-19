@@ -25,8 +25,8 @@ LC/NACO Authority File,madsrdf:Geographic,http://www.loc.gov/mads/rdf/v1#Geograp
 LC/NACO Authority File,FOAF Organization,"http://xmlns.com/foaf/0.1/Organization
 ",,Corporate Body,Y
 LCSH,madsrdf:Geographic,http://www.loc.gov/mads/rdf/v1#Geographic,,Place,Y
-MusicBrainz,work,https://musicbrainz.org/doc/Work,,,Y
-MusicBrainz,Area,https://musicbrainz.org/doc/Area,,Work,Y
+MusicBrainz,work,http://musicbrainz.org/work/ ,,,Y
+MusicBrainz,Area, http://musicbrainz.org/area/,,Work,Y
 ORCID (can't find type uri),person, ,"Evidence shows this may include fictitious names. If approved, the assumption is that Donald Duck is a pseudonym and a rwo person may have more than one ORCID.",Person,Y
 PeriodO (can't find type uri),time,https://perio.do/technical-overview/,"Definitions, etc. indicate equivalence with RDA Timespan.",Timespan,Y
 RISM online (can't find type uri),institution, ,,Corporate Body,Y
