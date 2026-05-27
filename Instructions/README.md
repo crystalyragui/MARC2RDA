@@ -88,9 +88,18 @@ _Last updated 27 November 2024_
      - space, then $\[letter or number\]
    - _for character positions:_
      - /\[number\]
+   - _for position types/record formats:_
+     -  Book (BK)
+     -  Computer Files (CF)
+     -  Maps (MP)
+     -  Music (MU)
+     -  Continuing Resources (CR)
+     -  Visual Materials (VM)
+     -  Mixed Materials (MX)    
  #### Examples:
  - 264 #1 $c
  - 007/07
+ - 008/23-24 (BK)
  ### Condition formatting
  #### Rules
  - 1. To express a MARCTagCondition, follow the same MARC tag formatting as specified above, BUT: Do not repeat any information already expressed by other cells in the same row. For instance, if you want to express in the example row that $i has a value of "part of work", the MARCTagCondition is simply "$i".
