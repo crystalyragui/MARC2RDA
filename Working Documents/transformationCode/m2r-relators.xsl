@@ -618,7 +618,6 @@
                                 <xsl:otherwise>
                                     <xsl:choose>
                                         <xsl:when test="$type = 'agg' and $domain = 'work'">
-                                            <xsl:text>HERE</xsl:text>
                                             <xsl:variable name="prop" select="substring($subERda/rdaPropIri, string-length($subERda/rdaPropIri) - 5)"/>
                                             <xsl:choose>
                                                 <xsl:when test="matches($prop, 'P10448|P10589|P10542|P10393|P10055|P10444|P10538|P10585')">
@@ -627,7 +626,6 @@
                                                     </xsl:element>
                                                 </xsl:when>
                                                 <xsl:otherwise>
-                                                    <xsl:text>HELP</xsl:text>
                                                     <xsl:copy-of select="m2r:defaultAgentProp($type, .., $fieldType, $domain, $agentIRI, $agentAP)"/>    
                                                 </xsl:otherwise>
                                             </xsl:choose>
