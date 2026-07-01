@@ -1133,7 +1133,7 @@
     <xsl:template name="FX00-0x-ab">
         <xsl:if test="@ind1 = '0' and marc:subfield[@code = 'a']">
             <xsl:variable name="nameOfPerson">
-                <xsl:value-of select="marc:subfield[@code = 'a'] | marc:subfield[@code = 'b']"/>
+                <xsl:value-of select="marc:subfield[@code = 'a'][1] | marc:subfield[@code = 'b'][1]"/>
             </xsl:variable>
             <rdaad:P50111>
                 <xsl:value-of select="m2r:stripEndPunctuation($nameOfPerson)"/>
@@ -1143,7 +1143,7 @@
 
     <xsl:template name="FX00-1x-a">
             <xsl:if test="@ind1 = '1' and marc:subfield[@code = 'a']">
-                <xsl:variable name="nameOfPerson" select="marc:subfield[@code = 'a']"/>
+                <xsl:variable name="nameOfPerson" select="marc:subfield[@code = 'a'][1]"/>
                 <rdaad:P50111>
                     <xsl:value-of select="m2r:stripEndPunctuation($nameOfPerson)"/>
                 </rdaad:P50111>
@@ -1153,7 +1153,7 @@
     <xsl:template name="FX00-2x-a">
         <xsl:if test="@ind1 = '2' and marc:subfield[@code = 'a']">
             <xsl:variable name="nameOfPerson">
-                <xsl:value-of select="marc:subfield[@code = 'a']"/>
+                <xsl:value-of select="marc:subfield[@code = 'a'][1]"/>
             </xsl:variable>
             <rdaad:P50111>
                 <xsl:value-of select="m2r:stripEndPunctuation($nameOfPerson)"/>
@@ -1164,7 +1164,7 @@
     <xsl:template name="FX00-3x-a">
         <xsl:if test="@ind1 = '3' and (marc:subfield[@code = 'a'])">
             <xsl:variable name="nameOfFamily">
-                <xsl:value-of select="marc:subfield[@code = 'a']"/>
+                <xsl:value-of select="marc:subfield[@code = 'a'][1]"/>
             </xsl:variable>
             <rdaad:P50061>
                 <xsl:value-of select="m2r:stripEndPunctuation($nameOfFamily)"/>
@@ -1182,7 +1182,7 @@
     
     <xsl:template name="FX10-xx-ab">
         <xsl:variable name="nameOfCorporateBody">
-            <xsl:value-of select="marc:subfield[@code = 'a'] | marc:subfield[@code = 'b']"/>
+            <xsl:value-of select="marc:subfield[@code = 'a'][1] | marc:subfield[@code = 'b']"/>
         </xsl:variable>
         <rdaad:P50032>
             <xsl:value-of select="m2r:stripEndPunctuation($nameOfCorporateBody)"/>
@@ -1191,7 +1191,7 @@
     
     <xsl:template name="FX11-xx-ae">
         <xsl:variable name="nameOfCorporateBody">
-            <xsl:value-of select="marc:subfield[@code = 'a'] | marc:subfield[@code = 'e']"/>
+            <xsl:value-of select="marc:subfield[@code = 'a'][1] | marc:subfield[@code = 'e']"/>
         </xsl:variable>
         <rdaad:P50032>
             <xsl:value-of select="m2r:stripEndPunctuation($nameOfCorporateBody)"/>
@@ -1306,7 +1306,7 @@
 
     <xsl:template name="FX00-xx-u"><!-- X00 person and family $u affiliation -->
         <xsl:if test="marc:subfield[@code = 'u']">
-            <xsl:variable name="name" select="marc:subfield[@code = 'u']"/>
+            <xsl:variable name="name" select="marc:subfield[@code = 'u'][1]"/>
             <xsl:choose>
                 <xsl:when test="@ind2 = '3'">
                     <rdaad:P50394>
@@ -1326,7 +1326,7 @@
     
     <xsl:template name="FX1X-xx-u"><!-- corporate body $u affiliation for X11 and X10 -->
         <xsl:if test="marc:subfield[@code = 'u']">
-            <xsl:variable name="nameOfCorporateBody" select="marc:subfield[@code = 'u']"/>
+            <xsl:variable name="nameOfCorporateBody" select="marc:subfield[@code = 'u'][1]"/>
             <rdaad:P50393>
                 <xsl:text>Affiliation or address: </xsl:text>
                 <xsl:value-of select="m2r:stripEndPunctuation($nameOfCorporateBody)"/>
@@ -1346,7 +1346,7 @@
     
     <xsl:template name="FX30-xx-anp">
         <xsl:variable name="title">
-            <xsl:value-of select="marc:subfield[@code = 'a'] | marc:subfield[@code = 'n'] | marc:subfield[@code = 'p']"/>
+            <xsl:value-of select="marc:subfield[@code = 'a'][1] | marc:subfield[@code = 'n'] | marc:subfield[@code = 'p']"/>
         </xsl:variable>
         <rdawd:P10088>
             <xsl:value-of select="m2r:stripEndPunctuation($title) => replace(' ;\s*$', '') => normalize-space()"/>
@@ -1356,7 +1356,7 @@
     <xsl:template name="FXXX-xx-tnp">
         <xsl:if test="marc:subfield[@code = 't'] or marc:subfield[@code = 'n'] or marc:subfield[@code = 'p']">
             <xsl:variable name="title">
-                <xsl:value-of select="marc:subfield[@code = 't'] | marc:subfield[@code = 'n'] | marc:subfield[@code = 'p']"/>
+                <xsl:value-of select="marc:subfield[@code = 't'][1] | marc:subfield[@code = 'n'] | marc:subfield[@code = 'p']"/>
             </xsl:variable>
             <rdawd:P10088>
                 <xsl:value-of select="m2r:stripEndPunctuation($title)"/>
