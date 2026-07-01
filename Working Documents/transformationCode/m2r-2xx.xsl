@@ -89,14 +89,15 @@
         </xsl:variable>
         <!-- variable to check whether record contains isbd punctuation -->
         <xsl:variable name="isISBD">
-            <xsl:choose>
+            <xsl:value-of select="true()"/>
+            <!--<xsl:choose>
                 <xsl:when test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
                     <xsl:value-of select="true()"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="false()"/>
                 </xsl:otherwise>
-            </xsl:choose>
+            </xsl:choose>-->
         </xsl:variable>
         <!-- go through 245 subfields -->
         <xsl:for-each select="$copy245/marc:datafield">
@@ -209,14 +210,15 @@
         </xsl:variable>
         <!-- variable to check whether record contains isbd punctuation -->
         <xsl:variable name="isISBD">
-            <xsl:choose>
+            <xsl:value-of select="true()"/>
+            <!--<xsl:choose>
                 <xsl:when test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
                     <xsl:value-of select="true()"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="false()"/>
                 </xsl:otherwise>
-            </xsl:choose>
+            </xsl:choose>-->
         </xsl:variable>
         <!-- go through 245 subfields -->
         <xsl:for-each select="$copy245/marc:datafield">
@@ -308,14 +310,15 @@
         <xsl:param name="type"/>
         <!--<xsl:call-template name="getmarc"/>-->
         <xsl:variable name="isISBD">
-            <xsl:choose>
+            <xsl:value-of select="true()"/>
+            <!--<xsl:choose>
                 <xsl:when test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
                     <xsl:value-of select="true()"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="false()"/>
                 </xsl:otherwise>
-            </xsl:choose>
+            </xsl:choose>-->
         </xsl:variable>
         <!-- copy of 245 where last subfield's ending punctuation (, or .) is removed -->
         <xsl:variable name="copy245">
@@ -481,14 +484,15 @@
         <!--<xsl:call-template name="getmarc"/>-->
         <xsl:if test="$type != 'reproduction'">
             <xsl:variable name="isISBD">
-                <xsl:choose>
+                <xsl:value-of select="true()"/>
+                <!--<xsl:choose>
                     <xsl:when test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
                         <xsl:value-of select="true()"/>
                     </xsl:when>
                     <xsl:otherwise>
                         <xsl:value-of select="false()"/>
                     </xsl:otherwise>
-                </xsl:choose>
+                </xsl:choose>-->
             </xsl:variable>
             <rdamd:P30107>
                 <xsl:value-of select="marc:subfield[@code = 'a'] | marc:subfield[@code = 'b']"/>
@@ -832,14 +836,15 @@
         <xsl:param name="type"/>
         <!--<xsl:call-template name="getmarc"/>-->
         <xsl:variable name="isISBD">
-            <xsl:choose>
+            <xsl:value-of select="true()"/>
+            <!--<xsl:choose>
                 <xsl:when test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
                     <xsl:value-of select="true()"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:value-of select="false()"/>
                 </xsl:otherwise>
-            </xsl:choose>
+            </xsl:choose>-->
         </xsl:variable>
         <xsl:choose>
             <xsl:when test="$isISBD = true()">
@@ -974,10 +979,10 @@
         <xsl:param name="type"/>
         <!--<xsl:call-template name="getmarc"/>-->
         <xsl:if test="not(contains($type, 'reproduction'))">
-            <xsl:choose>
+            <!--<xsl:choose>-->
                 <!-- check if ISBD punctuation -->
-                <xsl:when
-                    test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">
+                <!--<xsl:when
+                    test="(substring(preceding-sibling::marc:leader, 19, 1) = 'i' or substring(preceding-sibling::marc:leader, 19, 1) = 'a')">-->
                     <xsl:choose>
                         <xsl:when test="@ind2 = '0'">
                             <rdamd:P30110>
@@ -1008,9 +1013,9 @@
                         </xsl:when>
                         <xsl:otherwise/>
                     </xsl:choose>
-                </xsl:when>
+                <!--</xsl:when>-->
                 <!-- no ISBD punctuation -->
-                <xsl:otherwise>
+                <!--<xsl:otherwise>
                     <xsl:choose>
                         <xsl:when test="@ind2 = '0'">
                             <rdamd:P30110>
@@ -1041,8 +1046,8 @@
                         </xsl:when>
                         <xsl:otherwise/>
                     </xsl:choose>
-                </xsl:otherwise>
-            </xsl:choose>
+                </xsl:otherwise>-->
+            <!--</xsl:choose>-->
         </xsl:if>
     </xsl:template>
 </xsl:stylesheet>

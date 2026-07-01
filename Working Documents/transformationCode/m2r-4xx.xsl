@@ -84,18 +84,18 @@
         <!-- Accounted-for: $a + $x + $v when LDR/18 is a valid value -->
         <!-- Not accounted for: $6, $7, $8, $l, $y, $z-->
         <!-- 880s not accounted for -->
-        <xsl:choose>
-            <xsl:when
-                test="substring(preceding-sibling::marc:leader, 19, 1) = 'a' or substring(preceding-sibling::marc:leader, 19, 1) = 'i'">
+        <!--<xsl:choose>-->
+            <!--<xsl:when
+                test="substring(preceding-sibling::marc:leader, 19, 1) = 'a' or substring(preceding-sibling::marc:leader, 19, 1) = 'i'">-->
                 <xsl:call-template name="F490-xx-axv-isbd"/>
-            </xsl:when>
-            <xsl:when
+<!--            </xsl:when>-->
+            <!--<xsl:when
                 test="substring(preceding-sibling::marc:leader, 19, 1) = '' or substring(preceding-sibling::marc:leader, 19, 1) = ' ' or substring(preceding-sibling::marc:leader, 19, 1) = 'c' or substring(preceding-sibling::marc:leader, 19, 1) = 'n' or substring(preceding-sibling::marc:leader, 19, 1) = 'u'">
                 <xsl:call-template name="F490-xx-axv-nonIsbd"/>
-            </xsl:when>
-            <xsl:otherwise>
+            </xsl:when>-->
+            <!--<xsl:otherwise>
                 <xsl:comment>MARC 490 data lost; likely due to an unexpected value in LDR/18</xsl:comment>
-            </xsl:otherwise>
-        </xsl:choose>
+            </xsl:otherwise>-->
+        <!--</xsl:choose>-->
     </xsl:template>
 </xsl:stylesheet>
