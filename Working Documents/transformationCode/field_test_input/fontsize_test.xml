@@ -13,10 +13,22 @@
             <marc:subfield code="c">Amy M. Branum and Jo Jones.</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="340" ind1=" " ind2=" ">
+            <marc:subfield code="1">http://rdaregistry.info/termList/fontSize/1001</marc:subfield>
+            <marc:subfield code="0">http://id.loc.gov/vocabulary/mfont/jb</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="340" ind1=" " ind2=" ">
+            <marc:subfield code="n">large</marc:subfield>
+            <marc:subfield code="1">http://madeupfontsize/large</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="340" ind1=" " ind2=" ">
+            <marc:subfield code="m">large</marc:subfield>
+            <marc:subfield code="1">http://madeupfontsize/largewrongsubfield</marc:subfield>
+        </marc:datafield>
+        <!--<marc:datafield tag="340" ind1=" " ind2=" ">
             <marc:subfield code="n">large print</marc:subfield>
             <marc:subfield code="2">rdafs</marc:subfield>
         </marc:datafield>
-        <marc:datafield tag="340" ind1=" " ind2=" ">
+            <marc:datafield tag="340" ind1=" " ind2=" ">
             <marc:subfield code="n">super large print</marc:subfield>
             <marc:subfield code="2">rda</marc:subfield>
         </marc:datafield>
@@ -31,6 +43,6 @@
         <marc:datafield tag="340" ind1=" " ind2=" ">
             <marc:subfield code="n">large type</marc:subfield>
             <marc:subfield code="2">mfont</marc:subfield>
-        </marc:datafield>
+        </marc:datafield>-->
     </marc:record>
 </marc:collection>

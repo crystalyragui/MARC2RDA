@@ -5,66 +5,114 @@
         <sourceCode>rdaa</sourceCode>
         <lookupDoc iri="rda/AspectRatio.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/AspectRatio/"/>
+        <rdaProp>e/P20290</rdaProp>
     </row>
     <row>
         <vocabulary>RDA Bibliographic Format</vocabulary>
         <sourceCode>rdabf</sourceCode>
         <lookupDoc iri="rda/bookFormat.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/bookFormat/"/>
+        <rdaProp>m/P30197</rdaProp>
     </row>
     <row>
         <vocabulary>RDA Broadcast Standard</vocabulary>
         <sourceCode>rdabs</sourceCode>
         <lookupDoc iri="rda/broadcastStand.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/broadcastStand/"/>
-    </row>
-    <row>
-        <vocabulary>Term and Code List for RDA Carrier Types</vocabulary>
-        <sourceCode>rdacarrier</sourceCode>
-        <lookupDoc iri="lc/carriers.rdf"/>
-        <baseIRI iri="http://id.loc.gov/vocabulary/carriers/"/>
-    </row>
-    <row>
-        <vocabulary>RDA Colour Content</vocabulary>
-        <sourceCode>rdacc</sourceCode>
-        <lookupDoc iri="rda/RDAColourContent.xml"/>
-        <baseIRI iri="http://rdaregistry.info/termList/RDAColourContent/"/>
-    </row>
-    <row>
-        <vocabulary>RDA Content Type</vocabulary>
-        <sourceCode>rdaco</sourceCode>
-        <lookupDoc iri="rda/RDAContentType.xml"/>
-        <baseIRI iri="http://rdaregistry.info/termList/RDAContentType/"/>
-    </row>
-    <row>
-        <vocabulary>Term and Code List for RDA Content Types</vocabulary>
-        <sourceCode>rdacontent</sourceCode>
-        <lookupDoc iri="lc/contentTypes.rdf"/>
-        <baseIRI iri="http://id.loc.gov/vocabulary/contentTypes/"/>
-    </row>
-    <row>
-        <vocabulary>RDA Configuration of Playback Channels</vocabulary>
-        <sourceCode>rdacpc</sourceCode>
-        <lookupDoc iri="rda/configPlayback.xml"/>
-        <baseIRI iri="http://rdaregistry.info/termList/configPlayback/"/>
+        <rdaProp>m/P30123</rdaProp>
     </row>
     <row>
         <vocabulary>RDA Carrier Type</vocabulary>
         <sourceCode>rdact</sourceCode>
         <lookupDoc iri="rda/RDACarrierType.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/RDACarrierType/"/>
+        <rdaProp>m/P30001</rdaProp>
+    </row>
+    <row>
+        <vocabulary>Term and Code List for RDA Carrier Types</vocabulary>
+        <sourceCode>rdacarrier</sourceCode>
+        <lookupDoc iri="lc/carriers.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/carriers/"/>
+        <rdaProp>m/P30001</rdaProp>
+    </row>
+    <row>
+        <vocabulary>RDA Cartographic Data Type</vocabulary>
+        <sourceCode>rdacdt</sourceCode>
+        <lookupDoc iri="rda/RDACartoDT.xml"/>
+        <baseIRI iri="http://rdaregistry.info/termList/RDACartoDT/"/>
+        <rdaProp>m/P30261</rdaProp>
+    </row>
+    <row>
+        <vocabulary>RDA Collection Accrual Method</vocabulary>
+        <sourceCode>rdacam</sourceCode>
+        <lookupDoc iri="rda/RDACollectionAccrualMethod.xml"/>
+        <baseIRI iri="http://rdaregistry.info/termList/RDACollectionAccrualMethod/"/>
+        <rdaProp>w/P10608</rdaProp>
+    </row>
+    <row>
+        <vocabulary>RDA Collection Accrual Policy</vocabulary>
+        <sourceCode>rdacap</sourceCode>
+        <lookupDoc iri="rda/RDACollectionAccrualPolicy.xml"/>
+        <baseIRI iri="http://rdaregistry.info/termList/RDACollectionAccrualPolicy/"/>
+        <rdaProp>w/P10609</rdaProp>
+    </row>
+    <row>
+        <vocabulary>RDA Colour Content</vocabulary>
+        <sourceCode>rdacc</sourceCode>
+        <lookupDoc iri="rda/RDAColourContent.xml"/>
+        <baseIRI iri="http://rdaregistry.info/termList/RDAColourContent/"/>
+        <rdaProp>m/P30456</rdaProp>
+        <rdaProp>w/P10348</rdaProp>
+    </row>
+    <row>
+        <vocabulary>RDA Configuration of Playback Channels</vocabulary>
+        <sourceCode>rdacpc</sourceCode>
+        <lookupDoc iri="rda/configPlayback.xml"/>
+        <baseIRI iri="http://rdaregistry.info/termList/configPlayback/"/>
+        <rdaProp>m/P30184</rdaProp>
+    </row>
+    <row>
+        <vocabulary>RDA Content Type</vocabulary>
+        <sourceCode>rdaco</sourceCode>
+        <lookupDoc iri="rda/RDAContentType.xml"/>
+        <baseIRI iri="http://rdaregistry.info/termList/RDAContentType/"/>
+        <rdaProp>e/P20001</rdaProp>
+        <rdaProp>w/P10349</rdaProp>
+    </row>
+    <row>
+        <vocabulary>Term and Code List for RDA Content Types</vocabulary>
+        <sourceCode>rdacontent</sourceCode>
+        <lookupDoc iri="lc/contentTypes.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/contentTypes/"/>
+        <rdaProp>e/P20001</rdaProp>
+        <rdaProp>w/P10349</rdaProp>
     </row>
     <row>
         <vocabulary>RDA Extension Plan</vocabulary>
         <sourceCode>rdaep</sourceCode>
         <lookupDoc iri="rda/RDAExtensionPlan.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/RDAExtensionPlan"/>
+        <rdaProp>w/P10365</rdaProp>
     </row>
     <row>
         <vocabulary>RDA Form of Musical Notation</vocabulary>
         <sourceCode>rdafmn</sourceCode>
         <lookupDoc iri="rda/MusNotation.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/MusNotation/"/>
+    </row>
+    <row>
+        <vocabulary>RDA Font Size</vocabulary>
+        <sourceCode>rdafs</sourceCode>
+        <lookupDoc iri="rda/fontSize.xml"/>
+        <baseIRI iri="http://rdaregistry.info/termList/fontSize/"/>
+        <rdaProp>m/P30199</rdaProp>
+    </row>
+    <row>
+        <vocabulary>LC Font Size</vocabulary>
+        <sourceCode>mfont</sourceCode>
+        <lookupDoc iri="lc/mfont.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/mfont/"/>
+        <rdaProp>m/P30199</rdaProp>
     </row>
     <row>
         <vocabulary>RDA Format of Notated Music</vocabulary>
@@ -77,12 +125,6 @@
         <sourceCode>rdafr</sourceCode>
         <lookupDoc iri="rda/frequency.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/frequency/"/>
-    </row>
-    <row>
-        <vocabulary>RDA Font Size</vocabulary>
-        <sourceCode>rdafs</sourceCode>
-        <lookupDoc iri="rda/fontSize.xml"/>
-        <baseIRI iri="http://rdaregistry.info/termList/fontSize/"/>
     </row>
     <row>
         <vocabulary>RDA File Type</vocabulary>

@@ -865,15 +865,15 @@
     
     <xsl:template name="F340-xx-n" expand-text="yes">
         <!-- if $0 or $1 is from lc or rda font size IRIs, use -->
+        <xsl:variable name="fmv_docs">
+            <docs>
+                <doc>font_size.xml</doc>
+            </docs>
+        </xsl:variable>
         <xsl:for-each select="marc:subfield[@code='0']|marc:subfield[@code='1']">
             <xsl:choose>
-                <!-- if rda font size IRI, use -->
-                <xsl:when test="contains(., 'rdaregistry.info/termList/fontSize/')">
-                    <rdamo:P30199 rdf:resource="{.}"/>
-                </xsl:when>
-                <!-- if lc font size IRI, look up in font size fmv table -->
-                <xsl:when test="contains(., 'id.loc.gov/vocabulary/mfont')">
-                    <xsl:copy-of select="m2r:fmvRdaFromLcIRI(., 'font_size.xml', 'rdam', 'P30199')"/>
+                <xsl:when test="contains(., 'id.loc.gov') or contains(., 'rdaregistry.info')">
+                    <xsl:copy-of select="m2r:fmvRdaFromIRI(., $fmv_docs, 'm')"/>
                 </xsl:when>
                 <!-- specific to 340 - check that the $0 or $1 could only refer to font size ($n present, no other subfields with vocabs present -->
                 <!-- if non lc or rda IRI, map value -->
