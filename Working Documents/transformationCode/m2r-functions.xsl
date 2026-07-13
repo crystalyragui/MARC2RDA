@@ -832,9 +832,10 @@
             
             <!-- Each $0 and $1 subfield from lc should be passed into this function using the iri variable -->
             <xsl:for-each select="$iri">
+                <xsl:variable name="iri" select="."/>
+                <xsl:message>{$iri}</xsl:message>
                 <xsl:choose>
                     <xsl:when test="contains(., 'rdaregistry.info')">
-                        <xsl:variable name="rda_iri" select="."/>
                         <xsl:variable name="rda_iri_base" select="substring(., 1, string-length(.) - 4)"/>
                     
                         <xsl:if test="exists($ev_doc//row[./baseIRI/@iri[starts-with(., $rda_iri_base)]]/rdaProp[starts-with(., $rda_entity)])">
@@ -845,16 +846,17 @@
                             </xsl:element>
                         </xsl:if>
                     </xsl:when>
+                    <!-- NOT WORKING YET -->
                     <!-- use associated rdaIRI for lcIRI if present -->
-                    <xsl:when test="exists(document($fmv_doc_path)/lookup/key('fmvLcIRI', .)/rdaIRI)">
+                    <xsl:when test="contains(., 'id.loc.gov') and exists(document($fmv_doc_path)/lookup/row/key('fmvLcIRI', $iri)/rdaIRI)">
                         <xsl:message>YES</xsl:message>
-                        <xsl:variable name="rda_iri" select="document($fmv_doc_path)/rdf:RDF/skos:Concept/key('fmvLcIRI', .)/rdaIRI"/>
-                        <xsl:variable name="rda_iri_base" select="substring(., 1, string-length(.) - 4)"/>
-                        
+                        <xsl:variable name="rda_iri" select="document($fmv_doc_path)/lookup/row/key('fmvLcIRI', $iri)/rdaIRI"/>
+                        <xsl:variable name="rda_iri_base" select="substring($rda_iri, 1, string-length($rda_iri) - 4)"/>
+                        <xsl:message>{$rda_iri_base}</xsl:message>
                         <xsl:if test="exists($ev_doc//row[./baseIRI/@iri[starts-with(., $rda_iri_base)]]/rdaProp[starts-with(., $rda_entity)])">
                             <xsl:variable name="rdaProp" select="$ev_doc//row[./baseIRI/@iri[starts-with(., $rda_iri_base)]]/rdaProp[starts-with(., $rda_entity)]"/>
                             <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rdaProp, '/')}">
-                                <xsl:attribute name="rdf:resource" select="document($fmv_doc_path)/rdf:RDF/skos:Concept/key('fmvLcIRI', .)/rdaIRI"/>
+                                <xsl:attribute name="rdf:resource" select="$rda_iri"/>
                             </xsl:element>
                         </xsl:if>
                     </xsl:when>
