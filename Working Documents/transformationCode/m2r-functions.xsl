@@ -821,59 +821,69 @@
     
     <xsl:function name="m2r:fmvRdaFromIRI" expand-text="yes">
         <xsl:param name="iri"/>
-        <xsl:param name="fmv_docs"/>
         <xsl:param name="rda_entity"/>
         
-        <xsl:variable name="ev_doc" select="document('lookup/rdaVocabularies.xml')"/>
+        <!-- elements and vocabularies doc -->
+        <xsl:variable name="ev_doc" select="document('lookup/elements_and_vocabularies.xml')"/>
         
-        <xsl:for-each select="$fmv_docs/docs/*">
+        <!-- Each $0 and $1 subfield from lc should be passed into this function using the iri variable -->
+        <xsl:for-each select="$iri">
+            <!-- store IRI as variable -->
+            <xsl:variable name="iri" select="."/>
             
-            <xsl:variable name="fmv_doc_path" select="concat('lookup/fmv/', .)"/>
-            
-            <!-- Each $0 and $1 subfield from lc should be passed into this function using the iri variable -->
-            <xsl:for-each select="$iri">
-                <xsl:variable name="iri" select="."/>
-                <xsl:message>{$iri}</xsl:message>
-                <xsl:choose>
-                    <xsl:when test="contains(., 'rdaregistry.info')">
-                        <xsl:variable name="rda_iri_base" select="substring(., 1, string-length(.) - 4)"/>
+            <xsl:choose>
+                
+                <!-- rda IRI -->
+                <xsl:when test="contains($iri, 'rdaregistry.info')">
+                    <xsl:variable name="rda_iri_base" select="substring(., 1, string-length($iri) - 4)"/>
                     
-                        <xsl:if test="exists($ev_doc//row[./baseIRI/@iri[starts-with(., $rda_iri_base)]]/rdaProp[starts-with(., $rda_entity)])">
-                            <xsl:message>TRUE</xsl:message>
-                            <xsl:variable name="rdaProp" select="$ev_doc//row[./baseIRI/@iri[starts-with(., $rda_iri_base)]]/rdaProp[starts-with(., $rda_entity)]"/>
-                            <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rdaProp, '/')}">
-                                <xsl:attribute name="rdf:resource" select="."/>
-                            </xsl:element>
-                        </xsl:if>
-                    </xsl:when>
-                    <!-- NOT WORKING YET -->
-                    <!-- use associated rdaIRI for lcIRI if present -->
-                    <xsl:when test="contains(., 'id.loc.gov') and exists(document($fmv_doc_path)/lookup/row/key('fmvLcIRI', $iri)/rdaIRI)">
-                        <xsl:message>YES</xsl:message>
-                        <xsl:variable name="rda_iri" select="document($fmv_doc_path)/lookup/row/key('fmvLcIRI', $iri)/rdaIRI"/>
-                        <xsl:variable name="rda_iri_base" select="substring($rda_iri, 1, string-length($rda_iri) - 4)"/>
-                        <xsl:message>{$rda_iri_base}</xsl:message>
-                        <xsl:if test="exists($ev_doc//row[./baseIRI/@iri[starts-with(., $rda_iri_base)]]/rdaProp[starts-with(., $rda_entity)])">
-                            <xsl:variable name="rdaProp" select="$ev_doc//row[./baseIRI/@iri[starts-with(., $rda_iri_base)]]/rdaProp[starts-with(., $rda_entity)]"/>
-                            <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rdaProp, '/')}">
-                                <xsl:attribute name="rdf:resource" select="$rda_iri"/>
-                            </xsl:element>
-                        </xsl:if>
-                    </xsl:when>
-                    <!-- else if in the table but no rdaIRI, use lcIRI -->
-                    <!-- if not in table but lc, it won't be processed -->
-                    <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmvLcIRI', .))">
-                        <xsl:variable name="lc_iri" select="."/>
-                        <xsl:if test="exists($ev_doc/row/baseIRI[starts-with($lc_iri, .)]/rdaProp[starts-with(., $rda_entity)])">
-                            <xsl:variable name="rdaProp" select="$ev_doc/row/baseIRI[starts-with($lc_iri, .)]/rdaProp[starts-with(., $rda_entity)]"/>
-                            <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rdaProp, '/')}">
-                                <xsl:attribute name="rdf:resource" select="."/>
-                            </xsl:element>
-                        </xsl:if>
-                    </xsl:when>
-                    <xsl:otherwise/>
-                </xsl:choose>
-            </xsl:for-each>
+                    <!-- look up IRI base in elements and vocabularies doc and retrieve property -->
+                    <xsl:if test="exists($ev_doc//row[./baseIRI/@iri[starts-with(., $rda_iri_base)]]/rdaProp[starts-with(., $rda_entity)])">
+                        <xsl:variable name="rdaProp" select="$ev_doc//row[./baseIRI/@iri[starts-with(., $rda_iri_base)]]/rdaProp[starts-with(., $rda_entity)]"/>
+                        <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rdaProp, '/')}">
+                            <xsl:attribute name="rdf:resource" select="."/>
+                        </xsl:element>
+                    </xsl:if>
+                </xsl:when>
+                <!-- lc IRI -->
+                <xsl:when test="contains($iri, 'id.loc.gov')">
+                    <xsl:variable name="lc_iri_base" select="string-join(tokenize($iri, '/')[position() &lt; last()], '/')||'/'"/>
+                    
+                    <!-- look up IRI base in elements and vocabularies table and retrieve property and fmv table -->
+                    <xsl:if test="exists($ev_doc//row[./baseIRI/@iri[starts-with(., $lc_iri_base)]]/rdaProp[starts-with(., $rda_entity)])">
+                        
+                        <xsl:variable name="fmv_doc_path" select="$ev_doc//row[./baseIRI/@iri[starts-with(., $lc_iri_base)]]/fmvDoc/@iri"/>
+                        <xsl:variable name="rda_prop" select="$ev_doc//row[./baseIRI/@iri[starts-with(., $lc_iri_base)]]/rdaProp[starts-with(., $rda_entity)]"/>
+                        
+                        <xsl:choose>
+                            <!-- if IRI is in the associated fmv table with an rda IRI - use rda IRI -->
+                            <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmvLcIRI', $iri)/rdaIRI)">
+                                <xsl:variable name="rda_iri" select="document($fmv_doc_path)/lookup/row/key('fmvLcIRI', $iri)/rdaIRI"/>
+                                <xsl:variable name="rda_iri_base" select="substring($rda_iri, 1, string-length($rda_iri) - 4)"/>
+                                <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rda_prop, '/')}">
+                                    <xsl:attribute name="rdf:resource" select="$rda_iri"/>
+                                </xsl:element>
+                            </xsl:when>
+                            <!-- if IRI is in the associated fmv table without an rda IRI - use as is -->
+                            <!-- as long as map element is not present with NOMAP value -->
+                            <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmvLcIRI', $iri))">
+                                <xsl:if test="not(exists(document($fmv_doc_path)/lookup/row/key('fmvLcIRI', $iri)/map[contains(., 'NOMAP')]))">
+                                    <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rda_prop, '/')}">
+                                        <xsl:attribute name="rdf:resource" select="$iri"/>
+                                    </xsl:element>
+                                </xsl:if>
+                            </xsl:when>
+                            <!-- if lc IRI is not in table, map as given (may be new or error) -->
+                            <xsl:otherwise>
+                                <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rda_prop, '/')}">
+                                    <xsl:attribute name="rdf:resource" select="$iri"/>
+                                </xsl:element>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:if>
+                </xsl:when>
+                <xsl:otherwise/>
+            </xsl:choose>
         </xsl:for-each>
     </xsl:function>
     

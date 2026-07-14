@@ -106,6 +106,7 @@
         <lookupDoc iri="rda/fontSize.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/fontSize/"/>
         <rdaProp>m/P30199</rdaProp>
+        <fmvDoc iri="fmv/font_size.xml"/>
     </row>
     <row>
         <vocabulary>LC Font Size</vocabulary>
@@ -113,6 +114,7 @@
         <lookupDoc iri="lc/mfont.rdf"/>
         <baseIRI iri="http://id.loc.gov/vocabulary/mfont/"/>
         <rdaProp>m/P30199</rdaProp>
+        <fmvDoc iri="fmv/font_size.xml"/>
     </row>
     <row>
         <vocabulary>RDA Format of Notated Music</vocabulary>

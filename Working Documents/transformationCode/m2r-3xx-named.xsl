@@ -863,24 +863,25 @@
         </xsl:for-each>
     </xsl:template>
     
-    <xsl:template name="F340-xx-n" expand-text="yes">
+    <xsl:template name="F340-xx-a_c_d_e_g_j_k_l_m_n_o_p_q_0_1" expand-text="yes">
         <!-- if $0 or $1 is from lc or rda font size IRIs, use -->
-        <xsl:variable name="fmv_docs">
-            <docs>
-                <doc>font_size.xml</doc>
-            </docs>
-        </xsl:variable>
+        
         <xsl:for-each select="marc:subfield[@code='0']|marc:subfield[@code='1']">
             <xsl:choose>
                 <xsl:when test="contains(., 'id.loc.gov') or contains(., 'rdaregistry.info')">
-                    <xsl:copy-of select="m2r:fmvRdaFromIRI(., $fmv_docs, 'm')"/>
+                    <xsl:copy-of select="m2r:fmvRdaFromIRI(., 'm')"/>
                 </xsl:when>
                 <!-- specific to 340 - check that the $0 or $1 could only refer to font size ($n present, no other subfields with vocabs present -->
                 <!-- if non lc or rda IRI, map value -->
-                <xsl:when test="../marc:subfield[@code = 'n'] and count(../marc:subfield[not(@code = '0' or @code = '1' or @code = '2' or @code = '3'
+                <xsl:when test="count(../marc:subfield[not(@code = '0' or @code = '1' or @code = '2' or @code = '3'
                     or @code = '6' or @code = '8' or @code = 'b' or @code = 'f' or @code = 'h' or @code = 'i')]) = 1">
                     <xsl:if test="contains(., 'http')">
-                        <rdamo:P30199 rdf:resource="{.}"/>
+                        <!-- ACTION: add each subfield here with the correct property as they are being coded -->
+                        <xsl:choose>
+                            <xsl:when test="../marc:subfield[@code = 'n']">
+                                <rdamo:P30199 rdf:resource="{.}"/>
+                            </xsl:when>
+                        </xsl:choose>
                     </xsl:if>
                 </xsl:when>
             </xsl:choose>
