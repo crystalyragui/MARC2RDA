@@ -10,6 +10,15 @@
         <eq source="marcstring" xml:lang="en">giant print</eq>
     </row>
     <row>
+        <lcTerm>test</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/mfont/intable</lcIRI>
+    </row>
+    <row>
+        <lcTerm>testnomap</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/mfont/intablenomap</lcIRI>
+        <map>NOMAP</map>
+    </row>
+    <row>
         <rdaTerm>jumbo braille</rdaTerm>
         <rdaIRI>http://rdaregistry.info/termList/fontSize/1003</rdaIRI>
         <lcTerm>jumbo braille</lcTerm>

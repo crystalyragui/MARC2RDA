@@ -24,6 +24,18 @@
             <marc:subfield code="m">large</marc:subfield>
             <marc:subfield code="1">http://madeupfontsize/largewrongsubfield</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="340" ind1=" " ind2=" ">
+            <marc:subfield code="n">large</marc:subfield>
+            <marc:subfield code="1">http://madeupfontsize/rightsubfield</marc:subfield>
+        </marc:datafield>-->
+        <marc:datafield tag="340" ind1=" " ind2=" ">
+            <marc:subfield code="n">1001</marc:subfield>
+            <marc:subfield code="2">rda</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="340" ind1=" " ind2=" ">
+            <marc:subfield code="n">9001</marc:subfield>
+            <marc:subfield code="2">rdafs</marc:subfield>
+        </marc:datafield>
         <!--<marc:datafield tag="340" ind1=" " ind2=" ">
             <marc:subfield code="n">large print</marc:subfield>
             <marc:subfield code="2">rdafs</marc:subfield>

@@ -891,7 +891,18 @@
             <xsl:choose>
                 <xsl:when test="../marc:subfield[@code = '2']">
                     <xsl:variable name="sub2" select="../marc:subfield[@code = '2']"/>
-                    <xsl:copy-of select="m2r:fmvRdaFromTermOrCode(., 'fontSize.xml', 'font_size.xml', $sub2, 'mfont', 'rdam', 'P30199')"/>
+                    <xsl:variable name="rda_code" select="'rdafs'"/>
+                    <xsl:variable name="rda_docs">
+                        <docs>
+                            <doc>fontSize.xml</doc>
+                        </docs>
+                    </xsl:variable>
+                    <xsl:variable name="fmv_docs">
+                        <docs>
+                            <doc>fmvFontSize.xml</doc>
+                        </docs>
+                    </xsl:variable>
+                    <xsl:copy-of select="m2r:fmvRdaFromTermOrCode(., $sub2, 'm', $rda_code, $rda_docs, $fmv_docs)"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:if test="not(matches(., 'other|unspecified'))">
