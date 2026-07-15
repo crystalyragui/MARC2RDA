@@ -934,22 +934,49 @@
                                 </xsl:choose>
                             </xsl:if>
                         </xsl:when>
-                        <!--<!-\- lookup normalized text in rda vocabulary -\->
-                        <!-\- use IRI if a match -\->
-                        <xsl:when test="document($rda_doc_path)/rdf:RDF/skos:Concept/key('fmvRdaTerm', $norm_text)">
-                            <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                                <xsl:attribute name="rdf:resource" select="document($rda_doc_path)/rdf:RDF/skos:Concept/key('fmvRdaTerm', $norm_text)/@rdf:about"/>
-                            </xsl:element>
-                        </xsl:when>
-                        <!-\- otherwise use text value as string -\->
+                        <!-- otherwise it's a term -->
                         <xsl:otherwise>
-                            <xsl:element name="{$rda_entity||'d:'||$p_num}">
-                                <xsl:value-of select="."/>
-                            </xsl:element>
+                            <!-- search all given rda xml files for term, store output in variable to check if one is found -->
+                            <xsl:variable name="found_rda">
+                                <xsl:for-each select="$rda_docs/docs/doc">
+                                    <xsl:variable name="rda_doc" select="'lookup/rda/'||."/>
+                                    <xsl:choose>
+                                        <xsl:when test="exists(document($rda_doc)/rdf:RDF/skos:Concept/key('fmvRdaTerm', $norm_text))">
+                                            <xsl:variable name="rda_iri" select="document($rda_doc)/rdf:RDF/skos:Concept/key('fmvRdaTerm', $norm_text)/@rdf:about"/>
+                                            <xsl:variable name="rda_iri_base" select="substring($rda_iri, 1, string-length($rda_iri) - 4)"/>
+                                            <xsl:if test="exists($ev_doc//row[./baseIRI/@iri[starts-with(., $rda_iri_base)]]/rdaProp[starts-with(., $rda_entity)])">
+                                                <xsl:variable name="rda_prop" select="$ev_doc//row[./baseIRI/@iri[starts-with(., $rda_iri_base)]]/rdaProp[starts-with(., $rda_entity)]"/>
+                                                <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rda_prop, '/')}">
+                                                    <xsl:attribute name="rdf:resource" select="$rda_iri"/>
+                                                </xsl:element>
+                                            </xsl:if>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="'NOT FOUND'"/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:for-each>
+                            </xsl:variable>
+                            <xsl:choose>
+                                <!-- if rda IRI was found - use -->
+                                <xsl:when test="$found_rda != 'NOT FOUND'">
+                                    <xsl:copy-of select="$found_rda"/>
+                                </xsl:when>
+                                <!-- otherwise, retrieve property based on given source code for that subfield and use text value -->
+                                <xsl:otherwise>
+                                    <xsl:if test="exists($ev_doc//row[./sourceCode[matches(., $rda_code)]]/rdaProp[starts-with(., $rda_entity)])">
+                                        <xsl:variable name="rda_prop" select="$ev_doc//row[./sourceCode[matches(., $rda_code)]]/rdaProp[starts-with(., $rda_entity)]"/>
+                                        <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rda_prop, '/')}">
+                                            <xsl:value-of select="$norm_text"/>
+                                        </xsl:element>
+                                    </xsl:if>
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:when>
-                <!-\- subfield $2 has lc code -\->
+                
+                <!--<!-\- subfield $2 has lc code -\->
                 <xsl:when test="matches($sub2, $source_code)">
                     <!-\- lookup in lookup xml file -\->
                     <xsl:choose>
@@ -975,9 +1002,8 @@
                             <xsl:attribute name="rdf:resource" select="m2r:conceptIRI($sub2, $norm_text)"/>
                         </xsl:element>
                     </xsl:if>
-                </xsl:otherwise>-->
-                </xsl:choose>
-              </xsl:when>
+                </xsl:otherwise>
+                </xsl:choose>-->
             </xsl:choose>
         </xsl:for-each>
     </xsl:function>
