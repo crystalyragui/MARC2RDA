@@ -902,7 +902,10 @@
                             <doc>fmvFontSize.xml</doc>
                         </docs>
                     </xsl:variable>
-                    <xsl:copy-of select="m2r:fmvRdaFromTermOrCode(., $sub2, 'm', $rda_code, $rda_docs, $fmv_docs)"/>
+                    <!-- ACTION: add expected lc codes to this if test -->
+                    <xsl:if test="starts-with($sub2, 'rda') or matches($sub2, 'mfont')">
+                        <xsl:copy-of select="m2r:fmvRdaFromTermOrCode(., $sub2, 'm', $rda_code, $rda_docs, $fmv_docs)"/>
+                    </xsl:if>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:if test="not(matches(., 'other|unspecified'))">

@@ -975,7 +975,58 @@
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:when>
-                
+                <!-- if it's not rda, it's a known lc code -->
+                <xsl:otherwise>
+                    <xsl:variable name="found_iri">
+                        <xsl:for-each select="$fmv_docs/docs/doc">
+                            <xsl:variable name="fmv_doc" select="'lookup/fmv/'||."/>
+                            <xsl:choose>
+                                <xsl:when test="exists(document($fmv_doc)//row/key('fmvLcTermOrCode', $norm_text))">
+                                    <xsl:if test="not(exists(document($fmv_doc)//row/key('fmvLcTermOrCode', $norm_text)/map[contains(., 'NOMAP')]))">
+                                        <xsl:variable name="iri">
+                                            <xsl:choose>
+                                                <xsl:when test="document($fmv_doc)//row/key('fmvLcTermOrCode', $norm_text)/rdaIRI">
+                                                    <xsl:value-of select="document($fmv_doc)//row/key('fmvLcTermOrCode', $norm_text)/rdaIRI"/>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <xsl:value-of select="document($fmv_doc)//row/key('fmvLcTermOrCode', $norm_text)/lcIRI"/>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:variable>
+                                        <xsl:variable name="iri_base" select="string-join(tokenize($iri, '/')[position() &lt; last()], '/')||'/'"/>
+                                        
+                                        <!-- look up IRI base in elements and vocabularies table and retrieve property and fmv table -->
+                                        <xsl:if test="exists($ev_doc//row[./baseIRI/@iri[starts-with(., $iri_base)]]/rdaProp[starts-with(., $rda_entity)])">
+                                            <xsl:variable name="rda_prop" select="$ev_doc//row[./baseIRI/@iri[starts-with(., $iri_base)]]/rdaProp[starts-with(., $rda_entity)]"/>
+                                            <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rda_prop, '/')}">
+                                                <xsl:attribute name="rdf:resource" select="$iri"/>
+                                            </xsl:element>
+                                        </xsl:if>
+                                    </xsl:if>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="'NOT FOUND'"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:for-each>
+                    </xsl:variable>
+                    
+                    <xsl:choose>
+                        <!-- if IRI was found in fmv table - use -->
+                        <xsl:when test="$found_iri != 'NOT FOUND'">
+                            <xsl:copy-of select="$found_iri"/>
+                        </xsl:when>
+                        <!-- otherwise, retrieve property based on given source code for that subfield and use text value -->
+                        <xsl:otherwise>
+                            <xsl:if test="exists($ev_doc//row[./sourceCode[matches(., $rda_code)]]/rdaProp[starts-with(., $rda_entity)])">
+                                <xsl:variable name="rda_prop" select="$ev_doc//row[./sourceCode[matches(., $rda_code)]]/rdaProp[starts-with(., $rda_entity)]"/>
+                                <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rda_prop, '/')}">
+                                    <xsl:value-of select="$norm_text"/>
+                                </xsl:element>
+                            </xsl:if>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:otherwise>
                 <!--<!-\- subfield $2 has lc code -\->
                 <xsl:when test="matches($sub2, $source_code)">
                     <!-\- lookup in lookup xml file -\->
