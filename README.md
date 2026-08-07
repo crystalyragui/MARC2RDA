@@ -28,23 +28,23 @@ Her interest is RDA implemented as linked data. She participates in different pr
 **-Doreen Chen [dchen077](https://github.com/dchen077), Mapping Contributor, Transformation Contributor**<br>
 _Doreen Chen (she/her/hers) is a Metadata Operations Specialist at Yale University Libraries. She earned her Master of Library and Information Science degree from the University of Washington, where she worked as a Linked Data Metadata Student Specialist at the University of Washington Libraries and contributed to the MARC2RDA project._
 <br><br>
-**-Sarah Collins [Sarahanc](https://github.com/Sarahanc), Transformation Contributor**<br>
-_Sarah Collins (she/her/hers) is a graduate student pursuing a Master of Library and Information Science at the University of Washington where she works as a Linked Data Metadata Student Specialist. She has academic and professional interests in cataloging, metadata, taxonomy, and open linked data._
-<br><br>
 **-Gordon Dunsire [GordonDunsire](https://github.com/GordonDunsire), Triplestore Team Lead, Metadata Consultant, LRM/RDA/RDF**<br>
 _Gordon Dunsire is an independent consultant who lives in Edinburgh, Scotland. He was formerly Head of the Centre for Digital Library Research at the University of Strathclyde. He has been a member of various IFLA review groups and sections concerned with cataloguing and metadata standards, and is a recipient of an IFLA Medal for his work with linked open data. He is a former Chair of the RDA Steering Committee and the RSC Technical Working Group. He is co-author of "Bibliographic information organization in the semantic web"._ 
 <br><br>
 **-Deborah Fritz [tmqdeborah](https://github.com/tmqdeborah), Mapping and Transformation and Triplestore Contributor**<br>
 _Deborah Fritz is a semi-retired cataloging trainer who lives in Florida. She was formerly the president of TMQ Inc., a small company that provided training and software for catalogers. She is the co-author of "MARC21 for everyone", author of "Cataloging with AACR2 & MARC21", and co-developer of MARC Report, MARC Review, and MARC Global (quality control and global editing tools for MARC records), and RIMMF (a tool for creating and editing data compliant with RDA) all of which are now available free of charge. She was the former Chair of the RSC Aggregates Working Group and is currently a member of the RSC Technical Working Group._
 <br><br>
-**-Richard Fritz [tmqrichard](https://github.com/tmqrichard), Triplestore Contributor**<br>
+**-Richard Fritz, Triplestore Contributor**<br>
 _Richard Fritz is a retired librarian and software developer. As co-owner of TMQ Inc., he developed a number of commercial software products for quality control of MARC21 records (MARC Review, MARC Report, MARC Global, PLP-MCU). In retirement he continues to enhance RIMMF, a freely available tool for creating and editing data compliant with RDA. He has set up a GraphDB triplestore for the M2R Project and is learning about it as he goes along._
 <br><br>
 **-Dr. Jorge Gómez Briseño, [jorgegomez-bit](https://github.com/jorgegomez-bit), Mapping and Transformation Contributor, Spanish Translation**<br>
 _Dr. Jorge Gómez Briseño is a Senior Academic Technician at the National Autonomous University of Mexico (UNAM), where he earned his doctorate in Library and Information Studies. He teaches graduate and undergraduate students in the Library and Information Studies program at UNAM. Jorge has authored several books, book chapters, and articles on library education, original and official RDA, and information organization. He is a member of the National College of Librarians (CNB), the Mexican Association of Librarians (AMBAC), and the American Library Association (ALA)._
 <br><br>
 **-Matthew Hill, [MHill-BL](https://github.com/MHill-BL), Transformation Contributor**<br>
-_Matthew Hill is Lead Curator for Contemporary, British and Irish Publications at the British Library. He has experience in data transformation, metadata standardisation, and collection analysis. He has developed workflows using Python and XSLT, including a transformation system for converting XML to MARC21. Knowledge of library encoding such as MARC21 and standards including  RDA and MODS. As a Wikimedia Champion, he contributes to Linked Data initiatives._
+_Matthew Hill is a Collection Metadata Analyst at the British Library, where he specialises in data transformation, metadata standardisation, and collection analysis. He has developed workflows using Python and XSLT, including a transformation system for converting XML to MARC21. Knowledge of library encoding such as MARC21 and standards including  RDA and MODS. As a Wikimedia Champion, he contributes to Linked Data initiatives._
+<br><br>
+**-Ying-Hsiang Huang [hinxcode](https://github.com/hinxcode), Mapping Contributor, Transformation Contributor**<br>
+_Ying-Hsiang Huang (he/him) earned his Master of Library and Information Science student at the University of Washington-Seattle. He was formerly a Library Linked Data Metadata Student Specialist at the University of Washington Libraries from 2024 to 2025, where he contributed to mapping MARC21 to RDA among other linked data projects. With a robust background in software engineering, he is committed to enhancing library services through digital transformation initiatives._
 <br><br>
 **-Kyla Jemison, [kylamj](https://github.com/kylamj), Mapping Contributor**<br>
 _Kyla Jemison is a metadata librarian at the University of Toronto. She is currently involved with the LD4 Wikidata Affinity Group, OLAC, and the Ex Libris Linked Open Data Community of Practice Working Group._
@@ -58,17 +58,11 @@ _Clair Kronk, PhD (she/her) is an Assistant Professor in the Institute for Healt
 **-Jian Lee [JianPLee](https://github.com/JianPLee), Mapping Contributor**<br>
 _Jian Lee (she/her/hers) is a Chinese Cataloging and Metadata Librarian at the University of Washington Libraries. Jian catalogs mostly Chinese print monographs. Outside of her cataloging duties, Jian participates in linked data projects, such as mapping RDA to BIBFRAME and mapping MARC to RDA/LRM/RDF. Jian is also an active member of Council on East Asian Libraries (CEAL). She’s a member of the Committee on Technical Processing and the CEAL Membership Committee._
 <br><br>
-**-Xiaoli Li [xlli-2017](https://github.com/xlli-2017), Mapping Contributor**<br>
-_Xiaoli Li is the Head of the Content Support Services Department at the University of California, Davis Library. She oversees cataloging, metadata, and related technical services that support discovery and access to library resources. Xiaoli has been actively involved in linked data initiatives since 2013 and has contributed to advancing metadata practices and standards within the library community._
-<br><br>
 **-Zhuo Pan [pan-zhuo](https://github.com/pan-zhuo), Mapping Contributor, Conversion Contributor**<br>
 _Zhuo Pan is currently a Resource Description Resident Librarian at Duke University Libraries. He holds a Master of Library and Information Science from the University of Washington and a Bachelor's degree in Library Science from Wuhan University. As a Library Data Specialist at the University of Washington Libraries from February 2022 until his graduation, Zhuo contributed to mapping MARC21 to RDA and converting MARC metadata to linked open data formats. For his MLIS capstone project, he designed RDA application profiles for print monographs that enable native RDA cataloging in the Sinopia Linked Data Editor._ 
 <br><br>
 **-Cypress Payne [cspayne](https://github.com/cspayne), Conversion Project Manager**<br>
 _Cypress Payne (she/her/hers) is the Metadata and Cataloging Librarian at West Virginia University. She earned her Master of Library and Information Science at the University of Washington-Seattle and holds a bachelor's degree in computer science. She leads the transformation in the MARC21 to RDA project._
-<br><br>
-**-Dave Roberts [DAWroberts](https://github.com/DAWroberts), Transformation Contributor**<br>
-_Dave Roberts is a Metadata Specialist at the British Library where he works in support of the BL catalogue, maintaining accurate holdings data and upgrading Bibliographic records. Previously working directly as a Cataloguer, Dave has almost a decade's worth of experience working with RDA, MARC21 and other relevant standards/formats. In order to develop professionally Dave has undertaken the study of programming languages such as XML/XSLT and Python, and is hoping to gain some useful experience while supporting this exciting project._
 <br><br>
 **-Adam Schiff [AdamSchiff](https://github.com/AdamSchiff), Mapping Consultant**<br>
 _Adam L. Schiff is Principal Cataloger at the University of Washington Libraries (UWL), in Seattle, USA. He served as a lead advisor for the UWL’s participation in the Program for Cooperative Cataloging’s (PCC) Wikidata Pilot Project. Adam has been a member of the PCC Standing Committee on Standards, and served on a number of PCC task groups, including the Task Group on Linked Data Best Practices, the Task Group on URIs in MARC, the Linked Data Advisory Committee/Identity Management Advisory Committee URIs Guidance Subgroup, and coordinator of the UW Libraries’ participation in the PCC URIs in MARC Pilot Project. He is currently a consultant on Wikidata for the Task Group on Linked Data Training. He is one of two American Library Association representatives on the North American RDA Committee, and a former member of the Core Subject Analysis Committee, and the MARC Advisory Committee. Adam has an A.B. in biology from Cornell University, and an M.L.I.S. from the University of California, Berkeley._
@@ -88,11 +82,17 @@ _Pengyan Sun (she/her/hers) earned her MLIS at University of Washington-Seattle.
 **-Benjamin Riesenberg [briesenberg07](https://github.com/briesenberg07), Metadata Consultant, General**<br>
 _Benjamin Riesenberg (they/them) was  formerly a Metadata Librarian at the University of Washington Libraries and former co-chair of the ALA Core Linked Data Interest Group (2020-2022). They contributed to linked data and other metadata initiatives including authoring and testing RDA/RDF metadata application profiles, conversion of MARC data for use in the GeoBlacklight discovery environment, and metadata creation and remediation in multiple digital collections and digital scholarship platforms at the University of Washington._
 <br><br>
+**-Sarah Collins [Sarahanc](https://github.com/Sarahanc), Transformation Contributor**<br>
+_Sarah Collins (she/her/hers) is a graduate student pursuing a Master of Library and Information Science at the University of Washington where she works as a Linked Data Metadata Student Specialist. She has academic and professional interests in cataloging, metadata, taxonomy, and open linked data._
+<br><br>
+**-Dave Roberts [DAWroberts](https://github.com/DAWroberts), Transformation Contributor**<br>
+_Dave Roberts is a Metadata Specialist at the British Library where he works in support of the BL catalogue, maintaining accurate holdings data and upgrading Bibliographic records. Previously working directly as a Cataloguer, Dave has almost a decade's worth of experience working with RDA, MARC21 and other relevant standards/formats. In order to develop professionally Dave has undertaken the study of programming languages such as XML/XSLT and Python, and is hoping to gain some useful experience while supporting this exciting project._
+<br><br>
+**-Xiaoli Li [xlli-2017](https://github.com/xlli-2017), Mapping Contributor**<br>
+_Xiaoli Li is the Head of the Content Support Services Department at the University of California, Davis Library. She oversees cataloging, metadata, and related technical services that support discovery and access to library resources. Xiaoli has been actively involved in linked data initiatives since 2013 and has contributed to advancing metadata practices and standards within the library community._
+<br><br>
 **-Sara Hruska [sarahruska](https://github.com/sarahruska), Mapping Contributor, Student Consultant**<br>
 _Sara Hruska (she/her/hers) earned her Master of Library and Information Science degree at the University of Washington. During her time at UW, she worked as a Linked Data Metadata Student Specialist at the University of Washington Libraries, contributing to mapping MARC21 to RDA. Her academic focus includes knowledge organization, metadata management, and information architecture. She's interested in the relationships between people, information, and technology and designing their interactions._
-<br><br>
-**-Ying-Hsiang Huang [hinxcode](https://github.com/hinxcode), Mapping Contributor, Transformation Contributor**<br>
-_Ying-Hsiang Huang (he/him) earned his Master of Library and Information Science student at the University of Washington-Seattle. He was formerly a Library Linked Data Metadata Student Specialist at the University of Washington Libraries from 2024 to 2025, where he contributed to mapping MARC21 to RDA among other linked data projects. With a robust background in software engineering, he is committed to enhancing library services through digital transformation initiatives._
 <br><br>
 **-Tynan Challenor [tynancuw](https://github.com/tynancuw), Mapping Contributor, Transformation Contributor**<br>
 _Tynan Challenor is a second year PhD student in economics. He works as a linked metadata student specialist for UW libraries and as a consultant for the Center for Social Science Computation and Research. He works on applied microeconomics and is interested in computational methods in research and science._ 
@@ -103,13 +103,13 @@ _Junghae Lee is an Electronic Resources Metadata Librarian and Co-Interim Head o
 **-Cate Gerhart [CatalogerCate](https://github.com/CatalogerCate), Mapping Consultant, MARC21**<br>
 _Cate Gerhart is the Head of the Monographic Service Unit in the University of Washington Libraries. In addition to supervising both classified staff and librarians, Cate is the music cataloger for the Libraries.  Presently, Cate is active in a wide range of groups outside the UW including chairing the Library of Congress MARC Advisory Committee (2020- ) and serving in a number of capacities on the Career Development Standing Committee of the Music Library Association.  In the past Cate has had a number of leadership roles in OLAC, Cataloger’s Network and in the Pacific Northwest Chapter of the Music Library Association.   Cate served for 14 years on the Editorial Board of the Journal of Map and Geography Libraries and was the editor for the Music Cataloging Bulletin (a monthly publication) for 5 years._
 <br><br>
+**-Erin Grant [ErinGrant](https://github.com/ErinMGrant), Project Supervisor**<br>
+_Erin Grant is the Head of Cataloging and Metadata Services at the University of Washington Libraries in Seattle. She acted as interim supervisor for the MARC to RDA Project in 2024._
+<br><br>
 **-Melissa Morgan [mcm104](https://github.com/mcm104), Mapping Contributor, Metadata Consultant**<br>
 _Melissa Morgan (she/her) is the Cataloging & Metadata Specialist at Pacific Lutheran University. She holds an MLIS from the University of Washington (2022), and was formerly a Linked Data Specialist and Library Technician at the University of Washington Libraries from 2019 to 2022. During her time at UW, she participated in several linked data projects, including LD4P2, an RDA-to-BIBFRAME mapping, and the creation of RDA/RDF metadata application profiles. Her current work at PLU primarily involves cataloging in MARC and metadata clean-up._ 
 <br><br>
 **-Abhignya Rajapu [arajapu](https://github.com/arajapu), Transformation Contributor**<br>
 _Abhignya Rajapu (she/her/hers) is a graduate student in the Master of Science in Information Management program at the University of Washington. She contributes to the MARC2RDA project as a Linked Metadata Student Specialist, where she works on transforming traditional bibliographic data into RDA-RDF formats. With a background in data engineering and enterprise systems, she is passionate about the intersection of data, strategy, and meaningful transformation in information systems._
-<br><br>
-**-Erin Grant [ErinGrant](https://github.com/ErinMGrant), Project Supervisor**<br>
-_Erin Grant is the Head of Cataloging and Metadata Services at the University of Washington Libraries in Seattle. She acted as interim supervisor for the MARC to RDA Project in 2024._
 <br><br>
 **-Alice Chung [cwarc](https://github.com/cwarc), Mapping Contributor**<br>
