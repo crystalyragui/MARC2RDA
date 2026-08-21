@@ -164,9 +164,6 @@
                             <!--<xsl:message>
                  <xsl:text>record {marc:controlfield[@tag = '001']} is {$isAggregate}</xsl:text>
              </xsl:message>-->
-                            <xsl:choose>
-                                <!-- if single work expression or augmentation aggregate (now testing cam), proceed with transform -->
-                                <xsl:when test="$isAggregate = 'sem' or $isAggregate = 'aamnotaw' or $isAggregate = 'cam'">
                                     <!-- variable for generating unique IRIs - currently date  -->
                                     <xsl:variable name="baseID"
                                         select="current-dateTime() => string() => m2r:stripAllPunctuation() => encode-for-uri()"/>
@@ -189,7 +186,7 @@
                                     </xsl:variable>
                                     <!-- aggregating work IRI - blank if not augmentation aggregate -->
                                     <xsl:variable name="aggWorkIRI">
-                                        <xsl:if test="$isAggregate = 'aam' or $isAggregate = 'cam'">
+                                        <xsl:if test="$isAggregate != 'sem' and $isAggregate != 'aamnotaw'">
                                             <xsl:value-of select="m2r:aggWorkIRI(.)"/>
                                         </xsl:if>
                                     </xsl:variable>
@@ -217,137 +214,11 @@
                      and apply-templates is called with the correct mode 
                      to create the appropriate relationships within each rdf:Description element -->
                                     <xsl:choose>
-                                        <!-- SINGLE WE -->
-                                        <xsl:when
-                                            test="$isAggregate = 'sem' or $isAggregate = 'aamnotaw'">
+                                        <!-- Aggregates -->
+                                        <xsl:when test="$isAggregate = 'aam' or $isAggregate = 'cam' or $isAggregate = 'pam' or $isAggregate = 'cam'
+                                            or $isAggregate = 'cw' or $isAggregate = 'dw'">
                                             <!-- *****WORKS***** -->
-                                            <rdf:Description rdf:about="{$mainWorkIRI}">
-                                                <rdf:type
-                                                  rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
-                                                <rdawo:P10623 rdf:resource="{$marcMetadataWorkIRI}"/>
-                                                <rdawo:P10078 rdf:resource="{$mainExpressionIRI}"/>
-                                                <!-- This code can be uncommented to add a work access point to the work description.
-                         m2r:mainWorkAccessPoint() is located in m2r-aps.xsl -->
-                                                <xsl:variable name="workAP"
-                                                  select="m2r:mainWorkAccessPoint(.)"/>
-                                                <xsl:if test="$workAP">
-                                                  <rdawd:P10328>
-                                                  <xsl:value-of select="$workAP"/>
-                                                  </rdawd:P10328>
-                                                </xsl:if>
-                                                <xsl:apply-templates select="*" mode="wor">
-                                                  <xsl:with-param name="baseID" select="$baseID"/>
-                                                </xsl:apply-templates>
-                                                <xsl:apply-templates select="*" mode="seWor">
-                                                  <xsl:with-param name="baseID" select="$baseID"/>
-                                                </xsl:apply-templates>
-                                            </rdf:Description>
-                                            <!-- *****EXPRESSIONS***** -->
-                                            <rdf:Description rdf:about="{$mainExpressionIRI}">
-                                                <rdf:type
-                                                  rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
-                                                <rdaeo:P20576 rdf:resource="{$marcMetadataWorkIRI}"/>
-                                                <rdaeo:P20059 rdf:resource="{$mainManifestationIRI}"/>
-                                                <xsl:if test="$isReproduction != ''">
-                                                  <rdaeo:P20059
-                                                  rdf:resource="{m2r:origManifestationIRI(.,
-                                                  $isElectronic, $isMicroform)}"/>
-                                                </xsl:if>
-                                                <rdaeo:P20231 rdf:resource="{$mainWorkIRI}"/>
-                                                <!-- This code can be uncommented to add an expression access point to the expression description.
-                         m2r:mainExpressionAccessPoint() is located in m2r-aps.xsl -->
-                                                <xsl:variable name="expressionAP"
-                                                  select="m2r:mainExpressionAccessPoint(.)"/>
-                                                <xsl:if test="$expressionAP">
-                                                  <rdaed:P20310>
-                                                  <xsl:value-of select="$expressionAP"/>
-                                                  </rdaed:P20310>
-                                                </xsl:if>
-                                                <xsl:apply-templates select="*" mode="exp">
-                                                  <xsl:with-param name="baseID" select="$baseID"/>
-                                                </xsl:apply-templates>
-                                            </rdf:Description>
-                                        </xsl:when>
-                                        <!-- AAM -->
-                                        <xsl:when test="$isAggregate = 'aam'">
-                                            <!-- *****WORKS***** -->
-                                            <!-- aggregating work and main augmented work -->
-                                            <rdf:Description rdf:about="{$aggWorkIRI}">
-                                                <rdf:type
-                                                  rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
-                                                <rdawo:P10623 rdf:resource="{$marcMetadataWorkIRI}"/>
-                                                <rdawd:P10004>aggregating work</rdawd:P10004>
-                                                <!-- relationship to manifestation -->
-                                                <rdawo:P10072 rdf:resource="{$mainManifestationIRI}"/>
-                                                <xsl:if test="$isReproduction != ''">
-                                                  <rdawo:P10072
-                                                  rdf:resource="{$origManifestationIRI}"/>
-                                                </xsl:if>
-                                                <!-- This code can be uncommented to add a work access point to the work description.
-                         m2r:mainWorkAccessPoint() is located in m2r-aps.xsl -->
-                                                <xsl:variable name="aggWorkAP"
-                                                  select="m2r:aggWorkAccessPoint(.)"/>
-                                                <xsl:if test="$aggWorkAP">
-                                                  <rdawd:P10328>
-                                                  <xsl:value-of select="$aggWorkAP"/>
-                                                  </rdawd:P10328>
-                                                </xsl:if>
-                                                <xsl:apply-templates select="*" mode="wor">
-                                                  <xsl:with-param name="baseID" select="$baseID"/>
-                                                  <xsl:with-param name="type" select="'agg'"/>
-                                                </xsl:apply-templates>
-                                                <xsl:apply-templates select="*" mode="aggWor">
-                                                  <xsl:with-param name="baseID" select="$baseID"/>
-                                                </xsl:apply-templates>
-                                            </rdf:Description>
-                                            <rdf:Description rdf:about="{$mainWorkIRI}">
-                                                <rdf:type
-                                                  rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
-                                                <rdawo:P10623 rdf:resource="{$marcMetadataWorkIRI}"/>
-                                                <rdawo:P10078 rdf:resource="{$mainExpressionIRI}"/>
-                                                <!-- This code can be uncommented to add a work access point to the work description.
-                         m2r:mainWorkAccessPoint() is located in m2r-aps.xsl -->
-                                                <xsl:variable name="workAP"
-                                                  select="m2r:mainWorkAccessPoint(.)"/>
-                                                <xsl:if test="$workAP">
-                                                  <rdawd:P10328>
-                                                  <xsl:value-of select="$workAP"/>
-                                                  </rdawd:P10328>
-                                                </xsl:if>
-                                                <xsl:apply-templates select="*" mode="augWor">
-                                                  <xsl:with-param name="baseID" select="$baseID"/>
-                                                  <xsl:with-param name="type" select="'aug'"/>
-                                                </xsl:apply-templates>
-                                            </rdf:Description>
-                                            <!-- *****EXPRESSIONS***** -->
-                                            <rdf:Description rdf:about="{$mainExpressionIRI}">
-                                                <rdf:type
-                                                  rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
-                                                <rdaeo:P20576 rdf:resource="{$marcMetadataWorkIRI}"/>
-                                                <rdaeo:P20059 rdf:resource="{$mainManifestationIRI}"/>
-                                                <xsl:if test="$isReproduction != ''">
-                                                  <rdaeo:P20059
-                                                  rdf:resource="{$origManifestationIRI}"/>
-                                                </xsl:if>
-                                                <rdaeo:P20231 rdf:resource="{$mainWorkIRI}"/>
-                                                <!-- This code can be uncommented to add an expression access point to the expression description.
-                         m2r:mainExpressionAccessPoint() is located in m2r-aps.xsl -->
-                                                <xsl:variable name="expressionAP"
-                                                  select="m2r:mainExpressionAccessPoint(.)"/>
-                                                <xsl:if test="$expressionAP">
-                                                  <rdaed:P20310>
-                                                  <xsl:value-of select="$expressionAP"/>
-                                                  </rdaed:P20310>
-                                                </xsl:if>
-                                                <xsl:apply-templates select="*" mode="exp">
-                                                  <xsl:with-param name="baseID" select="$baseID"/>
-                                                </xsl:apply-templates>
-                                            </rdf:Description>
-                                        </xsl:when>
-                                        <!-- CAM -->
-                                        <xsl:when test="$isAggregate = 'cam'">
-                                            <!-- *****WORKS***** -->
-                                            <!-- aggregating work and main augmented work -->
+                                            <!-- aggregating work -->
                                             <rdf:Description rdf:about="{$aggWorkIRI}">
                                                 <rdf:type
                                                     rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
@@ -359,8 +230,6 @@
                                                     <rdawo:P10072
                                                         rdf:resource="{$origManifestationIRI}"/>
                                                 </xsl:if>
-                                                <!-- This code can be uncommented to add a work access point to the work description.
-                         m2r:mainWorkAccessPoint() is located in m2r-aps.xsl -->
                                                 <xsl:variable name="aggWorkAP"
                                                     select="m2r:aggWorkAccessPoint(.)"/>
                                                 <xsl:if test="$aggWorkAP">
@@ -368,15 +237,67 @@
                                                         <xsl:value-of select="$aggWorkAP"/>
                                                     </rdawd:P10328>
                                                 </xsl:if>
+                                                <!-- work templates that apply to aggWorks also -->
                                                 <xsl:apply-templates select="*" mode="wor">
                                                     <xsl:with-param name="baseID" select="$baseID"/>
                                                     <xsl:with-param name="type" select="'agg'"/>
                                                 </xsl:apply-templates>
+                                                <!-- templates only for aggWorks (i.e. repEx) -->
                                                 <xsl:apply-templates select="*" mode="aggWor">
                                                     <xsl:with-param name="baseID" select="$baseID"/>
                                                 </xsl:apply-templates>
                                             </rdf:Description>
                                         </xsl:when>
+                                        <!-- SINGLE WE and AAMnotAW and default -->
+                                        <xsl:otherwise>
+                                            <!-- *****WORKS***** -->
+                                            <rdf:Description rdf:about="{$mainWorkIRI}">
+                                                <rdf:type
+                                                    rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
+                                                <rdawo:P10623 rdf:resource="{$marcMetadataWorkIRI}"/>
+                                                <rdawo:P10078 rdf:resource="{$mainExpressionIRI}"/>
+                                            
+                                                <xsl:variable name="workAP"
+                                                    select="m2r:mainWorkAccessPoint(.)"/>
+                                                <xsl:if test="$workAP">
+                                                    <rdawd:P10328>
+                                                        <xsl:value-of select="$workAP"/>
+                                                    </rdawd:P10328>
+                                                </xsl:if>
+                                                <xsl:apply-templates select="*" mode="wor">
+                                                    <xsl:with-param name="baseID" select="$baseID"/>
+                                                </xsl:apply-templates>
+                                        
+                                                <xsl:apply-templates select="*" mode="seWor">
+                                                    <xsl:with-param name="baseID" select="$baseID"/>
+                                                </xsl:apply-templates>
+                                            </rdf:Description>
+                                            
+                                            <!-- *****EXPRESSIONS***** -->
+                                            <rdf:Description rdf:about="{$mainExpressionIRI}">
+                                                <rdf:type
+                                                    rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
+                                                <rdaeo:P20576 rdf:resource="{$marcMetadataWorkIRI}"/>
+                                                <rdaeo:P20059 rdf:resource="{$mainManifestationIRI}"/>
+                                                <xsl:if test="$isReproduction != ''">
+                                                    <rdaeo:P20059
+                                                        rdf:resource="{m2r:origManifestationIRI(.,
+                                                        $isElectronic, $isMicroform)}"/>
+                                                </xsl:if>
+                                                <rdaeo:P20231 rdf:resource="{$mainWorkIRI}"/>
+                                                
+                                                <xsl:variable name="expressionAP"
+                                                    select="m2r:mainExpressionAccessPoint(.)"/>
+                                                <xsl:if test="$expressionAP">
+                                                    <rdaed:P20310>
+                                                        <xsl:value-of select="$expressionAP"/>
+                                                    </rdaed:P20310>
+                                                </xsl:if>
+                                                <xsl:apply-templates select="*" mode="exp">
+                                                    <xsl:with-param name="baseID" select="$baseID"/>
+                                                </xsl:apply-templates>
+                                            </rdf:Description>
+                                        </xsl:otherwise>
                                     </xsl:choose>
                                     
                                     <!-- *****MANIFESTATIONS***** -->
@@ -390,12 +311,12 @@
                                         </xsl:if>
                                         
                                         <!-- relationship to aggregating work -->
-                                        <xsl:if test="$isAggregate = 'aam' or $isAggregate = 'cam'">
+                                        <xsl:if test="$isAggregate != 'sem' and $isAggregate != 'aamnotaw'">
                                             <rdamo:P30135 rdf:resource="{$aggWorkIRI}"/>
                                         </xsl:if>
                                         <!-- category for aggregates -->
                                         <xsl:if
-                                            test="$isAggregate = 'cam' or $isAggregate = 'pam' or $isAggregate = 'aam' or $isAggregate = 'aamnotaw'">
+                                            test="$isAggregate != 'sem'">
                                             <rdamd:P30335>aggregate manifestation</rdamd:P30335>
                                         </xsl:if>
                                         
@@ -434,17 +355,17 @@
                                                   </xsl:otherwise>
                                                 </xsl:choose>
                                                 <xsl:choose>
-                                                  <xsl:when test="$isAggregate = 'aam' or $isAggregate = 'cam'">
-                                                  <xsl:apply-templates select="*" mode="man">
-                                                  <xsl:with-param name="baseID" select="$baseID"/>
-                                                  <xsl:with-param name="type"
-                                                  select="'reproduction'"/>
-                                                  <xsl:with-param name="agg" select="'agg'"/>
-                                                  <xsl:with-param name="isElectronic"
-                                                  select="$isElectronic"/>
-                                                  <xsl:with-param name="isMicroform"
-                                                  select="$isMicroform"/>
-                                                  </xsl:apply-templates>
+                                                  <xsl:when test="$isAggregate != 'sem' and $isAggregate != 'aamnotaw'">
+                                                    <xsl:apply-templates select="*" mode="man">
+                                                    <xsl:with-param name="baseID" select="$baseID"/>
+                                                    <xsl:with-param name="type"
+                                                    select="'reproduction'"/>
+                                                    <xsl:with-param name="agg" select="'agg'"/>
+                                                    <xsl:with-param name="isElectronic"
+                                                    select="$isElectronic"/>
+                                                    <xsl:with-param name="isMicroform"
+                                                    select="$isMicroform"/>
+                                                    </xsl:apply-templates>
                                                   </xsl:when>
                                                   <xsl:otherwise>
                                                   <xsl:apply-templates select="*" mode="man">
@@ -461,7 +382,7 @@
                                             </xsl:when>
                                             <xsl:otherwise>
                                                 <xsl:choose>
-                                                  <xsl:when test="$isAggregate = 'aam' or $isAggregate = 'cam'">
+                                                  <xsl:when test="$isAggregate != 'sem' and $isAggregate != 'aamnotaw'">
                                                   <xsl:apply-templates select="*" mode="man">
                                                   <xsl:with-param name="baseID" select="$baseID"/>
                                                   <xsl:with-param name="agg" select="'agg'"/>
@@ -496,12 +417,12 @@
                                                 <rdamo:P30139 rdf:resource="{$mainExpressionIRI}"/>
                                             </xsl:if>
                                             <!-- relationship to aggregating work -->
-                                            <xsl:if test="$isAggregate = 'aam' or $isAggregate = 'cam'">
+                                            <xsl:if test="$isAggregate != 'sem' and $isAggregate != 'aamnotaw'">
                                                 <rdamo:P30135 rdf:resource="{$aggWorkIRI}"/>
                                             </xsl:if>
                                             <!-- category for aggregates -->
                                             <xsl:if
-                                                test="$isAggregate = 'cam' or $isAggregate = 'pam' or $isAggregate = 'aam' or $isAggregate = 'aamnotaw'">
+                                                test="$isAggregate != 'sem'">
                                                 <rdamd:P30335>aggregate manifestation</rdamd:P30335>
                                             </xsl:if>
                                             
@@ -558,14 +479,6 @@
                                     <xsl:apply-templates select="*" mode="tim">
                                         <xsl:with-param name="baseID" select="$baseID"/>
                                     </xsl:apply-templates>
-                                </xsl:when>
-                                <!-- output records that were identified as aggregates in message -->
-                                <xsl:otherwise>
-                                    <xsl:message>
-                                        <xsl:text>Record {translate(marc:controlfield[@tag='001'], ' ', '')} identified as {$isAggregate} aggregate by pattern {$aggregateData//marc:subfield[@code='b']}, and was not processed.</xsl:text>
-                                    </xsl:message>
-                                </xsl:otherwise>
-                            </xsl:choose>
                         </xsl:for-each>
                     </xsl:when>
                     <xsl:otherwise>
@@ -623,7 +536,7 @@
             
             <rdawo:P10072 rdf:resource="{$marcManIRI}"/>
             <xsl:choose>
-                <xsl:when test="$aggType = 'cam'">
+                <xsl:when test="$aggType != 'sem' and $aggType != 'aamnotaw'">
                     <rdawo:P10621 rdf:resource="{$aggWorkIRI}"/>
                 </xsl:when>
                 <xsl:otherwise>

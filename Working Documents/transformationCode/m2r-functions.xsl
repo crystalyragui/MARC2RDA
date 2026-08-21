@@ -487,7 +487,7 @@
     <!-- These functions use rdaVocabularies.xml to retrieve an rda or id.loc.gov document 
         based on a $2 code that begins with 'rda'
         these documents can then be used to match terms and codes from rda vocabularies to their IRIs-->
-    <xsl:variable name="lookupRdaDoc" select="document('lookup/rdaVocabularies.xml')"/>
+    <xsl:variable name="lookupRdaDoc" select="document('lookup/elements_and_vocabularies.xml')"/>
     <xsl:key name="sourceCode" match="row" use="sourceCode"/>
     <xsl:key name="vocabName" match="row" use="vocabulary"/>
     <xsl:key name="rdaTerm" match="skos:Concept" use="skos:prefLabel"/>
