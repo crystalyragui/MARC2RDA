@@ -67,13 +67,14 @@ _Clair Kronk, PhD (she/her) is an Assistant Professor in the Institute for Healt
 **-Jian Lee [JianPLee](https://github.com/JianPLee), Mapping Contributor**<br>
 _Jian Lee (she/her/hers) is a Chinese Cataloging and Metadata Librarian at the University of Washington Libraries. Jian catalogs mostly Chinese print monographs. Outside of her cataloging duties, Jian participates in linked data projects, such as mapping RDA to BIBFRAME and mapping MARC to RDA/LRM/RDF. Jian is also an active member of Council on East Asian Libraries (CEAL). She’s a member of the Committee on Technical Processing and the CEAL Membership Committee._
 <br><br>
-**-Zhuo Pan [pan-zhuo](https://github.com/pan-zhuo), Mapping Contributor, Conversion Contributor**<br>
+**-Zhuo Pan [pan-zhuo](https://github.com/pan-zhuo), Mapping Contributor, Transformation Contributor**<br>
 _Zhuo Pan is currently a Resource Description Resident Librarian at Duke University Libraries. He holds a Master of Library and Information Science from the University of Washington and a Bachelor's degree in Library Science from Wuhan University. As a Library Data Specialist at the University of Washington Libraries from February 2022 until his graduation, Zhuo contributed to mapping MARC21 to RDA and converting MARC metadata to linked open data formats. For his MLIS capstone project, he designed RDA application profiles for print monographs that enable native RDA cataloging in the Sinopia Linked Data Editor._ 
 <br><br>
 **-Cypress Payne [cspayne](https://github.com/cspayne), Conversion Project Manager**<br>
 _Cypress Payne (she/her/hers) is the Metadata and Cataloging Librarian at West Virginia University. She earned her Master of Library and Information Science at the University of Washington-Seattle and holds a bachelor's degree in computer science. She leads the transformation in the MARC21 to RDA project._
 <br><br>
-**-Ellie Petersen, Mapping Contributor**<br>
+**-Ellie Petersen [elliepetersen](https://github.com/elliepetersen), Mapping Contributor, Transformation Contributor**<br>
+_Ellie Petersen is a graduate student in the Master of Library and Information Science program at the University of Washington graduating in Spring 2027. She is currently working as a Cataloging and Metadata Student Specialist at the University of Washington Libraries and as an intern for the PCC Identity Management Advisory Committee._
 <br><br>
 **-Evelyn Aislinn Rodriguez Valencia, Translation Contributor**<br>
 _My name is Evelyn Aislinn Rodriguez Valencia. I'm 22 years old and a student at the National Autonomous University of Mexico. I am currently pursuing a Bachelor's degree in Library and Information Studies, and I am about to begin my fifth semester. I love my major and everything it involves. I am passionate about organization and discipline, two qualities and virtues that define me. I work as a teaching assistant for Professor Jorge Gómez Briseño, an opportunity that greatly enriches both my academic and professional development._
