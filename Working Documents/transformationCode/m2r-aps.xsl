@@ -221,29 +221,29 @@
     
     <xsl:function name="m2r:workAPFields">
         <xsl:param name="field"/>
-        <xsl:value-of select="$field/marc:subfield[@code = 'a']
+        <xsl:value-of select="$field/marc:subfield[@code = 'a'][1]
             | $field/marc:subfield[@code = 'd']
             | $field/marc:subfield[@code = 'k'] 
             | $field/marc:subfield[@code = 'n'] 
             | $field/marc:subfield[@code = 'p']
-            | $field/marc:subfield[@code = 't']
+            | $field/marc:subfield[@code = 't'][1]
             | $field/marc:subfield[@code = 'g'][not(preceding-sibling::marc:subfield[@code = 'f' or @code = 'l' or @code = 'm' or @code = 'o' or @code = 's'])]"/>
     </xsl:function>
     
     <xsl:function name="m2r:expressionAPFields">
         <xsl:param name="field"/>
-        <xsl:value-of select="$field/marc:subfield[@code = 'a']
+        <xsl:value-of select="$field/marc:subfield[@code = 'a'][1]
             | $field/marc:subfield[@code = 'd']
             | $field/marc:subfield[@code = 'k'] 
             | $field/marc:subfield[@code = 'n'] 
             | $field/marc:subfield[@code = 'p']
-            | $field/marc:subfield[@code = 't']
+            | $field/marc:subfield[@code = 't'][1]
             | $field/marc:subfield[@code = 'g']
-            | $field/marc:subfield[@code = 'f']
-            | $field/marc:subfield[@code = 'l']
+            | $field/marc:subfield[@code = 'f'][1]
+            | $field/marc:subfield[@code = 'l'][1]
             | $field/marc:subfield[@code = 'm']
-            | $field/marc:subfield[@code = 'o']
-            | $field/marc:subfield[@code = 'r']
+            | $field/marc:subfield[@code = 'o'][1]
+            | $field/marc:subfield[@code = 'r'][1]
             | $field/marc:subfield[@code = 's']"/>
     </xsl:function>
     
@@ -1075,14 +1075,14 @@
             <xsl:when test="$field/@tag = '600' or $field/@tag = '700' or $field/@tag = '800'
                 or ($field/@tag = '880' and matches($field/marc:subfield[@code = '6'], '[678]00'))">
                 <xsl:variable name="ap">
-                    <xsl:value-of select="$field/marc:subfield[@code = 'a'] | $field/marc:subfield[@code = 'b'] | $field/marc:subfield[@code = 'c']
-                        | $field/marc:subfield[@code = 'd'] | $field/marc:subfield[@code = 'f'] 
+                    <xsl:value-of select="$field/marc:subfield[@code = 'a'][1] | $field/marc:subfield[@code = 'b'][1] | $field/marc:subfield[@code = 'c']
+                        | $field/marc:subfield[@code = 'd'][1] | $field/marc:subfield[@code = 'f'][1] 
                         | $field/marc:subfield[@code = 'g'] | $field/marc:subfield[@code = 'j'] 
-                        | $field/marc:subfield[@code = 'k'] |$field/marc:subfield[@code = 'l'] 
+                        | $field/marc:subfield[@code = 'k'] |$field/marc:subfield[@code = 'l'][1] 
                         | $field/marc:subfield[@code = 'm'] |$field/marc:subfield[@code = 'n'] 
-                        | $field/marc:subfield[@code = 'o'] | $field/marc:subfield[@code = 'p'] 
-                        | $field/marc:subfield[@code = 'q'] | $field/marc:subfield[@code = 'u'] 
-                        | $field/marc:subfield[@code = 't'] | $field/marc:subfield[@code = 'r']
+                        | $field/marc:subfield[@code = 'o'][1] | $field/marc:subfield[@code = 'p'] 
+                        | $field/marc:subfield[@code = 'q'][1] | $field/marc:subfield[@code = 'u'][1] 
+                        | $field/marc:subfield[@code = 't'][1] | $field/marc:subfield[@code = 'r'][1]
                         | $field/marc:subfield[@code = 's']" 
                         separator=" "/>
                 </xsl:variable>
@@ -1091,14 +1091,14 @@
             <xsl:when test="$field/@tag = '610' or $field/@tag = '710' or $field/@tag = '810'
                 or ($field/@tag = '880' and matches($field/marc:subfield[@code = '6'], '[678]10'))">
                 <xsl:variable name="ap">
-                    <xsl:value-of select="$field/marc:subfield[@code = 'a'] | $field/marc:subfield[@code = 'b'] | $field/marc:subfield[@code = 'c']
-                        | $field/marc:subfield[@code = 'd'] | $field/marc:subfield[@code = 'f'] 
+                    <xsl:value-of select="$field/marc:subfield[@code = 'a'][1] | $field/marc:subfield[@code = 'b'] | $field/marc:subfield[@code = 'c']
+                        | $field/marc:subfield[@code = 'd'] | $field/marc:subfield[@code = 'f'][1] 
                         | $field/marc:subfield[@code = 'g'] | $field/marc:subfield[@code = 'j'] 
-                        | $field/marc:subfield[@code = 'k'] |$field/marc:subfield[@code = 'l'] 
+                        | $field/marc:subfield[@code = 'k'] |$field/marc:subfield[@code = 'l'][1] 
                         | $field/marc:subfield[@code = 'm'] |$field/marc:subfield[@code = 'n'] 
-                        | $field/marc:subfield[@code = 'o'] | $field/marc:subfield[@code = 'p'] 
-                        | $field/marc:subfield[@code = 'q'] | $field/marc:subfield[@code = 'u'] 
-                        | $field/marc:subfield[@code = 't'] | $field/marc:subfield[@code = 'r']
+                        | $field/marc:subfield[@code = 'o'][1] | $field/marc:subfield[@code = 'p'] 
+                        | $field/marc:subfield[@code = 'q'] | $field/marc:subfield[@code = 'u'][1] 
+                        | $field/marc:subfield[@code = 't'][1] | $field/marc:subfield[@code = 'r'][1]
                         | $field/marc:subfield[@code = 's']" 
                         separator=" "/>
                 </xsl:variable>
@@ -1107,14 +1107,14 @@
             <xsl:when test="$field/@tag = '611' or $field/@tag = '711' or $field/@tag = '811'
                 or ($field/@tag = '880' and matches($field/marc:subfield[@code = '6'], '[678]11'))">
                 <xsl:variable name="ap">
-                    <xsl:value-of select="$field/marc:subfield[@code = 'a'] | $field/marc:subfield[@code = 'b'] | $field/marc:subfield[@code = 'c']
-                        | $field/marc:subfield[@code = 'd'] | $field/marc:subfield[@code = 'f'] 
+                    <xsl:value-of select="$field/marc:subfield[@code = 'a'][1] | $field/marc:subfield[@code = 'b'] | $field/marc:subfield[@code = 'c']
+                        | $field/marc:subfield[@code = 'd'] | $field/marc:subfield[@code = 'f'][1] 
                         | $field/marc:subfield[@code = 'g'] | $field/marc:subfield[@code = 'j'] 
-                        | $field/marc:subfield[@code = 'k'] |$field/marc:subfield[@code = 'l'] 
+                        | $field/marc:subfield[@code = 'k'] |$field/marc:subfield[@code = 'l'][1] 
                         | $field/marc:subfield[@code = 'm'] |$field/marc:subfield[@code = 'n'] 
-                        | $field/marc:subfield[@code = 'o'] | $field/marc:subfield[@code = 'p'] 
-                        | $field/marc:subfield[@code = 'q'] | $field/marc:subfield[@code = 'u'] 
-                        | $field/marc:subfield[@code = 't'] | $field/marc:subfield[@code = 'r']
+                        | $field/marc:subfield[@code = 'o'][1] | $field/marc:subfield[@code = 'p'] 
+                        | $field/marc:subfield[@code = 'q'][1] | $field/marc:subfield[@code = 'u'][1] 
+                        | $field/marc:subfield[@code = 't'][1] | $field/marc:subfield[@code = 'r'][1]
                         | $field/marc:subfield[@code = 's']" 
                         separator=" "/>
                 </xsl:variable>
@@ -1123,19 +1123,19 @@
             <xsl:when test="$field/@tag = '630' or $field/@tag = '730' or $field/@tag = '830'
                 or ($field/@tag = '880' and matches($field/marc:subfield[@code = '6'], '[678]30'))">
                 <xsl:variable name="ap">
-                    <xsl:value-of select="$field/marc:subfield[@code = 'a'] 
+                    <xsl:value-of select="$field/marc:subfield[@code = 'a'][1] 
                         | $field/marc:subfield[@code = 'd'][not(preceding-sibling::marc:subfield[@code='t'])]
-                        | $field/marc:subfield[@code = 'f'] 
+                        | $field/marc:subfield[@code = 'f'][1] 
                         | $field/marc:subfield[@code = 'g'] 
                         | $field/marc:subfield[@code = 'k'] 
-                        | $field/marc:subfield[@code = 'l'] 
+                        | $field/marc:subfield[@code = 'l'][1] 
                         | $field/marc:subfield[@code = 'm'] 
                         | $field/marc:subfield[@code = 'n'] 
-                        | $field/marc:subfield[@code = 'o']
+                        | $field/marc:subfield[@code = 'o'][1]
                         | $field/marc:subfield[@code = 'p'] 
-                        | $field/marc:subfield[@code = 'r'] 
+                        | $field/marc:subfield[@code = 'r'][1] 
                         | $field/marc:subfield[@code = 's']
-                        | $field/marc:subfield[@code = 't']"
+                        | $field/marc:subfield[@code = 't'][1]"
                         separator=" "/>
                 </xsl:variable>
                 <xsl:value-of select="m2r:stripEndPunctuation($ap) => replace(' ;\s*$', '') => normalize-space()"/>
@@ -1143,7 +1143,7 @@
             <xsl:when test="$field/@tag = '440'
                 or ($field/@tag = '880' and starts-with($field/marc:subfield[@code = '6'], '440'))">
                 <xsl:variable name="ap">
-                    <xsl:value-of select="$field/marc:subfield[@code = 'a']
+                    <xsl:value-of select="$field/marc:subfield[@code = 'a'][1]
                         | $field/marc:subfield[@code = 'n']
                         | $field/marc:subfield[@code = 'p']"
                         separator=" "/>
