@@ -1,14 +1,9 @@
-# Working Documents
+# License for applicationCode
 
-## Draft Field by Field Spreadsheets
-CSV mapping spreadsheets of MARC21 fields to RDA. 
+Copyright <2026> <Richard Fritz. <br>
 
-[Instructions used to create these spreadsheets available here](https://github.com/crystalyragui/MARC2RDA/tree/main/Instructions).
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: <br>
 
-## Non-Mapping Documents
-Code for processing the mapping spreadsheets
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. <br>
 
-## Transformation Code
-All files required for running the transformation of MARC21/XML to RDA/RDF/XML. 
-
-[Instructions for running the code are available here](https://github.com/crystalyragui/MARC2RDA/wiki/Transform-Guidance)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. <br>
