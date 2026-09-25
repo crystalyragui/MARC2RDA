@@ -2,16 +2,31 @@
 <root>
     <row>
         <vocabulary>RDA Aspect Ratio Designation</vocabulary>
-        <sourceCode>rdaa</sourceCode>
+        <sourceCode>rdaar</sourceCode>
         <lookupDoc iri="rda/AspectRatio.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/AspectRatio/"/>
         <rdaProp>e/P20290</rdaProp>
+        <fmvDoc iri="fmv/fmvAspectRatioDesignation.xml"/>
+    </row>
+    <row>
+        <vocabulary>LC Aspect Ratio Scheme</vocabulary>
+        <sourceCode>maspect</sourceCode>
+        <lookupDoc iri="lc/maspect.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/maspect/"/>
+        <rdaProp>e/P20290</rdaProp>
+        <fmvDoc iri="fmv/fmvAspectRatioDesignation.xml"/>
     </row>
     <row>
         <vocabulary>RDA Bibliographic Format</vocabulary>
         <sourceCode>rdabf</sourceCode>
         <lookupDoc iri="rda/bookFormat.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/bookFormat/"/>
+        <rdaProp>m/P30197</rdaProp>
+    </row>
+    <row>
+        <vocabulary>LC Book Format</vocabulary>
+        <lookupDoc iri="lc/bookformat.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/bookformat/"/>
         <rdaProp>m/P30197</rdaProp>
     </row>
     <row>
@@ -22,6 +37,12 @@
         <rdaProp>m/P30123</rdaProp>
     </row>
     <row>
+        <vocabulary>LC Broadcast Standard</vocabulary>
+        <lookupDoc iri="lc/mbroadstd.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/mbroadstd/"/>
+        <rdaProp>m/P30123</rdaProp>
+    </row>
+    <row>
         <vocabulary>RDA Carrier Type</vocabulary>
         <sourceCode>rdact</sourceCode>
         <lookupDoc iri="rda/RDACarrierType.xml"/>
@@ -29,7 +50,7 @@
         <rdaProp>m/P30001</rdaProp>
     </row>
     <row>
-        <vocabulary>Term and Code List for RDA Carrier Types</vocabulary>
+        <vocabulary>LC Carriers Scheme</vocabulary>
         <sourceCode>rdacarrier</sourceCode>
         <lookupDoc iri="lc/carriers.rdf"/>
         <baseIRI iri="http://id.loc.gov/vocabulary/carriers/"/>
@@ -65,10 +86,23 @@
         <rdaProp>w/P10348</rdaProp>
     </row>
     <row>
+        <vocabulary>LC Color Content</vocabulary>
+        <lookupDoc iri="lc/mcolor.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/mcolor/"/>
+        <rdaProp>m/P30456</rdaProp>
+        <rdaProp>w/P10348</rdaProp>
+    </row>
+    <row>
         <vocabulary>RDA Configuration of Playback Channels</vocabulary>
         <sourceCode>rdacpc</sourceCode>
         <lookupDoc iri="rda/configPlayback.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/configPlayback/"/>
+        <rdaProp>m/P30184</rdaProp>
+    </row>
+    <row>
+        <vocabulary>LC Playback Channels</vocabulary>
+        <lookupDoc iri="lc/mplayback.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/mplayback/"/>
         <rdaProp>m/P30184</rdaProp>
     </row>
     <row>
@@ -80,7 +114,7 @@
         <rdaProp>w/P10349</rdaProp>
     </row>
     <row>
-        <vocabulary>Term and Code List for RDA Content Types</vocabulary>
+        <vocabulary>LC Content Types Scheme</vocabulary>
         <sourceCode>rdacontent</sourceCode>
         <lookupDoc iri="lc/contentTypes.rdf"/>
         <baseIRI iri="http://id.loc.gov/vocabulary/contentTypes/"/>
@@ -91,14 +125,27 @@
         <vocabulary>RDA Extension Plan</vocabulary>
         <sourceCode>rdaep</sourceCode>
         <lookupDoc iri="rda/RDAExtensionPlan.xml"/>
-        <baseIRI iri="http://rdaregistry.info/termList/RDAExtensionPlan"/>
+        <baseIRI iri="http://rdaregistry.info/termList/RDAExtensionPlan/"/>
         <rdaProp>w/P10365</rdaProp>
     </row>
     <row>
-        <vocabulary>RDA Form of Musical Notation</vocabulary>
-        <sourceCode>rdafmn</sourceCode>
-        <lookupDoc iri="rda/MusNotation.xml"/>
-        <baseIRI iri="http://rdaregistry.info/termList/MusNotation/"/>
+        <vocabulary>LC Issuance</vocabulary>
+        <lookupDoc iri="lc/issuance.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/issuance/"/>
+        <rdaProp>w/P10365</rdaProp>
+    </row>
+    <row>
+        <vocabulary>RDA File Type</vocabulary>
+        <sourceCode>rdaft</sourceCode>
+        <lookupDoc iri="rda/fileType.xml"/>
+        <baseIRI iri="http://rdaregistry.info/termList/fileType/"/>
+        <rdaProp>m/P30018</rdaProp>
+    </row>
+    <row>
+        <vocabulary>LC File Type</vocabulary>
+        <lookupDoc iri="lc/mfiletype.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/mfiletype/"/>
+        <rdaProp>m/P30018</rdaProp>
     </row>
     <row>
         <vocabulary>RDA Font Size</vocabulary>
@@ -117,23 +164,65 @@
         <fmvDoc iri="fmv/fmvFontSize.xml"/>
     </row>
     <row>
+        <vocabulary>RDA Form of Musical Notation</vocabulary>
+        <sourceCode>rdafmn</sourceCode>
+        <lookupDoc iri="rda/MusNotation.xml"/>
+        <baseIRI iri="http://rdaregistry.info/termList/MusNotation/"/>
+        <rdaProp>e/P20064</rdaProp>
+    </row>
+    <row>
+        <vocabulary>LC Music Notation</vocabulary>
+        <lookupDoc iri="lc/mmusnotation.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/mmusnotation/"/>
+        <rdaProp>e/P20064</rdaProp>
+    </row>
+    <row>
+        <vocabulary>RDA Form of Notated Movement</vocabulary>
+        <sourceCode>rdafnv</sourceCode>
+        <lookupDoc iri="rda/noteMove.xml"/>
+        <baseIRI iri="http://rdaregistry.info/termList/noteMove/"/>
+        <rdaProp>e/P20063</rdaProp>
+    </row>
+    <row>
+        <vocabulary>RDA Form of Tactile Notation</vocabulary>
+        <sourceCode>rdaftn</sourceCode>
+        <lookupDoc iri="rda/TacNotation.xml"/>
+        <baseIRI iri="http://rdaregistry.info/termList/TacNotation/"/>
+        <rdaProp>e/P20061</rdaProp>
+    </row>
+    <row>
+        <vocabulary>LC Tactile Notation</vocabulary>
+        <lookupDoc iri="lc/mtactile.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/mtactile/"/>
+        <rdaProp>e/P20061</rdaProp>
+    </row>
+    <row>
         <vocabulary>RDA Format of Notated Music</vocabulary>
         <sourceCode>rdafnm</sourceCode>
         <lookupDoc iri="rda/noteMove.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/noteMove/"/>
+        <rdaProp>e/P20209</rdaProp>
+    </row>
+    <row>
+        <vocabulary>LC Notated Music Form</vocabulary>
+        <lookupDoc iri="lc/mmusicformat.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/mmusicformat/"/>
+        <rdaProp>e/P20209</rdaProp>
     </row>
     <row>
         <vocabulary>RDA Frequency</vocabulary>
         <sourceCode>rdafr</sourceCode>
         <lookupDoc iri="rda/frequency.xml"/>
         <baseIRI iri="http://rdaregistry.info/termList/frequency/"/>
+        <rdaProp>w/P10368</rdaProp>
     </row>
     <row>
-        <vocabulary>RDA File Type</vocabulary>
-        <sourceCode>rdaft</sourceCode>
-        <lookupDoc iri="rda/fileType.xml"/>
-        <baseIRI iri="http://rdaregistry.info/termList/fileType/"/>
+        <vocabulary>LC Publication Frequency</vocabulary>
+        <lookupDoc iri="lc/frequencies.rdf"/>
+        <baseIRI iri="http://id.loc.gov/vocabulary/frequencies"/>
+        <rdaProp>w/P10368</rdaProp>
     </row>
+    
     <row>
         <vocabulary>RDA Generation</vocabulary>
         <sourceCode>rdagen</sourceCode>

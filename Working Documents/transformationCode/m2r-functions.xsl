@@ -927,8 +927,8 @@
                                         </xsl:element>
                                     </xsl:when>  
                                     <xsl:otherwise>
-                                        <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rda_prop, '/')}">
-                                            <xsl:attribute name="rdf:resource" select="."/>
+                                        <xsl:element name="{'rda'||$rda_entity||'d:'||substring-after($rda_prop, '/')}">
+                                            <xsl:value-of>{.}</xsl:value-of>
                                         </xsl:element>
                                     </xsl:otherwise>
                                 </xsl:choose>
@@ -975,7 +975,7 @@
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:when>
-                <!-- if it's not rda, it's a known lc code -->
+                <!-- if it's not rda, it's a known lc term or code -->
                 <xsl:otherwise>
                     <xsl:variable name="found_iri">
                         <xsl:for-each select="$fmv_docs/docs/doc">

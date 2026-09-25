@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lookup>
+    <row>
+        <lcTerm>anamorphic</lcTerm>
+        <lcTerm type="alt">fullscreen</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/maspect/ana</lcIRI>
+        <eq source="marc007c0c4" xml:lang="en">md</eq>
+        <eq source="marc007c0c4" xml:lang="en">vd</eq>
+        <eq source="marcstring" xml:lang="en">anamorphic</eq>
+    </row>
+    <row>
+        <rdaTerm>full screen</rdaTerm>
+        <rdaTerm type="alt">full-screen</rdaTerm>
+        <rdaIRI>http://rdaregistry.info/termList/AspectRatio/1001</rdaIRI>
+        <lcTerm>full screen</lcTerm>
+        <lcTerm type="alt">fullscreen</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/maspect/full</lcIRI>
+        <eq source="marcstring" xml:lang="en">full screen</eq>
+    </row>
+    <row>
+        <lcTerm>fullframe</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/maspect/fullfra</lcIRI>
+        <eq source="marc007c0c4">mf</eq>
+        <eq source="marc007c0c4">vf</eq>
+        <eq source="marcstring" xml:lang="en">fullframe</eq>
+    </row>
+    <row>
+        <lcTerm>letterboxed</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/maspect/letbox</lcIRI>
+        <eq source="marcstring" xml:lang="en">letterboxed</eq>
+    </row>
+    <row>
+        <rdaTerm>mixed aspect ratio</rdaTerm>
+        <lcTerm>mixed aspect</lcTerm>
+        <rdaIRI>http://rdaregistry.info/termList/AspectRatio/1003</rdaIRI>
+        <lcIRI>http://id.loc.gov/vocabulary/maspect/mixed</lcIRI>
+        <eq source="marcstring" xml:lang="en">mixed aspect</eq>
+    </row>
+    <row>
+        <lcTerm>non-anamorphic</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/maspect/nonana</lcIRI>
+        <eq source="marc007c0c4">mb</eq>
+        <eq source="marc007c0c4">vb</eq>
+        <eq source="marcstring" xml:lang="en">non-anamorphic</eq>
+    </row>
+    <row>
+        <lcTerm>pan and scan</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/maspect/panscan</lcIRI>
+        <eq source="marcstring" xml:lang="en">pan and scan</eq>
+    </row>
+    <row>
+        <lcTerm>reduced frame</lcTerm>
+        <lcIRI>http://id.loc.gov/vocabulary/maspect/redfra</lcIRI>
+        <eq source="marcstring" xml:lang="en">reduced frame</eq>
+    </row>
+    <row>
+        <rdaTerm>wide screen</rdaTerm>
+        <rdaTerm type="alt">wide-screen</rdaTerm>
+        <rdaIRI>http://rdaregistry.info/termList/AspectRatio/1002</rdaIRI>
+        <lcTerm>wide screen</lcTerm>
+        <lcTerm type="alt">widescreen</lcTerm>
+        <eq source="marcstring">wide screen</eq>
+        <lcIRI>http://id.loc.gov/vocabulary/maspect/wide</lcIRI>
+    </row>
+</lookup>

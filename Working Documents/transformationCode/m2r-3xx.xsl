@@ -700,6 +700,91 @@
         </xsl:for-each>
     </xsl:template>
 
+    <!-- 345 - Moving Image Characteristics -->
+    <xsl:template
+        match="marc:datafield[@tag = '345'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '345']"
+        mode="exp" expand-text="yes">
+        <xsl:for-each select="marc:subfield[@code = '0']|marc:subfield[@code = '1']">
+            <xsl:choose>
+                <xsl:when test="contains(., 'id.loc.gov') or contains(., 'rdaregistry.info')">
+                    <xsl:copy-of select="m2r:fmvRdaFromIRI(., 'e')"/>
+                </xsl:when>
+                <xsl:when test="starts-with(., 'http')">
+                    <rdaeo:P20290 rdf:resource="{.}"/>
+                </xsl:when>
+                <xsl:otherwise/>
+            </xsl:choose>
+        </xsl:for-each>
+        
+        <xsl:for-each select="marc:subfield[@code='d']">
+            <xsl:choose>
+                <xsl:when test="../marc:subfield[@code ='2']">
+                    <xsl:variable name="sub2" select="../marc:subfield[@code='2']"/>
+                    <xsl:variable name="rda_docs">
+                        <docs>
+                            <doc>AspectRatio.xml</doc>
+                        </docs>
+                    </xsl:variable>
+                    <xsl:variable name="fmv_docs">
+                        <docs>
+                            <doc>fmvAspectRatioDesignation.xml</doc>
+                        </docs>
+                    </xsl:variable>
+                    <xsl:choose>
+                        <xsl:when test="contains($sub2, 'rda') or matches($sub2, 'maspect')">
+                            <xsl:copy-of select="m2r:fmvRdaFromTermOrCode(., $sub2, 'e', 'rdaar', $rda_docs, $fmv_docs)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <rdaeo:P20290 rdf:resource="{m2r:conceptIRI($sub2, .)}"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:if test="not(matches(., 'other|unspecified'))">
+                        <rdaed:P20290>{.}</rdaed:P20290>
+                    </xsl:if>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template
+        match="marc:datafield[@tag = '345'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '345']"
+        mode="con" expand-text="yes">
+        
+        <xsl:if test="marc:subfield[@code='2']">
+            <xsl:variable name="sub2" select="../marc:subfield[@code='2'][1]"/>
+            
+            <xsl:variable name="linked880">
+                <xsl:if test="@tag = '345' and marc:subfield[@code = '6']">
+                    <xsl:variable name="occNum"
+                        select="concat('345-', substring(marc:subfield[@code = '6'], 5, 6))"/>
+                    <xsl:copy-of
+                        select="../marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 6) = $occNum]"
+                    />
+                </xsl:if>
+            </xsl:variable>
+            
+            <xsl:for-each select="marc:subfield[@code = 'd']">
+                <xsl:if test="not(contains($sub2, 'rda')) and not(matches($sub2, 'maspect'))">
+                    <rdf:Description rdf:about="{m2r:conceptIRI($sub2, .)}">
+                        <xsl:copy-of select="m2r:fillConcept(., $sub2, '', '345')"/>
+                        <!-- if it exists, include the linked 880 as part of this concept -->
+                        <xsl:if test="$linked880">
+                            <!-- select all matching subfields in the same position 
+                                    (for-each accounts for if there are multiple linked 880s) -->
+                            <xsl:for-each
+                                select="$linked880/marc:datafield/marc:subfield[position()][@code = 'd']">
+                                <xsl:copy-of select="m2r:fillConcept(., '', '', '880')"/>
+                            </xsl:for-each>
+                        </xsl:if>
+                    </rdf:Description>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:if>
+    </xsl:template>
+    
+    
     <!-- 346 - Video Characteristics -->
     <xsl:template
         match="marc:datafield[@tag = '346'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '346']"
