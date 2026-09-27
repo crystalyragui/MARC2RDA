@@ -43,10 +43,9 @@ Download the example scripts
 
 create new folder: F:\rda_sparql_examples
 
-download the code package 
-https://github.com/crystalyragui/MARC2RDA/blob/main/Working%20Documents/applicationCode/rda_sparql_examples.zip
+download the code package: rda_sparql_examples.zip
 
-copy download to F:\rda_sparql_examples
+copy download to: F:\rda_sparql_examples
 
 goto F:\rda_sparql_examples in explorer
 right-click rda_sparql_examples.zip and select 'Extract here'
