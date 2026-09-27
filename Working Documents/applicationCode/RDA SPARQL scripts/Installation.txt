@@ -1,13 +1,3 @@
-============================
-'Talking to the triplestore'
-============================
-
-Based on Gordon Dunsire's suggestions in the MARC2RDA Triplestore working group,
-I have written code for each in perl, then 'translated' that into python.
-
-Each script demonstrates one of Gordon's SPARQL queries against a 'live' triplestore.
-This is possible using some fairly basic code--thanks to the RDF4J API.
-
 ============
 INSTALLATION
 ============
