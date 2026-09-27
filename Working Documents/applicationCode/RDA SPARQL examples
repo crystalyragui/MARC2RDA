@@ -1,0 +1,9 @@
+This folder contains code based on Gordon Dunsire's notes in the MARC2RDA Triplestore working group.
+I have written code for each in perl, then 'translated' that into python.
+
+Each script demonstrates one of Gordon's SPARQL queries against a 'live' triplestore.
+This is possible using some fairly basic code--thanks to the RDF4J API.
+
+The code is available as: rda_sparql_examples.zip
+Installation steps (for Windows): Installation.txt
+General notes about the usage: About.txt
