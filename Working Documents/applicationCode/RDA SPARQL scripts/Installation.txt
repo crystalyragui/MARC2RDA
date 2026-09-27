@@ -1,0 +1,226 @@
+============================
+'Talking to the triplestore'
+============================
+
+Based on Gordon Dunsire's suggestions in the MARC2RDA Triplestore working group,
+I have written code for each in perl, then 'translated' that into python.
+
+Each script demonstrates one of Gordon's SPARQL queries against a 'live' triplestore.
+This is possible using some fairly basic code--thanks to the RDF4J API.
+
+============
+INSTALLATION
+============
+
+These instructions will install perl and/or python, and the scripts discussed 
+in this section. java is not needed for this particular exercise (tho it is
+needed to implement the MARC2RDA transformation code--covered in another topic)
+
+You should then be able to run each script from a windows computer
+(These instructions are tested on Windows 11 Pro, x64; 
+instructions for Ubuntu are available on request).
+
+==========
+OBJECTIVES
+==========
+
+Become familiar with running these scripts.
+View the code used in any text editor.
+Learn to write and run your own scripts.
+
+General Notes:
+
+These instructions use 'F:\' as an example installation location. 
+You may use another drive or folder. For example, you could use 'C:\M2R\' instead.
+Whatever location you choose, use it consistently throughout these instructions.
+
+These instructions are designed for novices. If you are already familiar with
+perl or python and have either working on your computer, do NOT reinstall perl
+or python as described below.
+
+Each code stream requires changes to the windows environment settings. 
+When editing these settings be sure to use the "User variables" and not the "System variables"
+
+The "PERL5LIB" and "PYTHONPATH" variables tell windows where to find shared code
+THe "Path" variable tells windows where to find executables (perl.exe and/or python.exe)
+
+If you customize the installation locations be sure your changes are
+reflected in the environmment as described below.
+
+============================
+Download the example scripts
+============================
+
+create new folder: F:\rda_sparql_examples
+
+download the code package 
+https://github.com/crystalyragui/MARC2RDA/blob/main/Working%20Documents/applicationCode/rda_sparql_examples.zip
+
+copy download to F:\rda_sparql_examples
+
+goto F:\rda_sparql_examples in explorer
+right-click rda_sparql_examples.zip and select 'Extract here'
+
+=========================
+Download and install perl
+=========================
+
+create new folder: F:\perl
+
+download 'strawberry perl' portable release:
+https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54231_64bit/strawberry-perl-5.42.3.1-64bit-portable.zip
+
+copy download (strawberry-perl-5.42.3.1-64bit-portable.zip) to F:\perl
+
+goto F:\perl in explorer
+right-click strawberry-perl-5.42.3.1-64bit-portable.zip and select 'Extract here'
+
+===========================================
+Setup perl environment (no Perl installed)
+===========================================
+
+Open Start, type "Environment", press <Enter>
+Select "Environment variables" at the bottom
+
+In the top box (User variables), click "New" 
+then enter:
+	Variable name: PERL5LIB
+	Variable value: F:\rda_sparql_examples\lib
+press OK
+
+Still in the top box (User variables), click "Path", then "Edit"
+click "New", then enter:
+	F:\perl\perl\bin
+click "New", then enter:
+	F:\perl\c\bin
+click "New", then enter:
+	F:\perl\perl\site\bin
+press OK three times
+
+==================
+Check installation
+==================
+
+Start cmd.exe
+type: perl -v
+result should be 'This is perl 5, version 42, subversion 3 (v5.42.3) built for MSWin32 ...'
+
+Run script tests
+
+navigate to the 'rda_sparql_examples' folder (eg. cd /d f:\rda_sparql_examples)
+type: run_perl_tests
+
+=========================================
+Perl environment (Perl already installed)
+=========================================
+
+If Perl is already installed:
+
+1. Open cmd.exe and type:
+   perl -v
+
+2. Type:
+   where perl
+
+3. If Perl is working, do not change Path.
+
+4. Add the following User environment variable:
+   PERL5LIB = F:\rda_sparql_examples\lib
+
+5. Open a NEW cmd.exe window.
+
+6. Navigate to the rda_sparql_examples folder and type:
+   run_perl_tests
+   
+===========================
+Download and install python
+===========================
+
+create new folder: F:\python
+
+download python; the version I used is:
+https://www.python.org/ftp/python/3.14.7/python-3.14.7-amd64.exe
+
+copy download (python-3.14.7-amd64.exe) to F:\python
+
+goto F:\python in explorer
+double-click python-3.14.7-amd64.exe
+choose Customize installation, then set install location to F:\python
+
+==============================================
+Setup python environment (No Python installed)
+==============================================
+
+Environment variables tell the system where to find the shared code
+Path variables tell the system where to find executables (python.exe)
+
+Open Start, type "Environment", press <Enter>
+Select "Environment variables" at the bottom
+
+In the top box (User variables), click "New" 
+then enter:
+	Variable name: PYTHONPATH
+	Variable value: F:\rda_sparql_examples\lib\python
+press OK
+
+Still in the top box (User variables), click "Path", then "Edit"
+click "New", then enter:
+	F:\python
+click "New", then enter:
+	F:\python\Scripts
+press 'OK' three times
+
+==================
+Check installation
+==================
+
+Start cmd.exe
+type: python -V    --result should be Python 3.14.7 (note uppercase "V") 
+
+Run script tests
+
+navigate to the 'rda_sparql_examples' (eg. cd /d f:\rda_sparql_examples)
+type: run_python_tests
+
+===================================================
+Setup python environment (Python already installed)
+===================================================
+
+If Python is already installed
+
+1. Open cmd.exe and type:
+   python -V
+
+   If this reports a working Python installation, continue using it.
+
+2. Type: where python
+
+   This shows which Python executable Windows is using.
+
+3. Install/extract the example scripts as described above.
+
+4. Add the following User environment variable:
+   PYTHONPATH = F:\rda_sparql_examples\lib\python
+
+5. Open a NEW cmd.exe window.
+
+6. Navigate to the rda_sparql_examples folder and type:
+   run_python_tests
+   
+================
+Python--Optional
+================
+
+The example scripts intentionally do not use sparqlwrapper
+but you might well find this package useful later if you
+start to code in python
+
+to add it, run this from the command prompt:
+python -m pip install SPARQLWrapper
+
+==============
+About the code
+==============
+
+See the 'About.txt' file in this folder
+
