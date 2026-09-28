@@ -1,4 +1,4 @@
-# License for applicationCode
+# License for RDA SPARQL scripts
 
 Copyright <2026> Richard Fritz. <br>
 
