@@ -29,8 +29,8 @@ During the coding process a shared package evolved for perl
 
 The shared package performs common tasks such as
   -setting default values (SPARQL endpoints, language code, RDA curies, etc.)
-  -dispatching a query to graphDB and processing the response
   -IRI normalization, curie expansion, string escaping, etc.
+  -dispatching a query to graphDB and processing the response
 
 In the perl and python folders, there are two scripts 
 for each one of Gordon's SPARQL queries:
