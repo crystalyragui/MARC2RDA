@@ -2,7 +2,7 @@ Preamble
 --------
 
 This folder contains code based on Gordon Dunsire's notes in the MARC2RDA Triplestore working group.
-I have written code for each SPARQL query in perl, then 'translated' that into python.
+I wrote the code for each SPARQL query in perl, then 'translated' that into python.
 
 Each script demonstrates one of Gordon's SPARQL queries against a 'live' triplestore.
 This is possible using some fairly basic code--thanks to the RDF4J API.
@@ -15,13 +15,13 @@ General notes about the usage follow.
 About the code
 --------------
 
-The 'rda_sparql_examples' layout is as follows
+The 'rda_sparql_examples' folder layout is as follows:
 
 rda_sparql_examples
-	lib	- code common to each set of scripts
-	perl	- scripts written in perl (.pl files)
-	python	- python versions of the above (.py files)
-	sparql	- a library of SPARQL queries (as .rq. files)
+    lib	- code common to each set of scripts
+    perl	- scripts written in perl (.pl files)
+    python	- python versions of the above (.py files)
+    sparql	- a library of SPARQL queries (as .rq. files)
 	
 During the coding process a shared package evolved for perl
 (later also 'translated' into python):
