@@ -18,20 +18,20 @@ About the code
 The 'rda_sparql_examples' folder layout is as follows:
 
 rda_sparql_examples
-    lib	- code common to each set of scripts
-    perl	- scripts written in perl (.pl files)
-    python	- python versions of the above (.py files)
-    sparql	- a library of SPARQL queries (as .rq. files)
+    * lib	- code common to each set of scripts
+    * perl	- scripts written in perl (.pl files)
+    * python	- python versions of the above (.py files)
+    * sparql	- a library of SPARQL queries (as .rq. files)
 	
 During the coding process a shared package evolved for perl
 (later also 'translated' into python):
-	perl - 'uses' the RDF4J.pm module
-	python - 'imports' the m2r_rdf4j.py module
+	- perl - 'uses' the RDF4J.pm module
+	- python - 'imports' the m2r_rdf4j.py module
 
 The shared package performs common tasks such as
-  -setting default values (SPARQL endpoints, language code, RDA curies, etc.)
-  -IRI normalization, curie expansion, string escaping, etc.
-  -dispatching a query to graphDB and processing the response
+  - setting default values (SPARQL endpoints, language code, RDA curies, etc.)
+  - IRI normalization, curie expansion, string escaping, etc.
+  - dispatching a query to graphDB and processing the response
 
 In the perl and python folders, there are two scripts 
 for each one of Gordon's SPARQL queries:
