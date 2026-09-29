@@ -71,10 +71,8 @@ toolkit_label_by_element.rq
 
 The 'label' queries were repeated to demonstrate different forms for RDA elements.
 
-
-=======
 Process
-=======
+-------
 
 Although I have been using/learning perl for many years, 
 I am just learning python myself (hence the need to rely on 
