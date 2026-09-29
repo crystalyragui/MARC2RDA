@@ -1,4 +1,5 @@
 Preamble
+--------
 
 This folder contains code based on Gordon Dunsire's notes in the MARC2RDA Triplestore working group.
 I have written code for each SPARQL query in perl, then 'translated' that into python.
@@ -10,9 +11,9 @@ The code is available here as: rda_sparql_examples.zip
 Installation steps (for Windows): Installation.txt
 General notes about the usage follow.
 
-==============
+
 About the code
-==============
+--------------
 
 The 'rda_sparql_examples' layout is as follows
 
