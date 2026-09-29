@@ -116,6 +116,10 @@ If Perl is already installed:
 4. Add the following User environment variable:
    PERL5LIB = F:\rda_sparql_examples\lib
 
+Note: if you already have a PERL5LIB var, append the path used 
+by these scripts to it following a semi-colon. For example:
+   PERL5LIB = C:\some_other_lib_path;F:\rda_sparql_examples\lib
+
 5. Open a NEW cmd.exe window.
 
 6. Navigate to the rda_sparql_examples folder and type:
@@ -190,6 +194,10 @@ If Python is already installed
 
 4. Add the following User environment variable:
    PYTHONPATH = F:\rda_sparql_examples\lib\python
+
+Note: if you already have a PYTHONPATH var, append the path used 
+by these scripts to it following a semi-colon. For example:
+   PYTHONPATH = C:\some_other_lib_path;F:\rda_sparql_examples\lib
 
 5. Open a NEW cmd.exe window.
 
