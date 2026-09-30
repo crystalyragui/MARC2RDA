@@ -1,3 +1,16 @@
+==========
+Background
+==========
+
+This project was inspired by Gordon Dunsire's notes in our Triplestore working 
+group, where he created several SPARQL queries and recommended they be rendered 
+into 'code functions'--thus forming a foundation for a purely RDA code library.
+
+I coded each query in perl, then 'translated' that script into python.
+
+Each script demonstrates one of Gordon's SPARQL queries against a triplestore.
+This is possible using some fairly straightforward code--thanks to the RDF4J API.
+
 ==============
 About the code
 ==============
@@ -5,7 +18,7 @@ About the code
 The 'rda_sparql_examples' folder layout is as follows
 
 rda_sparql_examples
-	lib	- code common to each set of scripts
+	lib		- code common to each set of scripts
 	perl	- scripts written in perl (.pl files)
 	python	- python versions of the above (.py files)
 	sparql	- a library of SPARQL queries (as .rq. files)
@@ -18,22 +31,22 @@ During the coding process a shared package evolved for perl
 	perl - 'uses' the RDF4J.pm module
 	python - 'imports' the m2r_rdf4j.py module
 
-The shared modules (located in 'lib') perform common tasks such as
-  -setting default values (SPARQL endpoints, language code, RDA curies, etc.)
-  -dispatching a query to graphDB and processing the response
-  -IRI normalization, curie expansion, string escaping, etc.
+The shared modules (located in 'lib') perform common tasks such as:
+  - setting default values (SPARQL endpoints, language code, RDA curies, etc.)
+  - dispatching a query to graphDB and processing the response
+  - IRI normalization, curie expansion, string escaping, etc.
 
 In the perl and python folders, there are two scripts 
 for each one of Gordon's SPARQL queries:
-	1. one uses the SPARQL 'library' (in the sparql folder)
-	2. the other includes each SPARQL query in the code itself.
+	1. loads the query from the 'sparql' folder
+	2. includes the query in the code itself.
 
-Style #1 is indicated by a leading underscore in the script name.
+Script version #1 is indicated by a leading underscore in the script name.
 For example:
-	_get_nomen_string.py -- loads the SPARQL query from the library
-	get_nomen_string.py -- codes the SPARQL query in the script itself
+	_get_nomen_string.py -- load the 'nomen_string.rq' query from the library
+	get_nomen_string.py -- include the 'nomen_string' query in the script itself
 
-The following forms for RDA elements are accepted in function parameters
+The following forms for RDA elements are accepted in script parameters
    rdand:P80068
    http://rdaregistry.info/Elements/n/datatype/P80068
    <http://rdaregistry.info/Elements/n/datatype/P80068>
@@ -43,16 +56,6 @@ in double underscores:
 	__IRI__
 	__LANGCODE__
 
-Query functions expect IRI arguments to already be SPARQL-ready.
-Thus callers should run sparql_iri() before building a query.
-
-When coding a sparql query for a known element, prefer its IRI:
-   <http://rdaregistry.info/Elements/n/datatype/P80068>
-
-If you chose to use curies in a query, prepend a 'PREFIX' statement 
-to the query:
-   PREFIX rdand: <http://rdaregistry.info/Elements/n/datatype/>
-   
 The list of sparql queries coded thus far is as follows:
 
 best_access_point_by_entity.rq
@@ -61,11 +64,37 @@ nomen_string_by_entity.rq
 registry_label_by_element.rq
 toolkit_label_by_element.rq
 
-'label' queries were repeated to demonstrate different RDA element forms.
-For example:
+'label' queries were repeated in the test files to demonstrate different 
+RDA element forms. For example:
 	perl registry_label_by_element rdand:P80068
 	perl registry_label_by_element "http://rdaregistry.info/Elements/n/datatype/P80068"
-	etc.
+
+===========
+'lib' Notes
+===========
+
+The RDF4J API expects IRI parameters to be SPARQL-ready. Thus callers should 
+always run the common 'lib' function sparql_iri() when building a query.
+
+When coding a SPARQL query for a known element, these scripts use the
+full RDA IRI:
+   <http://rdaregistry.info/Elements/n/datatype/P80068>
+If curies are used in parameters, they are converted to the IRI form
+by sparql_iri().
+
+If preferring curies in a new query, don't forget to prepend a 'PREFIX' 
+statement to the query (the 'lib' does not do this):
+   PREFIX rdand: <http://rdaregistry.info/Elements/n/datatype/>
+
+'RDA Toolkit' labels are not defined in the subclasses (datatype and
+object), but only in the canonical elements (sparql_iri() will handle
+this for you). 
+
+Translations of the RDA elements are not defined in the 'RDA Registry' 
+elements--for these you must use the 'getToolkitLabel' scripts.
+
+To request a translation, use a two-letter langcode in the parameter
+(without '@')
 
 =======
 Process
@@ -85,8 +114,8 @@ The process used was:
 - run pylint on each script until it reaches 10/10
 - copy the 'rda_sparql_examples' folders to windows
 - test each stream and note what wasn't working on windows
-- return to ubuntu, tweak what was needed for cross-platform compatibility
-- repeat the last 3 steps until the same code was working on each platform
+- return to ubuntu, tweak what was needed to support cross-platform compatibility
+- repeat the previous 3 steps until the same code was working on each platform
 
 I haven't tried to develop a 'best practice' in these scripts;
 instead I've focused on consistency and simplicity, and the
