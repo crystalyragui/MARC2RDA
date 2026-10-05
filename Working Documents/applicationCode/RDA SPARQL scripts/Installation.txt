@@ -129,16 +129,12 @@ by these scripts to it following a semi-colon. For example:
 Download and install python
 ===========================
 
-create new folder: F:\python
+Install Python Install Manager from the Microsoft Store.
 
-download python; the version I used is:
-https://www.python.org/ftp/python/3.14.7/python-3.14.7-amd64.exe
+Install the current CPython runtime when prompted.
 
-copy download (python-3.14.7-amd64.exe) to F:\python
-
-goto F:\python in explorer
-double-click python-3.14.7-amd64.exe
-choose Customize installation, then set install location to F:\python
+Note: Even thought Windows will manage the python installation location
+its still essential that the next section be followed.
 
 ==============================================
 Setup python environment (No Python installed)
@@ -154,23 +150,16 @@ In the top box (User variables), click "New"
 then enter:
 	Variable name: PYTHONPATH
 	Variable value: F:\rda_sparql_examples\lib\python
-press OK
 
-Still in the top box (User variables), click "Path", then "Edit"
-click "New", then enter:
-	F:\python
-click "New", then enter:
-	F:\python\Scripts
-press 'OK' three times
+Press OK until the dialog closes
 
 ==================
 Check installation
 ==================
 
-Start cmd.exe
-type: python -V    --result should be Python 3.14.7 (note uppercase "V") 
-
-Run script tests
+Open a new Command Prompt and type:
+python -V
+--result should be Python 3.14.7 (note uppercase "V") 
 
 navigate to the 'rda_sparql_examples' (eg. cd /d f:\rda_sparql_examples)
 type: run_python_tests
