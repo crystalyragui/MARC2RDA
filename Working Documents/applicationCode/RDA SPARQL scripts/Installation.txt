@@ -1,0 +1,92 @@
+============
+INSTALLATION
+============
+
+Pre-requisite for the RDA example scripts is that either perl
+or python (or both) be installed on a windows 11 computer.
+
+You should then be able to run each script from a command prompt.
+
+These instructions use 'F:\' the installation location for the scripts. 
+You may use any drive or folder. For example, you could use 'C:\M2R\' instead.
+Whatever location you choose, use it consistently throughout these instructions.
+
+If you already have either perl or python working on your computer, 
+DO NOT reinstall them.
+
+
+==========
+OBJECTIVES
+==========
+
+Become familiar with running scripts.
+View the code in a text editor.
+Learn to use SPARQL in a code environment.
+
+
+====================
+Download the scripts
+====================
+
+download the package: rda_sparql_examples.zip
+
+copy the download to: F:\
+
+right-click rda_sparql_examples.zip and select 'Extract All'
+
+this should create the following folder layout:
+
+F:\
+    rda_sparql_examples\
+        lib\
+        perl\
+        python\
+        sparql\
+        
+        
+=========================
+Download and install perl
+=========================
+
+download perl from https://github.com/StrawberryPerl/  --select the lastest MSI release
+
+run the downloaded installer
+
+Open a new Command Prompt and type:
+
+perl -v
+
+--result should resemble: 'This is perl 5, version 42, ... built for MSWin32'
+
+Run script tests
+
+navigate to the 'rda_sparql_examples' folder (eg. F:\rda_sparql_examples)
+
+type: run-perl-tests
+   
+   
+===========================
+Download and install python
+===========================
+
+Install Python Install Manager from the Microsoft Store.
+
+Install the current CPython runtime when prompted.
+
+Open a new Command Prompt and type:
+
+python -V  (note uppercase "V") 
+
+--result should resemble: 'Python 3.14.7 '
+
+navigate to the 'rda_sparql_examples' (eg. F:\rda_sparql_examples)
+
+type: run-python-tests
+
+
+==============
+About the code
+==============
+
+See the 'About.txt' file in this folder
+
