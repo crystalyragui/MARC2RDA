@@ -1,4 +1,4 @@
-Oct 4-6
+Oct 4-7
 
 - removed perl dependency on Const::Exporter 
 
@@ -9,4 +9,6 @@ Eg. run_perl_tests.bat -> run-perl-tests.bat
 
 - removed requirement to edit environment variables
 
-(Many thanks to Cerberus Forbes for pointing out the flaws in my initial release)
+- added an import to the python scripts (to obviate need to use environment var)
+
+(Many thanks to Cerberus Forbes for pointing out the flaws in initial release)
