@@ -34,7 +34,11 @@ copy the download to: F:\
 
 right-click rda_sparql_examples.zip and select 'Extract All'
 
-this should create the following folder layout:
+accept F:\rda_sparql_examples as the destination
+
+--
+
+This should create the following folder layout:
 
 F:\
     rda_sparql_examples\
@@ -48,15 +52,17 @@ F:\
 Download and install perl
 =========================
 
-download perl from https://github.com/StrawberryPerl/  --select the lastest MSI release
+Download perl from https://github.com/StrawberryPerl/  
+--select the lastest MSI release
 
-run the downloaded installer
+Run the downloaded installer
 
 Open a new Command Prompt and type:
-
 perl -v
 
 --result should resemble: 'This is perl 5, version 42, ... built for MSWin32'
+
+--
 
 Run script tests
 
@@ -71,13 +77,18 @@ Download and install python
 
 Install Python Install Manager from the Microsoft Store.
 
-Install the current CPython runtime when prompted.
+Open it.
+
+When prompted, install the current CPython runtime 
 
 Open a new Command Prompt and type:
-
-python -V  (note uppercase "V") 
+python -V      (note uppercase "V") 
 
 --result should resemble: 'Python 3.14.7 '
+
+--
+
+Run script tests
 
 navigate to the 'rda_sparql_examples' (eg. F:\rda_sparql_examples)
 
