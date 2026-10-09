@@ -895,9 +895,6 @@
         <xsl:param name="rda_docs"/>
         <xsl:param name="fmv_docs"/>
         
-        <!--<xsl:variable name="rda_doc_path" select="concat('lookup/rda/', $rda_doc)"/>
-        <xsl:variable name="fmv_doc_path" select="concat('lookup/fmv/', $fmv_doc)"/>-->
-        
         <!-- elements and vocabularies doc -->
         <xsl:variable name="ev_doc" select="document('lookup/elements_and_vocabularies.xml')"/>
         
@@ -1027,109 +1024,65 @@
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:otherwise>
-                <!--<!-\- subfield $2 has lc code -\->
-                <xsl:when test="matches($sub2, $source_code)">
-                    <!-\- lookup in lookup xml file -\->
-                    <xsl:choose>
-                        <!-\- use associated rdaIRI if present -\->
-                        <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/rdaIRI)">
-                            <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                                <xsl:attribute name="rdf:resource" select="document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/rdaIRI"/>
-                            </xsl:element>
-                        </xsl:when>
-                        <!-\- else if in the table but no rdaIRI, use lcIRI -\->
-                        <!-\- if not in table but lc source code, it won't be processed -\->
-                        <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/lcIRI)">
-                            <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                                <xsl:attribute name="rdf:resource" select="document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/lcIRI"/>
-                            </xsl:element>
-                        </xsl:when>
-                    </xsl:choose>
-                </xsl:when>
-                <!-\- else if sub2 but not rda or lc, mint concept -\->
-                <xsl:otherwise>
-                    <xsl:if test="not(matches($term_or_code, 'other|unspecified'))">
-                        <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                            <xsl:attribute name="rdf:resource" select="m2r:conceptIRI($sub2, $norm_text)"/>
-                        </xsl:element>
-                    </xsl:if>
-                </xsl:otherwise>
-                </xsl:choose>-->
             </xsl:choose>
         </xsl:for-each>
     </xsl:function>
     
-    <!--<xsl:function name="m2r:fmvRdaFromString">
-        <xsl:param name="string"/>
-        <xsl:param name="fmv_doc"/>
+    <xsl:function name="m2r:fmvRdaFromMarcString" expand-text="yes">
+        <xsl:param name="marc_string"/>
         <xsl:param name="source"/>
-        <xsl:param name="lang"/>
+        <xsl:param name="rda_code"/>
         <xsl:param name="rda_entity"/>
-        <xsl:param name="p_num"/>
+        <xsl:param name="fmv_docs"/>
         
-        <xsl:variable name="fmv_doc_path" select="concat('lookup/fmv/', $fmv_doc)"/>
+        <!-- elements and vocabularies doc -->
+        <xsl:variable name="ev_doc" select="document('lookup/elements_and_vocabularies.xml')"/>
         
-        <xsl:for-each select="$string">
+        <xsl:for-each select="$marc_string">
             <xsl:variable name="norm_text" select="normalize-space(lower-case(.))"/>
-            <xsl:choose>
-                <!-\- subfield $2 begins with rda -\->
-                <xsl:when test="starts-with($sub2, 'rda')">
-                    <xsl:choose>
-                        <!-\- rda code -\->
-                        <!-\- use IRI if match -\->
-                        <xsl:when test="matches(., '\d\d\d\d')">
-                            <xsl:variable name="code_iri" select="document($rda_doc_path)/rdf:RDF/skos:ConceptScheme/@rdf:about||'/'||."/>
-                            <xsl:if test="document($rda_doc_path)/rdf:RDF/skos:Concept/key('fmvRdaCode', $code_iri)">
-                                <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                                    <xsl:attribute name="rdf:resource" select="document($rda_doc_path)/rdf:RDF/skos:Concept/key('fmvRdaCode', $code_iri)/@rdf:about"/>
-                                </xsl:element>
-                            </xsl:if>   
-                        </xsl:when>
-                        <!-\- lookup normalized text in rda vocabulary -\->
-                        <!-\- use IRI if a match -\->
-                        <xsl:when test="document($rda_doc_path)/rdf:RDF/skos:Concept/key('fmvRdaTerm', $norm_text)">
-                            <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                                <xsl:attribute name="rdf:resource" select="document($rda_doc_path)/rdf:RDF/skos:Concept/key('fmvRdaTerm', $norm_text)/@rdf:about"/>
-                            </xsl:element>
-                        </xsl:when>
-                        <!-\- otherwise use text value as string -\->
-                        <xsl:otherwise>
-                            <xsl:element name="{$rda_entity||'d:'||$p_num}">
-                                <xsl:value-of select="."/>
-                            </xsl:element>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:when>
-                <!-\- subfield $2 has lc code -\->
-                <xsl:when test="matches($sub2, $source_code)">
-                    <!-\- lookup in lookup xml file -\->
-                    <xsl:choose>
-                        <!-\- use associated rdaIRI if present -\->
-                        <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/rdaIRI)">
-                            <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                                <xsl:attribute name="rdf:resource" select="document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/rdaIRI"/>
-                            </xsl:element>
-                        </xsl:when>
-                        <!-\- else if in the table but no rdaIRI, use lcIRI -\->
-                        <!-\- if not in table but lc source code, it won't be processed -\->
-                        <xsl:when test="exists(document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/lcIRI)">
-                            <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                                <xsl:attribute name="rdf:resource" select="document($fmv_doc_path)/lookup/row/key('fmvLcTermOrCode', $norm_text)/lcIRI"/>
-                            </xsl:element>
-                        </xsl:when>
-                    </xsl:choose>
-                </xsl:when>
-                <!-\- else if sub2 but not rda or lc, mint concept -\->
-                <xsl:otherwise>
-                    <xsl:if test="not(matches($term_or_code, 'other|unspecified'))">
-                        <xsl:element name="{$rda_entity||'o:'||$p_num}">
-                            <xsl:attribute name="rdf:resource" select="m2r:conceptIRI($sub2, $norm_text)"/>
-                        </xsl:element>
-                    </xsl:if>
-                </xsl:otherwise>
-            </xsl:choose>
+            <!-- search all given fmv files for term, store output in variable to check if one is found -->
+            <xsl:variable name="found_rda">
+                <found_rda>
+                <xsl:for-each select="$fmv_docs/docs/doc">
+                    <xsl:variable name="fmv_doc" select="'lookup/fmv/'||."/>
+                    <xsl:for-each select="document($fmv_doc)//row/eq[@source = $source]">
+                        <xsl:choose>
+                            <xsl:when test="contains($marc_string, .)">
+                                <xsl:if test="not(exists(../map[contains(., 'NOMAP')]))">
+                                    <xsl:variable name="iri">
+                                        <xsl:choose>
+                                            <xsl:when test="../rdaIRI">
+                                                <xsl:value-of select="../rdaIRI"/>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:value-of select="../lcIRI"/>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:variable>
+                                    <xsl:variable name="iri_base" select="string-join(tokenize($iri, '/')[position() &lt; last()], '/')||'/'"/>
+                                    
+                                    <!-- look up IRI base in elements and vocabularies table and retrieve property and fmv table -->
+                                    <xsl:if test="exists($ev_doc//row[./baseIRI/@iri[starts-with(., $iri_base)]]/rdaProp[starts-with(., $rda_entity)])">
+                                        <xsl:variable name="rda_prop" select="$ev_doc//row[./baseIRI/@iri[starts-with(., $iri_base)]]/rdaProp[starts-with(., $rda_entity)]"/>
+                                        <xsl:element name="{'rda'||$rda_entity||'o:'||substring-after($rda_prop, '/')}">
+                                            <xsl:attribute name="rdf:resource" select="$iri"/>
+                                        </xsl:element>
+                                    </xsl:if>
+                                </xsl:if>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <notfound>NOT FOUND</notfound>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:for-each>
+                </xsl:for-each>
+                </found_rda>
+            </xsl:variable>
+            <xsl:for-each select="$found_rda//*[starts-with(name(), 'rda')]">
+                <xsl:copy-of select="."/>
+            </xsl:for-each>
         </xsl:for-each>
-    </xsl:function>-->
+    </xsl:function>
     
     
     <!-- POSSIBLE BREAK POINT !!!!  If we query LC too much we may get denied -->

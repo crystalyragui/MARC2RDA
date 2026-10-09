@@ -280,9 +280,20 @@
     <xsl:template match="marc:datafield[@tag = '020'] | marc:datafield[@tag = '880'][substring(marc:subfield[@code = '6'], 1, 3) = '020']" 
         mode="man">
         <xsl:param name="baseID"/>
+        
+        <xsl:variable name="fmv_docs">
+            <docs>
+                <doc>fmvFontSize.xml</doc>
+            </docs>
+        </xsl:variable>
+        
         <!--<xsl:call-template name="getmarc"/>-->
         <xsl:for-each select="marc:subfield[@code = 'a']">
             <rdamo:P30004 rdf:resource="{m2r:nomenIRI($baseID, ., ., 'isbn', 'nomen')}"/>
+            <xsl:copy-of select="m2r:fmvRdaFromMarcString(., 'marcstring', 'rdafs', 'm', $fmv_docs)"/>
+        </xsl:for-each>
+        <xsl:for-each select="marc:subfield[@code = 'q']">
+            <xsl:copy-of select="m2r:fmvRdaFromMarcString(., 'marcstring', 'rdafs', 'm', $fmv_docs)"/>
         </xsl:for-each>
         <xsl:for-each select="marc:subfield[@code = 'z']">
             <rdamo:P30004 rdf:resource="{m2r:nomenIRI($baseID, ., ., 'isbn', 'nomen')}"/>
