@@ -753,7 +753,7 @@
         mode="con" expand-text="yes">
         
         <xsl:if test="marc:subfield[@code='2']">
-            <xsl:variable name="sub2" select="../marc:subfield[@code='2'][1]"/>
+            <xsl:variable name="sub2" select="marc:subfield[@code='2'][1]"/>
             
             <xsl:variable name="linked880">
                 <xsl:if test="@tag = '345' and marc:subfield[@code = '6']">

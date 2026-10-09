@@ -11,9 +11,10 @@
             <marc:subfield code="2">rda</marc:subfield>
         </marc:datafield>
         
+        <!-- MADE UP EXAMPLE FOR CONCEPT TESTING -->
         <marc:datafield tag="345" ind1=" " ind2=" ">
             <marc:subfield code="d">full-screen</marc:subfield>
-            <marc:subfield code="2">other</marc:subfield>
+            <marc:subfield code="2">amg</marc:subfield>
         </marc:datafield>
         
         <marc:datafield tag="345" ind1=" " ind2=" ">
