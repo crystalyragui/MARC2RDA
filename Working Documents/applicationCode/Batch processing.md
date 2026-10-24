@@ -150,6 +150,14 @@ Regarding the JSON/LOADLINK mentioned above, the JSON file is stored in a privat
 
 The import of the stats RDF could be automated using the API, but I decided some cursory admin approval would be welcome: keeping the stats import separate allows for problems in the MARC2RDA pipeline to be identified and resolved before any (possibly inaccurate) stats are committed to the triplestore--it adds a deliberate boundary between the metrics being collected and the data imported to the repository.
 
+### WHAT WE CAN LEARN FROM STATS
+
+As an example of what can be learned from these statistics, I assembled the reports from the 33 processing jobs used to populate M2R-PROJECT-ALL-CATEGORIES. Together, these jobs processed 2,258,692 MARC records, of which only 615 (0.027%) were skipped. The transformations generated 39.5 million RDF resources and 246.7 million RDF triples, averaging approximately 109 triples per transformed MARC record. The transformations required a cumulative 27.2 hours, while loading the resulting files into GraphDB took another 2.7 hours. All 33 transformations completed successfully.
+
+The statistics also reveal differences that might otherwise go unnoticed. For example, the number of triples generated per MARC record varied considerably between source files, from approximately 80 to 209. These differences may reflect the kinds of resources being described, the richness of the source records, or the transformation rules being applied. The IRI validation step reported 275 errors across 20 jobs, another useful area for investigation. We can also compare the number of RDF triples generated with the number of statements reported during repository loading; this might give us some insight into the number of duplicate triples generated during transformation, and the number of triples already present in a repository, and the way GraphDB handles these. 
+
+With a standardized set of statistics, we can begin to identify unusual results, compare successive versions of the transformation code, evaluate processing performance, and establish benchmarks for future work. What began as a means of keeping track of processing jobs may turn out to be a useful tool for evaluating the transformation itself.
+
 
 ## TO DO ##
 
