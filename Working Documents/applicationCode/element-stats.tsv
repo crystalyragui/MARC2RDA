@@ -1,0 +1,413 @@
+curie	label	canonical	datatype	object	total
+-----------------------------------------------------------------------------
+rdaa:P50006	identifier for corporate body	0	2724	0	2724 
+rdaa:P50019	number of conference	0	903	0	903 
+rdaa:P50024	place of conference	0	1861	0	1861 
+rdaa:P50032	name of corporate body	0	109449	0	109449 
+rdaa:P50039	date of conference	0	2246	0	2246 
+rdaa:P50052	identifier for family	0	263	0	263 
+rdaa:P50059	hereditary term of honour	0	21	0	21 
+rdaa:P50061	name of family	0	3781	0	3781 
+rdaa:P50094	identifier for person	0	51762	0	51762 
+rdaa:P50098	period of activity of person	0	2106	0	2106 
+rdaa:P50111	name of person	0	566869	0	566869 
+rdaa:P50115	fuller form of name	0	34373	0	34373 
+rdaa:P50120	date of death	0	68990	0	68990 
+rdaa:P50121	date of birth	0	178619	0	178619 
+rdaa:P50237	category of corporate body	0	2256	0	2256 
+rdaa:P50347	related timespan of person	0	383	0	383 
+rdaa:P50355	related timespan of family	0	66	0	66 
+rdaa:P50375	access point for corporate body	0	118621	1593	120214 
+rdaa:P50376	access point for family	0	3374	532	3906 
+rdaa:P50377	access point for person	0	553232	23826	577058 
+rdaa:P50393	note on corporate body	0	1	0	1 
+rdaa:P50395	note on person	0	2	0	2 
+rdaa:P50407	authorized access point for corporate body	0	0	6347	6347 
+rdaa:P50409	authorized access point for family	0	0	5	5 
+rdae:P20001	content type	0	5	716611	716616 
+rdae:P20004	date of capture	0	132	0	132 
+rdae:P20005	award	0	1157	0	1157 
+rdae:P20006	language of expression	0	12706	730229	742935 
+rdae:P20059	manifestation of expression	0	0	760520	760520 
+rdae:P20061	form of tactile notation	0	0	1	1 
+rdae:P20062	form of notation	0	9596	0	9596 
+rdae:P20069	summarization of content	0	136257	0	136257 
+rdae:P20071	note on expression	0	68558	0	68558 
+rdae:P20209	format of notated music	0	0	1277	1277 
+rdae:P20213	additional scale information	0	28960	0	28960 
+rdae:P20214	date of expression	0	540	1	541 
+rdae:P20215	medium of performance of musical content	0	7402	15884	23286 
+rdae:P20216	projection of cartographic content	0	2939	2740	5679 
+rdae:P20218	place of capture	0	1	74	75 
+rdae:P20219	duration	0	14119	0	14119 
+rdae:P20226	horizontal scale of cartographic content	0	22641	0	22641 
+rdae:P20228	scale	0	29700	0	29700 
+rdae:P20230	vertical scale of cartographic content	0	24	0	24 
+rdae:P20231	work expressed	0	0	724428	724428 
+rdae:P20291	scale designation	0	5040	0	5040 
+rdae:P20302	related person of expression	0	0	11	11 
+rdae:P20304	related corporate body of expression	0	0	9	9 
+rdae:P20307	related timespan of expression	0	0	1	1 
+rdae:P20310	access point for expression	0	723575	0	723575 
+rdae:P20312	title of expression	0	767884	0	767884 
+rdae:P20317	prime meridian	0	5	0	5 
+rdae:P20318	relief representation	0	0	19401	19401 
+rdae:P20322	intended audience of expression	0	1	49915	49916 
+rdae:P20326	key of expression	0	453	0	453 
+rdae:P20331	category of expression	0	19173	5551	24724 
+rdae:P20338	editor person	0	0	3	3 
+rdae:P20339	draftsman person	0	0	15	15 
+rdae:P20340	colourist person	0	0	1	1 
+rdae:P20342	musical director person	0	0	5	5 
+rdae:P20343	sound designer person	0	0	5	5 
+rdae:P20345	costume designer person	0	0	2	2 
+rdae:P20346	translator person	0	0	3378	3378 
+rdae:P20350	art director person	0	0	3	3 
+rdae:P20351	performer person	0	0	2150	2150 
+rdae:P20357	abridger person	0	0	2	2 
+rdae:P20358	recordist person	0	0	8	8 
+rdae:P20359	transcriber person	0	0	17	17 
+rdae:P20364	stage director person	0	0	22	22 
+rdae:P20365	arranger person of music	0	0	243	243 
+rdae:P20366	contributor person to performance	0	0	4	4 
+rdae:P20367	contributor person to amalgamation	0	0	2	2 
+rdae:P20369	actor person	0	0	7263	7263 
+rdae:P20370	onscreen presenter person	0	0	3	3 
+rdae:P20371	dancer person	0	0	23	23 
+rdae:P20372	host person	0	0	736	736 
+rdae:P20373	moderator person	0	0	9	9 
+rdae:P20375	panelist person	0	0	6	6 
+rdae:P20376	instrumentalist person	0	0	82	82 
+rdae:P20377	commentator person	0	0	49	49 
+rdae:P20378	narrator person	0	0	1954	1954 
+rdae:P20379	storyteller person	0	0	1	1 
+rdae:P20380	speaker person	0	0	632	632 
+rdae:P20381	instructor person	0	0	27	27 
+rdae:P20382	singer person	0	0	191	191 
+rdae:P20383	conductor person	0	0	318	318 
+rdae:P20384	voice actor person	0	0	195	195 
+rdae:P20386	recording engineer person	0	0	10	10 
+rdae:P20387	letterer person	0	0	1	1 
+rdae:P20388	presenter person	0	0	61	61 
+rdae:P20390	editor person of moving image work	0	0	444	444 
+rdae:P20391	production designer person	0	0	6	6 
+rdae:P20394	animator person	0	0	13	13 
+rdae:P20464	translator corporate body	0	0	22	22 
+rdae:P20469	performer corporate body	0	0	759	759 
+rdae:P20487	actor corporate body	0	0	1	1 
+rdae:P20490	host corporate body	0	0	2	2 
+rdae:P20494	instrumentalist corporate body	0	0	28	28 
+rdae:P20498	speaker corporate body	0	0	2	2 
+rdae:P20500	singer corporate body	0	0	17	17 
+rdae:P20506	presenter corporate body	0	0	253	253 
+rdae:P20508	editor corporate body of moving image work	0	0	1	1 
+rdae:P20572	designation of version	0	1099	0	1099 
+rdae:P20576	expression described with metadata by	0	0	751668	751668 
+rdai:P40001	identifier for item	0	36438	0	36438 
+rdai:P40014	inscriber	0	0	166	166 
+rdai:P40015	annotator	0	0	6	6 
+rdai:P40016	autographer	0	0	12	12 
+rdai:P40026	custodial history of item	0	1200	0	1200 
+rdai:P40028	note on item	0	21624	0	21624 
+rdai:P40047	restriction on access to item	0	1074	0	1074 
+rdai:P40048	restriction on use of item	0	36	0	36 
+rdai:P40049	manifestation exemplified	0	0	36438	36438 
+rdai:P40050	immediate source of acquisition of item	0	3334	0	3334 
+rdai:P40069	related work of item	0	11	0	11 
+rdai:P40073	related person of item	0	0	28	28 
+rdai:P40075	related corporate body of item	0	0	8726	8726 
+rdai:P40086	variant title of item	0	24	0	24 
+rdai:P40098	binder person	0	0	29	29 
+rdai:P40100	illuminator person	0	0	1	1 
+rdai:P40102	former owner person	0	0	179	179 
+rdai:P40108	donor person	0	0	35	35 
+rdai:P40130	binder corporate body	0	0	10	10 
+rdai:P40134	former owner corporate body	0	0	59	59 
+rdai:P40139	depositor corporate body	0	0	2	2 
+rdai:P40140	donor corporate body	0	0	7	7 
+rdai:P40141	seller corporate body	0	0	1	1 
+rdai:P40161	holding of	0	0	30016	30016 
+rdai:P40164	item described with metadata by	0	0	9	9 
+rdam:P30001	carrier type	0	11	1480588	1480599 
+rdam:P30002	media type	0	24	499185	499209 
+rdam:P30003	mode of issuance	0	0	36592	36592 
+rdam:P30004	identifier for manifestation	0	755992	2962309	3718301 
+rdam:P30005	preferred citation	0	60	0	60 
+rdam:P30006	regional encoding	0	55	1227	1282 
+rdam:P30007	copyright date	0	52799	0	52799 
+rdam:P30008	date of distribution	0	3482	0	3482 
+rdam:P30009	date of production	0	62257	0	62257 
+rdam:P30010	date of manufacture	0	1497	0	1497 
+rdam:P30011	date of publication	0	758545	0	758545 
+rdam:P30018	file type	0	238	8110	8348 
+rdam:P30026	also issued as	0	14018	0	14018 
+rdam:P30043	reproduction of manifestation of	0	0	5196	5196 
+rdam:P30055	note on publication statement	0	233	0	233 
+rdam:P30065	publisher number for notated music	0	0	3156	3156 
+rdam:P30066	plate number for notated music	0	89	3423	3512 
+rdam:P30085	place of distribution	0	4412	0	4412 
+rdam:P30086	place of production	0	522	0	522 
+rdam:P30087	place of manufacture	0	7050	1	7051 
+rdam:P30088	place of publication	0	751242	14	751256 
+rdam:P30096	encoding format	0	448	3474	3922 
+rdam:P30102	digital representation of cartographic content	0	197	0	197 
+rdam:P30103	exemplar of manifestation	0	0	36439	36439 
+rdam:P30104	video format	0	10	9933	9943 
+rdam:P30105	statement of responsibility relating to title proper	0	711577	0	711577 
+rdam:P30106	series statement	0	100031	0	100031 
+rdam:P30107	edition statement	0	157282	0	157282 
+rdam:P30108	distribution statement	0	3266	0	3266 
+rdam:P30109	manufacture statement	0	8261	0	8261 
+rdam:P30110	production statement	0	62352	0	62352 
+rdam:P30111	publication statement	0	726223	0	726223 
+rdam:P30121	statement of responsibility relating to edition	0	868	0	868 
+rdam:P30123	broadcast standard	0	32	1841	1873 
+rdam:P30124	digital file characteristic	0	0	122	122 
+rdam:P30125	sound characteristic	0	0	9793	9793 
+rdam:P30128	variant title of manifestation	0	53612	0	53612 
+rdam:P30133	designation of edition	0	146102	0	146102 
+rdam:P30135	work manifested	0	0	759471	759471 
+rdam:P30136	electronic reproduction of manifestation of	0	0	8791	8791 
+rdam:P30137	note on manifestation	0	2256767	2	2256769 
+rdam:P30138	special playback characteristic	0	220	5130	5350 
+rdam:P30139	expression manifested	0	0	760520	760520 
+rdam:P30141	contact information	0	1	0	1 
+rdam:P30142	other title information	0	375843	0	375843 
+rdam:P30145	restriction on access to manifestation	0	80	59	139 
+rdam:P30146	restriction on use of manifestation	0	2379	0	2379 
+rdam:P30154	Uniform Resource Locator	0	0	4575	4575 
+rdam:P30156	title proper	0	813639	0	813639 
+rdam:P30159	resolution	0	12	446	458 
+rdam:P30160	term of availability	0	80887	0	80887 
+rdam:P30161	track configuration	0	1	1	2 
+rdam:P30162	equipment or system requirement	0	10028	0	10028 
+rdam:P30163	presentation format	0	0	358	358 
+rdam:P30164	groove characteristic	0	0	4345	4345 
+rdam:P30169	dimensions	0	22693	0	22693 
+rdam:P30172	type of recording	0	28	4399	4427 
+rdam:P30173	name of distributor	0	5363	0	5363 
+rdam:P30174	name of producer	0	471	0	471 
+rdam:P30175	name of manufacturer	0	7185	0	7185 
+rdam:P30176	name of publisher	0	722433	0	722433 
+rdam:P30182	extent of manifestation	0	752097	0	752097 
+rdam:P30183	file size	0	1	0	1 
+rdam:P30184	configuration of playback channels	0	15	13693	13708 
+rdam:P30185	tape configuration	0	18	2423	2441 
+rdam:P30187	production method	0	28	3758	3786 
+rdam:P30191	generation	0	1	13707	13708 
+rdam:P30196	polarity	0	0	3835	3835 
+rdam:P30197	bibliographic format	0	0	11	11 
+rdam:P30198	reduction ratio	0	0	968	968 
+rdam:P30199	font size	0	2	8627	8629 
+rdam:P30201	playing speed	0	25	11785	11810 
+rdam:P30206	recording medium	0	57	12951	13008 
+rdam:P30254	manifestation described by	0	20569	0	20569 
+rdam:P30261	cartographic data type	0	200	0	200 
+rdam:P30263	reduction ratio designation	0	0	729	729 
+rdam:P30265	related work of manifestation	0	17777	9748	27525 
+rdam:P30267	related agent of manifestation	0	10	0	10 
+rdam:P30268	related person of manifestation	0	0	113820	113820 
+rdam:P30269	related family of manifestation	0	0	16	16 
+rdam:P30270	related corporate body of manifestation	0	0	141721	141721 
+rdam:P30272	related place of manifestation	0	0	2132	2132 
+rdam:P30273	related timespan of manifestation	0	0	2	2 
+rdam:P30276	access point for manifestation	0	763096	0	763096 
+rdam:P30278	date of manifestation	0	12170	1	12171 
+rdam:P30279	place of manifestation	0	2302	747944	750246 
+rdam:P30280	manifestation copyright statement	0	56649	0	56649 
+rdam:P30297	name of agent of manifestation	0	2292	0	2292 
+rdam:P30304	material	0	41	48592	48633 
+rdam:P30305	intended audience of manifestation	0	1	641	642 
+rdam:P30307	groove pitch	0	0	1	1 
+rdam:P30308	groove width	0	0	4131	4131 
+rdam:P30335	category of manifestation	0	1268588	235829	1504417 
+rdam:P30336	contributor person to aggregate	0	0	2610	2610 
+rdam:P30337	surveyor person	0	0	73	73 
+rdam:P30343	contributor person of still image	0	0	1708	1708 
+rdam:P30344	contributor person of text	0	0	117	117 
+rdam:P30348	film distributor person	0	0	4	4 
+rdam:P30349	book designer person	0	0	173	173 
+rdam:P30350	engraver person	0	0	100	100 
+rdam:P30354	lithographer person	0	0	16	16 
+rdam:P30356	etcher person	0	0	4	4 
+rdam:P30358	printer person	0	0	573	573 
+rdam:P30359	distributor person	0	0	46	46 
+rdam:P30360	producer person of unpublished manifestation	0	0	2	2 
+rdam:P30361	manufacturer person	0	0	1	1 
+rdam:P30362	publisher person	0	0	276	276 
+rdam:P30364	papermaker person	0	0	9	9 
+rdam:P30384	platemaker collective agent	0	52	0	52 
+rdam:P30394	contributor corporate body to aggregate	0	0	3875	3875 
+rdam:P30395	surveyor corporate body	0	0	1	1 
+rdam:P30401	contributor corporate body of still image	0	0	6	6 
+rdam:P30405	broadcaster corporate body	0	0	17	17 
+rdam:P30406	film distributor corporate body	0	0	642	642 
+rdam:P30407	book designer corporate body	0	0	9	9 
+rdam:P30408	engraver corporate body	0	0	31	31 
+rdam:P30411	caster corporate body	0	0	1	1 
+rdam:P30412	lithographer corporate body	0	0	35	35 
+rdam:P30416	printer corporate body	0	0	361	361 
+rdam:P30417	distributor corporate body	0	0	138	138 
+rdam:P30419	manufacturer corporate body	0	0	8	8 
+rdam:P30420	publisher corporate body	0	0	4135	4135 
+rdam:P30422	papermaker corporate body	0	0	11	11 
+rdam:P30449	publisher family	0	0	1	1 
+rdam:P30452	accessibility content	0	12	0	12 
+rdam:P30453	illustrative content	0	106	392410	392516 
+rdam:P30454	sound content	0	0	11270	11270 
+rdam:P30455	supplementary content	0	286692	173569	460261 
+rdam:P30456	colour content	0	543	43183	43726 
+rdam:P30462	manifestation described with metadata by	0	0	769583	769583 
+rdan:P80026	access point for timespan of	0	271	0	271 
+rdan:P80067	context of use	0	6348	0	6348 
+rdan:P80068	nomen string	0	3197304	12	3197316 
+rdan:P80069	scheme of nomen	907583	20320	0	927903 
+rdan:P80071	note on nomen	1842417	604950	0	2447367 
+rdan:P80073	assigned by agent	6339	15329	0	21668 
+rdan:P80075	assigned by corporate body	0	0	15697	15697 
+rdan:P80078	category of nomen	0	17855	0	17855 
+rdan:P80113	equivalent to	0	1144	0	1144 
+rdan:P80166	date of usage	1703	0	0	1703 
+rdan:P80168	status of identification	130809	0	100118	230927 
+rdap:P70018	access point for place	0	834	148166	149000 
+rdap:P70019	appellation of place	0	2136	112	2248 
+rdap:P70020	identifier for place	0	0	16544	16544 
+rdap:P70045	authorized access point for place	0	0	30166	30166 
+rdat:P70009	related nomen of timespan	0	0	12	12 
+rdat:P70015	access point for timespan	0	3329	21865	25194 
+rdat:P70016	appellation of timespan	0	199	2	201 
+rdat:P70018	identifier for timespan	0	22	0	22 
+rdat:P70039	beginning	0	199	0	199 
+rdat:P70040	ending	0	199	0	199 
+rdat:P70045	note on timespan	0	199	0	199 
+rdaw:P10001	respondent	0	0	5	5 
+rdaw:P10002	identifier for work	0	766845	0	766845 
+rdaw:P10004	category of work	0	826234	1398509	2224743 
+rdaw:P10005	appellee corporate body	0	0	1	1 
+rdaw:P10006	degree granting institution	0	59787	1	59788 
+rdaw:P10007	hosting institution	0	0	64	64 
+rdaw:P10008	production company	0	0	1954	1954 
+rdaw:P10009	appellant corporate body	0	0	5	5 
+rdaw:P10010	plaintiff corporate body	0	0	7	7 
+rdaw:P10017	enacting government	0	0	37	37 
+rdaw:P10024	coordinates of cartographic content	0	1	0	1 
+rdaw:P10035	appellee person	0	0	2	2 
+rdaw:P10036	medium	0	0	13	13 
+rdaw:P10041	degree supervisor	0	0	4	4 
+rdaw:P10042	appellant person	0	0	7	7 
+rdaw:P10043	plaintiff person	0	0	6	6 
+rdaw:P10044	judge	0	0	5	5 
+rdaw:P10053	composer agent of work	0	7	0	7 
+rdaw:P10072	manifestation of work	0	0	759471	759471 
+rdaw:P10077	academic degree	0	58104	0	58104 
+rdaw:P10078	expression of work	0	0	724428	724428 
+rdaw:P10081	longitude and latitude	0	6960	0	6960 
+rdaw:P10082	right ascension and declination	0	3	0	3 
+rdaw:P10084	system of organization	0	1	0	1 
+rdaw:P10088	title of work	0	801260	0	801260 
+rdaw:P10102	issue of	0	0	1862	1862 
+rdaw:P10198	related work of work	0	0	774	774 
+rdaw:P10204	lyricist agent	0	9	0	9 
+rdaw:P10209	dissertation or thesis information	0	3109	0	3109 
+rdaw:P10214	equinox	0	2	0	2 
+rdaw:P10215	year degree granted	0	35290	0	35290 
+rdaw:P10216	coverage of content	0	15	2649	2664 
+rdaw:P10217	intended audience of representative expression	0	0	26	26 
+rdaw:P10219	date of work	0	390	1078	1468 
+rdaw:P10220	medium of performance of musical content of representative expression	0	57	5	62 
+rdaw:P10221	key of representative expression	0	475	0	475 
+rdaw:P10222	nature of content	0	0	10500	10500 
+rdaw:P10256	subject	0	9386	3212840	3222226 
+rdaw:P10257	subject work	0	0	25772	25772 
+rdaw:P10261	subject person	0	5	76311	76316 
+rdaw:P10262	subject family	0	0	6240	6240 
+rdaw:P10263	subject corporate body	0	25	49116	49141 
+rdaw:P10285	defendant corporate body	0	0	9	9 
+rdaw:P10286	defendant person	0	0	25	25 
+rdaw:P10292	participant in treaty	0	0	4	4 
+rdaw:P10300	latitude	0	6901	0	6901 
+rdaw:P10301	longitude	0	6906	0	6906 
+rdaw:P10312	related person of work	0	0	354551	354551 
+rdaw:P10313	related family of work	0	0	276	276 
+rdaw:P10314	related corporate body of work	0	0	97339	97339 
+rdaw:P10316	related place of work	0	1670	2475	4145 
+rdaw:P10317	related timespan of work	0	0	221	221 
+rdaw:P10321	subject place	0	9	706852	706861 
+rdaw:P10322	subject timespan	0	4	21203	21207 
+rdaw:P10328	access point for work	0	729136	5195	734331 
+rdaw:P10330	note on work	0	3084	0	3084 
+rdaw:P10333	opus number	0	474	0	474 
+rdaw:P10334	serial number of musical work	0	8	0	8 
+rdaw:P10335	thematic index number	0	15	11	26 
+rdaw:P10348	colour content of representative expression	0	2	2	4 
+rdaw:P10349	content type of representative expression	0	0	4180	4180 
+rdaw:P10351	duration of representative expression	0	1	0	1 
+rdaw:P10353	language of representative expression	0	294	4004	4298 
+rdaw:P10355	projection of cartographic content of representative expression	0	11	10	21 
+rdaw:P10356	scale of representative expression	0	35	0	35 
+rdaw:P10365	extension plan	0	0	459	459 
+rdaw:P10366	ISSN	0	16	0	16 
+rdaw:P10368	frequency	0	0	2927	2927 
+rdaw:P10400	identifier for work group	0	755405	0	755405 
+rdaw:P10413	addressee person	0	0	126	126 
+rdaw:P10415	director person of photography	0	0	179	179 
+rdaw:P10416	researcher person	0	0	30	30 
+rdaw:P10418	film director person	0	0	1343	1343 
+rdaw:P10420	television director person	0	0	191	191 
+rdaw:P10422	film producer person	0	0	1303	1303 
+rdaw:P10423	radio producer person	0	0	2	2 
+rdaw:P10424	television producer person	0	0	226	226 
+rdaw:P10426	calligrapher person	0	0	28	28 
+rdaw:P10427	sculptor person	0	0	3	3 
+rdaw:P10429	screenwriter person	0	0	2568	2568 
+rdaw:P10430	lyricist person	0	1	4090	4091 
+rdaw:P10431	librettist person	0	0	370	370 
+rdaw:P10433	honouree person of work	0	0	3	3 
+rdaw:P10434	choreographer person	0	0	9	9 
+rdaw:P10435	cartographer person of work	0	0	1068	1068 
+rdaw:P10436	author person	0	0	213941	213941 
+rdaw:P10438	architect person	0	0	46	46 
+rdaw:P10441	designer person	0	0	22	22 
+rdaw:P10442	composer person of work	0	1	8884	8885 
+rdaw:P10444	compiler person	0	0	11	11 
+rdaw:P10445	photographer person of work	0	0	364	364 
+rdaw:P10450	filmmaker person	0	0	37	37 
+rdaw:P10451	artist person	0	0	1765	1765 
+rdaw:P10454	producer person	0	0	1486	1486 
+rdaw:P10455	director person	0	0	1600	1600 
+rdaw:P10456	issuing person	0	0	9	9 
+rdaw:P10457	organizer person	0	0	2	2 
+rdaw:P10458	consultant person	0	0	9	9 
+rdaw:P10507	addressee corporate body	0	0	520	520 
+rdaw:P10510	researcher corporate body	0	0	2	2 
+rdaw:P10512	film director corporate body	0	0	1	1 
+rdaw:P10514	television director corporate body	0	0	1	1 
+rdaw:P10516	film producer corporate body	0	0	13	13 
+rdaw:P10518	television producer corporate body	0	0	1	1 
+rdaw:P10523	screenwriter corporate body	0	0	3	3 
+rdaw:P10524	lyricist corporate body	0	0	7	7 
+rdaw:P10528	choreographer corporate body	0	0	1	1 
+rdaw:P10529	cartographer corporate body of work	0	0	6280	6280 
+rdaw:P10530	author corporate body	0	0	6786	6786 
+rdaw:P10531	creator corporate body of work	0	0	2	2 
+rdaw:P10532	architect corporate body	0	0	11	11 
+rdaw:P10533	commissioning corporate body	0	0	2	2 
+rdaw:P10535	designer corporate body	0	0	1	1 
+rdaw:P10536	composer corporate body of work	0	0	90	90 
+rdaw:P10538	compiler corporate body	0	0	18	18 
+rdaw:P10539	photographer corporate body of work	0	0	6	6 
+rdaw:P10542	aggregator corporate body	0	0	21	21 
+rdaw:P10545	artist corporate body	0	0	6	6 
+rdaw:P10548	producer corporate body	0	0	21	21 
+rdaw:P10550	issuing corporate body	0	0	6996	6996 
+rdaw:P10551	organizer corporate body	0	0	24	24 
+rdaw:P10552	consultant corporate body	0	0	17	17 
+rdaw:P10577	author family	0	0	5	5 
+rdaw:P10605	sponsoring corporate body of work	0	0	24	24 
+rdaw:P10615	metadata description of expression	0	0	751668	751668 
+rdaw:P10617	metadata description of manifestation	0	0	769581	769581 
+rdaw:P10621	metadata description of work	0	0	755442	755442 
+rdaw:P10623	work described with metadata by	0	0	755442	755442 
+rdaw:P10631	collector corporate body	0	0	46	46 
+rdaw:P10633	collector person	0	0	14	14 
+rdaw:P10634	collection registrar agent	0	1	0	1 
