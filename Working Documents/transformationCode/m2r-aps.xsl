@@ -184,13 +184,15 @@
     
     <xsl:function name="m2r:manifVersion">
         <xsl:param name="record"/>
-        <xsl:for-each select="$record/marc:datafield[@tag = '250']/marc:subfield[@code = 's'] | $record/marc:datafield[@tag = '250']/marc:subfield[@code = 'a'][not(matches(lower-case(.), 'first edition|first ed.|1st edition|1st ed.'))]">
-            <xsl:if test="./@code = 's'">
-                <xsl:value-of select="m2r:stripEndPunctuation(upper-case(substring(., 1, 1))||substring(., 2))"/>
-            </xsl:if>
-            <xsl:if test="./@code = 'a'">
-                <xsl:value-of select="m2r:stripEndPunctuation(upper-case(substring(., 1, 1))||substring(., 2))"/>
-            </xsl:if>
+        <xsl:for-each select="$record/marc:datafield[@tag = '245']/marc:subfield[@code = 's'] | $record/marc:datafield[@tag = '250']/marc:subfield[@code = 'a'][not(matches(lower-case(.), 'first edition|first ed.|1st edition|1st ed.'))]">
+            <xsl:choose>
+                <xsl:when test="$record/marc:datafield[@tag = '250']/marc:subfield[@code = 'a'][not(matches(lower-case(.), 'first edition|first ed.|1st edition|1st ed.'))]">
+                    <xsl:value-of select="m2r:stripEndPunctuation(upper-case(substring(., 1, 1))||substring(., 2))"/>
+                </xsl:when>
+                <xsl:when test="$record/marc:datafield[@tag = '245']/marc:subfield[@code = 's']">
+                    <xsl:value-of select="m2r:stripEndPunctuation(upper-case(substring(., 1, 1))||substring(., 2))"/>
+                </xsl:when>
+            </xsl:choose>
             <xsl:if test="position() != last()">
                 <xsl:text> : </xsl:text>
             </xsl:if>
