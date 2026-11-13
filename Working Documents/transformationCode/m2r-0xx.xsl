@@ -2749,8 +2749,9 @@
                 <xsl:when test="contains(., 'id.loc.gov/authorities/names/')">
                     <xsl:variable name="gac" select="m2r:lcNamesToGeographicAreas(.)"/>
                     <xsl:choose>
-                        <xsl:when test="$gac">
-                            <rdawo:P10321 rdf:resource="{concat('http://id.loc.gov/vocabulary/geographicAreas/', replace($gac,'-+$',''))}"/>
+                        <xsl:when test="$gac != ''">
+                            <xsl:message>{$gac}</xsl:message>
+                            <rdawo:P10321 rdf:resource="{concat('http://id.loc.gov/vocabulary/geographicAreas/', replace($gac[1],'-+$',''))}"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:comment>Geographic Area Code could not be retrieved from {.}</xsl:comment>
@@ -2771,7 +2772,8 @@
                     <xsl:variable name="gac" select="m2r:lcNamesToGeographicAreas(.)"/>
                     <xsl:choose>
                         <xsl:when test="$gac != ''">
-                            <rdawo:P10321 rdf:resource="{concat('http://id.loc.gov/vocabulary/geographicAreas/', replace($gac,'-+$',''))}"/>
+                            <xsl:message>{$gac}</xsl:message>
+                            <rdawo:P10321 rdf:resource="{concat('http://id.loc.gov/vocabulary/geographicAreas/', replace($gac[1],'-+$',''))}"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:comment>Geographic Area Code could not be retrieved from {.}</xsl:comment>
@@ -2787,7 +2789,8 @@
                     <xsl:variable name="gac" select="m2r:lcNamesToGeographicAreas($authorityFile)"/>
                     <xsl:choose>
                         <xsl:when test="$gac != ''">
-                            <rdawo:P10321 rdf:resource="{concat('http://id.loc.gov/vocabulary/geographicAreas/', replace($gac,'-+$',''))}"/>
+                            <xsl:message>{$gac}</xsl:message>
+                            <rdawo:P10321 rdf:resource="{concat('http://id.loc.gov/vocabulary/geographicAreas/', replace($gac[1],'-+$',''))}"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:comment>Geographic Area Code could not be retrieved from {$authorityFile}</xsl:comment>

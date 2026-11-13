@@ -189,7 +189,7 @@
             <xsl:when test="not(matches(@ind2, '[012356]')) and not(marc:subfield[@code = '2'])">
                 <xsl:choose>
                     <!-- no $0 or $1 to use, use datatype property and string value -->
-                    <xsl:when test="starts-with(m2r:subjectIRI(., $scheme, $prefLabel), 'http://marc2rda.edu')">
+                    <xsl:when test="starts-with(m2r:subjectIRI(., $scheme, $prefLabel), $BASE)">
                         <rdawd:P10256>
                             <xsl:value-of select="$prefLabel"/>
                         </rdawd:P10256>

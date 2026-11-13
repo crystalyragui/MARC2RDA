@@ -1100,7 +1100,7 @@
         <xsl:if test="$char05 = ' '">
             <xsl:choose>
                 <xsl:when test="$char00 = 'c' or $char00 = 'g' or $char00 = 'v'">
-                    <rdamo:P30454 rdf:resource="{'https://www.rdaregistry.info/termList/soundCont/#1002'}"/>
+                    <rdamo:P30454 rdf:resource="{'http://rdaregistry.info/termList/soundCont/1002'}"/>
                 </xsl:when>
                 <xsl:when test="$char00 = 'm'">
                     <rdamo:P30454 rdf:resource="{'https://doi.org/10.6069/uwlswd.adnr-df48#pound'}"/>
@@ -1110,7 +1110,7 @@
         <xsl:if test="$char05 = 'a'">
             <xsl:choose>
                 <xsl:when test="$char00 = 'c'">
-                    <rdamo:P30454 rdf:resource="{'https://www.rdaregistry.info/termList/soundCont/#1001'}"/>
+                    <rdamo:P30454 rdf:resource="{'http://rdaregistry.info/termList/soundCont/1001'}"/>
                 </xsl:when>
                 <xsl:when test="$char00 = 'h'">
                     <rdamo:P30263 rdf:resource="{'http://rdaregistry.info/termList/RDAReductionRatio/1001'}"/>
