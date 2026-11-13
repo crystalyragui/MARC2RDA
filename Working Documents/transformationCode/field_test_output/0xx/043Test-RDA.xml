@@ -19,6 +19,7 @@
 F001 043-test1
 F043 ## $a n-usm-- $b s-bl-ba $2 cagraq $b e-fr--- $2 marcgac $c us $c can $0 http://id.loc.gov/vocabulary/geographicAreas/n-usm $0 https://id.loc.gov/authorities/names/n78095330 $0 test $1 http://www.wikidata.org/wiki/Q30 $1 http://id.loc.gov/rwo/agents/n80125931
 F043 ## $a e-uk--- ; $a u-at---
+F043 ## $a e-ur--- $0 http://id.loc.gov/authorities/names/n80001203
 F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
 </rdamd:P30137><!--rdamd:P30137 = has note on manifestation-->
    </rdf:Description>
@@ -32,12 +33,14 @@ F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
       <rdawo:P10321 rdf:resource="http://marc2rda.info/testing/iso3166/pla#us"/><!--rdawo:P10321 = has subject place-->
       <rdawo:P10321 rdf:resource="http://marc2rda.info/testing/iso3166/pla#can"/><!--rdawo:P10321 = has subject place-->
       <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-usm"/><!--rdawo:P10321 = has subject place-->
-      <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/n-us--- n------ n-us"/><!--rdawo:P10321 = has subject place-->
+      <!--Geographic Area Code could not be retrieved from https://id.loc.gov/authorities/names/n78095330-->
       <!--Unable to parse 043 $0 value of test-->
       <rdawo:P10321 rdf:resource="http://www.wikidata.org/wiki/Q30"/><!--rdawo:P10321 = has subject place-->
-      <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/e-gx--- e------ ew----- e-gx--- e-au--- e-lh--- e-lu--- e-sz--- e------ e-gx--- e-ge--- e-gx--- e-gw--- e-gw--- e-ge--- e-gx--- e-gw--- e"/><!--rdawo:P10321 = has subject place-->
+      <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/e-gx"/><!--rdawo:P10321 = has subject place-->
       <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/e-uk"/><!--rdawo:P10321 = has subject place-->
       <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/u-at"/><!--rdawo:P10321 = has subject place-->
+      <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/e-ur"/><!--rdawo:P10321 = has subject place-->
+      <rdawo:P10321 rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/e-ur"/><!--rdawo:P10321 = has subject place-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/exp#">
       <rdf:type rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>

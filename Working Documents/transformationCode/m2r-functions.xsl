@@ -814,7 +814,7 @@
     <xsl:function name="m2r:lcNamesToGeographicAreas" expand-text="yes">
         <xsl:param name="nameIRI"/>
         <xsl:variable name="nameFile" select="document(concat($nameIRI, '.rdf'))"/>
-        <xsl:value-of select="$nameFile//madsrdf:code[@rdf:datatype = 'http://id.loc.gov/datatypes/codes/gac']"/>
+        <xsl:copy-of select="$nameFile//madsrdf:Geographic[@rdf:about=$nameIRI]/madsrdf:code[@rdf:datatype = 'http://id.loc.gov/datatypes/codes/gac']/text()"/>
     </xsl:function>
     
 <!-- string functions -->
