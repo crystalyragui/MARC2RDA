@@ -1,0 +1,14 @@
+Oct 4-7
+
+- removed perl dependency on Const::Exporter 
+
+- changed the names of the 'run tests' in the 'Installation' doc:
+Eg. run_perl_tests.bat -> run-perl-tests.bat
+
+- simplified perl/python installation steps
+
+- removed requirement to edit environment variables
+
+- added an import to the python scripts (to obviate need to use environment var)
+
+(Many thanks to Cerberus Forbes for pointing out the flaws in initial release)

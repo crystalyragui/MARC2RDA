@@ -1096,19 +1096,25 @@
                         <xsl:text>; </xsl:text>
                     </xsl:if>
                     <xsl:if test="marc:subfield[@code='b']">
-                        <xsl:text>Postal address: </xsl:text>
-                        <xsl:value-of select="normalize-space(replace(marc:subfield[@code='b'], '[.;:,]\s*$', ''))"/>
-                        <xsl:text>; </xsl:text>
+                        <xsl:for-each select="marc:subfield[@code='b']">
+                            <xsl:text>Postal address: </xsl:text>
+                            <xsl:value-of select="normalize-space(replace(., '[.;:,]\s*$', ''))"/>
+                            <xsl:text>; </xsl:text>
+                        </xsl:for-each>
                     </xsl:if>
                     <xsl:if test="marc:subfield[@code='c']">
-                        <xsl:text>Country: </xsl:text>
-                        <xsl:value-of select="normalize-space(replace(marc:subfield[@code='c'], '[.;:,]\s*$', ''))"/>
-                        <xsl:text>; </xsl:text>
+                        <xsl:for-each select="marc:subfield[@code='c']">
+                            <xsl:text>Country: </xsl:text>
+                            <xsl:value-of select="normalize-space(replace(., '[.;:,]\s*$', ''))"/>
+                            <xsl:text>; </xsl:text>
+                        </xsl:for-each>
                     </xsl:if>
                     <xsl:if test="marc:subfield[@code='d']">
-                        <xsl:text>Telecommunications: </xsl:text>
-                        <xsl:value-of select="normalize-space(replace(marc:subfield[@code='d'], '[.;:,]\s*$', ''))"/>
-                        <xsl:text>; </xsl:text>
+                        <xsl:for-each select="marc:subfield[@code='d']">
+                            <xsl:text>Telecommunications: </xsl:text>
+                            <xsl:value-of select="normalize-space(replace(., '[.;:,]\s*$', ''))"/>
+                            <xsl:text>; </xsl:text>
+                        </xsl:for-each>
                     </xsl:if>
                     <xsl:if test="marc:subfield[@code='g']">
                         <xsl:text>Repository code: </xsl:text>

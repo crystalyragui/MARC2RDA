@@ -1347,7 +1347,11 @@
    <pattern>
       <sort>76</sort>
       <id>70</id>
+<<<<<<< HEAD:Working Documents/transformationCode/lookup/aggregateLookups/aggregatePatterns.xml
       <name>130$l 240$l Mult. languages</name>
+=======
+       <name>130$l 240$l Mult. languages</name>
+>>>>>>> 4652b0f03d5d0745785c6532c0b7b4facc94b514:Working Documents/transformationCode/lookup/aggregatePatterns.xml
       <type>PAM</type>
       <xpath>
             (
