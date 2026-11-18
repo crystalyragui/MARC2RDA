@@ -15,12 +15,12 @@
       <rdamd:P30335>metadata manifestation</rdamd:P30335><!--rdamd:P30335 = has category of manifestation-->
       <rdamd:P30004>man#marc043-test1</rdamd:P30004><!--rdamd:P30004 = has identifier for manifestation-->
       <rdamo:P30001 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1018"/><!--rdamo:P30001 = has carrier type-->
-      <rdamd:P30137>F 11111nam a2200553ui 4500
-F001 043-test1
-F043 ## $a n-usm-- $b s-bl-ba $2 cagraq $b e-fr--- $2 marcgac $c us $c can $0 http://id.loc.gov/vocabulary/geographicAreas/n-usm $0 https://id.loc.gov/authorities/names/n78095330 $0 test $1 http://www.wikidata.org/wiki/Q30 $1 http://id.loc.gov/rwo/agents/n80125931
-F043 ## $a e-uk--- ; $a u-at---
-F043 ## $a e-ur--- $0 http://id.loc.gov/authorities/names/n80001203
-F336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
+      <rdamd:P30137> 11111nam a2200553ui 4500
+001 043-test1
+043 ## $a n-usm-- $b s-bl-ba $2 cagraq $b e-fr--- $2 marcgac $c us $c can $0 http://id.loc.gov/vocabulary/geographicAreas/n-usm $0 https://id.loc.gov/authorities/names/n78095330 $0 test $1 http://www.wikidata.org/wiki/Q30 $1 http://id.loc.gov/rwo/agents/n80125931
+043 ## $a e-uk--- ; $a u-at---
+043 ## $a e-ur--- $0 http://id.loc.gov/authorities/names/n80001203
+336 ## $1 http://rdaregistry.info/termList/RDAContentType/1020
 </rdamd:P30137><!--rdamd:P30137 = has note on manifestation-->
    </rdf:Description>
    <rdf:Description rdf:about="http://marc2rda.info/testing/wor#">

@@ -25,7 +25,7 @@
     <xsl:template name="getmarc">
        <!-- <xsl:comment>MARC data begins</xsl:comment>-->
         <xsl:element name="{'fake:marcfield'}">
-            <xsl:value-of select="'F'||@tag"/>
+            <xsl:value-of select="@tag"/>
             <xsl:text> </xsl:text>
             <xsl:if test="@ind1 != ' '">
                 <xsl:value-of select="@ind1"/>
@@ -63,7 +63,7 @@
     <xsl:template name="getmarcRecord">
         <xsl:param name="record"/>
         <xsl:for-each select="$record/child::*">
-            <xsl:value-of select="'F'||@tag"/>
+            <xsl:value-of select="@tag"/>
             <xsl:text> </xsl:text>
             <xsl:if test="@ind1 != ' '">
                 <xsl:value-of select="@ind1"/>
