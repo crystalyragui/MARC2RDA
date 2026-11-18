@@ -23,5 +23,9 @@
             <marc:subfield code="a">e-uk--- ;</marc:subfield>
             <marc:subfield code="a">u-at---</marc:subfield>
         </marc:datafield>
+        <marc:datafield tag="043" ind1=" " ind2=" ">
+            <marc:subfield code="a">e-ur---</marc:subfield>
+            <marc:subfield code="0">http://id.loc.gov/authorities/names/n80001203</marc:subfield>
+        </marc:datafield>
     </marc:record>
 </marc:collection>
