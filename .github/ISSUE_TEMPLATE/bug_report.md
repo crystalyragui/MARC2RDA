@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report to help us improve
 title: "[BUG]"
 labels: BUG
-assignees: CECSpecialistI, cspayne
+assignees: CECSpecialistI, cspayne, lycanlibrarian
 
 ---
 
