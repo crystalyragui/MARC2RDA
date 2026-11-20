@@ -6,12 +6,12 @@
     exclude-result-prefixes="marc xs m2r" 
     version="3.0">
     
+    <xsl:variable name="patterns" select="document('lookup/aggregateLookups/aggregatePatterns.xml')/patterns/pattern" />
     <xsl:variable name="listTextsCCT" select="document('lookup/aggregateLookups/ListTextsCCT.xml')/items/item"/>
     <xsl:variable name="listAgentE" select="document('lookup/aggregateLookups/ListAgent$eAggregators.xml')/items/item"/>
     <xsl:variable name="listAgent4" select="document('lookup/aggregateLookups/ListAgent$4Aggregators.xml')/items/item"/>
     <xsl:variable name="listMusicCCT_MLA_Type_Plural" select="document('lookup/aggregateLookups/ListMusicCCT-MLA_Type_Plural.xml')/items/item"/>
     <xsl:variable name="listMusicCCT_MLA_Medium" select="document('lookup/aggregateLookups/ListMusicCCT-MLA_Medium.xml')/items/item"/>
-    <xsl:variable name="patterns" select="document('lookup/aggregateLookups/aggregatePatterns.xml')/patterns/pattern" />
     <xsl:variable name="List245aCollectionTerms" select="document('lookup/aggregateLookups/List245aCollectionTerms.xml')/items/item"/>
     <xsl:variable name="List245bCollectionTerms" select="document('lookup/aggregateLookups/List245bCollectionTerms.xml')/items/item"/>
     <xsl:variable name="List245cCollectionTerms" select="document('lookup/aggregateLookups/List245cCollectionTerms.xml')/items/item"/>
@@ -38,6 +38,7 @@
     <xsl:template name="append-aggregates" expand-text="yes">
         <xsl:param name="wemi"/>
         <xsl:variable name="record" select="."/>
+        <xsl:variable name="lang" select="'en'"/>
 
         <!--
         the block below is an additional iteration for appending review names in the spreadsheet
@@ -47,6 +48,7 @@
         <xsl:iterate select="$patterns">
             <xsl:variable name="isMatched" as="xs:boolean">
                 <xsl:evaluate xpath="./xpath" context-item="$record">
+                    <xsl:with-param name="lang" select="$lang"/>
                     <xsl:with-param name="listTextsCCT" select="$listTextsCCT"/>
                     <xsl:with-param name="listAgentE" select="$listAgentE"/>
                     <xsl:with-param name="listAgent4" select="$listAgent4"/>
@@ -105,6 +107,7 @@
             <xsl:iterate select="$patterns/pattern">
                 <xsl:variable name="isMatched" as="xs:boolean">
                     <xsl:evaluate xpath="./xpath" context-item="$record">
+                        <xsl:with-param name="lang" select="$lang"/>
                         <xsl:with-param name="listTextsCCT" select="$listTextsCCT"/>
                         <xsl:with-param name="listAgentE" select="$listAgentE"/>
                         <xsl:with-param name="listAgent4" select="$listAgent4"/>
@@ -159,6 +162,7 @@
     <!-- if the xsl:iterate is updated (such as the params), this will need updating too -->
     <xsl:function name="m2r:checkAggregates" expand-text="yes">
         <xsl:param name="record"/>
+        <xsl:variable name="lang" select="'en'"/>
         <xsl:iterate select="$patterns">
             <xsl:on-completion>
                 <marc:datafield tag="979" ind1=" " ind2=" ">
@@ -167,6 +171,7 @@
             </xsl:on-completion>
             <xsl:variable name="isMatched" as="xs:boolean">
                 <xsl:evaluate xpath="./xpath" context-item="$record">
+                    <xsl:with-param name="lang" select="$lang"/>
                     <xsl:with-param name="listTextsCCT" select="$listTextsCCT"/>
                     <xsl:with-param name="listAgentE" select="$listAgentE"/>
                     <xsl:with-param name="listAgent4" select="$listAgent4"/>

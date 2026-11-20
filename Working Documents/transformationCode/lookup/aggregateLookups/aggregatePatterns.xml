@@ -256,7 +256,7 @@
                         marc:subfield[@code='b'][contains(., 'Congress')]
                     )
                     and 
-                    (some $item in $List110b245aConferenceTerms satisfies marc:subfield[@code='b'][contains(., $item)])
+                    (some $item in $List110b245aConferenceTerms satisfies marc:subfield[@code='b'][contains(., $item[@xml:lang=$lang])])
                     and
                     (
                         marc:subfield[

@@ -5,7 +5,7 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ex="http://fakeIRI.edu/"
     xmlns:fake="http://fakePropertiesForDemo"
     xmlns:uwf="http://marc2rda.info/functions#"
-    exclude-result-prefixes="marc ex" version="3.0">
+    exclude-result-prefixes="ex" version="3.0">
     <xsl:output encoding="UTF-8" method="xml" indent="yes"/>
     <!--<xsl:output encoding="UTF-8" method="text" indent="yes"/>-->
     <xsl:strip-space elements="*"/>
